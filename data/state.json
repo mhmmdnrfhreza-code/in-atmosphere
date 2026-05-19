@@ -1,0 +1,23 @@
+{
+  "lastAqi": null,
+  "lastUvIndex": null,
+  "lastRain": null,
+  "lastWindGust": null,
+  "lastCheckedAt": null,
+  "lastEmergencyAlert": {
+    "type": null,
+    "severity": null,
+    "sentAt": null
+  },
+  "currentStatusMessageId": null,
+  "currentStatusUpdatedAt": null,
+  "activeEmergencyMessageId": null,
+  "previousEmergencyMessageId": null,
+  "activeEmergencyFingerprint": null,
+  "previousEmergencyFingerprint": null,
+  "activeEmergencySentAt": null,
+  "previousEmergencySentAt": null,
+  "recoveryMessageId": null,
+  "recoverySentAt": null,
+  "recoveryFingerprint": null
+}

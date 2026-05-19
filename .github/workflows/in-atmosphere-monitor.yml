@@ -1,0 +1,109 @@
+name: In Atmosphere Monitor
+
+on:
+  schedule:
+    # 06:37 WIB = 23:37 UTC hari sebelumnya
+    - cron: "37 23 * * *"
+
+    # 17:17 WIB = 10:17 UTC
+    - cron: "17 10 * * *"
+
+    # Emergency watcher setiap 30 menit
+    - cron: "7,37 * * * *"
+
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "Mode Report"
+        required: true
+        default: "manual"
+        type: choice
+        options:
+          - manual
+          - morning
+          - rush-hour
+          - emergency-watch
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: in-atmosphere-monitor
+  cancel-in-progress: false
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build TypeScript
+        run: npm run build
+
+      - name: Resolve report mode
+        shell: bash
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "REPORT_MODE=${{ github.event.inputs.mode }}" >> "$GITHUB_ENV"
+          elif [ "${{ github.event.schedule }}" = "37 23 * * *" ]; then
+            echo "REPORT_MODE=morning" >> "$GITHUB_ENV"
+          elif [ "${{ github.event.schedule }}" = "17 10 * * *" ]; then
+            echo "REPORT_MODE=rush-hour" >> "$GITHUB_ENV"
+          elif [ "${{ github.event.schedule }}" = "7,37 * * * *" ]; then
+            echo "REPORT_MODE=emergency-watch" >> "$GITHUB_ENV"
+          else
+            echo "REPORT_MODE=manual" >> "$GITHUB_ENV"
+          fi
+
+      - name: Run In Atmosphere
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          DASHBOARD_URL: ${{ vars.DASHBOARD_URL }}
+          BOGOR_LAT: ${{ secrets.BOGOR_LAT }}
+          BOGOR_LON: ${{ secrets.BOGOR_LON }}
+          GITHUB_EVENT_SCHEDULE: ${{ github.event.schedule }}
+        run: npm start
+
+      - name: Commit updated state and dashboard data
+        run: |
+          git config user.name "in-atmosphere-bot"
+          git config user.email "actions@github.com"
+
+          git add data/state.json public/data/latest.json
+
+          if git diff --cached --quiet; then
+            echo "No state/dashboard changes to commit."
+          else
+            git commit -m "chore: update In Atmosphere state and dashboard data"
+            git pull --rebase
+            git push
+          fi
+
+      - name: Setup GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload GitHub Pages artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: "./public"
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

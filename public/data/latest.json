@@ -1,0 +1,66 @@
+{
+  "appName": "In Atmosphere",
+  "city": "Kota Bogor",
+  "generatedAt": "",
+  "reportMode": "manual",
+  "overallStatus": {
+    "label": "Belum Ada Data",
+    "description": "Dashboard menunggu pembaruan pertama dari workflow In Atmosphere.",
+    "level": "warning"
+  },
+  "weather": {
+    "temperature": 0,
+    "humidity": 0,
+    "rain": 0,
+    "windSpeed": 0,
+    "windGust": 0
+  },
+  "airQuality": {
+    "usAqi": 0,
+    "aqiLabel": "-",
+    "aqiEmoji": "",
+    "pm25": 0,
+    "pm10": 0,
+    "ozone": 0
+  },
+  "uv": {
+    "current": 0,
+    "maxToday": 0,
+    "label": "-",
+    "emoji": "",
+    "advice": "Data UV belum tersedia."
+  },
+  "forecast": {
+    "minTemperature": 0,
+    "maxTemperature": 0,
+    "maxPrecipitationProbability": 0,
+    "nextRainTime": null,
+    "nextRainProbability": null,
+    "peakRainTime": null
+  },
+  "emergency": {
+    "shouldSend": false,
+    "type": null,
+    "severity": null,
+    "title": "Tidak Ada Emergency Alert",
+    "reasons": []
+  },
+  "advice": {
+    "general": "Data belum tersedia. Jalankan workflow atau proses monitoring untuk memperbarui dashboard.",
+    "outdoor": "Tunggu pembaruan data sebelum mengambil keputusan aktivitas luar ruangan.",
+    "sensitiveGroup": "Kelompok sensitif sebaiknya menunggu data kualitas udara dan cuaca terbaru."
+  },
+  "bmkgWarning": {
+    "isActive": false,
+    "title": null,
+    "description": null,
+    "publishedAt": null,
+    "matchedKeywords": []
+  },
+  "sources": [
+    "Open-Meteo Weather API",
+    "Open-Meteo Air Quality API",
+    "BMKG Peringatan Dini Cuaca",
+    "In Atmosphere Rule Engine"
+  ]
+}
