@@ -119,7 +119,6 @@ export function createEmergencyAlertEmbed(
   return {
     username: `${AppInfo.name} Alert`,
     avatar_url: "https://cdn-icons-png.flaticon.com/512/564/564619.png",
-    content: `🚨 **${AppInfo.name} Alert**`,
     embeds: [
       {
         title: alert.title,
