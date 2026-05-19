@@ -1,22 +1,22 @@
 {
-  "lastAqi": 165,
+  "lastAqi": 163,
   "lastUvIndex": 0,
   "lastRain": 0,
   "lastWindGust": 9,
-  "lastCheckedAt": "2026-05-19T16:39:16.355Z",
+  "lastCheckedAt": "2026-05-19T19:11:19.691Z",
   "lastEmergencyAlert": {
-    "type": "AIR_QUALITY",
+    "type": "MULTI_RISK",
     "severity": "WARNING",
-    "sentAt": "2026-05-19T16:39:16.355Z"
+    "sentAt": "2026-05-19T19:11:19.691Z"
   },
   "currentStatusMessageId": "1506335447398482001",
-  "currentStatusUpdatedAt": "2026-05-19T16:39:16.355Z",
-  "activeEmergencyMessageId": "1506335444969980126",
-  "previousEmergencyMessageId": "1506295058859823415",
-  "activeEmergencyFingerprint": "type=AIR_QUALITY|severity=WARNING|reasons=aqi mencapai 165, masuk kategori tidak sehat atau lebih buruk.;peluang hujan hari ini mencapai 100%.|bmkg=false|aqi=UNHEALTHY|uv=LOW|weather=HIGH_RAIN_PROBABILITY",
-  "previousEmergencyFingerprint": "type=MULTI_RISK|severity=WARNING|reasons=aqi mencapai 166, masuk kategori tidak sehat atau lebih buruk.;peluang hujan hari ini mencapai 100%.;bmkg mengeluarkan peringatan dini cuaca yang relevan dengan bogor: hujan lebat disertai petir di jawa barat.|bmkg=true|aqi=UNHEALTHY|uv=LOW|weather=HIGH_RAIN_PROBABILITY",
-  "activeEmergencySentAt": "2026-05-19T16:39:16.355Z",
-  "previousEmergencySentAt": "2026-05-19T13:58:47.293Z",
+  "currentStatusUpdatedAt": "2026-05-19T19:11:19.691Z",
+  "activeEmergencyMessageId": "1506373714001006592",
+  "previousEmergencyMessageId": "1506335444969980126",
+  "activeEmergencyFingerprint": "type=MULTI_RISK|severity=WARNING|reasons=aqi mencapai 163, masuk kategori tidak sehat atau lebih buruk.;peluang hujan hari ini mencapai 96%.;bmkg mengeluarkan peringatan dini cuaca yang relevan dengan bogor: hujan lebat disertai petir di jawa barat.|bmkg=true|aqi=UNHEALTHY|uv=LOW|weather=HIGH_RAIN_PROBABILITY",
+  "previousEmergencyFingerprint": "type=AIR_QUALITY|severity=WARNING|reasons=aqi mencapai 165, masuk kategori tidak sehat atau lebih buruk.;peluang hujan hari ini mencapai 100%.|bmkg=false|aqi=UNHEALTHY|uv=LOW|weather=HIGH_RAIN_PROBABILITY",
+  "activeEmergencySentAt": "2026-05-19T19:11:19.691Z",
+  "previousEmergencySentAt": "2026-05-19T16:39:16.355Z",
   "recoveryMessageId": null,
   "recoverySentAt": null,
   "recoveryFingerprint": null
