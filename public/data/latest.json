@@ -1,41 +1,41 @@
 {
   "appName": "In Atmosphere",
   "city": "Kota Bogor",
-  "generatedAt": "2026-05-20T01:34:08.565Z",
-  "reportMode": "morning",
+  "generatedAt": "2026-05-20T04:22:21.752Z",
+  "reportMode": "emergency-watch",
   "overallStatus": {
     "label": "Perlu Perhatian",
     "description": "Sistem mendeteksi kondisi yang perlu diperhatikan. Lihat bagian emergency dan saran praktis.",
     "level": "warning"
   },
   "weather": {
-    "temperature": 28,
-    "humidity": 75,
+    "temperature": 30.2,
+    "humidity": 70,
     "rain": 0,
-    "windSpeed": 1.6,
-    "windGust": 12.6
+    "windSpeed": 9.2,
+    "windGust": 24.1
   },
   "airQuality": {
-    "usAqi": 159,
+    "usAqi": 160,
     "aqiLabel": "Tidak Sehat",
     "aqiEmoji": "🔴",
-    "pm25": 76.8,
-    "pm10": 78,
-    "ozone": 30
+    "pm25": 44.7,
+    "pm10": 45.5,
+    "ozone": 84
   },
   "uv": {
-    "current": 1.8,
+    "current": 6.55,
     "maxToday": 7.8,
-    "label": "Rendah",
-    "emoji": "🟢",
-    "advice": "Indeks Radiasi UV Berada Pada Tingkat Minimum. Risiko Kerusakan Kulit Sangat Rendah Bagi Mayoritas Orang. Aman Untuk Beraktivitas Normal Di Luar Ruangan Tanpa Perlindungan Khusus. Namun, Bagi Individu Dengan Kulit Yang Sangat Sensitif Atau Jika Harus Berada Di Bawah Terik Matahari Dalam Durasi Yang Sangat Lama, Penggunaan Kacamata Hitam, Penggunaan Tabir Surya (Sunscreen) Dengan Proteksi Minimal Terhadap UV-A dan UV-B (SPF 15+) Tetap Disarankan."
+    "label": "Tinggi",
+    "emoji": "🟠",
+    "advice": "Tingkat Radiasi UV Tinggi. Berisiko Mempercepat Terjadinya Luka Bakar Matahari (Sunburn) Serta Kerusakan Kulit Jangka Panjang. Perlindungan Aktif Sangat Penting Diterapkan (Mengoleskan Tabir Surya (Sunscreen) Dengan Minimal SPF Dan Peringkat 30+ PA+++, Pakaian Pelindung, Dan Kacamata Anti-UV). Batasi Paparan Matahari Langsung Secara Signifikan, Terutama Antara Pukul 10.00 WIB - 16.00 WIB, Utamakan Melakukan Aktivitas Di Area Yang Teduh."
   },
   "forecast": {
     "minTemperature": 23.3,
     "maxTemperature": 30.3,
-    "maxPrecipitationProbability": 98,
+    "maxPrecipitationProbability": 96,
     "nextRainTime": "2026-05-20T10:00",
-    "nextRainProbability": 45,
+    "nextRainProbability": 39,
     "peakRainTime": "2026-05-20T16:00"
   },
   "emergency": {
@@ -44,9 +44,9 @@
     "severity": "WARNING",
     "title": "🚨 Emergency Alert",
     "reasons": [
-      "AQI Mencapai 159, Masuk Kategori Tidak Sehat Atau Lebih Buruk.",
-      "Peluang Hujan Hari Ini Mencapai 98%.",
-      "BMKG mengeluarkan peringatan dini cuaca yang relevan dengan Bogor: Hujan Lebat disertai Petir di Jawa Barat."
+      "AQI Mencapai 160, Masuk Kategori Tidak Sehat Atau Lebih Buruk.",
+      "Peluang Hujan Hari Ini Mencapai 96%.",
+      "BMKG mengeluarkan peringatan dini cuaca yang relevan dengan Bogor: Hujan Lebat disertai Petir di Jakarta."
     ]
   },
   "advice": {
@@ -56,11 +56,11 @@
   },
   "bmkgWarning": {
     "isActive": true,
-    "title": "Hujan Lebat disertai Petir di Jawa Barat",
-    "description": "Hujan lebat disertai petir akan terjadi pada 20 May 2026, 08:35 WIB di sebagian wilayah Jawa Barat, khususnya di Cilebar, Pakisjaya.\n Kondisi ini berpotensi menimbulkan dampak berupa jarak pandang berkurang, angin kencang, dan banjir lokal.\n Masyarakat dihimbau untuk tetap waspada, mengurangi aktivitas di luar ruangan, serta mengambil langkah-langkah pencegahan yang diperlukan guna menjaga keselamatan.\n Kondisi diperkirakan dapat berlangsung hingga 20 May 2026, 11:00 WIB.",
-    "publishedAt": "Wed, 20 May 2026 08:25:00 +0700",
+    "title": "Hujan Lebat disertai Petir di Jakarta",
+    "description": "Hujan lebat disertai petir akan terjadi pada 20 May 2026, 10:37 WIB di sebagian wilayah Jakarta, khususnya di Bantar Gebang, Beji, Bekasi Barat, Bekasi Timur, Bekasi Utara, Bogor Selatan, Bojong Gede, Bojongsari, Cabangbungin, Cakung, Caringin, Cibinong, Cigudeg, Cijeruk, Cileungsi, Cilodong, Cimanggis, Cinere, Cipayung, Cipayung, Ciputat, Ciputat Timur, Ciracas, Ciseeng, Duren Sawit, Gunung Putri, Gunung Sindur, Jagakarsa, Jasinga, Jatiasih, Kemang, Kepulauan Seribu Selatan., Kepulauan Seribu Utara, Klapanunggal, Kramatjati, Leuwisadeng, Limo, Makasar, Pamulang, Pancoran Mas, Parung, Pasar Rebo, Pondok Melati, Rumpin, Sawangan, Serang Baru, Serpong, Setu, Setu, Sukawangi, Tajurhalang, Tambun Selatan, Tambun Utara.\n Kondisi ini berpotensi menimbulkan dampak berupa jarak pandang berkurang, angin kencang, dan banjir lokal.\n Masyarakat dihimbau untuk tetap waspada, mengurangi aktivitas di luar ruangan, serta mengambil langkah-langkah pencegahan yang diperlukan guna menjaga keselamatan.\n Kondisi diperkirakan dapat berlangsung hingga 20 May 2026, 12:30 WIB.",
+    "publishedAt": "Wed, 20 May 2026 10:27:00 +0700",
     "matchedKeywords": [
-      "jawa barat"
+      "bogor"
     ]
   },
   "sources": [
