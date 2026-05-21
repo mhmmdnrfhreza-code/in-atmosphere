@@ -1,27 +1,27 @@
 {
   "appName": "In Atmosphere",
   "city": "Kota Bogor",
-  "generatedAt": "2026-05-21T12:25:25.896Z",
-  "reportMode": "emergency-watch",
+  "generatedAt": "2026-05-21T13:34:12.102Z",
+  "reportMode": "rush-hour",
   "overallStatus": {
     "label": "Perlu Perhatian",
     "description": "Sistem mendeteksi kondisi yang perlu diperhatikan. Lihat bagian emergency dan saran praktis.",
     "level": "warning"
   },
   "weather": {
-    "temperature": 26.4,
-    "humidity": 89,
+    "temperature": 25.8,
+    "humidity": 91,
     "rain": 0,
-    "windSpeed": 5.5,
-    "windGust": 11.2
+    "windSpeed": 2.5,
+    "windGust": 5.8
   },
   "airQuality": {
-    "usAqi": 170,
+    "usAqi": 169,
     "aqiLabel": "Tidak Sehat",
     "aqiEmoji": "🔴",
-    "pm25": 87.3,
-    "pm10": 87.5,
-    "ozone": 34
+    "pm25": 91.5,
+    "pm10": 91.7,
+    "ozone": 16
   },
   "uv": {
     "current": 0,
@@ -44,7 +44,7 @@
     "severity": "WARNING",
     "title": "🚨 Emergency Alert",
     "reasons": [
-      "AQI Mencapai 170, Masuk Kategori Tidak Sehat Atau Lebih Buruk.",
+      "AQI Mencapai 169, Masuk Kategori Tidak Sehat Atau Lebih Buruk.",
       "BMKG mengeluarkan peringatan dini cuaca yang relevan dengan Bogor: Hujan Lebat disertai Petir di Jawa Barat."
     ]
   },
