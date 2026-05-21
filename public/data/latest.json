@@ -1,7 +1,7 @@
 {
   "appName": "In Atmosphere",
   "city": "Kota Bogor",
-  "generatedAt": "2026-05-21T20:24:50.924Z",
+  "generatedAt": "2026-05-21T22:04:15.718Z",
   "reportMode": "emergency-watch",
   "overallStatus": {
     "label": "Perlu Perhatian",
@@ -9,19 +9,19 @@
     "level": "warning"
   },
   "weather": {
-    "temperature": 23.6,
-    "humidity": 91,
+    "temperature": 23.3,
+    "humidity": 92,
     "rain": 0,
-    "windSpeed": 6.7,
-    "windGust": 14
+    "windSpeed": 6.3,
+    "windGust": 13.3
   },
   "airQuality": {
     "usAqi": 166,
     "aqiLabel": "Tidak Sehat",
     "aqiEmoji": "🔴",
-    "pm25": 120.6,
-    "pm10": 120.6,
-    "ozone": 1
+    "pm25": 115.5,
+    "pm10": 115.5,
+    "ozone": 0
   },
   "uv": {
     "current": 0,
@@ -40,13 +40,12 @@
   },
   "emergency": {
     "shouldSend": true,
-    "type": "MULTI_RISK",
+    "type": "AIR_QUALITY",
     "severity": "WARNING",
     "title": "🚨 Emergency Alert",
     "reasons": [
       "AQI Mencapai 166, Masuk Kategori Tidak Sehat Atau Lebih Buruk.",
-      "Peluang Hujan Hari Ini Mencapai 98%.",
-      "BMKG mengeluarkan peringatan dini cuaca yang relevan dengan Bogor: Hujan Lebat disertai Petir di Jawa Barat."
+      "Peluang Hujan Hari Ini Mencapai 98%."
     ]
   },
   "advice": {
@@ -55,13 +54,11 @@
     "sensitiveGroup": "Anak-Anak, Lansia, Dan Orang Dengan Gangguan Pernapasan Sebaiknya Berada Di Dalam Ruangan."
   },
   "bmkgWarning": {
-    "isActive": true,
-    "title": "Hujan Lebat disertai Petir di Jawa Barat",
-    "description": "Hujan lebat disertai petir akan terjadi pada 22 May 2026, 02:15 WIB di sebagian wilayah Jawa Barat, khususnya di Banjarsari, Baregbeg, Ciamis, Cijeungjing, Cisolok, Pamarican, Pangandaran, Sadananya, Sidamulih, Sukadana.\n Kondisi ini berpotensi menimbulkan dampak berupa jarak pandang berkurang, angin kencang, dan banjir lokal.\n Masyarakat dihimbau untuk tetap waspada, mengurangi aktivitas di luar ruangan, serta mengambil langkah-langkah pencegahan yang diperlukan guna menjaga keselamatan.\n Kondisi diperkirakan dapat berlangsung hingga 22 May 2026, 04:15 WIB.",
-    "publishedAt": "Fri, 22 May 2026 02:05:00 +0700",
-    "matchedKeywords": [
-      "jawa barat"
-    ]
+    "isActive": false,
+    "title": null,
+    "description": null,
+    "publishedAt": null,
+    "matchedKeywords": []
   },
   "sources": [
     "Open-Meteo Weather API",
