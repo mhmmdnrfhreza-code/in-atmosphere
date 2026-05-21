@@ -1,7 +1,7 @@
 {
   "appName": "In Atmosphere",
   "city": "Kota Bogor",
-  "generatedAt": "2026-05-21T18:07:42.436Z",
+  "generatedAt": "2026-05-21T20:24:50.924Z",
   "reportMode": "emergency-watch",
   "overallStatus": {
     "label": "Perlu Perhatian",
@@ -9,19 +9,19 @@
     "level": "warning"
   },
   "weather": {
-    "temperature": 24,
-    "humidity": 94,
-    "rain": 0.1,
-    "windSpeed": 7.7,
-    "windGust": 12.6
+    "temperature": 23.6,
+    "humidity": 91,
+    "rain": 0,
+    "windSpeed": 6.7,
+    "windGust": 14
   },
   "airQuality": {
     "usAqi": 166,
     "aqiLabel": "Tidak Sehat",
     "aqiEmoji": "🔴",
-    "pm25": 126.2,
-    "pm10": 126.2,
-    "ozone": 3
+    "pm25": 120.6,
+    "pm10": 120.6,
+    "ozone": 1
   },
   "uv": {
     "current": 0,
@@ -32,20 +32,21 @@
   },
   "forecast": {
     "minTemperature": 23.2,
-    "maxTemperature": 30.2,
-    "maxPrecipitationProbability": 88,
-    "nextRainTime": "2026-05-22T01:00",
-    "nextRainProbability": 29,
-    "peakRainTime": "2026-05-23T17:00"
+    "maxTemperature": 31.5,
+    "maxPrecipitationProbability": 98,
+    "nextRainTime": "2026-05-22T11:00",
+    "nextRainProbability": 12,
+    "peakRainTime": "2026-05-23T16:00"
   },
   "emergency": {
     "shouldSend": true,
-    "type": "AIR_QUALITY",
+    "type": "MULTI_RISK",
     "severity": "WARNING",
     "title": "🚨 Emergency Alert",
     "reasons": [
       "AQI Mencapai 166, Masuk Kategori Tidak Sehat Atau Lebih Buruk.",
-      "Peluang Hujan Hari Ini Mencapai 88%."
+      "Peluang Hujan Hari Ini Mencapai 98%.",
+      "BMKG mengeluarkan peringatan dini cuaca yang relevan dengan Bogor: Hujan Lebat disertai Petir di Jawa Barat."
     ]
   },
   "advice": {
@@ -54,11 +55,13 @@
     "sensitiveGroup": "Anak-Anak, Lansia, Dan Orang Dengan Gangguan Pernapasan Sebaiknya Berada Di Dalam Ruangan."
   },
   "bmkgWarning": {
-    "isActive": false,
-    "title": null,
-    "description": null,
-    "publishedAt": null,
-    "matchedKeywords": []
+    "isActive": true,
+    "title": "Hujan Lebat disertai Petir di Jawa Barat",
+    "description": "Hujan lebat disertai petir akan terjadi pada 22 May 2026, 02:15 WIB di sebagian wilayah Jawa Barat, khususnya di Banjarsari, Baregbeg, Ciamis, Cijeungjing, Cisolok, Pamarican, Pangandaran, Sadananya, Sidamulih, Sukadana.\n Kondisi ini berpotensi menimbulkan dampak berupa jarak pandang berkurang, angin kencang, dan banjir lokal.\n Masyarakat dihimbau untuk tetap waspada, mengurangi aktivitas di luar ruangan, serta mengambil langkah-langkah pencegahan yang diperlukan guna menjaga keselamatan.\n Kondisi diperkirakan dapat berlangsung hingga 22 May 2026, 04:15 WIB.",
+    "publishedAt": "Fri, 22 May 2026 02:05:00 +0700",
+    "matchedKeywords": [
+      "jawa barat"
+    ]
   },
   "sources": [
     "Open-Meteo Weather API",
