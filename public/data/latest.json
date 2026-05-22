@@ -1,7 +1,7 @@
 {
   "appName": "In Atmosphere",
   "city": "Kota Bogor",
-  "generatedAt": "2026-05-22T09:46:36.980Z",
+  "generatedAt": "2026-05-22T12:30:50.229Z",
   "reportMode": "emergency-watch",
   "overallStatus": {
     "label": "Perlu Perhatian",
@@ -9,22 +9,22 @@
     "level": "warning"
   },
   "weather": {
-    "temperature": 27,
-    "humidity": 84,
-    "rain": 0.1,
-    "windSpeed": 6.9,
-    "windGust": 18
+    "temperature": 25.7,
+    "humidity": 91,
+    "rain": 0,
+    "windSpeed": 4.4,
+    "windGust": 10.8
   },
   "airQuality": {
-    "usAqi": 166,
+    "usAqi": 161,
     "aqiLabel": "Tidak Sehat",
     "aqiEmoji": "🔴",
-    "pm25": 58.1,
-    "pm10": 58.3,
-    "ozone": 121
+    "pm25": 65.4,
+    "pm10": 65.4,
+    "ozone": 19
   },
   "uv": {
-    "current": 0.35,
+    "current": 0,
     "maxToday": 7.05,
     "label": "Rendah",
     "emoji": "🟢",
@@ -44,7 +44,7 @@
     "severity": "WARNING",
     "title": "🚨 Emergency Alert",
     "reasons": [
-      "AQI Mencapai 166, Masuk Kategori Tidak Sehat Atau Lebih Buruk.",
+      "AQI Mencapai 161, Masuk Kategori Tidak Sehat Atau Lebih Buruk.",
       "Peluang Hujan Hari Ini Mencapai 100%.",
       "BMKG mengeluarkan peringatan dini cuaca yang relevan dengan Bogor: Hujan Lebat disertai Petir di Jawa Barat."
     ]
@@ -57,8 +57,8 @@
   "bmkgWarning": {
     "isActive": true,
     "title": "Hujan Lebat disertai Petir di Jawa Barat",
-    "description": "Hujan lebat disertai petir akan terjadi pada 22 May 2026, 15:20 WIB di sebagian wilayah Jawa Barat, khususnya di Banjaran, Bojong, Cangkuang, Caringin, Ciambar, Cibeber, Cibogo, Cicurug, Cidahu, Cijambe, Cikembar, Cimaung, Cisaat, Cisalak, Cisarua, Cisolok, Cugenang, Gegerbitung, Gekbrong, Jalancagak, Jatiluhur, Kadudampit, Kasomalang, Katapang, Kiarapedes, Lembang, Maniis, Margahayu, Nagrak, Pagaden, Pameungpeuk, Parongpong, Parungkuda, Pasawahan, Purwakarta, Rancakalong, Soreang, Subang, Sukasari, Sukatani, Surian, Tanjungmedar, Tanjungsiang, Waduk Cirata, Wanayasa, Warungkondang.\n Kondisi ini berpotensi menimbulkan dampak berupa jarak pandang berkurang, angin kencang, dan banjir lokal.\n Masyarakat dihimbau untuk tetap waspada, mengurangi aktivitas di luar ruangan, serta mengambil langkah-langkah pencegahan yang diperlukan guna menjaga keselamatan.\n Kondisi diperkirakan dapat berlangsung hingga 22 May 2026, 18:00 WIB.",
-    "publishedAt": "Fri, 22 May 2026 15:09:00 +0700",
+    "description": "Hujan lebat disertai petir akan terjadi pada 22 May 2026, 16:50 WIB di sebagian wilayah Jawa Barat, khususnya di Agrabinta, Arjasari, Babakan, Babakancikao, Banjaran, Banjarsari, Batujajar, Batujaya, Bojongpicung, Campaka, Campakamulya, Caringin, Ciampel, Cibatu, Cibeureum, Cibingbin, Cibinong, Cidadap, Cidahu, Cihampelas, Cikakak, Cikalongkulon, Cikaum, Cikidang, Ciledug, Cililin, Cimahi, Cipanas, Cipatat, Cipeundeuy, Cipeunduey, Cipongkor, Ciranjang, Cisolok, Ciwidey, Dawuan, Gebang, Gununghalu, Haurwangi, Ibun, Jatigede, Jatiluhur, Jayakerta, Kabandungan, Kadipaten, Kadudampit, Kadupandak, Kalijati, Karang Kancana, Karangsembung, Karangwareng, Karawang Barat, Karawang Timur, Kasokandel, Kutawaluya, Kutawaringin, Lakbok, Langensari, Losari, Majalaya, Mande, Margaasih, Nagrak, Nyalindung, Pabedilan, Pabuaran, Pabuaran, Pacet, Pacet, Pagaden, Pagaden Barat, Pagelaran, Pamarican, Pangalengan, Pangenan, Pangkalan, Panyingkiran, Pasaleman, Paseh, Pasirjambu, Pasirkuda, Pataruman, Pondoksalam, Purwadadi, Purwadadi, Purwasari, Rawamerta, Rengasdengklok, Sindangkerta, Sukanagara, Sukaresmi, Sukasari, Sukatani, Takokak, Talegong, Tegalwaru, Telukjambe Timur, Tirtajaya, Waduk Cirata, Waduk Jatiluhur, Waduk Saguling, Waled, Wanayasa.\n Kondisi ini berpotensi menimbulkan dampak berupa jarak pandang berkurang, angin kencang, dan banjir lokal.\n Masyarakat dihimbau untuk tetap waspada, mengurangi aktivitas di luar ruangan, serta mengambil langkah-langkah pencegahan yang diperlukan guna menjaga keselamatan.\n Kondisi diperkirakan dapat berlangsung hingga 22 May 2026, 20:00 WIB.",
+    "publishedAt": "Fri, 22 May 2026 16:39:00 +0700",
     "matchedKeywords": [
       "jawa barat"
     ]
