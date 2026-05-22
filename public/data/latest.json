@@ -1,7 +1,7 @@
 {
   "appName": "In Atmosphere",
   "city": "Kota Bogor",
-  "generatedAt": "2026-05-22T20:02:43.544Z",
+  "generatedAt": "2026-05-22T21:20:09.201Z",
   "reportMode": "emergency-watch",
   "overallStatus": {
     "label": "Perlu Perhatian",
@@ -9,19 +9,19 @@
     "level": "warning"
   },
   "weather": {
-    "temperature": 23.7,
+    "temperature": 23.6,
     "humidity": 90,
     "rain": 0,
-    "windSpeed": 3.8,
-    "windGust": 11.9
+    "windSpeed": 2.2,
+    "windGust": 7.9
   },
   "airQuality": {
-    "usAqi": 153,
+    "usAqi": 152,
     "aqiLabel": "Tidak Sehat",
     "aqiEmoji": "🔴",
-    "pm25": 57.5,
-    "pm10": 57.5,
-    "ozone": 7
+    "pm25": 58.6,
+    "pm10": 58.6,
+    "ozone": 5
   },
   "uv": {
     "current": 0,
@@ -40,13 +40,12 @@
   },
   "emergency": {
     "shouldSend": true,
-    "type": "MULTI_RISK",
+    "type": "AIR_QUALITY",
     "severity": "WARNING",
     "title": "🚨 Emergency Alert",
     "reasons": [
-      "AQI Mencapai 153, Masuk Kategori Tidak Sehat Atau Lebih Buruk.",
-      "Peluang Hujan Hari Ini Mencapai 98%.",
-      "BMKG mengeluarkan peringatan dini cuaca yang relevan dengan Bogor: Hujan Lebat disertai Petir di Jawa Tengah."
+      "AQI Mencapai 152, Masuk Kategori Tidak Sehat Atau Lebih Buruk.",
+      "Peluang Hujan Hari Ini Mencapai 98%."
     ]
   },
   "advice": {
@@ -55,13 +54,11 @@
     "sensitiveGroup": "Anak-Anak, Lansia, Dan Orang Dengan Gangguan Pernapasan Sebaiknya Berada Di Dalam Ruangan."
   },
   "bmkgWarning": {
-    "isActive": true,
-    "title": "Hujan Lebat disertai Petir di Jawa Tengah",
-    "description": "Hujan lebat disertai petir akan terjadi pada 23 May 2026, 01:00 WIB di sebagian wilayah Jawa Tengah, khususnya di Adipala, Banjarejo, Bantarsari, Batang, Batangan, Bawang, Binangun, Blora, Bogorejo, Bulu, Cluwak, Donorojo, Dukuhseti, Gandrungmangu, Gumelar, Gunem, Gunungwungkal, Jaken, Jakenan, Japah, Jepon, Jeruklegi, Jiken, Juwana, Kaliori, Kandeman, Karangpucung, Karimun Jawa, Kawunganten, Kedungtuban, Keling, Kembang, Kemranjen, Kroya, Kunduran, Lasem, Lumbir, Manisrenggo, Margoyoso, Ngaringan, Ngawen, Nusawungu, Pamotan, Pancur, Prambanan, Pucakwangi, Randublatung, Rembang, Sambong, Sarang, Sedan, Sulang, Sumber, Sumpiuh, Tambak, Tayu, Todanan, Trangkil, Tulis, Tunjungan, Wangon, Warungasem, Wedarijaksa, Wonotunggal.\n Kondisi ini berpotensi menimbulkan dampak berupa jarak pandang berkurang, angin kencang, dan banjir lokal.\n Masyarakat dihimbau untuk tetap waspada, mengurangi aktivitas di luar ruangan, serta mengambil langkah-langkah pencegahan yang diperlukan guna menjaga keselamatan.\n Kondisi diperkirakan dapat berlangsung hingga 23 May 2026, 04:00 WIB.",
-    "publishedAt": "Sat, 23 May 2026 00:50:00 +0700",
-    "matchedKeywords": [
-      "bogor"
-    ]
+    "isActive": false,
+    "title": null,
+    "description": null,
+    "publishedAt": null,
+    "matchedKeywords": []
   },
   "sources": [
     "Open-Meteo Weather API",
