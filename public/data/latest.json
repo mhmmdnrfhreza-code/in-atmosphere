@@ -1,51 +1,52 @@
 {
   "appName": "In Atmosphere",
   "city": "Kota Bogor",
-  "generatedAt": "2026-05-22T01:33:41.081Z",
-  "reportMode": "morning",
+  "generatedAt": "2026-05-22T05:46:19.369Z",
+  "reportMode": "emergency-watch",
   "overallStatus": {
     "label": "Perlu Perhatian",
     "description": "Sistem mendeteksi kondisi yang perlu diperhatikan. Lihat bagian emergency dan saran praktis.",
     "level": "warning"
   },
   "weather": {
-    "temperature": 28.8,
-    "humidity": 72,
+    "temperature": 30.9,
+    "humidity": 67,
     "rain": 0,
-    "windSpeed": 2.5,
-    "windGust": 11.2
+    "windSpeed": 7.3,
+    "windGust": 20.2
   },
   "airQuality": {
-    "usAqi": 162,
+    "usAqi": 165,
     "aqiLabel": "Tidak Sehat",
     "aqiEmoji": "🔴",
-    "pm25": 92.4,
-    "pm10": 92.4,
-    "ozone": 52
+    "pm25": 64.7,
+    "pm10": 65,
+    "ozone": 212
   },
   "uv": {
-    "current": 1.7,
-    "maxToday": 7.1,
-    "label": "Rendah",
-    "emoji": "🟢",
-    "advice": "Indeks Radiasi UV Berada Pada Tingkat Minimum. Risiko Kerusakan Kulit Sangat Rendah Bagi Mayoritas Orang. Aman Untuk Beraktivitas Normal Di Luar Ruangan Tanpa Perlindungan Khusus. Namun, Bagi Individu Dengan Kulit Yang Sangat Sensitif Atau Jika Harus Berada Di Bawah Terik Matahari Dalam Durasi Yang Sangat Lama, Penggunaan Kacamata Hitam, Penggunaan Tabir Surya (Sunscreen) Dengan Proteksi Minimal Terhadap UV-A dan UV-B (SPF 15+) Tetap Disarankan."
+    "current": 6.3,
+    "maxToday": 7.05,
+    "label": "Tinggi",
+    "emoji": "🟠",
+    "advice": "Tingkat Radiasi UV Tinggi. Berisiko Mempercepat Terjadinya Luka Bakar Matahari (Sunburn) Serta Kerusakan Kulit Jangka Panjang. Perlindungan Aktif Sangat Penting Diterapkan (Mengoleskan Tabir Surya (Sunscreen) Dengan Minimal SPF Dan Peringkat 30+ PA+++, Pakaian Pelindung, Dan Kacamata Anti-UV). Batasi Paparan Matahari Langsung Secara Signifikan, Terutama Antara Pukul 10.00 WIB - 16.00 WIB, Utamakan Melakukan Aktivitas Di Area Yang Teduh."
   },
   "forecast": {
     "minTemperature": 23.6,
     "maxTemperature": 31.8,
-    "maxPrecipitationProbability": 98,
+    "maxPrecipitationProbability": 100,
     "nextRainTime": "2026-05-22T13:00",
-    "nextRainProbability": 43,
-    "peakRainTime": "2026-05-23T16:00"
+    "nextRainProbability": 33,
+    "peakRainTime": "2026-05-22T16:00"
   },
   "emergency": {
     "shouldSend": true,
-    "type": "AIR_QUALITY",
+    "type": "MULTI_RISK",
     "severity": "WARNING",
     "title": "🚨 Emergency Alert",
     "reasons": [
-      "AQI Mencapai 162, Masuk Kategori Tidak Sehat Atau Lebih Buruk.",
-      "Peluang Hujan Hari Ini Mencapai 98%."
+      "AQI Mencapai 165, Masuk Kategori Tidak Sehat Atau Lebih Buruk.",
+      "Peluang Hujan Hari Ini Mencapai 100%.",
+      "BMKG mengeluarkan peringatan dini cuaca yang relevan dengan Bogor: Hujan Lebat disertai Petir di Jawa Barat."
     ]
   },
   "advice": {
@@ -54,11 +55,13 @@
     "sensitiveGroup": "Anak-Anak, Lansia, Dan Orang Dengan Gangguan Pernapasan Sebaiknya Berada Di Dalam Ruangan."
   },
   "bmkgWarning": {
-    "isActive": false,
-    "title": null,
-    "description": null,
-    "publishedAt": null,
-    "matchedKeywords": []
+    "isActive": true,
+    "title": "Hujan Lebat disertai Petir di Jawa Barat",
+    "description": "Hujan lebat disertai petir akan terjadi pada 22 May 2026, 12:22 WIB di sebagian wilayah Jawa Barat, khususnya di Arahan, Arjawinangun, Bangodua, Banjaran, Bl. Limbangan, Campakamulya, Cantigi, Ciamis, Ciater, Cibadak, Cicantayan, Ciemas, Cikembar, Cimanggung, Cimaung, Cineam, Cipanas, Ciparay, Cisalak, Cisolok, Depok, Dukupuntang, Ganeas, Gegesik, Gempol, Gunung Tanjung, Gununghalu, Indramayu, Jamblang, Jatibarang, Kadudampit, Kalibunder, Kertasari, Kertasemaya, Klangenan, Lelea, Lembang, Leuwimunding, Lohbener, Manonjaya, Pacet, Palasah, Palimanan, Pamulihan, Pangalengan, Panguragan, Plered, Plumbon, Rancakalong, Simpenan, Sindang, Sliyeg, Sukabumi, Sukagumiwang, Sukahaji, Sumber, Sumedang Selatan, Tanjungmedar, Tanjungsiang, Tukdana, Waluran, Wanayasa, Warungkondang, Weru, Widasari.\n Kondisi ini berpotensi menimbulkan dampak berupa jarak pandang berkurang, angin kencang, dan banjir lokal.\n Masyarakat dihimbau untuk tetap waspada, mengurangi aktivitas di luar ruangan, serta mengambil langkah-langkah pencegahan yang diperlukan guna menjaga keselamatan.\n Kondisi diperkirakan dapat berlangsung hingga 22 May 2026, 16:00 WIB.",
+    "publishedAt": "Fri, 22 May 2026 12:12:00 +0700",
+    "matchedKeywords": [
+      "jawa barat"
+    ]
   },
   "sources": [
     "Open-Meteo Weather API",
