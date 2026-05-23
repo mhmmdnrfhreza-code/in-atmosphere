@@ -1,42 +1,42 @@
 {
   "appName": "In Atmosphere",
   "city": "Kota Bogor",
-  "generatedAt": "2026-05-22T23:43:14.132Z",
-  "reportMode": "emergency-watch",
+  "generatedAt": "2026-05-23T01:25:57.257Z",
+  "reportMode": "morning",
   "overallStatus": {
     "label": "Perlu Perhatian",
     "description": "Sistem mendeteksi kondisi yang perlu diperhatikan. Lihat bagian emergency dan saran praktis.",
     "level": "warning"
   },
   "weather": {
-    "temperature": 24.5,
-    "humidity": 85,
+    "temperature": 27.1,
+    "humidity": 73,
     "rain": 0,
-    "windSpeed": 3.8,
-    "windGust": 7.9
+    "windSpeed": 1.6,
+    "windGust": 10.1
   },
   "airQuality": {
     "usAqi": 151,
     "aqiLabel": "Tidak Sehat",
     "aqiEmoji": "🔴",
-    "pm25": 79.6,
-    "pm10": 79.6,
-    "ozone": 0
+    "pm25": 68.2,
+    "pm10": 68.5,
+    "ozone": 34
   },
   "uv": {
-    "current": 0,
+    "current": 1.65,
     "maxToday": 7.6,
     "label": "Rendah",
     "emoji": "🟢",
     "advice": "Indeks Radiasi UV Berada Pada Tingkat Minimum. Risiko Kerusakan Kulit Sangat Rendah Bagi Mayoritas Orang. Aman Untuk Beraktivitas Normal Di Luar Ruangan Tanpa Perlindungan Khusus. Namun, Bagi Individu Dengan Kulit Yang Sangat Sensitif Atau Jika Harus Berada Di Bawah Terik Matahari Dalam Durasi Yang Sangat Lama, Penggunaan Kacamata Hitam, Penggunaan Tabir Surya (Sunscreen) Dengan Proteksi Minimal Terhadap UV-A dan UV-B (SPF 15+) Tetap Disarankan."
   },
   "forecast": {
-    "minTemperature": 23.6,
+    "minTemperature": 23.4,
     "maxTemperature": 29.5,
     "maxPrecipitationProbability": 98,
     "nextRainTime": "2026-05-23T12:00",
-    "nextRainProbability": 48,
-    "peakRainTime": "2026-05-24T14:00"
+    "nextRainProbability": 54,
+    "peakRainTime": "2026-05-24T13:00"
   },
   "emergency": {
     "shouldSend": true,
@@ -57,8 +57,8 @@
   "bmkgWarning": {
     "isActive": true,
     "title": "Hujan Lebat disertai Petir di Jawa Barat",
-    "description": "Hujan lebat disertai petir akan terjadi pada 23 May 2026, 05:50 WIB di sebagian wilayah Jawa Barat, khususnya di Cilebar, Pedes.\n Kondisi ini berpotensi menimbulkan dampak berupa jarak pandang berkurang, angin kencang, dan banjir lokal.\n Masyarakat dihimbau untuk tetap waspada, mengurangi aktivitas di luar ruangan, serta mengambil langkah-langkah pencegahan yang diperlukan guna menjaga keselamatan.\n Kondisi diperkirakan dapat berlangsung hingga 23 May 2026, 07:40 WIB.",
-    "publishedAt": "Sat, 23 May 2026 05:40:00 +0700",
+    "description": "Hujan lebat disertai petir akan terjadi pada 23 May 2026, 07:32 WIB di sebagian wilayah Jawa Barat, khususnya di Batujaya, Cilebar, Pakisjaya, Pedes, Tirtajaya.\n Kondisi ini berpotensi menimbulkan dampak berupa jarak pandang berkurang, angin kencang, dan banjir lokal.\n Masyarakat dihimbau untuk tetap waspada, mengurangi aktivitas di luar ruangan, serta mengambil langkah-langkah pencegahan yang diperlukan guna menjaga keselamatan.\n Kondisi diperkirakan dapat berlangsung hingga 23 May 2026, 09:30 WIB.",
+    "publishedAt": "Sat, 23 May 2026 07:22:00 +0700",
     "matchedKeywords": [
       "jawa barat"
     ]
