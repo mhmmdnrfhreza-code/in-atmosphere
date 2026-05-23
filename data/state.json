@@ -1,16 +1,16 @@
 {
-  "lastAqi": 150,
+  "lastAqi": 136,
   "lastUvIndex": 0,
   "lastRain": 0,
-  "lastWindGust": 9.4,
-  "lastCheckedAt": "2026-05-23T21:30:41.796Z",
+  "lastWindGust": 9,
+  "lastCheckedAt": "2026-05-23T22:30:30.856Z",
   "lastEmergencyAlert": {
     "type": null,
     "severity": "WATCH",
     "sentAt": "2026-05-23T19:24:29.045Z"
   },
   "currentStatusMessageId": "1506335447398482001",
-  "currentStatusUpdatedAt": "2026-05-23T21:30:41.796Z",
+  "currentStatusUpdatedAt": "2026-05-23T22:30:30.856Z",
   "activeEmergencyMessageId": "1507826574039191562",
   "previousEmergencyMessageId": "1507783459672952874",
   "activeEmergencyFingerprint": "type=NONE|severity=WATCH|reasons=peluang hujan hari ini mencapai 100%.|bmkg=false|aqi=UNHEALTHY_SENSITIVE|uv=LOW|weather=HIGH_RAIN_PROBABILITY",
