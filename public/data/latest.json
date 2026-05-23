@@ -1,7 +1,7 @@
 {
   "appName": "In Atmosphere",
   "city": "Kota Bogor",
-  "generatedAt": "2026-05-23T12:04:47.441Z",
+  "generatedAt": "2026-05-23T13:59:38.848Z",
   "reportMode": "emergency-watch",
   "overallStatus": {
     "label": "Perlu Perhatian",
@@ -9,19 +9,19 @@
     "level": "warning"
   },
   "weather": {
-    "temperature": 24.9,
-    "humidity": 99,
-    "rain": 0.1,
-    "windSpeed": 3.3,
-    "windGust": 7.6
+    "temperature": 24.5,
+    "humidity": 97,
+    "rain": 0,
+    "windSpeed": 2.5,
+    "windGust": 5
   },
   "airQuality": {
-    "usAqi": 147,
+    "usAqi": 149,
     "aqiLabel": "Tidak Sehat Untuk Kelompok Sensitif",
     "aqiEmoji": "🟠",
-    "pm25": 74.3,
-    "pm10": 74.3,
-    "ozone": 13
+    "pm25": 72.9,
+    "pm10": 72.9,
+    "ozone": 6
   },
   "uv": {
     "current": 0,
@@ -32,20 +32,19 @@
   },
   "forecast": {
     "minTemperature": 23.4,
-    "maxTemperature": 29.4,
-    "maxPrecipitationProbability": 96,
+    "maxTemperature": 29.2,
+    "maxPrecipitationProbability": 94,
     "nextRainTime": "2026-05-23T11:00",
-    "nextRainProbability": 22,
-    "peakRainTime": "2026-05-24T15:00"
+    "nextRainProbability": 56,
+    "peakRainTime": "2026-05-24T14:00"
   },
   "emergency": {
     "shouldSend": true,
-    "type": "HEAVY_RAIN",
+    "type": null,
     "severity": "WATCH",
     "title": "🚨 Emergency Alert",
     "reasons": [
-      "Peluang Hujan Hari Ini Mencapai 96%.",
-      "BMKG mengeluarkan peringatan dini cuaca yang relevan dengan Bogor: Hujan Lebat disertai Petir di Jawa Barat."
+      "Peluang Hujan Hari Ini Mencapai 94%."
     ]
   },
   "advice": {
@@ -54,13 +53,11 @@
     "sensitiveGroup": "Kelompok Sensitif Sebaiknya Mengurangi Aktivitas Luar Ruangan Berat."
   },
   "bmkgWarning": {
-    "isActive": true,
-    "title": "Hujan Lebat disertai Petir di Jawa Barat",
-    "description": "Hujan lebat disertai petir akan terjadi pada 23 May 2026, 17:34 WIB di sebagian wilayah Jawa Barat, khususnya di Babakan, Bl. Limbangan, Ciasem, Ciawigebang, Cibugel, Cidahu, Cikalongkulon, Ciledug, Cimahi, Cisolok, Gebang, Kalimanggis, Karangpawitan, Karangsembung, Karangtengah, Karangwareng, Lemahabang, Losari, Malangbong, Pabedilan, Pabuaran, Pangatikan, Pangenan, Pangkalan, Pasaleman, Selaawi, Sucinaraja, Sukasari, Sukatani, Sukawening, Tegalwaru, Tempuran, Wado, Waled, Wanaraja.\n Kondisi ini berpotensi menimbulkan dampak berupa jarak pandang berkurang, angin kencang, dan banjir lokal.\n Masyarakat dihimbau untuk tetap waspada, mengurangi aktivitas di luar ruangan, serta mengambil langkah-langkah pencegahan yang diperlukan guna menjaga keselamatan.\n Kondisi diperkirakan dapat berlangsung hingga 23 May 2026, 20:00 WIB.",
-    "publishedAt": "Sat, 23 May 2026 17:24:00 +0700",
-    "matchedKeywords": [
-      "jawa barat"
-    ]
+    "isActive": false,
+    "title": null,
+    "description": null,
+    "publishedAt": null,
+    "matchedKeywords": []
   },
   "sources": [
     "Open-Meteo Weather API",
