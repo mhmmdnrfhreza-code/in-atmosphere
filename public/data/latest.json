@@ -1,7 +1,7 @@
 {
   "appName": "In Atmosphere",
   "city": "Kota Bogor",
-  "generatedAt": "2026-05-23T09:08:57.957Z",
+  "generatedAt": "2026-05-23T10:57:20.811Z",
   "reportMode": "emergency-watch",
   "overallStatus": {
     "label": "Perlu Perhatian",
@@ -9,22 +9,22 @@
     "level": "warning"
   },
   "weather": {
-    "temperature": 25.6,
-    "humidity": 92,
+    "temperature": 25.1,
+    "humidity": 96,
     "rain": 0.1,
     "windSpeed": 2.2,
-    "windGust": 17.6
+    "windGust": 8.6
   },
   "airQuality": {
-    "usAqi": 151,
-    "aqiLabel": "Tidak Sehat",
-    "aqiEmoji": "🔴",
-    "pm25": 51.2,
-    "pm10": 51.5,
-    "ozone": 132
+    "usAqi": 144,
+    "aqiLabel": "Tidak Sehat Untuk Kelompok Sensitif",
+    "aqiEmoji": "🟠",
+    "pm25": 65.7,
+    "pm10": 65.9,
+    "ozone": 64
   },
   "uv": {
-    "current": 0.25,
+    "current": 0.05,
     "maxToday": 7.75,
     "label": "Rendah",
     "emoji": "🟢",
@@ -40,25 +40,24 @@
   },
   "emergency": {
     "shouldSend": true,
-    "type": "MULTI_RISK",
-    "severity": "WARNING",
+    "type": "HEAVY_RAIN",
+    "severity": "WATCH",
     "title": "🚨 Emergency Alert",
     "reasons": [
-      "AQI Mencapai 151, Masuk Kategori Tidak Sehat Atau Lebih Buruk.",
       "Peluang Hujan Hari Ini Mencapai 96%.",
       "BMKG mengeluarkan peringatan dini cuaca yang relevan dengan Bogor: Hujan Lebat disertai Petir di Jawa Barat."
     ]
   },
   "advice": {
-    "general": "Kualitas Udara Sedang Tidak Sehat. Kurangi Paparan Udara Luar Jika Memungkinkan. Ada Peluang Hujan Cukup Tinggi, Siapkan Payung/Jas Hujan.",
-    "outdoor": "Kurangi Aktivitas Luar Ruangan Berat Dan Pertimbangkan Memakai Masker.",
-    "sensitiveGroup": "Anak-Anak, Lansia, Dan Orang Dengan Gangguan Pernapasan Sebaiknya Berada Di Dalam Ruangan."
+    "general": "Kualitas Udara Mulai Kurang Baik Untuk Kelompok Sensitif. Ada Peluang Hujan Cukup Tinggi, Siapkan Payung/Jas Hujan.",
+    "outdoor": "Aktivitas Luar Ruangan Masih Bisa Dilakukan, Tetapi Jangan Terlalu Lama.",
+    "sensitiveGroup": "Kelompok Sensitif Sebaiknya Mengurangi Aktivitas Luar Ruangan Berat."
   },
   "bmkgWarning": {
     "isActive": true,
     "title": "Hujan Lebat disertai Petir di Jawa Barat",
-    "description": "Hujan lebat disertai petir akan terjadi pada 23 May 2026, 15:06 WIB di sebagian wilayah Jawa Barat, khususnya di Andir, Astana Anyar, Babakan Ciparay, Bandung Kulon, Bandung Wetan, Banjarwangi, Batujajar, Bojongloa Kaler, Buahdua, Cianjur, Cibeureum, Cibogo, Cicendo, Cidadap, Cigugur, Cihurip, Cikajang, Cikampek, Cimahi, Cimahi Selatan, Cimahi Tengah, Cimahi Utara, Cipeundeuy, Cipongkor, Cipunagara, Cisarua, Coblong, Cugenang, Dawuan, Gantar, Gekbrong, Jalancagak, Jampang Tengah, Jatisari, Kabandungan, Kalijati, Karang Kancana, Karangtengah, Klari, Kota Baru, Kuningan, Lembang, Luragung, Mande, Maniis, Parongpong, Purwadadi, Purwasari, Sagalaherang, Sindangkerta, Sukajadi, Sukaluyu, Sukasari, Surian, Takokak, Tegalwaru, Tirtamulya, Waduk Cirata, Warungkondang.\n Kondisi ini berpotensi menimbulkan dampak berupa jarak pandang berkurang, angin kencang, dan banjir lokal.\n Masyarakat dihimbau untuk tetap waspada, mengurangi aktivitas di luar ruangan, serta mengambil langkah-langkah pencegahan yang diperlukan guna menjaga keselamatan.\n Kondisi diperkirakan dapat berlangsung hingga 23 May 2026, 18:00 WIB.",
-    "publishedAt": "Sat, 23 May 2026 14:56:00 +0700",
+    "description": "Hujan lebat disertai petir akan terjadi pada 23 May 2026, 17:34 WIB di sebagian wilayah Jawa Barat, khususnya di Babakan, Bl. Limbangan, Ciasem, Ciawigebang, Cibugel, Cidahu, Cikalongkulon, Ciledug, Cimahi, Cisolok, Gebang, Kalimanggis, Karangpawitan, Karangsembung, Karangtengah, Karangwareng, Lemahabang, Losari, Malangbong, Pabedilan, Pabuaran, Pangatikan, Pangenan, Pangkalan, Pasaleman, Selaawi, Sucinaraja, Sukasari, Sukatani, Sukawening, Tegalwaru, Tempuran, Wado, Waled, Wanaraja.\n Kondisi ini berpotensi menimbulkan dampak berupa jarak pandang berkurang, angin kencang, dan banjir lokal.\n Masyarakat dihimbau untuk tetap waspada, mengurangi aktivitas di luar ruangan, serta mengambil langkah-langkah pencegahan yang diperlukan guna menjaga keselamatan.\n Kondisi diperkirakan dapat berlangsung hingga 23 May 2026, 20:00 WIB.",
+    "publishedAt": "Sat, 23 May 2026 17:24:00 +0700",
     "matchedKeywords": [
       "jawa barat"
     ]
