@@ -1,7 +1,7 @@
 {
   "appName": "In Atmosphere",
   "city": "Kota Bogor",
-  "generatedAt": "2026-05-23T13:59:38.848Z",
+  "generatedAt": "2026-05-23T16:33:09.830Z",
   "reportMode": "emergency-watch",
   "overallStatus": {
     "label": "Perlu Perhatian",
@@ -9,19 +9,19 @@
     "level": "warning"
   },
   "weather": {
-    "temperature": 24.5,
-    "humidity": 97,
+    "temperature": 24,
+    "humidity": 95,
     "rain": 0,
     "windSpeed": 2.5,
-    "windGust": 5
+    "windGust": 6.8
   },
   "airQuality": {
-    "usAqi": 149,
+    "usAqi": 150,
     "aqiLabel": "Tidak Sehat Untuk Kelompok Sensitif",
     "aqiEmoji": "🟠",
-    "pm25": 72.9,
-    "pm10": 72.9,
-    "ozone": 6
+    "pm25": 70.3,
+    "pm10": 70.3,
+    "ozone": 7
   },
   "uv": {
     "current": 0,
@@ -33,18 +33,19 @@
   "forecast": {
     "minTemperature": 23.4,
     "maxTemperature": 29.2,
-    "maxPrecipitationProbability": 94,
+    "maxPrecipitationProbability": 100,
     "nextRainTime": "2026-05-23T11:00",
-    "nextRainProbability": 56,
-    "peakRainTime": "2026-05-24T14:00"
+    "nextRainProbability": 55,
+    "peakRainTime": "2026-05-23T16:00"
   },
   "emergency": {
     "shouldSend": true,
-    "type": null,
+    "type": "HEAVY_RAIN",
     "severity": "WATCH",
     "title": "🚨 Emergency Alert",
     "reasons": [
-      "Peluang Hujan Hari Ini Mencapai 94%."
+      "Peluang Hujan Hari Ini Mencapai 100%.",
+      "BMKG mengeluarkan peringatan dini cuaca yang relevan dengan Bogor: Hujan Lebat disertai Petir di Jawa Barat."
     ]
   },
   "advice": {
@@ -53,11 +54,13 @@
     "sensitiveGroup": "Kelompok Sensitif Sebaiknya Mengurangi Aktivitas Luar Ruangan Berat."
   },
   "bmkgWarning": {
-    "isActive": false,
-    "title": null,
-    "description": null,
-    "publishedAt": null,
-    "matchedKeywords": []
+    "isActive": true,
+    "title": "Hujan Lebat disertai Petir di Jawa Barat",
+    "description": "Hujan lebat disertai petir akan terjadi pada 23 May 2026, 21:20 WIB di sebagian wilayah Jawa Barat, khususnya di Krangkeng.\n Kondisi ini berpotensi menimbulkan dampak berupa jarak pandang berkurang, angin kencang, dan banjir lokal.\n Masyarakat dihimbau untuk tetap waspada, mengurangi aktivitas di luar ruangan, serta mengambil langkah-langkah pencegahan yang diperlukan guna menjaga keselamatan.\n Kondisi diperkirakan dapat berlangsung hingga 23 May 2026, 23:30 WIB.",
+    "publishedAt": "Sat, 23 May 2026 21:10:00 +0700",
+    "matchedKeywords": [
+      "jawa barat"
+    ]
   },
   "sources": [
     "Open-Meteo Weather API",
