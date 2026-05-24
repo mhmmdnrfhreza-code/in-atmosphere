@@ -1,7 +1,7 @@
 {
   "appName": "In Atmosphere",
   "city": "Kota Bogor",
-  "generatedAt": "2026-05-24T01:33:19.834Z",
+  "generatedAt": "2026-05-24T05:43:31.256Z",
   "reportMode": "emergency-watch",
   "overallStatus": {
     "label": "Perlu Perhatian",
@@ -9,42 +9,43 @@
     "level": "warning"
   },
   "weather": {
-    "temperature": 26.6,
-    "humidity": 82,
+    "temperature": 29,
+    "humidity": 76,
     "rain": 0,
-    "windSpeed": 1.9,
-    "windGust": 10.8
+    "windSpeed": 2.7,
+    "windGust": 19.8
   },
   "airQuality": {
-    "usAqi": 129,
+    "usAqi": 130,
     "aqiLabel": "Tidak Sehat Untuk Kelompok Sensitif",
     "aqiEmoji": "🟠",
-    "pm25": 39.3,
-    "pm10": 40.3,
-    "ozone": 18
+    "pm25": 23.8,
+    "pm10": 24.4,
+    "ozone": 80
   },
   "uv": {
-    "current": 1.5,
-    "maxToday": 7.7,
-    "label": "Rendah",
-    "emoji": "🟢",
-    "advice": "Indeks Radiasi UV Berada Pada Tingkat Minimum. Risiko Kerusakan Kulit Sangat Rendah Bagi Mayoritas Orang. Aman Untuk Beraktivitas Normal Di Luar Ruangan Tanpa Perlindungan Khusus. Namun, Bagi Individu Dengan Kulit Yang Sangat Sensitif Atau Jika Harus Berada Di Bawah Terik Matahari Dalam Durasi Yang Sangat Lama, Penggunaan Kacamata Hitam, Penggunaan Tabir Surya (Sunscreen) Dengan Proteksi Minimal Terhadap UV-A dan UV-B (SPF 15+) Tetap Disarankan."
+    "current": 4.2,
+    "maxToday": 7.55,
+    "label": "Sedang",
+    "emoji": "🟡",
+    "advice": "Paparan Radiasi UV Sedang. Berpotensi Menimbulkan Kerusakan Pada Sel Kulit Jika Terpapar Langsung Dalam Jangka Waktu Tertentu. Diperlukan Proteksi Dasar Saat Beraktivitas Di Luar Ruangan (Mengoleskan Tabir Surya (Sunscreen) Dengan SPF Dan Peringkat Minimal 15 - 30 PA++, Memakai Topi, Dan Menggunakan Pelindung Mata. Disarankan Juga Untuk Mencari Tempat Berteduh Saat Intensitas Matahari Mencapai Puncaknya Di Paruh Hari."
   },
   "forecast": {
     "minTemperature": 23.5,
     "maxTemperature": 29.2,
     "maxPrecipitationProbability": 100,
     "nextRainTime": "2026-05-24T06:00",
-    "nextRainProbability": 6,
+    "nextRainProbability": 35,
     "peakRainTime": "2026-05-24T14:00"
   },
   "emergency": {
     "shouldSend": true,
-    "type": null,
+    "type": "HEAVY_RAIN",
     "severity": "WATCH",
     "title": "🚨 Emergency Alert",
     "reasons": [
-      "Peluang Hujan Hari Ini Mencapai 100%."
+      "Peluang Hujan Hari Ini Mencapai 100%.",
+      "BMKG mengeluarkan peringatan dini cuaca yang relevan dengan Bogor: Hujan Lebat disertai Petir di Jawa Barat."
     ]
   },
   "advice": {
@@ -53,11 +54,13 @@
     "sensitiveGroup": "Kelompok Sensitif Sebaiknya Mengurangi Aktivitas Luar Ruangan Berat."
   },
   "bmkgWarning": {
-    "isActive": false,
-    "title": null,
-    "description": null,
-    "publishedAt": null,
-    "matchedKeywords": []
+    "isActive": true,
+    "title": "Hujan Lebat disertai Petir di Jawa Barat",
+    "description": "Hujan lebat disertai petir akan terjadi pada 24 May 2026, 12:16 WIB di sebagian wilayah Jawa Barat, khususnya di Arjasari, Babakan Ciparay, Bandung Kulon, Banjaran, Baros, Batujaya, Bojongpicung, Bungursari, Campaka, Campakamulya, Cangkuang, Ciater, Cibeber, Cibeureum, Cibuaya, Cicendo, Cijambe, Cimahi Selatan, Cimahi Tengah, Cimahi Utara, Cimaung, Cipanas, Cipongkor, Cireunghas, Cisalak, Cisurupan, Ciwidey, Dukupuntang, Gegerbitung, Gekbrong, Gempol, Gununghalu, Haurwangi, Jalancagak, Jayakerta, Kadupandak, Kasomalang, Katapang, Kebonpedes, Kiarapedes, Kutawaringin, Margaasih, Nyalindung, Pacet, Pacet, Palimanan, Pangalengan, Parongpong, Pasirjambu, Pedes, Rajagaluh, Rancabali, Rancakalong, Rengasdengklok, Rongga, Sagalaherang, Serangpanjang, Sindangkerta, Sindangwangi, Soreang, Sukalarang, Tanjungsari, Tanjungsiang, Tirtajaya, Wanayasa.\n Kondisi ini berpotensi menimbulkan dampak berupa jarak pandang berkurang, angin kencang, dan banjir lokal.\n Masyarakat dihimbau untuk tetap waspada, mengurangi aktivitas di luar ruangan, serta mengambil langkah-langkah pencegahan yang diperlukan guna menjaga keselamatan.\n Kondisi diperkirakan dapat berlangsung hingga 24 May 2026, 14:30 WIB.",
+    "publishedAt": "Sun, 24 May 2026 12:06:00 +0700",
+    "matchedKeywords": [
+      "jawa barat"
+    ]
   },
   "sources": [
     "Open-Meteo Weather API",
