@@ -1,7 +1,7 @@
 {
   "appName": "In Atmosphere",
   "city": "Kota Bogor",
-  "generatedAt": "2026-05-24T18:43:03.465Z",
+  "generatedAt": "2026-05-24T20:13:41.870Z",
   "reportMode": "emergency-watch",
   "overallStatus": {
     "label": "Perlu Perhatian",
@@ -9,18 +9,18 @@
     "level": "warning"
   },
   "weather": {
-    "temperature": 23.9,
-    "humidity": 97,
-    "rain": 0.2,
-    "windSpeed": 1.6,
-    "windGust": 4.3
+    "temperature": 23.2,
+    "humidity": 93,
+    "rain": 0,
+    "windSpeed": 7,
+    "windGust": 12.2
   },
   "airQuality": {
-    "usAqi": 127,
+    "usAqi": 132,
     "aqiLabel": "Tidak Sehat Untuk Kelompok Sensitif",
     "aqiEmoji": "🟠",
-    "pm25": 73.8,
-    "pm10": 74.5,
+    "pm25": 68.5,
+    "pm10": 68.7,
     "ozone": 1
   },
   "uv": {
@@ -31,8 +31,8 @@
     "advice": "Indeks Radiasi UV Berada Pada Tingkat Minimum. Risiko Kerusakan Kulit Sangat Rendah Bagi Mayoritas Orang. Aman Untuk Beraktivitas Normal Di Luar Ruangan Tanpa Perlindungan Khusus. Namun, Bagi Individu Dengan Kulit Yang Sangat Sensitif Atau Jika Harus Berada Di Bawah Terik Matahari Dalam Durasi Yang Sangat Lama, Penggunaan Kacamata Hitam, Penggunaan Tabir Surya (Sunscreen) Dengan Proteksi Minimal Terhadap UV-A dan UV-B (SPF 15+) Tetap Disarankan."
   },
   "forecast": {
-    "minTemperature": 23.1,
-    "maxTemperature": 29.7,
+    "minTemperature": 23,
+    "maxTemperature": 31.4,
     "maxPrecipitationProbability": 91,
     "nextRainTime": "2026-05-25T00:00",
     "nextRainProbability": 78,
@@ -40,12 +40,11 @@
   },
   "emergency": {
     "shouldSend": true,
-    "type": "HEAVY_RAIN",
+    "type": null,
     "severity": "WATCH",
     "title": "🚨 Emergency Alert",
     "reasons": [
-      "Peluang Hujan Hari Ini Mencapai 91%.",
-      "BMKG mengeluarkan peringatan dini cuaca yang relevan dengan Bogor: Hujan Lebat disertai Petir di Jawa Barat."
+      "Peluang Hujan Hari Ini Mencapai 91%."
     ]
   },
   "advice": {
@@ -54,13 +53,11 @@
     "sensitiveGroup": "Kelompok Sensitif Sebaiknya Mengurangi Aktivitas Luar Ruangan Berat."
   },
   "bmkgWarning": {
-    "isActive": true,
-    "title": "Hujan Lebat disertai Petir di Jawa Barat",
-    "description": "Hujan lebat disertai petir akan terjadi pada 24 May 2026, 23:35 WIB di sebagian wilayah Jawa Barat, khususnya di Agrabinta, Bantargadung, Bojonggenteng, Cibadak, Cibitung, Cicantayan, Cicurug, Cidadap, Cidahu, Cidolog, Ciemas, Cijati, Cikakak, Cikembar, Cikidang, Cimanggu, Ciracap, Cisolok, Curug Kembar, Jampang Kulon, Jampang Tengah, Kabandungan, Kadupandak, Kalapanunggal, Kalibunder, Leles, Lengkong, Nyalindung, Pabuaran, Parakansalak, Parungkuda, Pelabuhanratu, Purabaya, Sagaranten, Simpenan, Sindangbarang, Surade, Tegal Buleud, Waluran, Warung Kiara.\n Kondisi ini berpotensi menimbulkan dampak berupa jarak pandang berkurang, angin kencang, dan banjir lokal.\n Masyarakat dihimbau untuk tetap waspada, mengurangi aktivitas di luar ruangan, serta mengambil langkah-langkah pencegahan yang diperlukan guna menjaga keselamatan.\n Kondisi diperkirakan dapat berlangsung hingga 25 May 2026, 02:50 WIB.",
-    "publishedAt": "Sun, 24 May 2026 23:25:00 +0700",
-    "matchedKeywords": [
-      "jawa barat"
-    ]
+    "isActive": false,
+    "title": null,
+    "description": null,
+    "publishedAt": null,
+    "matchedKeywords": []
   },
   "sources": [
     "Open-Meteo Weather API",
