@@ -1,7 +1,7 @@
 {
   "appName": "In Atmosphere",
   "city": "Kota Bogor",
-  "generatedAt": "2026-05-24T12:07:46.259Z",
+  "generatedAt": "2026-05-24T14:09:40.026Z",
   "reportMode": "emergency-watch",
   "overallStatus": {
     "label": "Perlu Perhatian",
@@ -9,19 +9,19 @@
     "level": "warning"
   },
   "weather": {
-    "temperature": 24.5,
+    "temperature": 24,
     "humidity": 97,
     "rain": 0,
-    "windSpeed": 0.6,
-    "windGust": 6.1
+    "windSpeed": 1.5,
+    "windGust": 3.2
   },
   "airQuality": {
     "usAqi": 117,
     "aqiLabel": "Tidak Sehat Untuk Kelompok Sensitif",
     "aqiEmoji": "🟠",
-    "pm25": 61,
-    "pm10": 61,
-    "ozone": 2
+    "pm25": 83.8,
+    "pm10": 84.3,
+    "ozone": 0
   },
   "uv": {
     "current": 0,
@@ -36,7 +36,7 @@
     "maxPrecipitationProbability": 100,
     "nextRainTime": "2026-05-24T06:00",
     "nextRainProbability": 35,
-    "peakRainTime": "2026-05-24T14:00"
+    "peakRainTime": "2026-05-24T13:00"
   },
   "emergency": {
     "shouldSend": true,
@@ -56,8 +56,8 @@
   "bmkgWarning": {
     "isActive": true,
     "title": "Hujan Lebat disertai Petir di Jawa Barat",
-    "description": "Hujan lebat disertai petir akan terjadi pada 24 May 2026, 17:20 WIB di sebagian wilayah Jawa Barat, khususnya di Anjatan, Argapura, Astanajapura, Babakan, Babakancikao, Banjaran, Bantarujeg, Banyusari, Batujaya, Beber, Binong, Blanakan, Bojonggenteng, Bungursari, Campaka, Ciampel, Ciasem, Ciawigebang, Cibadak, Cibatu, Cibeureum, Cibingbin, Cibuaya, Cicantayan, Cicurug, Cidahu, Cidahu, Ciemas, Cigandamekar, Cigasong, Cikakak, Cikalongkulon, Cikampek, Cikaum, Cikembar, Cikidang, Cilamaya Kulon, Cilamaya Wetan, Cilebar, Ciledug, Cileunyi, Cilimus, Cimahi, Cipeunduey, Cisalak, Cisolok, Ciwaru, Compreng, Dawuan, Dukupuntang, Gebang, Greged, Gunung Guruh, Jampang Kulon, Jatigede, Jatiluhur, Jatisari, Jatiwangi, Jayakerta, Kabandungan, Kadipaten, Kadupandak, Kalapanunggal, Kalijati, Kalimanggis, Karang Kancana, Karangsembung, Karangwareng, Karawang Barat, Karawang Timur, Kasokandel, Kertajati, Klari, Kota Baru, Kutawaluya, Lebakwangi, Legonkulon, Leles, Lemahabang, Lemahabang, Lengkong, Leuwimunding, Luragung, Maja, Majalaya, Majalengka, Maleber, Mandirancan, Maniis, Nagrak, Nyalindung, Pabedilan, Pabuaran, Pabuaran, Pagelaran, Pakisjaya, Palasah, Pamanukan, Pancalang, Pangkalan, Panyingkiran, Parakansalak, Parungkuda, Pasaleman, Pasawahan, Pasirkuda, Patokbeusi, Pedes, Pelabuhanratu, Purwadadi, Purwakarta, Purwasari, Pusakajaya, Pusakanagara, Rajagaluh, Rancaekek, Rawamerta, Rengasdengklok, Sedong, Simpenan, Sindang, Sindangwangi, Solokanjeruk, Sukahaji, Sukanagara, Sukasari, Sukasari, Sukra, Susukan Lebak, Takokak, Tambakdahan, Tarogong Kaler, Tegalwaru, Telagasari, Telukjambe Barat, Telukjambe Timur, Tempuran, Tirtajaya, Tirtamulya, Tomo, Ujungjaya, Waled, Waluran.\n Kondisi ini berpotensi menimbulkan dampak berupa jarak pandang berkurang, angin kencang, dan banjir lokal.\n Masyarakat dihimbau untuk tetap waspada, mengurangi aktivitas di luar ruangan, serta mengambil langkah-langkah pencegahan yang diperlukan guna menjaga keselamatan.\n Kondisi diperkirakan dapat berlangsung hingga 24 May 2026, 20:30 WIB.",
-    "publishedAt": "Sun, 24 May 2026 17:10:00 +0700",
+    "description": "Hujan lebat disertai petir akan terjadi pada 24 May 2026, 20:25 WIB di sebagian wilayah Jawa Barat, khususnya di Babakancikao, Batujajar, Bojong, Bungursari, Campaka, Caringin, Ciambar, Ciampel, Cibatu, Cibinong, Cibitung, Cicurug, Cidadap, Cidolog, Cihampelas, Cikakak, Cikalongwetan, Cikampek, Cililin, Cimahi Selatan, Cipatat, Cipeundeuy, Cipeunduey, Cipongkor, Cisolok, Curug Kembar, Darangdan, Gebang, Jatiluhur, Kadudampit, Kadupandak, Karawang Timur, Klari, Kota Baru, Losari, Majalaya, Maniis, Nagrak, Pabedilan, Padalarang, Pangkalan, Pasawahan, Pelabuhanratu, Plered, Pondoksalam, Purabaya, Purwakarta, Purwasari, Sagaranten, Sukabumi, Sukaraja, Sukatani, Takokak, Tegal Buleud, Tegalwaru, Tegalwaru, Telukjambe Barat, Telukjambe Timur, Wanayasa.\n Kondisi ini berpotensi menimbulkan dampak berupa jarak pandang berkurang, angin kencang, dan banjir lokal.\n Masyarakat dihimbau untuk tetap waspada, mengurangi aktivitas di luar ruangan, serta mengambil langkah-langkah pencegahan yang diperlukan guna menjaga keselamatan.\n Kondisi diperkirakan dapat berlangsung hingga 24 May 2026, 23:45 WIB.",
+    "publishedAt": "Sun, 24 May 2026 20:15:00 +0700",
     "matchedKeywords": [
       "jawa barat"
     ]
