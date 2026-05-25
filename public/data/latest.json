@@ -1,41 +1,41 @@
 {
   "appName": "In Atmosphere",
   "city": "Kota Bogor",
-  "generatedAt": "2026-05-25T01:35:51.661Z",
-  "reportMode": "morning",
+  "generatedAt": "2026-05-25T04:46:19.975Z",
+  "reportMode": "emergency-watch",
   "overallStatus": {
     "label": "Perlu Perhatian",
     "description": "Sistem mendeteksi kondisi yang perlu diperhatikan. Lihat bagian emergency dan saran praktis.",
     "level": "warning"
   },
   "weather": {
-    "temperature": 27.1,
-    "humidity": 79,
+    "temperature": 30,
+    "humidity": 66,
     "rain": 0,
-    "windSpeed": 9.4,
-    "windGust": 11.5
+    "windSpeed": 8.7,
+    "windGust": 21.6
   },
   "airQuality": {
-    "usAqi": 106,
+    "usAqi": 108,
     "aqiLabel": "Tidak Sehat Untuk Kelompok Sensitif",
     "aqiEmoji": "🟠",
-    "pm25": 41.1,
-    "pm10": 41.8,
-    "ozone": 16
+    "pm25": 26.1,
+    "pm10": 26.3,
+    "ozone": 61
   },
   "uv": {
-    "current": 1.85,
+    "current": 7.45,
     "maxToday": 7.7,
-    "label": "Rendah",
-    "emoji": "🟢",
-    "advice": "Indeks Radiasi UV Berada Pada Tingkat Minimum. Risiko Kerusakan Kulit Sangat Rendah Bagi Mayoritas Orang. Aman Untuk Beraktivitas Normal Di Luar Ruangan Tanpa Perlindungan Khusus. Namun, Bagi Individu Dengan Kulit Yang Sangat Sensitif Atau Jika Harus Berada Di Bawah Terik Matahari Dalam Durasi Yang Sangat Lama, Penggunaan Kacamata Hitam, Penggunaan Tabir Surya (Sunscreen) Dengan Proteksi Minimal Terhadap UV-A dan UV-B (SPF 15+) Tetap Disarankan."
+    "label": "Tinggi",
+    "emoji": "🟠",
+    "advice": "Tingkat Radiasi UV Tinggi. Berisiko Mempercepat Terjadinya Luka Bakar Matahari (Sunburn) Serta Kerusakan Kulit Jangka Panjang. Perlindungan Aktif Sangat Penting Diterapkan (Mengoleskan Tabir Surya (Sunscreen) Dengan Minimal SPF Dan Peringkat 30+ PA+++, Pakaian Pelindung, Dan Kacamata Anti-UV). Batasi Paparan Matahari Langsung Secara Signifikan, Terutama Antara Pukul 10.00 WIB - 16.00 WIB, Utamakan Melakukan Aktivitas Di Area Yang Teduh."
   },
   "forecast": {
     "minTemperature": 23.4,
     "maxTemperature": 30,
-    "maxPrecipitationProbability": 93,
-    "nextRainTime": "2026-05-25T04:00",
-    "nextRainProbability": 6,
+    "maxPrecipitationProbability": 86,
+    "nextRainTime": "2026-05-25T03:00",
+    "nextRainProbability": 62,
     "peakRainTime": "2026-05-25T15:00"
   },
   "emergency": {
@@ -44,7 +44,7 @@
     "severity": "WATCH",
     "title": "🚨 Emergency Alert",
     "reasons": [
-      "Peluang Hujan Hari Ini Mencapai 93%."
+      "Peluang Hujan Hari Ini Mencapai 86%."
     ]
   },
   "advice": {
