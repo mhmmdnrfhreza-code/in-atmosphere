@@ -1,16 +1,16 @@
 {
-  "lastAqi": 127,
+  "lastAqi": 134,
   "lastUvIndex": 0,
   "lastRain": 0,
-  "lastWindGust": 16.2,
-  "lastCheckedAt": "2026-05-25T19:54:47.605Z",
+  "lastWindGust": 16.9,
+  "lastCheckedAt": "2026-05-25T21:19:44.743Z",
   "lastEmergencyAlert": {
     "type": "MULTI_RISK",
     "severity": "WATCH",
     "sentAt": "2026-05-25T15:56:26.462Z"
   },
   "currentStatusMessageId": "1506335447398482001",
-  "currentStatusUpdatedAt": "2026-05-25T19:54:47.605Z",
+  "currentStatusUpdatedAt": "2026-05-25T21:19:44.743Z",
   "activeEmergencyMessageId": null,
   "previousEmergencyMessageId": "1508498993632641078",
   "activeEmergencyFingerprint": null,
