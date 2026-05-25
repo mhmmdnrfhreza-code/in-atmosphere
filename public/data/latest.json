@@ -1,41 +1,41 @@
 {
   "appName": "In Atmosphere",
   "city": "Kota Bogor",
-  "generatedAt": "2026-05-24T23:39:30.683Z",
-  "reportMode": "emergency-watch",
+  "generatedAt": "2026-05-25T01:35:51.661Z",
+  "reportMode": "morning",
   "overallStatus": {
     "label": "Perlu Perhatian",
     "description": "Sistem mendeteksi kondisi yang perlu diperhatikan. Lihat bagian emergency dan saran praktis.",
     "level": "warning"
   },
   "weather": {
-    "temperature": 23.8,
-    "humidity": 90,
+    "temperature": 27.1,
+    "humidity": 79,
     "rain": 0,
-    "windSpeed": 9,
-    "windGust": 16.9
+    "windSpeed": 9.4,
+    "windGust": 11.5
   },
   "airQuality": {
-    "usAqi": 108,
+    "usAqi": 106,
     "aqiLabel": "Tidak Sehat Untuk Kelompok Sensitif",
     "aqiEmoji": "🟠",
-    "pm25": 35.5,
-    "pm10": 36,
-    "ozone": 3
+    "pm25": 41.1,
+    "pm10": 41.8,
+    "ozone": 16
   },
   "uv": {
-    "current": 0,
+    "current": 1.85,
     "maxToday": 7.7,
     "label": "Rendah",
     "emoji": "🟢",
     "advice": "Indeks Radiasi UV Berada Pada Tingkat Minimum. Risiko Kerusakan Kulit Sangat Rendah Bagi Mayoritas Orang. Aman Untuk Beraktivitas Normal Di Luar Ruangan Tanpa Perlindungan Khusus. Namun, Bagi Individu Dengan Kulit Yang Sangat Sensitif Atau Jika Harus Berada Di Bawah Terik Matahari Dalam Durasi Yang Sangat Lama, Penggunaan Kacamata Hitam, Penggunaan Tabir Surya (Sunscreen) Dengan Proteksi Minimal Terhadap UV-A dan UV-B (SPF 15+) Tetap Disarankan."
   },
   "forecast": {
-    "minTemperature": 23,
-    "maxTemperature": 31.4,
-    "maxPrecipitationProbability": 91,
-    "nextRainTime": "2026-05-25T00:00",
-    "nextRainProbability": 78,
+    "minTemperature": 23.4,
+    "maxTemperature": 30,
+    "maxPrecipitationProbability": 93,
+    "nextRainTime": "2026-05-25T04:00",
+    "nextRainProbability": 6,
     "peakRainTime": "2026-05-25T15:00"
   },
   "emergency": {
@@ -44,7 +44,7 @@
     "severity": "WATCH",
     "title": "🚨 Emergency Alert",
     "reasons": [
-      "Peluang Hujan Hari Ini Mencapai 91%."
+      "Peluang Hujan Hari Ini Mencapai 93%."
     ]
   },
   "advice": {
