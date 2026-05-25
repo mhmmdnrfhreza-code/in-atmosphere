@@ -1,26 +1,26 @@
 {
   "appName": "In Atmosphere",
   "city": "Kota Bogor",
-  "generatedAt": "2026-05-25T17:50:56.738Z",
+  "generatedAt": "2026-05-25T19:54:47.605Z",
   "reportMode": "emergency-watch",
   "overallStatus": {
-    "label": "Perlu Perhatian",
-    "description": "Sistem mendeteksi kondisi yang perlu diperhatikan. Lihat bagian emergency dan saran praktis.",
+    "label": "Waspada",
+    "description": "Kualitas udara atau kondisi lingkungan mulai kurang baik. Kurangi paparan luar ruangan jika diperlukan.",
     "level": "warning"
   },
   "weather": {
-    "temperature": 23.5,
-    "humidity": 95,
+    "temperature": 23.4,
+    "humidity": 91,
     "rain": 0,
-    "windSpeed": 6.1,
-    "windGust": 10.8
+    "windSpeed": 9,
+    "windGust": 16.2
   },
   "airQuality": {
-    "usAqi": 117,
+    "usAqi": 127,
     "aqiLabel": "Tidak Sehat Untuk Kelompok Sensitif",
     "aqiEmoji": "🟠",
-    "pm25": 91,
-    "pm10": 92,
+    "pm25": 70.5,
+    "pm10": 71,
     "ozone": 0
   },
   "uv": {
@@ -31,21 +31,19 @@
     "advice": "Indeks Radiasi UV Berada Pada Tingkat Minimum. Risiko Kerusakan Kulit Sangat Rendah Bagi Mayoritas Orang. Aman Untuk Beraktivitas Normal Di Luar Ruangan Tanpa Perlindungan Khusus. Namun, Bagi Individu Dengan Kulit Yang Sangat Sensitif Atau Jika Harus Berada Di Bawah Terik Matahari Dalam Durasi Yang Sangat Lama, Penggunaan Kacamata Hitam, Penggunaan Tabir Surya (Sunscreen) Dengan Proteksi Minimal Terhadap UV-A dan UV-B (SPF 15+) Tetap Disarankan."
   },
   "forecast": {
-    "minTemperature": 22.6,
-    "maxTemperature": 30.3,
+    "minTemperature": 22.2,
+    "maxTemperature": 31.3,
     "maxPrecipitationProbability": 80,
-    "nextRainTime": "2026-05-26T00:00",
-    "nextRainProbability": 48,
+    "nextRainTime": "2026-05-26T01:00",
+    "nextRainProbability": 47,
     "peakRainTime": "2026-05-26T16:00"
   },
   "emergency": {
-    "shouldSend": true,
-    "type": "HEAVY_RAIN",
-    "severity": "WATCH",
-    "title": "🚨 Emergency Alert",
-    "reasons": [
-      "BMKG mengeluarkan peringatan dini cuaca yang relevan dengan Bogor: Hujan Lebat disertai Petir di Jawa Barat."
-    ]
+    "shouldSend": false,
+    "type": null,
+    "severity": null,
+    "title": "Tidak Ada Emergency Alert",
+    "reasons": []
   },
   "advice": {
     "general": "Kualitas Udara Mulai Kurang Baik Untuk Kelompok Sensitif. Ada Peluang Hujan Cukup Tinggi, Siapkan Payung/Jas Hujan.",
@@ -53,13 +51,11 @@
     "sensitiveGroup": "Kelompok Sensitif Sebaiknya Mengurangi Aktivitas Luar Ruangan Berat."
   },
   "bmkgWarning": {
-    "isActive": true,
-    "title": "Hujan Lebat disertai Petir di Jawa Barat",
-    "description": "Hujan lebat disertai petir akan terjadi pada 25 May 2026, 22:58 WIB di sebagian wilayah Jawa Barat, khususnya di Andir, Anjatan, Antapani, Arahan, Arcamanik, Arjasari, Astana Anyar, Babakan Ciparay, Baleendah, Balongan, Bandung Kidul, Bandung Kulon, Bandung Wetan, Banjaran, Batujajar, Batununggal, Bojongloa Kaler, Bojongloa Kidul, Bojongsoang, Buahbatu, Buahdua, Cangkuang, Cantigi, Cibalong, Cibeunying Kaler, Cibeunying Kidul, Cibiru, Cicendo, Cidadap, Cihampelas, Cililin, Cimahi Selatan, Cimahi Tengah, Cimahi Utara, Cinambo, Ciparay, Cisompet, Coblong, Compreng, Conggeang, Dayeuhkolot, Gabuswetan, Gantar, Gedebage, Gununghalu, Haurgeulis, Indramayu, Katapang, Kiaracondong, Kroya, Kutawaringin, Lengkong, Losarang, Mandalajati, Margaasih, Margahayu, Ngamprah, Padalarang, Pameungpeuk, Pameungpeuk, Panyileukan, Pasekan, Rancasari, Regol, Rongga, Sindang, Sindangkerta, Soreang, Sukajadi, Sukasari, Sumur Bandung, Ujung Berung, Ujungjaya, Waduk Saguling.\n Kondisi ini berpotensi menimbulkan dampak berupa jarak pandang berkurang, angin kencang, dan banjir lokal.\n Masyarakat dihimbau untuk tetap waspada, mengurangi aktivitas di luar ruangan, serta mengambil langkah-langkah pencegahan yang diperlukan guna menjaga keselamatan.\n Kondisi diperkirakan dapat berlangsung hingga 26 May 2026, 01:30 WIB.",
-    "publishedAt": "Mon, 25 May 2026 22:48:00 +0700",
-    "matchedKeywords": [
-      "jawa barat"
-    ]
+    "isActive": false,
+    "title": null,
+    "description": null,
+    "publishedAt": null,
+    "matchedKeywords": []
   },
   "sources": [
     "Open-Meteo Weather API",
