@@ -1,7 +1,7 @@
 {
   "appName": "In Atmosphere",
   "city": "Kota Bogor",
-  "generatedAt": "2026-05-25T15:56:26.462Z",
+  "generatedAt": "2026-05-25T17:50:56.738Z",
   "reportMode": "emergency-watch",
   "overallStatus": {
     "label": "Perlu Perhatian",
@@ -9,18 +9,18 @@
     "level": "warning"
   },
   "weather": {
-    "temperature": 24,
-    "humidity": 92,
-    "rain": 0.1,
-    "windSpeed": 6.3,
-    "windGust": 16.2
+    "temperature": 23.5,
+    "humidity": 95,
+    "rain": 0,
+    "windSpeed": 6.1,
+    "windGust": 10.8
   },
   "airQuality": {
-    "usAqi": 106,
+    "usAqi": 117,
     "aqiLabel": "Tidak Sehat Untuk Kelompok Sensitif",
     "aqiEmoji": "🟠",
-    "pm25": 106.6,
-    "pm10": 107.8,
+    "pm25": 91,
+    "pm10": 92,
     "ozone": 0
   },
   "uv": {
@@ -31,21 +31,19 @@
     "advice": "Indeks Radiasi UV Berada Pada Tingkat Minimum. Risiko Kerusakan Kulit Sangat Rendah Bagi Mayoritas Orang. Aman Untuk Beraktivitas Normal Di Luar Ruangan Tanpa Perlindungan Khusus. Namun, Bagi Individu Dengan Kulit Yang Sangat Sensitif Atau Jika Harus Berada Di Bawah Terik Matahari Dalam Durasi Yang Sangat Lama, Penggunaan Kacamata Hitam, Penggunaan Tabir Surya (Sunscreen) Dengan Proteksi Minimal Terhadap UV-A dan UV-B (SPF 15+) Tetap Disarankan."
   },
   "forecast": {
-    "minTemperature": 23.4,
-    "maxTemperature": 31.4,
-    "maxPrecipitationProbability": 86,
-    "nextRainTime": "2026-05-25T03:00",
-    "nextRainProbability": 62,
-    "peakRainTime": "2026-05-25T16:00"
+    "minTemperature": 22.6,
+    "maxTemperature": 30.3,
+    "maxPrecipitationProbability": 80,
+    "nextRainTime": "2026-05-26T00:00",
+    "nextRainProbability": 48,
+    "peakRainTime": "2026-05-26T16:00"
   },
   "emergency": {
     "shouldSend": true,
-    "type": "MULTI_RISK",
+    "type": "HEAVY_RAIN",
     "severity": "WATCH",
     "title": "🚨 Emergency Alert",
     "reasons": [
-      "AQI Berubah Dari Level Aman/Sedang Menjadi Tidak Sehat Untuk Kelompok Sensitif.",
-      "Peluang Hujan Hari Ini Mencapai 86%.",
       "BMKG mengeluarkan peringatan dini cuaca yang relevan dengan Bogor: Hujan Lebat disertai Petir di Jawa Barat."
     ]
   },
@@ -57,8 +55,8 @@
   "bmkgWarning": {
     "isActive": true,
     "title": "Hujan Lebat disertai Petir di Jawa Barat",
-    "description": "Hujan lebat disertai petir akan terjadi pada 25 May 2026, 20:46 WIB di sebagian wilayah Jawa Barat, khususnya di Andir, Antapani, Arcamanik, Arjasari, Astana Anyar, Babakan Ciparay, Baleendah, Bandung Kidul, Bandung Kulon, Bandung Wetan, Banjaran, Batununggal, Bojong, Bojongloa Kaler, Bojongloa Kidul, Bojongsoang, Buahbatu, Buahdua, Cangkuang, Cibalong, Cibeunying Kaler, Cibeunying Kidul, Cibiru, Cicendo, Cidadap, Cihampelas, Cikalongkulon, Cikalongwetan, Cikelet, Cililin, Cimahi Selatan, Cimahi Tengah, Cimahi Utara, Cimenyan, Cinambo, Ciparay, Cipatat, Cipeundeuy, Cipeunduey, Cisompet, Coblong, Conggeang, Darangdan, Dawuan, Dayeuhkolot, Gedebage, Gununghalu, Kalijati, Katapang, Kiaracondong, Kiarapedes, Kutawaringin, Lengkong, Mandalajati, Maniis, Margaasih, Margahayu, Pameungpeuk, Pameungpeuk, Panyileukan, Plered, Pondoksalam, Purwadadi, Rancasari, Regol, Rongga, Serangpanjang, Simpenan, Sindangkerta, Soreang, Sukajadi, Sukasari, Sukasari, Sukatani, Sumur Bandung, Tegalwaru, Tegalwaru, Ujung Berung, Ujungjaya, Waduk Jatiluhur, Waduk Saguling.\n Kondisi ini berpotensi menimbulkan dampak berupa jarak pandang berkurang, angin kencang, dan banjir lokal.\n Masyarakat dihimbau untuk tetap waspada, mengurangi aktivitas di luar ruangan, serta mengambil langkah-langkah pencegahan yang diperlukan guna menjaga keselamatan.\n Kondisi diperkirakan dapat berlangsung hingga 25 May 2026, 23:45 WIB.",
-    "publishedAt": "Mon, 25 May 2026 20:36:00 +0700",
+    "description": "Hujan lebat disertai petir akan terjadi pada 25 May 2026, 22:58 WIB di sebagian wilayah Jawa Barat, khususnya di Andir, Anjatan, Antapani, Arahan, Arcamanik, Arjasari, Astana Anyar, Babakan Ciparay, Baleendah, Balongan, Bandung Kidul, Bandung Kulon, Bandung Wetan, Banjaran, Batujajar, Batununggal, Bojongloa Kaler, Bojongloa Kidul, Bojongsoang, Buahbatu, Buahdua, Cangkuang, Cantigi, Cibalong, Cibeunying Kaler, Cibeunying Kidul, Cibiru, Cicendo, Cidadap, Cihampelas, Cililin, Cimahi Selatan, Cimahi Tengah, Cimahi Utara, Cinambo, Ciparay, Cisompet, Coblong, Compreng, Conggeang, Dayeuhkolot, Gabuswetan, Gantar, Gedebage, Gununghalu, Haurgeulis, Indramayu, Katapang, Kiaracondong, Kroya, Kutawaringin, Lengkong, Losarang, Mandalajati, Margaasih, Margahayu, Ngamprah, Padalarang, Pameungpeuk, Pameungpeuk, Panyileukan, Pasekan, Rancasari, Regol, Rongga, Sindang, Sindangkerta, Soreang, Sukajadi, Sukasari, Sumur Bandung, Ujung Berung, Ujungjaya, Waduk Saguling.\n Kondisi ini berpotensi menimbulkan dampak berupa jarak pandang berkurang, angin kencang, dan banjir lokal.\n Masyarakat dihimbau untuk tetap waspada, mengurangi aktivitas di luar ruangan, serta mengambil langkah-langkah pencegahan yang diperlukan guna menjaga keselamatan.\n Kondisi diperkirakan dapat berlangsung hingga 26 May 2026, 01:30 WIB.",
+    "publishedAt": "Mon, 25 May 2026 22:48:00 +0700",
     "matchedKeywords": [
       "jawa barat"
     ]
