@@ -1,7 +1,7 @@
 {
   "appName": "In Atmosphere",
   "city": "Kota Bogor",
-  "generatedAt": "2026-05-26T08:07:35.591Z",
+  "generatedAt": "2026-05-26T16:03:21.778Z",
   "reportMode": "emergency-watch",
   "overallStatus": {
     "label": "Perlu Perhatian",
@@ -9,30 +9,30 @@
     "level": "warning"
   },
   "weather": {
-    "temperature": 31.5,
-    "humidity": 59,
+    "temperature": 23.2,
+    "humidity": 92,
     "rain": 0,
-    "windSpeed": 4.3,
-    "windGust": 16.9
+    "windSpeed": 8.5,
+    "windGust": 15.8
   },
   "airQuality": {
-    "usAqi": 114,
+    "usAqi": 135,
     "aqiLabel": "Tidak Sehat Untuk Kelompok Sensitif",
     "aqiEmoji": "🟠",
-    "pm25": 44,
-    "pm10": 44.2,
-    "ozone": 142
+    "pm25": 132.7,
+    "pm10": 133.2,
+    "ozone": 0
   },
   "uv": {
-    "current": 1.6,
-    "maxToday": 7.65,
+    "current": 0,
+    "maxToday": 0,
     "label": "Rendah",
     "emoji": "🟢",
     "advice": "Indeks Radiasi UV Berada Pada Tingkat Minimum. Risiko Kerusakan Kulit Sangat Rendah Bagi Mayoritas Orang. Aman Untuk Beraktivitas Normal Di Luar Ruangan Tanpa Perlindungan Khusus. Namun, Bagi Individu Dengan Kulit Yang Sangat Sensitif Atau Jika Harus Berada Di Bawah Terik Matahari Dalam Durasi Yang Sangat Lama, Penggunaan Kacamata Hitam, Penggunaan Tabir Surya (Sunscreen) Dengan Proteksi Minimal Terhadap UV-A dan UV-B (SPF 15+) Tetap Disarankan."
   },
   "forecast": {
-    "minTemperature": 22.2,
-    "maxTemperature": 31.5,
+    "minTemperature": 22.9,
+    "maxTemperature": 33.2,
     "maxPrecipitationProbability": 69,
     "nextRainTime": "2026-05-26T00:00",
     "nextRainProbability": 56,
@@ -55,8 +55,8 @@
   "bmkgWarning": {
     "isActive": true,
     "title": "Hujan Lebat disertai Petir di Jawa Barat",
-    "description": "Hujan lebat disertai petir akan terjadi pada 26 May 2026, 14:41 WIB di sebagian wilayah Jawa Barat, khususnya di Cibeunying Kaler, Cibeunying Kidul, Cimenyan, Coblong, Kalijati.\n Kondisi ini berpotensi menimbulkan dampak berupa jarak pandang berkurang, angin kencang, dan banjir lokal.\n Masyarakat dihimbau untuk tetap waspada, mengurangi aktivitas di luar ruangan, serta mengambil langkah-langkah pencegahan yang diperlukan guna menjaga keselamatan.\n Kondisi diperkirakan dapat berlangsung hingga 26 May 2026, 16:31 WIB.",
-    "publishedAt": "Tue, 26 May 2026 14:31:00 +0700",
+    "description": "Hujan lebat disertai petir akan terjadi pada 26 May 2026, 21:13 WIB di sebagian wilayah Jawa Barat, khususnya di Blanakan, Ciasem, Cijambe, Cikaum, Dawuan, Gegesik, Kalijati, Kaliwedi, Kandanghaur, Karangampel, Lelea, Ligung, Lohbener, Losarang, Pabuaran, Pagaden, Pagaden Barat, Panguragan, Patokbeusi, Purwadadi, Subang, Sukagumiwang, Sumberjaya, Susukan, Widasari.\n Kondisi ini berpotensi menimbulkan dampak berupa jarak pandang berkurang, angin kencang, dan banjir lokal.\n Masyarakat dihimbau untuk tetap waspada, mengurangi aktivitas di luar ruangan, serta mengambil langkah-langkah pencegahan yang diperlukan guna menjaga keselamatan.\n Kondisi diperkirakan dapat berlangsung hingga 27 May 2026, 00:00 WIB.",
+    "publishedAt": "Tue, 26 May 2026 21:03:00 +0700",
     "matchedKeywords": [
       "jawa barat"
     ]
