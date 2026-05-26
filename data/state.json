@@ -1,23 +1,23 @@
 {
-  "lastAqi": 109,
-  "lastUvIndex": 8.4,
+  "lastAqi": 114,
+  "lastUvIndex": 1.6,
   "lastRain": 0,
-  "lastWindGust": 18.7,
-  "lastCheckedAt": "2026-05-26T04:21:22.594Z",
+  "lastWindGust": 16.9,
+  "lastCheckedAt": "2026-05-26T08:07:35.591Z",
   "lastEmergencyAlert": {
-    "type": "MULTI_RISK",
+    "type": "HEAVY_RAIN",
     "severity": "WATCH",
-    "sentAt": "2026-05-25T15:56:26.462Z"
+    "sentAt": "2026-05-26T08:07:35.591Z"
   },
   "currentStatusMessageId": "1506335447398482001",
-  "currentStatusUpdatedAt": "2026-05-26T04:21:22.594Z",
-  "activeEmergencyMessageId": null,
+  "currentStatusUpdatedAt": "2026-05-26T08:07:35.591Z",
+  "activeEmergencyMessageId": "1508743392375341069",
   "previousEmergencyMessageId": "1508498993632641078",
-  "activeEmergencyFingerprint": null,
+  "activeEmergencyFingerprint": "type=HEAVY_RAIN|severity=WATCH|reasons=bmkg mengeluarkan peringatan dini cuaca yang relevan dengan bogor: hujan lebat disertai petir di jawa barat.|bmkg=true|aqi=UNHEALTHY_SENSITIVE|uv=LOW|weather=NORMAL",
   "previousEmergencyFingerprint": "type=MULTI_RISK|severity=WATCH|reasons=aqi berubah dari level aman/sedang menjadi tidak sehat untuk kelompok sensitif.;peluang hujan hari ini mencapai 86%.;bmkg mengeluarkan peringatan dini cuaca yang relevan dengan bogor: hujan lebat disertai petir di jawa barat.|bmkg=true|aqi=UNHEALTHY_SENSITIVE|uv=LOW|weather=HIGH_RAIN_PROBABILITY",
-  "activeEmergencySentAt": null,
+  "activeEmergencySentAt": "2026-05-26T08:07:35.591Z",
   "previousEmergencySentAt": "2026-05-25T15:56:26.462Z",
-  "recoveryMessageId": "1508558976835653753",
-  "recoverySentAt": "2026-05-25T19:54:47.605Z",
-  "recoveryFingerprint": "recovered:type=MULTI_RISK|severity=WATCH|reasons=aqi berubah dari level aman/sedang menjadi tidak sehat untuk kelompok sensitif.;peluang hujan hari ini mencapai 86%.;bmkg mengeluarkan peringatan dini cuaca yang relevan dengan bogor: hujan lebat disertai petir di jawa barat.|bmkg=true|aqi=UNHEALTHY_SENSITIVE|uv=LOW|weather=HIGH_RAIN_PROBABILITY"
+  "recoveryMessageId": null,
+  "recoverySentAt": null,
+  "recoveryFingerprint": null
 }
