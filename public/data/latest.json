@@ -1,42 +1,42 @@
 {
   "appName": "In Atmosphere",
   "city": "Kota Bogor",
-  "generatedAt": "2026-05-26T01:28:33.764Z",
-  "reportMode": "morning",
+  "generatedAt": "2026-05-26T04:21:22.594Z",
+  "reportMode": "emergency-watch",
   "overallStatus": {
     "label": "Waspada",
     "description": "Kualitas udara atau kondisi lingkungan mulai kurang baik. Kurangi paparan luar ruangan jika diperlukan.",
     "level": "warning"
   },
   "weather": {
-    "temperature": 27.2,
-    "humidity": 80,
+    "temperature": 30.4,
+    "humidity": 64,
     "rain": 0,
-    "windSpeed": 2,
-    "windGust": 12.6
+    "windSpeed": 6.1,
+    "windGust": 18.7
   },
   "airQuality": {
-    "usAqi": 105,
+    "usAqi": 109,
     "aqiLabel": "Tidak Sehat Untuk Kelompok Sensitif",
     "aqiEmoji": "🟠",
-    "pm25": 45.1,
-    "pm10": 45.5,
-    "ozone": 20
+    "pm25": 28.1,
+    "pm10": 28.3,
+    "ozone": 98
   },
   "uv": {
-    "current": 2.1,
+    "current": 8.4,
     "maxToday": 7.65,
-    "label": "Rendah",
-    "emoji": "🟢",
-    "advice": "Indeks Radiasi UV Berada Pada Tingkat Minimum. Risiko Kerusakan Kulit Sangat Rendah Bagi Mayoritas Orang. Aman Untuk Beraktivitas Normal Di Luar Ruangan Tanpa Perlindungan Khusus. Namun, Bagi Individu Dengan Kulit Yang Sangat Sensitif Atau Jika Harus Berada Di Bawah Terik Matahari Dalam Durasi Yang Sangat Lama, Penggunaan Kacamata Hitam, Penggunaan Tabir Surya (Sunscreen) Dengan Proteksi Minimal Terhadap UV-A dan UV-B (SPF 15+) Tetap Disarankan."
+    "label": "Sangat Tinggi",
+    "emoji": "🔴",
+    "advice": "Radiasi UV Kritis. Dapat Merusak Jaringan Kulit Dan Mata Dalam Waktu Singkat Tanpa Perlindungan Ekstra. Meminimalkan Aktivitas Luar Ruangan Selama Jam-Jam Puncak Radiasi. Jika Harus Keluar Rumah, Wajib Menggunakan Perlindungan Maksimal (Pakaian Tertutup, Topi Bertepi Lebar, Kacamata Hitam Yang Memblokir Sinar UV, Serta Mengoleskan Kembali Tabir Surya (Sunscreen) Dengan SPF Dan Peringkat 30+ - 50+ PA++++ Secara Berkala Setiap Dua Jam)."
   },
   "forecast": {
-    "minTemperature": 22.2,
-    "maxTemperature": 31.3,
-    "maxPrecipitationProbability": 63,
+    "minTemperature": 22.1,
+    "maxTemperature": 31,
+    "maxPrecipitationProbability": 69,
     "nextRainTime": "2026-05-26T00:00",
-    "nextRainProbability": 57,
-    "peakRainTime": "2026-05-26T16:00"
+    "nextRainProbability": 56,
+    "peakRainTime": "2026-05-26T04:00"
   },
   "emergency": {
     "shouldSend": false,
@@ -47,7 +47,7 @@
   },
   "advice": {
     "general": "Kualitas Udara Mulai Kurang Baik Untuk Kelompok Sensitif.",
-    "outdoor": "Aktivitas Luar Ruangan Masih Bisa Dilakukan, Tetapi Jangan Terlalu Lama.",
+    "outdoor": "Aktivitas Luar Ruangan Masih Bisa Dilakukan, Tetapi Jangan Terlalu Lama. UV Sedang Tinggi, Gunakan Sunscreen, Topi, dan Hindari Paparan Matahari Langsung Terlalu Lama.",
     "sensitiveGroup": "Kelompok Sensitif Sebaiknya Mengurangi Aktivitas Luar Ruangan Berat."
   },
   "bmkgWarning": {
