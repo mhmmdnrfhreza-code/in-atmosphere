@@ -1,30 +1,30 @@
 {
   "appName": "In Atmosphere",
   "city": "Kota Bogor",
-  "generatedAt": "2026-05-25T23:43:16.998Z",
-  "reportMode": "emergency-watch",
+  "generatedAt": "2026-05-26T01:28:33.764Z",
+  "reportMode": "morning",
   "overallStatus": {
     "label": "Waspada",
     "description": "Kualitas udara atau kondisi lingkungan mulai kurang baik. Kurangi paparan luar ruangan jika diperlukan.",
     "level": "warning"
   },
   "weather": {
-    "temperature": 23.5,
-    "humidity": 90,
+    "temperature": 27.2,
+    "humidity": 80,
     "rain": 0,
-    "windSpeed": 7.3,
-    "windGust": 14.8
+    "windSpeed": 2,
+    "windGust": 12.6
   },
   "airQuality": {
-    "usAqi": 102,
+    "usAqi": 105,
     "aqiLabel": "Tidak Sehat Untuk Kelompok Sensitif",
     "aqiEmoji": "🟠",
-    "pm25": 38.3,
-    "pm10": 38.5,
-    "ozone": 0
+    "pm25": 45.1,
+    "pm10": 45.5,
+    "ozone": 20
   },
   "uv": {
-    "current": 0,
+    "current": 2.1,
     "maxToday": 7.65,
     "label": "Rendah",
     "emoji": "🟢",
@@ -33,9 +33,9 @@
   "forecast": {
     "minTemperature": 22.2,
     "maxTemperature": 31.3,
-    "maxPrecipitationProbability": 80,
-    "nextRainTime": "2026-05-26T01:00",
-    "nextRainProbability": 47,
+    "maxPrecipitationProbability": 63,
+    "nextRainTime": "2026-05-26T00:00",
+    "nextRainProbability": 57,
     "peakRainTime": "2026-05-26T16:00"
   },
   "emergency": {
@@ -46,7 +46,7 @@
     "reasons": []
   },
   "advice": {
-    "general": "Kualitas Udara Mulai Kurang Baik Untuk Kelompok Sensitif. Ada Peluang Hujan Cukup Tinggi, Siapkan Payung/Jas Hujan.",
+    "general": "Kualitas Udara Mulai Kurang Baik Untuk Kelompok Sensitif.",
     "outdoor": "Aktivitas Luar Ruangan Masih Bisa Dilakukan, Tetapi Jangan Terlalu Lama.",
     "sensitiveGroup": "Kelompok Sensitif Sebaiknya Mengurangi Aktivitas Luar Ruangan Berat."
   },
