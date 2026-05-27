@@ -1,26 +1,26 @@
 {
   "appName": "In Atmosphere",
   "city": "Kota Bogor",
-  "generatedAt": "2026-05-27T13:51:46.448Z",
-  "reportMode": "rush-hour",
+  "generatedAt": "2026-05-27T16:26:07.836Z",
+  "reportMode": "emergency-watch",
   "overallStatus": {
     "label": "Perlu Perhatian",
     "description": "Sistem mendeteksi kondisi yang perlu diperhatikan. Lihat bagian emergency dan saran praktis.",
     "level": "warning"
   },
   "weather": {
-    "temperature": 23.6,
-    "humidity": 85,
+    "temperature": 21.1,
+    "humidity": 87,
     "rain": 0,
-    "windSpeed": 4.4,
-    "windGust": 10.4
+    "windSpeed": 7.5,
+    "windGust": 15.5
   },
   "airQuality": {
-    "usAqi": 159,
+    "usAqi": 161,
     "aqiLabel": "Tidak Sehat",
     "aqiEmoji": "🔴",
-    "pm25": 120.6,
-    "pm10": 121.1,
+    "pm25": 138.3,
+    "pm10": 139.7,
     "ozone": 0
   },
   "uv": {
@@ -33,19 +33,18 @@
   "forecast": {
     "minTemperature": 20.9,
     "maxTemperature": 31,
-    "maxPrecipitationProbability": 6,
+    "maxPrecipitationProbability": 18,
     "nextRainTime": "2026-05-27T21:00",
-    "nextRainProbability": 5,
+    "nextRainProbability": 18,
     "peakRainTime": null
   },
   "emergency": {
     "shouldSend": true,
-    "type": "MULTI_RISK",
+    "type": "AIR_QUALITY",
     "severity": "WARNING",
     "title": "🚨 Emergency Alert",
     "reasons": [
-      "AQI Mencapai 159, Masuk Kategori Tidak Sehat Atau Lebih Buruk.",
-      "BMKG mengeluarkan peringatan dini cuaca yang relevan dengan Bogor: Hujan Lebat disertai Petir di Jawa Barat."
+      "AQI Mencapai 161, Masuk Kategori Tidak Sehat Atau Lebih Buruk."
     ]
   },
   "advice": {
@@ -54,13 +53,11 @@
     "sensitiveGroup": "Anak-Anak, Lansia, Dan Orang Dengan Gangguan Pernapasan Sebaiknya Berada Di Dalam Ruangan."
   },
   "bmkgWarning": {
-    "isActive": true,
-    "title": "Hujan Lebat disertai Petir di Jawa Barat",
-    "description": "Hujan lebat disertai petir akan terjadi pada 27 May 2026, 18:25 WIB di sebagian wilayah Jawa Barat, khususnya di Buahdua, Ciater, Cisalak.\n Kondisi ini berpotensi menimbulkan dampak berupa jarak pandang berkurang, angin kencang, dan banjir lokal.\n Masyarakat dihimbau untuk tetap waspada, mengurangi aktivitas di luar ruangan, serta mengambil langkah-langkah pencegahan yang diperlukan guna menjaga keselamatan.\n Kondisi diperkirakan dapat berlangsung hingga 27 May 2026, 21:00 WIB.",
-    "publishedAt": "Wed, 27 May 2026 18:15:00 +0700",
-    "matchedKeywords": [
-      "jawa barat"
-    ]
+    "isActive": false,
+    "title": null,
+    "description": null,
+    "publishedAt": null,
+    "matchedKeywords": []
   },
   "sources": [
     "Open-Meteo Weather API",
