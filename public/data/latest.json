@@ -1,27 +1,27 @@
 {
   "appName": "In Atmosphere",
   "city": "Kota Bogor",
-  "generatedAt": "2026-05-28T12:40:24.205Z",
-  "reportMode": "emergency-watch",
+  "generatedAt": "2026-05-28T14:07:54.032Z",
+  "reportMode": "rush-hour",
   "overallStatus": {
     "label": "Perlu Perhatian",
     "description": "Sistem mendeteksi kondisi yang perlu diperhatikan. Lihat bagian emergency dan saran praktis.",
     "level": "warning"
   },
   "weather": {
-    "temperature": 25.6,
-    "humidity": 76,
+    "temperature": 24.9,
+    "humidity": 81,
     "rain": 0,
-    "windSpeed": 9.2,
-    "windGust": 15.8
+    "windSpeed": 10.9,
+    "windGust": 26.6
   },
   "airQuality": {
     "usAqi": 163,
     "aqiLabel": "Tidak Sehat",
     "aqiEmoji": "🔴",
-    "pm25": 105.5,
-    "pm10": 105.7,
-    "ozone": 4
+    "pm25": 134.6,
+    "pm10": 135,
+    "ozone": 0
   },
   "uv": {
     "current": 0,
@@ -32,20 +32,19 @@
   },
   "forecast": {
     "minTemperature": 20.1,
-    "maxTemperature": 31.2,
+    "maxTemperature": 31.5,
     "maxPrecipitationProbability": 3,
     "nextRainTime": "2026-05-29T14:00",
-    "nextRainProbability": 8,
+    "nextRainProbability": 17,
     "peakRainTime": null
   },
   "emergency": {
     "shouldSend": true,
-    "type": "MULTI_RISK",
+    "type": "AIR_QUALITY",
     "severity": "WARNING",
     "title": "🚨 Emergency Alert",
     "reasons": [
-      "AQI Mencapai 163, Masuk Kategori Tidak Sehat Atau Lebih Buruk.",
-      "BMKG mengeluarkan peringatan dini cuaca yang relevan dengan Bogor: Hujan Lebat disertai Petir di Jawa Barat."
+      "AQI Mencapai 163, Masuk Kategori Tidak Sehat Atau Lebih Buruk."
     ]
   },
   "advice": {
@@ -54,13 +53,11 @@
     "sensitiveGroup": "Anak-Anak, Lansia, Dan Orang Dengan Gangguan Pernapasan Sebaiknya Berada Di Dalam Ruangan."
   },
   "bmkgWarning": {
-    "isActive": true,
-    "title": "Hujan Lebat disertai Petir di Jawa Barat",
-    "description": "Hujan lebat disertai petir akan terjadi pada 28 May 2026, 19:00 WIB di sebagian wilayah Jawa Barat, khususnya di Babakan, Bojonggambir, Cibalong, Cipatujah, Cisompet, Kalipucang, Mekarmukti, Pabedilan, Pangandaran, Peundeuy.\n Kondisi ini berpotensi menimbulkan dampak berupa jarak pandang berkurang, angin kencang, dan banjir lokal.\n Masyarakat dihimbau untuk tetap waspada, mengurangi aktivitas di luar ruangan, serta mengambil langkah-langkah pencegahan yang diperlukan guna menjaga keselamatan.\n Kondisi diperkirakan dapat berlangsung hingga 28 May 2026, 21:00 WIB.",
-    "publishedAt": "Thu, 28 May 2026 18:50:00 +0700",
-    "matchedKeywords": [
-      "jawa barat"
-    ]
+    "isActive": false,
+    "title": null,
+    "description": null,
+    "publishedAt": null,
+    "matchedKeywords": []
   },
   "sources": [
     "Open-Meteo Weather API",
