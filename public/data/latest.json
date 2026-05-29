@@ -1,27 +1,27 @@
 {
   "appName": "In Atmosphere",
   "city": "Kota Bogor",
-  "generatedAt": "2026-05-29T12:25:18.607Z",
-  "reportMode": "emergency-watch",
+  "generatedAt": "2026-05-29T13:35:34.543Z",
+  "reportMode": "rush-hour",
   "overallStatus": {
     "label": "Perlu Perhatian",
     "description": "Sistem mendeteksi kondisi yang perlu diperhatikan. Lihat bagian emergency dan saran praktis.",
     "level": "warning"
   },
   "weather": {
-    "temperature": 27.1,
-    "humidity": 73,
+    "temperature": 25.5,
+    "humidity": 80,
     "rain": 0,
-    "windSpeed": 1,
-    "windGust": 5
+    "windSpeed": 4,
+    "windGust": 7.9
   },
   "airQuality": {
-    "usAqi": 199,
+    "usAqi": 170,
     "aqiLabel": "Tidak Sehat",
     "aqiEmoji": "🔴",
-    "pm25": 124.8,
-    "pm10": 125.3,
-    "ozone": 13
+    "pm25": 140.6,
+    "pm10": 141.1,
+    "ozone": 0
   },
   "uv": {
     "current": 0,
@@ -32,11 +32,11 @@
   },
   "forecast": {
     "minTemperature": 20.8,
-    "maxTemperature": 31.1,
-    "maxPrecipitationProbability": 18,
+    "maxTemperature": 31.5,
+    "maxPrecipitationProbability": 22,
     "nextRainTime": "2026-05-30T12:00",
-    "nextRainProbability": 1,
-    "peakRainTime": null
+    "nextRainProbability": 15,
+    "peakRainTime": "2026-05-30T16:00"
   },
   "emergency": {
     "shouldSend": true,
@@ -44,7 +44,7 @@
     "severity": "WARNING",
     "title": "🚨 Emergency Alert",
     "reasons": [
-      "AQI Mencapai 199, Masuk Kategori Tidak Sehat Atau Lebih Buruk.",
+      "AQI Mencapai 170, Masuk Kategori Tidak Sehat Atau Lebih Buruk.",
       "BMKG mengeluarkan peringatan dini cuaca yang relevan dengan Bogor: Hujan Lebat disertai Petir di Jawa Barat."
     ]
   },
@@ -56,8 +56,8 @@
   "bmkgWarning": {
     "isActive": true,
     "title": "Hujan Lebat disertai Petir di Jawa Barat",
-    "description": "Hujan lebat disertai petir akan terjadi pada 29 May 2026, 17:20 WIB di sebagian wilayah Jawa Barat, khususnya di Bojonggenteng, Campaka, Campakamulya, Cibadak, Cibeber, Cijambe, Cikakak, Cikidang, Cireunghas, Dawuan, Dawuan, Gekbrong, Jalancagak, Jatitujuh, Jatiwangi, Kabandungan, Kalapanunggal, Kiarapedes, Ligung, Pagelaran, Parakansalak, Sagalaherang, Serangpanjang, Subang, Sukalarang, Sukaraja, Wanayasa.\n Kondisi ini berpotensi menimbulkan dampak berupa jarak pandang berkurang, angin kencang, dan banjir lokal.\n Masyarakat dihimbau untuk tetap waspada, mengurangi aktivitas di luar ruangan, serta mengambil langkah-langkah pencegahan yang diperlukan guna menjaga keselamatan.\n Kondisi diperkirakan dapat berlangsung hingga 29 May 2026, 20:00 WIB.",
-    "publishedAt": "Fri, 29 May 2026 17:09:00 +0700",
+    "description": "Hujan lebat disertai petir akan terjadi pada 29 May 2026, 19:25 WIB di sebagian wilayah Jawa Barat, khususnya di Bojong, Bojonggenteng, Cicurug, Cidahu, Cikakak, Cisitu, Cisolok, Darangdan, Ganeas, Jalancagak, Kabandungan, Kalapanunggal, Kiarapedes, Pamulihan, Parakansalak, Pondoksalam, Sagalaherang, Serangpanjang, Situraja, Wanayasa.\n Kondisi ini berpotensi menimbulkan dampak berupa jarak pandang berkurang, angin kencang, dan banjir lokal.\n Masyarakat dihimbau untuk tetap waspada, mengurangi aktivitas di luar ruangan, serta mengambil langkah-langkah pencegahan yang diperlukan guna menjaga keselamatan.\n Kondisi diperkirakan dapat berlangsung hingga 29 May 2026, 22:00 WIB.",
+    "publishedAt": "Fri, 29 May 2026 19:14:00 +0700",
     "matchedKeywords": [
       "jawa barat"
     ]
