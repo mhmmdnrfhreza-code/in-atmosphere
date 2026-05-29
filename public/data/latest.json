@@ -1,7 +1,7 @@
 {
   "appName": "In Atmosphere",
   "city": "Kota Bogor",
-  "generatedAt": "2026-05-29T16:26:19.313Z",
+  "generatedAt": "2026-05-29T19:13:06.265Z",
   "reportMode": "emergency-watch",
   "overallStatus": {
     "label": "Perlu Perhatian",
@@ -9,33 +9,33 @@
     "level": "warning"
   },
   "weather": {
-    "temperature": 22.9,
-    "humidity": 96,
+    "temperature": 23.1,
+    "humidity": 92,
     "rain": 0,
-    "windSpeed": 7,
-    "windGust": 13
+    "windSpeed": 7.5,
+    "windGust": 16.2
   },
   "airQuality": {
-    "usAqi": 164,
+    "usAqi": 168,
     "aqiLabel": "Tidak Sehat",
     "aqiEmoji": "🔴",
-    "pm25": 163.9,
-    "pm10": 164.4,
+    "pm25": 129.5,
+    "pm10": 129.5,
     "ozone": 0
   },
   "uv": {
     "current": 0,
-    "maxToday": 7.55,
+    "maxToday": 7.6,
     "label": "Rendah",
     "emoji": "🟢",
     "advice": "Indeks Radiasi UV Berada Pada Tingkat Minimum. Risiko Kerusakan Kulit Sangat Rendah Bagi Mayoritas Orang. Aman Untuk Beraktivitas Normal Di Luar Ruangan Tanpa Perlindungan Khusus. Namun, Bagi Individu Dengan Kulit Yang Sangat Sensitif Atau Jika Harus Berada Di Bawah Terik Matahari Dalam Durasi Yang Sangat Lama, Penggunaan Kacamata Hitam, Penggunaan Tabir Surya (Sunscreen) Dengan Proteksi Minimal Terhadap UV-A dan UV-B (SPF 15+) Tetap Disarankan."
   },
   "forecast": {
-    "minTemperature": 20.8,
-    "maxTemperature": 31.5,
-    "maxPrecipitationProbability": 22,
-    "nextRainTime": "2026-05-30T12:00",
-    "nextRainProbability": 6,
+    "minTemperature": 22.5,
+    "maxTemperature": 30.6,
+    "maxPrecipitationProbability": 39,
+    "nextRainTime": "2026-05-30T13:00",
+    "nextRainProbability": 12,
     "peakRainTime": null
   },
   "emergency": {
@@ -44,7 +44,7 @@
     "severity": "WARNING",
     "title": "🚨 Emergency Alert",
     "reasons": [
-      "AQI Mencapai 164, Masuk Kategori Tidak Sehat Atau Lebih Buruk.",
+      "AQI Mencapai 168, Masuk Kategori Tidak Sehat Atau Lebih Buruk.",
       "BMKG mengeluarkan peringatan dini cuaca yang relevan dengan Bogor: Hujan Lebat disertai Petir di Jawa Barat."
     ]
   },
@@ -56,8 +56,8 @@
   "bmkgWarning": {
     "isActive": true,
     "title": "Hujan Lebat disertai Petir di Jawa Barat",
-    "description": "Hujan lebat disertai petir akan terjadi pada 29 May 2026, 22:05 WIB di sebagian wilayah Jawa Barat, khususnya di Cibeber, Cipongkor, Rongga, Sindangkerta, Warungkondang.\n Kondisi ini berpotensi menimbulkan dampak berupa jarak pandang berkurang, angin kencang, dan banjir lokal.\n Masyarakat dihimbau untuk tetap waspada, mengurangi aktivitas di luar ruangan, serta mengambil langkah-langkah pencegahan yang diperlukan guna menjaga keselamatan.\n Kondisi diperkirakan dapat berlangsung hingga 29 May 2026, 23:55 WIB.",
-    "publishedAt": "Fri, 29 May 2026 21:55:00 +0700",
+    "description": "Hujan lebat disertai petir akan terjadi pada 29 May 2026, 23:49 WIB di sebagian wilayah Jawa Barat, khususnya di Cibeber, Cilaku, Rongga, Sukaluyu.\n Kondisi ini berpotensi menimbulkan dampak berupa jarak pandang berkurang, angin kencang, dan banjir lokal.\n Masyarakat dihimbau untuk tetap waspada, mengurangi aktivitas di luar ruangan, serta mengambil langkah-langkah pencegahan yang diperlukan guna menjaga keselamatan.\n Kondisi diperkirakan dapat berlangsung hingga 30 May 2026, 03:00 WIB.",
+    "publishedAt": "Fri, 29 May 2026 23:39:00 +0700",
     "matchedKeywords": [
       "jawa barat"
     ]
