@@ -1,16 +1,16 @@
 {
-  "lastAqi": 162,
+  "lastAqi": 161,
   "lastUvIndex": 0,
   "lastRain": 0,
-  "lastWindGust": 15.5,
-  "lastCheckedAt": "2026-05-30T19:38:47.173Z",
+  "lastWindGust": 16.2,
+  "lastCheckedAt": "2026-05-30T21:11:36.355Z",
   "lastEmergencyAlert": {
     "type": "AIR_QUALITY",
     "severity": "WARNING",
     "sentAt": "2026-05-30T19:38:47.173Z"
   },
   "currentStatusMessageId": "1506335447398482001",
-  "currentStatusUpdatedAt": "2026-05-30T19:38:47.173Z",
+  "currentStatusUpdatedAt": "2026-05-30T21:11:36.355Z",
   "activeEmergencyMessageId": "1510366889363247365",
   "previousEmergencyMessageId": "1510320968520827120",
   "activeEmergencyFingerprint": "type=AIR_QUALITY|severity=WARNING|reasons=aqi mencapai 162, masuk kategori tidak sehat atau lebih buruk.|bmkg=false|aqi=UNHEALTHY|uv=LOW|weather=NORMAL",
