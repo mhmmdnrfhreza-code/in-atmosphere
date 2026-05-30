@@ -1,7 +1,7 @@
 {
   "appName": "In Atmosphere",
   "city": "Kota Bogor",
-  "generatedAt": "2026-05-30T07:47:17.999Z",
+  "generatedAt": "2026-05-30T10:09:34.825Z",
   "reportMode": "emergency-watch",
   "overallStatus": {
     "label": "Perlu Perhatian",
@@ -9,22 +9,22 @@
     "level": "warning"
   },
   "weather": {
-    "temperature": 30.4,
-    "humidity": 62,
-    "rain": 0,
-    "windSpeed": 4.1,
-    "windGust": 17.3
+    "temperature": 28,
+    "humidity": 76,
+    "rain": 0.1,
+    "windSpeed": 5.2,
+    "windGust": 16.2
   },
   "airQuality": {
-    "usAqi": 169,
+    "usAqi": 196,
     "aqiLabel": "Tidak Sehat",
     "aqiEmoji": "🔴",
-    "pm25": 52.5,
-    "pm10": 53.6,
-    "ozone": 255
+    "pm25": 75.7,
+    "pm10": 76.8,
+    "ozone": 170
   },
   "uv": {
-    "current": 2.7,
+    "current": 0.05,
     "maxToday": 7.15,
     "label": "Rendah",
     "emoji": "🟢",
@@ -40,11 +40,12 @@
   },
   "emergency": {
     "shouldSend": true,
-    "type": "AIR_QUALITY",
+    "type": "MULTI_RISK",
     "severity": "WARNING",
     "title": "🚨 Emergency Alert",
     "reasons": [
-      "AQI Mencapai 169, Masuk Kategori Tidak Sehat Atau Lebih Buruk."
+      "AQI Mencapai 196, Masuk Kategori Tidak Sehat Atau Lebih Buruk.",
+      "BMKG mengeluarkan peringatan dini cuaca yang relevan dengan Bogor: Hujan Lebat disertai Petir di Jawa Barat."
     ]
   },
   "advice": {
@@ -53,11 +54,13 @@
     "sensitiveGroup": "Anak-Anak, Lansia, Dan Orang Dengan Gangguan Pernapasan Sebaiknya Berada Di Dalam Ruangan."
   },
   "bmkgWarning": {
-    "isActive": false,
-    "title": null,
-    "description": null,
-    "publishedAt": null,
-    "matchedKeywords": []
+    "isActive": true,
+    "title": "Hujan Lebat disertai Petir di Jawa Barat",
+    "description": "Hujan lebat disertai petir akan terjadi pada 30 May 2026, 16:07 WIB di sebagian wilayah Jawa Barat, khususnya di Baleendah, Bojongsoang, Cisalak, Jatiluhur, Sukatani.\n Kondisi ini berpotensi menimbulkan dampak berupa jarak pandang berkurang, angin kencang, dan banjir lokal.\n Masyarakat dihimbau untuk tetap waspada, mengurangi aktivitas di luar ruangan, serta mengambil langkah-langkah pencegahan yang diperlukan guna menjaga keselamatan.\n Kondisi diperkirakan dapat berlangsung hingga 30 May 2026, 17:30 WIB.",
+    "publishedAt": "Sat, 30 May 2026 15:57:00 +0700",
+    "matchedKeywords": [
+      "jawa barat"
+    ]
   },
   "sources": [
     "Open-Meteo Weather API",
