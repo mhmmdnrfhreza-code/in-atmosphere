@@ -1,16 +1,16 @@
 {
-  "lastAqi": 196,
-  "lastUvIndex": 0.05,
-  "lastRain": 0.1,
-  "lastWindGust": 16.2,
-  "lastCheckedAt": "2026-05-30T10:09:34.825Z",
+  "lastAqi": 183,
+  "lastUvIndex": 0,
+  "lastRain": 0,
+  "lastWindGust": 5.4,
+  "lastCheckedAt": "2026-05-30T11:46:24.654Z",
   "lastEmergencyAlert": {
     "type": "MULTI_RISK",
     "severity": "WARNING",
     "sentAt": "2026-05-30T10:09:34.825Z"
   },
   "currentStatusMessageId": "1506335447398482001",
-  "currentStatusUpdatedAt": "2026-05-30T10:09:34.825Z",
+  "currentStatusUpdatedAt": "2026-05-30T11:46:24.654Z",
   "activeEmergencyMessageId": "1510223642548764806",
   "previousEmergencyMessageId": "1510187837058711684",
   "activeEmergencyFingerprint": "type=MULTI_RISK|severity=WARNING|reasons=aqi mencapai 196, masuk kategori tidak sehat atau lebih buruk.;bmkg mengeluarkan peringatan dini cuaca yang relevan dengan bogor: hujan lebat disertai petir di jawa barat.|bmkg=true|aqi=UNHEALTHY|uv=LOW|weather=NORMAL",
