@@ -1,7 +1,7 @@
 {
   "appName": "In Atmosphere",
   "city": "Kota Bogor",
-  "generatedAt": "2026-05-30T14:00:21.442Z",
+  "generatedAt": "2026-05-30T15:18:44.001Z",
   "reportMode": "emergency-watch",
   "overallStatus": {
     "label": "Perlu Perhatian",
@@ -9,19 +9,19 @@
     "level": "warning"
   },
   "weather": {
-    "temperature": 24.8,
-    "humidity": 89,
+    "temperature": 23.9,
+    "humidity": 92,
     "rain": 0,
-    "windSpeed": 4,
-    "windGust": 7.9
+    "windSpeed": 4.5,
+    "windGust": 9.4
   },
   "airQuality": {
-    "usAqi": 165,
+    "usAqi": 164,
     "aqiLabel": "Tidak Sehat",
     "aqiEmoji": "🔴",
-    "pm25": 93.1,
-    "pm10": 93.4,
-    "ozone": 31
+    "pm25": 99.7,
+    "pm10": 99.9,
+    "ozone": 18
   },
   "uv": {
     "current": 0,
@@ -33,34 +33,31 @@
   "forecast": {
     "minTemperature": 22.8,
     "maxTemperature": 31.6,
-    "maxPrecipitationProbability": 72,
+    "maxPrecipitationProbability": 56,
     "nextRainTime": "2026-05-30T12:00",
-    "nextRainProbability": 7,
-    "peakRainTime": "2026-05-30T17:00"
+    "nextRainProbability": 9,
+    "peakRainTime": "2026-05-31T16:00"
   },
   "emergency": {
     "shouldSend": true,
-    "type": "MULTI_RISK",
+    "type": "AIR_QUALITY",
     "severity": "WARNING",
     "title": "🚨 Emergency Alert",
     "reasons": [
-      "AQI Mencapai 165, Masuk Kategori Tidak Sehat Atau Lebih Buruk.",
-      "BMKG mengeluarkan peringatan dini cuaca yang relevan dengan Bogor: Hujan Lebat disertai Petir di Jawa Barat."
+      "AQI Mencapai 164, Masuk Kategori Tidak Sehat Atau Lebih Buruk."
     ]
   },
   "advice": {
-    "general": "Kualitas Udara Sedang Tidak Sehat. Kurangi Paparan Udara Luar Jika Memungkinkan. Ada Peluang Hujan Cukup Tinggi, Siapkan Payung/Jas Hujan.",
+    "general": "Kualitas Udara Sedang Tidak Sehat. Kurangi Paparan Udara Luar Jika Memungkinkan.",
     "outdoor": "Kurangi Aktivitas Luar Ruangan Berat Dan Pertimbangkan Memakai Masker.",
     "sensitiveGroup": "Anak-Anak, Lansia, Dan Orang Dengan Gangguan Pernapasan Sebaiknya Berada Di Dalam Ruangan."
   },
   "bmkgWarning": {
-    "isActive": true,
-    "title": "Hujan Lebat disertai Petir di Jawa Barat",
-    "description": "Hujan lebat disertai petir akan terjadi pada 30 May 2026, 19:09 WIB di sebagian wilayah Jawa Barat, khususnya di Bojongpicung, Karangtengah, Kasomalang, Sukaluyu, Tanjungmedar, Tanjungsiang.\n Kondisi ini berpotensi menimbulkan dampak berupa jarak pandang berkurang, angin kencang, dan banjir lokal.\n Masyarakat dihimbau untuk tetap waspada, mengurangi aktivitas di luar ruangan, serta mengambil langkah-langkah pencegahan yang diperlukan guna menjaga keselamatan.\n Kondisi diperkirakan dapat berlangsung hingga 30 May 2026, 20:30 WIB.",
-    "publishedAt": "Sat, 30 May 2026 18:59:00 +0700",
-    "matchedKeywords": [
-      "jawa barat"
-    ]
+    "isActive": false,
+    "title": null,
+    "description": null,
+    "publishedAt": null,
+    "matchedKeywords": []
   },
   "sources": [
     "Open-Meteo Weather API",
