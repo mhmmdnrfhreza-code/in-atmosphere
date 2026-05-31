@@ -1,7 +1,7 @@
 {
   "appName": "In Atmosphere",
   "city": "Kota Bogor",
-  "generatedAt": "2026-05-31T21:36:20.582Z",
+  "generatedAt": "2026-05-31T22:38:00.774Z",
   "reportMode": "emergency-watch",
   "overallStatus": {
     "label": "Perlu Perhatian",
@@ -9,18 +9,18 @@
     "level": "warning"
   },
   "weather": {
-    "temperature": 23,
+    "temperature": 22.9,
     "humidity": 91,
     "rain": 0,
-    "windSpeed": 4.1,
-    "windGust": 9.7
+    "windSpeed": 3.4,
+    "windGust": 9.4
   },
   "airQuality": {
-    "usAqi": 172,
+    "usAqi": 173,
     "aqiLabel": "Tidak Sehat",
     "aqiEmoji": "🔴",
-    "pm25": 149,
-    "pm10": 149.5,
+    "pm25": 146.7,
+    "pm10": 147.6,
     "ozone": 5
   },
   "uv": {
@@ -44,7 +44,7 @@
     "severity": "WARNING",
     "title": "🚨 Emergency Alert",
     "reasons": [
-      "AQI Mencapai 172, Masuk Kategori Tidak Sehat Atau Lebih Buruk."
+      "AQI Mencapai 173, Masuk Kategori Tidak Sehat Atau Lebih Buruk."
     ]
   },
   "advice": {
