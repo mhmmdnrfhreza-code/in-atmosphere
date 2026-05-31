@@ -1,30 +1,30 @@
 {
   "appName": "In Atmosphere",
   "city": "Kota Bogor",
-  "generatedAt": "2026-05-31T10:33:18.197Z",
-  "reportMode": "emergency-watch",
+  "generatedAt": "2026-05-31T11:51:57.465Z",
+  "reportMode": "rush-hour",
   "overallStatus": {
     "label": "Perlu Perhatian",
     "description": "Sistem mendeteksi kondisi yang perlu diperhatikan. Lihat bagian emergency dan saran praktis.",
     "level": "warning"
   },
   "weather": {
-    "temperature": 26,
-    "humidity": 89,
+    "temperature": 25.4,
+    "humidity": 94,
     "rain": 0,
     "windSpeed": 1.9,
-    "windGust": 11.5
+    "windGust": 5.4
   },
   "airQuality": {
     "usAqi": 165,
     "aqiLabel": "Tidak Sehat",
     "aqiEmoji": "🔴",
-    "pm25": 70.8,
-    "pm10": 72.2,
-    "ozone": 169
+    "pm25": 88.7,
+    "pm10": 89.9,
+    "ozone": 71
   },
   "uv": {
-    "current": 0.05,
+    "current": 0,
     "maxToday": 7.6,
     "label": "Rendah",
     "emoji": "🟢",
@@ -57,8 +57,8 @@
   "bmkgWarning": {
     "isActive": true,
     "title": "Hujan Lebat disertai Petir di Jawa Barat",
-    "description": "Hujan lebat disertai petir akan terjadi pada 31 May 2026, 16:17 WIB di sebagian wilayah Jawa Barat, khususnya di Pondoksalam.\n Kondisi ini berpotensi menimbulkan dampak berupa jarak pandang berkurang, angin kencang, dan banjir lokal.\n Masyarakat dihimbau untuk tetap waspada, mengurangi aktivitas di luar ruangan, serta mengambil langkah-langkah pencegahan yang diperlukan guna menjaga keselamatan.\n Kondisi diperkirakan dapat berlangsung hingga 31 May 2026, 18:07 WIB.",
-    "publishedAt": "Sun, 31 May 2026 16:07:00 +0700",
+    "description": "Hujan lebat disertai petir akan terjadi pada 31 May 2026, 18:24 WIB di sebagian wilayah Jawa Barat, khususnya di Cipongkor, Kiarapedes, Rongga, Serangpanjang.\n Kondisi ini berpotensi menimbulkan dampak berupa jarak pandang berkurang, angin kencang, dan banjir lokal.\n Masyarakat dihimbau untuk tetap waspada, mengurangi aktivitas di luar ruangan, serta mengambil langkah-langkah pencegahan yang diperlukan guna menjaga keselamatan.\n Kondisi diperkirakan dapat berlangsung hingga 31 May 2026, 21:14 WIB.",
+    "publishedAt": "Sun, 31 May 2026 18:14:00 +0700",
     "matchedKeywords": [
       "jawa barat"
     ]
