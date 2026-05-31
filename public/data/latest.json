@@ -1,7 +1,7 @@
 {
   "appName": "In Atmosphere",
   "city": "Kota Bogor",
-  "generatedAt": "2026-05-31T08:20:09.410Z",
+  "generatedAt": "2026-05-31T10:33:18.197Z",
   "reportMode": "emergency-watch",
   "overallStatus": {
     "label": "Perlu Perhatian",
@@ -9,22 +9,22 @@
     "level": "warning"
   },
   "weather": {
-    "temperature": 27.1,
-    "humidity": 77,
-    "rain": 0.4,
-    "windSpeed": 1.5,
-    "windGust": 16.9
+    "temperature": 26,
+    "humidity": 89,
+    "rain": 0,
+    "windSpeed": 1.9,
+    "windGust": 11.5
   },
   "airQuality": {
     "usAqi": 165,
     "aqiLabel": "Tidak Sehat",
     "aqiEmoji": "🔴",
-    "pm25": 68.9,
-    "pm10": 70.5,
-    "ozone": 222
+    "pm25": 70.8,
+    "pm10": 72.2,
+    "ozone": 169
   },
   "uv": {
-    "current": 1.55,
+    "current": 0.05,
     "maxToday": 7.6,
     "label": "Rendah",
     "emoji": "🟢",
@@ -40,12 +40,13 @@
   },
   "emergency": {
     "shouldSend": true,
-    "type": "AIR_QUALITY",
+    "type": "MULTI_RISK",
     "severity": "WARNING",
     "title": "🚨 Emergency Alert",
     "reasons": [
       "AQI Mencapai 165, Masuk Kategori Tidak Sehat Atau Lebih Buruk.",
-      "Peluang Hujan Hari Ini Mencapai 88%."
+      "Peluang Hujan Hari Ini Mencapai 88%.",
+      "BMKG mengeluarkan peringatan dini cuaca yang relevan dengan Bogor: Hujan Lebat disertai Petir di Jawa Barat."
     ]
   },
   "advice": {
@@ -54,11 +55,13 @@
     "sensitiveGroup": "Anak-Anak, Lansia, Dan Orang Dengan Gangguan Pernapasan Sebaiknya Berada Di Dalam Ruangan."
   },
   "bmkgWarning": {
-    "isActive": false,
-    "title": null,
-    "description": null,
-    "publishedAt": null,
-    "matchedKeywords": []
+    "isActive": true,
+    "title": "Hujan Lebat disertai Petir di Jawa Barat",
+    "description": "Hujan lebat disertai petir akan terjadi pada 31 May 2026, 16:17 WIB di sebagian wilayah Jawa Barat, khususnya di Pondoksalam.\n Kondisi ini berpotensi menimbulkan dampak berupa jarak pandang berkurang, angin kencang, dan banjir lokal.\n Masyarakat dihimbau untuk tetap waspada, mengurangi aktivitas di luar ruangan, serta mengambil langkah-langkah pencegahan yang diperlukan guna menjaga keselamatan.\n Kondisi diperkirakan dapat berlangsung hingga 31 May 2026, 18:07 WIB.",
+    "publishedAt": "Sun, 31 May 2026 16:07:00 +0700",
+    "matchedKeywords": [
+      "jawa barat"
+    ]
   },
   "sources": [
     "Open-Meteo Weather API",
