@@ -1,7 +1,7 @@
 {
   "appName": "In Atmosphere",
   "city": "Kota Bogor",
-  "generatedAt": "2026-05-31T14:07:18.983Z",
+  "generatedAt": "2026-05-31T15:52:50.526Z",
   "reportMode": "emergency-watch",
   "overallStatus": {
     "label": "Perlu Perhatian",
@@ -9,19 +9,19 @@
     "level": "warning"
   },
   "weather": {
-    "temperature": 24.8,
-    "humidity": 92,
+    "temperature": 23.9,
+    "humidity": 93,
     "rain": 0,
-    "windSpeed": 2.7,
-    "windGust": 5.4
+    "windSpeed": 4.9,
+    "windGust": 9.4
   },
   "airQuality": {
     "usAqi": 166,
     "aqiLabel": "Tidak Sehat",
     "aqiEmoji": "🔴",
-    "pm25": 132.2,
-    "pm10": 133.2,
-    "ozone": 8
+    "pm25": 145.3,
+    "pm10": 146.2,
+    "ozone": 5
   },
   "uv": {
     "current": 0,
@@ -33,19 +33,18 @@
   "forecast": {
     "minTemperature": 22.8,
     "maxTemperature": 30.3,
-    "maxPrecipitationProbability": 65,
+    "maxPrecipitationProbability": 62,
     "nextRainTime": "2026-05-31T13:00",
     "nextRainProbability": 57,
     "peakRainTime": "2026-06-01T18:00"
   },
   "emergency": {
     "shouldSend": true,
-    "type": "MULTI_RISK",
+    "type": "AIR_QUALITY",
     "severity": "WARNING",
     "title": "🚨 Emergency Alert",
     "reasons": [
-      "AQI Mencapai 166, Masuk Kategori Tidak Sehat Atau Lebih Buruk.",
-      "BMKG mengeluarkan peringatan dini cuaca yang relevan dengan Bogor: Hujan Lebat disertai Petir di Jawa Barat."
+      "AQI Mencapai 166, Masuk Kategori Tidak Sehat Atau Lebih Buruk."
     ]
   },
   "advice": {
@@ -54,13 +53,11 @@
     "sensitiveGroup": "Anak-Anak, Lansia, Dan Orang Dengan Gangguan Pernapasan Sebaiknya Berada Di Dalam Ruangan."
   },
   "bmkgWarning": {
-    "isActive": true,
-    "title": "Hujan Lebat disertai Petir di Jawa Barat",
-    "description": "Hujan lebat disertai petir akan terjadi pada 31 May 2026, 18:24 WIB di sebagian wilayah Jawa Barat, khususnya di Cipongkor, Kiarapedes, Rongga, Serangpanjang.\n Kondisi ini berpotensi menimbulkan dampak berupa jarak pandang berkurang, angin kencang, dan banjir lokal.\n Masyarakat dihimbau untuk tetap waspada, mengurangi aktivitas di luar ruangan, serta mengambil langkah-langkah pencegahan yang diperlukan guna menjaga keselamatan.\n Kondisi diperkirakan dapat berlangsung hingga 31 May 2026, 21:14 WIB.",
-    "publishedAt": "Sun, 31 May 2026 18:14:00 +0700",
-    "matchedKeywords": [
-      "jawa barat"
-    ]
+    "isActive": false,
+    "title": null,
+    "description": null,
+    "publishedAt": null,
+    "matchedKeywords": []
   },
   "sources": [
     "Open-Meteo Weather API",
