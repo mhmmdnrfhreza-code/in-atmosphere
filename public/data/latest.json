@@ -1,30 +1,30 @@
 {
   "appName": "In Atmosphere",
   "city": "Kota Bogor",
-  "generatedAt": "2026-06-01T10:39:17.924Z",
-  "reportMode": "emergency-watch",
+  "generatedAt": "2026-06-01T16:19:34.368Z",
+  "reportMode": "rush-hour",
   "overallStatus": {
     "label": "Perlu Perhatian",
     "description": "Sistem mendeteksi kondisi yang perlu diperhatikan. Lihat bagian emergency dan saran praktis.",
     "level": "warning"
   },
   "weather": {
-    "temperature": 25.5,
-    "humidity": 88,
+    "temperature": 24.4,
+    "humidity": 89,
     "rain": 0,
-    "windSpeed": 8.6,
-    "windGust": 24.8
+    "windSpeed": 6.4,
+    "windGust": 12.6
   },
   "airQuality": {
-    "usAqi": 173,
+    "usAqi": 170,
     "aqiLabel": "Tidak Sehat",
     "aqiEmoji": "🔴",
-    "pm25": 74.5,
-    "pm10": 76.1,
-    "ozone": 124
+    "pm25": 110.1,
+    "pm10": 110.4,
+    "ozone": 12
   },
   "uv": {
-    "current": 0.05,
+    "current": 0,
     "maxToday": 7.45,
     "label": "Rendah",
     "emoji": "🟢",
@@ -32,7 +32,7 @@
   },
   "forecast": {
     "minTemperature": 22.7,
-    "maxTemperature": 31,
+    "maxTemperature": 31.4,
     "maxPrecipitationProbability": 100,
     "nextRainTime": "2026-06-01T04:00",
     "nextRainProbability": 22,
@@ -44,7 +44,7 @@
     "severity": "WARNING",
     "title": "🚨 Emergency Alert",
     "reasons": [
-      "AQI Mencapai 173, Masuk Kategori Tidak Sehat Atau Lebih Buruk.",
+      "AQI Mencapai 170, Masuk Kategori Tidak Sehat Atau Lebih Buruk.",
       "Peluang Hujan Hari Ini Mencapai 100%.",
       "BMKG mengeluarkan peringatan dini cuaca yang relevan dengan Bogor: Hujan Lebat disertai Petir di Jawa Barat."
     ]
@@ -57,8 +57,8 @@
   "bmkgWarning": {
     "isActive": true,
     "title": "Hujan Lebat disertai Petir di Jawa Barat",
-    "description": "Hujan lebat disertai petir akan terjadi pada 01 June 2026, 17:00 WIB di sebagian wilayah Jawa Barat, khususnya di Kabandungan, Kalapanunggal.\n Kondisi ini berpotensi menimbulkan dampak berupa jarak pandang berkurang, angin kencang, dan banjir lokal.\n Masyarakat dihimbau untuk tetap waspada, mengurangi aktivitas di luar ruangan, serta mengambil langkah-langkah pencegahan yang diperlukan guna menjaga keselamatan.\n Kondisi diperkirakan dapat berlangsung hingga 01 June 2026, 20:00 WIB.",
-    "publishedAt": "Mon, 01 Jun 2026 16:50:00 +0700",
+    "description": "Hujan lebat disertai petir akan terjadi pada 01 June 2026, 21:35 WIB di sebagian wilayah Jawa Barat, khususnya di Bojonggenteng, Cibadak, Cidahu, Cikakak, Cikidang, Cisolok, Kabandungan, Kalapanunggal, Parakansalak, Parungkuda.\n Kondisi ini berpotensi menimbulkan dampak berupa jarak pandang berkurang, angin kencang, dan banjir lokal.\n Masyarakat dihimbau untuk tetap waspada, mengurangi aktivitas di luar ruangan, serta mengambil langkah-langkah pencegahan yang diperlukan guna menjaga keselamatan.\n Kondisi diperkirakan dapat berlangsung hingga 02 June 2026, 00:25 WIB.",
+    "publishedAt": "Mon, 01 Jun 2026 21:25:00 +0700",
     "matchedKeywords": [
       "jawa barat"
     ]
