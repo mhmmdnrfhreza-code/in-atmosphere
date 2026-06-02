@@ -1,27 +1,27 @@
 {
   "appName": "In Atmosphere",
   "city": "Kota Bogor",
-  "generatedAt": "2026-06-02T11:06:56.362Z",
-  "reportMode": "emergency-watch",
+  "generatedAt": "2026-06-02T14:33:31.689Z",
+  "reportMode": "rush-hour",
   "overallStatus": {
     "label": "Perlu Perhatian",
     "description": "Sistem mendeteksi kondisi yang perlu diperhatikan. Lihat bagian emergency dan saran praktis.",
     "level": "warning"
   },
   "weather": {
-    "temperature": 27.8,
-    "humidity": 76,
+    "temperature": 25.9,
+    "humidity": 82,
     "rain": 0,
-    "windSpeed": 4.5,
-    "windGust": 8.3
+    "windSpeed": 2.3,
+    "windGust": 5
   },
   "airQuality": {
-    "usAqi": 200,
+    "usAqi": 170,
     "aqiLabel": "Tidak Sehat",
     "aqiEmoji": "🔴",
-    "pm25": 112.9,
-    "pm10": 113.9,
-    "ozone": 84
+    "pm25": 129,
+    "pm10": 129.9,
+    "ozone": 5
   },
   "uv": {
     "current": 0,
@@ -32,20 +32,19 @@
   },
   "forecast": {
     "minTemperature": 22.4,
-    "maxTemperature": 31.4,
-    "maxPrecipitationProbability": 62,
+    "maxTemperature": 31.9,
+    "maxPrecipitationProbability": 63,
     "nextRainTime": "2026-06-02T13:00",
-    "nextRainProbability": 59,
-    "peakRainTime": "2026-06-03T19:00"
+    "nextRainProbability": 25,
+    "peakRainTime": "2026-06-03T18:00"
   },
   "emergency": {
     "shouldSend": true,
-    "type": "MULTI_RISK",
+    "type": "AIR_QUALITY",
     "severity": "WARNING",
     "title": "🚨 Emergency Alert",
     "reasons": [
-      "AQI Mencapai 200, Masuk Kategori Tidak Sehat Atau Lebih Buruk.",
-      "BMKG mengeluarkan peringatan dini cuaca yang relevan dengan Bogor: Hujan Lebat disertai Petir di Jakarta."
+      "AQI Mencapai 170, Masuk Kategori Tidak Sehat Atau Lebih Buruk."
     ]
   },
   "advice": {
@@ -54,13 +53,11 @@
     "sensitiveGroup": "Anak-Anak, Lansia, Dan Orang Dengan Gangguan Pernapasan Sebaiknya Berada Di Dalam Ruangan."
   },
   "bmkgWarning": {
-    "isActive": true,
-    "title": "Hujan Lebat disertai Petir di Jakarta",
-    "description": "Hujan lebat disertai petir akan terjadi pada 02 June 2026, 16:45 WIB di sebagian wilayah Jakarta, khususnya di Bogor Barat, Bogor Selatan, Bogor Tengah, Ciomas, Nanggung, Sukajaya.\n Kondisi ini berpotensi menimbulkan dampak berupa jarak pandang berkurang, angin kencang, dan banjir lokal.\n Masyarakat dihimbau untuk tetap waspada, mengurangi aktivitas di luar ruangan, serta mengambil langkah-langkah pencegahan yang diperlukan guna menjaga keselamatan.\n Kondisi diperkirakan dapat berlangsung hingga 02 June 2026, 18:30 WIB.",
-    "publishedAt": "Tue, 02 Jun 2026 16:35:00 +0700",
-    "matchedKeywords": [
-      "bogor"
-    ]
+    "isActive": false,
+    "title": null,
+    "description": null,
+    "publishedAt": null,
+    "matchedKeywords": []
   },
   "sources": [
     "Open-Meteo Weather API",
