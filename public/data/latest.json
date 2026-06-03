@@ -1,30 +1,30 @@
 {
   "appName": "In Atmosphere",
   "city": "Kota Bogor",
-  "generatedAt": "2026-06-03T02:12:16.114Z",
-  "reportMode": "morning",
+  "generatedAt": "2026-06-03T05:05:50.934Z",
+  "reportMode": "emergency-watch",
   "overallStatus": {
     "label": "Perlu Perhatian",
     "description": "Sistem mendeteksi kondisi yang perlu diperhatikan. Lihat bagian emergency dan saran praktis.",
     "level": "warning"
   },
   "weather": {
-    "temperature": 28.3,
-    "humidity": 71,
-    "rain": 0,
-    "windSpeed": 1,
-    "windGust": 9.7
+    "temperature": 30.2,
+    "humidity": 66,
+    "rain": 0.1,
+    "windSpeed": 5.9,
+    "windGust": 18
   },
   "airQuality": {
-    "usAqi": 171,
+    "usAqi": 172,
     "aqiLabel": "Tidak Sehat",
     "aqiEmoji": "🔴",
-    "pm25": 79.6,
-    "pm10": 82.7,
-    "ozone": 82
+    "pm25": 53.4,
+    "pm10": 55.4,
+    "ozone": 192
   },
   "uv": {
-    "current": 3.25,
+    "current": 5.75,
     "maxToday": 7.5,
     "label": "Sedang",
     "emoji": "🟡",
@@ -33,10 +33,10 @@
   "forecast": {
     "minTemperature": 23.2,
     "maxTemperature": 30.5,
-    "maxPrecipitationProbability": 61,
+    "maxPrecipitationProbability": 82,
     "nextRainTime": "2026-06-03T01:00",
     "nextRainProbability": 25,
-    "peakRainTime": "2026-06-04T17:00"
+    "peakRainTime": "2026-06-03T19:00"
   },
   "emergency": {
     "shouldSend": true,
@@ -44,11 +44,11 @@
     "severity": "WARNING",
     "title": "🚨 Emergency Alert",
     "reasons": [
-      "AQI Mencapai 171, Masuk Kategori Tidak Sehat Atau Lebih Buruk."
+      "AQI Mencapai 172, Masuk Kategori Tidak Sehat Atau Lebih Buruk."
     ]
   },
   "advice": {
-    "general": "Kualitas Udara Sedang Tidak Sehat. Kurangi Paparan Udara Luar Jika Memungkinkan.",
+    "general": "Kualitas Udara Sedang Tidak Sehat. Kurangi Paparan Udara Luar Jika Memungkinkan. Ada Peluang Hujan Cukup Tinggi, Siapkan Payung/Jas Hujan.",
     "outdoor": "Kurangi Aktivitas Luar Ruangan Berat Dan Pertimbangkan Memakai Masker.",
     "sensitiveGroup": "Anak-Anak, Lansia, Dan Orang Dengan Gangguan Pernapasan Sebaiknya Berada Di Dalam Ruangan."
   },
