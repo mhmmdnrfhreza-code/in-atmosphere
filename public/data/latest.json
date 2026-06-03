@@ -1,42 +1,42 @@
 {
   "appName": "In Atmosphere",
   "city": "Kota Bogor",
-  "generatedAt": "2026-06-03T15:07:18.108Z",
-  "reportMode": "rush-hour",
+  "generatedAt": "2026-06-03T18:54:21.864Z",
+  "reportMode": "emergency-watch",
   "overallStatus": {
     "label": "Perlu Perhatian",
     "description": "Sistem mendeteksi kondisi yang perlu diperhatikan. Lihat bagian emergency dan saran praktis.",
     "level": "warning"
   },
   "weather": {
-    "temperature": 24.9,
-    "humidity": 92,
+    "temperature": 24,
+    "humidity": 90,
     "rain": 0,
-    "windSpeed": 2.7,
-    "windGust": 7.6
+    "windSpeed": 5.4,
+    "windGust": 10.8
   },
   "airQuality": {
-    "usAqi": 171,
+    "usAqi": 172,
     "aqiLabel": "Tidak Sehat",
     "aqiEmoji": "🔴",
-    "pm25": 137.4,
-    "pm10": 137.8,
+    "pm25": 143,
+    "pm10": 143.4,
     "ozone": 3
   },
   "uv": {
     "current": 0,
-    "maxToday": 7.45,
+    "maxToday": 7.35,
     "label": "Rendah",
     "emoji": "🟢",
     "advice": "Indeks Radiasi UV Berada Pada Tingkat Minimum. Risiko Kerusakan Kulit Sangat Rendah Bagi Mayoritas Orang. Aman Untuk Beraktivitas Normal Di Luar Ruangan Tanpa Perlindungan Khusus. Namun, Bagi Individu Dengan Kulit Yang Sangat Sensitif Atau Jika Harus Berada Di Bawah Terik Matahari Dalam Durasi Yang Sangat Lama, Penggunaan Kacamata Hitam, Penggunaan Tabir Surya (Sunscreen) Dengan Proteksi Minimal Terhadap UV-A dan UV-B (SPF 15+) Tetap Disarankan."
   },
   "forecast": {
-    "minTemperature": 23.2,
+    "minTemperature": 23.1,
     "maxTemperature": 31,
-    "maxPrecipitationProbability": 69,
-    "nextRainTime": "2026-06-03T01:00",
-    "nextRainProbability": 25,
-    "peakRainTime": "2026-06-04T17:00"
+    "maxPrecipitationProbability": 51,
+    "nextRainTime": "2026-06-04T00:00",
+    "nextRainProbability": 26,
+    "peakRainTime": "2026-06-04T19:00"
   },
   "emergency": {
     "shouldSend": true,
@@ -44,7 +44,7 @@
     "severity": "WARNING",
     "title": "🚨 Emergency Alert",
     "reasons": [
-      "AQI Mencapai 171, Masuk Kategori Tidak Sehat Atau Lebih Buruk."
+      "AQI Mencapai 172, Masuk Kategori Tidak Sehat Atau Lebih Buruk."
     ]
   },
   "advice": {
