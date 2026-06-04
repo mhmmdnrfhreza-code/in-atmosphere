@@ -1,7 +1,7 @@
 {
   "appName": "In Atmosphere",
   "city": "Kota Bogor",
-  "generatedAt": "2026-06-04T08:56:59.421Z",
+  "generatedAt": "2026-06-04T16:02:57.598Z",
   "reportMode": "emergency-watch",
   "overallStatus": {
     "label": "Perlu Perhatian",
@@ -9,22 +9,22 @@
     "level": "warning"
   },
   "weather": {
-    "temperature": 30.6,
-    "humidity": 60,
-    "rain": 0.1,
-    "windSpeed": 3.2,
-    "windGust": 10.1
+    "temperature": 24.2,
+    "humidity": 94,
+    "rain": 0,
+    "windSpeed": 4,
+    "windGust": 10.4
   },
   "airQuality": {
-    "usAqi": 181,
+    "usAqi": 175,
     "aqiLabel": "Tidak Sehat",
     "aqiEmoji": "🔴",
-    "pm25": 52.7,
-    "pm10": 54.7,
-    "ozone": 197
+    "pm25": 142.5,
+    "pm10": 143,
+    "ozone": 3
   },
   "uv": {
-    "current": 1.25,
+    "current": 0,
     "maxToday": 7.45,
     "label": "Rendah",
     "emoji": "🟢",
@@ -33,10 +33,10 @@
   "forecast": {
     "minTemperature": 23.4,
     "maxTemperature": 31.4,
-    "maxPrecipitationProbability": 70,
+    "maxPrecipitationProbability": 73,
     "nextRainTime": "2026-06-04T00:00",
     "nextRainProbability": 22,
-    "peakRainTime": "2026-06-04T17:00"
+    "peakRainTime": "2026-06-04T16:00"
   },
   "emergency": {
     "shouldSend": true,
@@ -44,7 +44,7 @@
     "severity": "WARNING",
     "title": "🚨 Emergency Alert",
     "reasons": [
-      "AQI Mencapai 181, Masuk Kategori Tidak Sehat Atau Lebih Buruk.",
+      "AQI Mencapai 175, Masuk Kategori Tidak Sehat Atau Lebih Buruk.",
       "BMKG mengeluarkan peringatan dini cuaca yang relevan dengan Bogor: Hujan Lebat disertai Petir di Jawa Barat."
     ]
   },
@@ -56,8 +56,8 @@
   "bmkgWarning": {
     "isActive": true,
     "title": "Hujan Lebat disertai Petir di Jawa Barat",
-    "description": "Hujan lebat disertai petir akan terjadi pada 04 June 2026, 14:50 WIB di sebagian wilayah Jawa Barat, khususnya di Bantargadung, Caringin, Ciambar, Cibadak, Cicantayan, Cicurug, Cikidang, Cisaat, Citamiang, Kadudampit, Nagrak, Sukajadi, Warung Kiara.\n Kondisi ini berpotensi menimbulkan dampak berupa jarak pandang berkurang, angin kencang, dan banjir lokal.\n Masyarakat dihimbau untuk tetap waspada, mengurangi aktivitas di luar ruangan, serta mengambil langkah-langkah pencegahan yang diperlukan guna menjaga keselamatan.\n Kondisi diperkirakan dapat berlangsung hingga 04 June 2026, 17:00 WIB.",
-    "publishedAt": "Thu, 04 Jun 2026 14:40:00 +0700",
+    "description": "Hujan lebat disertai petir akan terjadi pada 04 June 2026, 22:20 WIB di sebagian wilayah Jawa Barat, khususnya di Bantarkalong, Cibalong, Cigugur, Cikatomas, Karangnunggal, Langkaplancar, Parigi, Sidamulih.\n Kondisi ini berpotensi menimbulkan dampak berupa jarak pandang berkurang, angin kencang, dan banjir lokal.\n Masyarakat dihimbau untuk tetap waspada, mengurangi aktivitas di luar ruangan, serta mengambil langkah-langkah pencegahan yang diperlukan guna menjaga keselamatan.\n Kondisi diperkirakan dapat berlangsung hingga 04 June 2026, 23:55 WIB.",
+    "publishedAt": "Thu, 04 Jun 2026 22:10:00 +0700",
     "matchedKeywords": [
       "jawa barat"
     ]
