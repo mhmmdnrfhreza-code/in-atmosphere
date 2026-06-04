@@ -1,22 +1,22 @@
 {
-  "lastAqi": 175,
+  "lastAqi": 174,
   "lastUvIndex": 0,
   "lastRain": 0,
-  "lastWindGust": 10.4,
-  "lastCheckedAt": "2026-06-04T16:02:57.598Z",
+  "lastWindGust": 9.4,
+  "lastCheckedAt": "2026-06-04T18:27:22.634Z",
   "lastEmergencyAlert": {
     "type": "MULTI_RISK",
     "severity": "WARNING",
-    "sentAt": "2026-06-04T16:02:57.598Z"
+    "sentAt": "2026-06-04T18:27:22.634Z"
   },
   "currentStatusMessageId": "1506335447398482001",
-  "currentStatusUpdatedAt": "2026-06-04T16:02:57.598Z",
-  "activeEmergencyMessageId": "1512124513670791312",
-  "previousEmergencyMessageId": "1512017315468935309",
-  "activeEmergencyFingerprint": "type=MULTI_RISK|severity=WARNING|reasons=aqi mencapai 175, masuk kategori tidak sehat atau lebih buruk.;bmkg mengeluarkan peringatan dini cuaca yang relevan dengan bogor: hujan lebat disertai petir di jawa barat.|bmkg=true|aqi=UNHEALTHY|uv=LOW|weather=NORMAL",
-  "previousEmergencyFingerprint": "type=MULTI_RISK|severity=WARNING|reasons=aqi mencapai 181, masuk kategori tidak sehat atau lebih buruk.;bmkg mengeluarkan peringatan dini cuaca yang relevan dengan bogor: hujan lebat disertai petir di jawa barat.|bmkg=true|aqi=UNHEALTHY|uv=LOW|weather=NORMAL",
-  "activeEmergencySentAt": "2026-06-04T16:02:57.598Z",
-  "previousEmergencySentAt": "2026-06-04T08:56:59.421Z",
+  "currentStatusUpdatedAt": "2026-06-04T18:27:22.634Z",
+  "activeEmergencyMessageId": "1512160857180868668",
+  "previousEmergencyMessageId": "1512124513670791312",
+  "activeEmergencyFingerprint": "type=MULTI_RISK|severity=WARNING|reasons=aqi mencapai 174, masuk kategori tidak sehat atau lebih buruk.;bmkg mengeluarkan peringatan dini cuaca yang relevan dengan bogor: hujan lebat disertai petir di jawa barat.|bmkg=true|aqi=UNHEALTHY|uv=LOW|weather=NORMAL",
+  "previousEmergencyFingerprint": "type=MULTI_RISK|severity=WARNING|reasons=aqi mencapai 175, masuk kategori tidak sehat atau lebih buruk.;bmkg mengeluarkan peringatan dini cuaca yang relevan dengan bogor: hujan lebat disertai petir di jawa barat.|bmkg=true|aqi=UNHEALTHY|uv=LOW|weather=NORMAL",
+  "activeEmergencySentAt": "2026-06-04T18:27:22.634Z",
+  "previousEmergencySentAt": "2026-06-04T16:02:57.598Z",
   "recoveryMessageId": null,
   "recoverySentAt": null,
   "recoveryFingerprint": null
