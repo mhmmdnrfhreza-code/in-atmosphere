@@ -1,7 +1,7 @@
 {
   "appName": "In Atmosphere",
   "city": "Kota Bogor",
-  "generatedAt": "2026-06-05T20:07:15.393Z",
+  "generatedAt": "2026-06-05T21:42:32.036Z",
   "reportMode": "emergency-watch",
   "overallStatus": {
     "label": "Perlu Perhatian",
@@ -9,18 +9,18 @@
     "level": "warning"
   },
   "weather": {
-    "temperature": 24.1,
-    "humidity": 93,
+    "temperature": 23.5,
+    "humidity": 94,
     "rain": 0,
-    "windSpeed": 3.1,
-    "windGust": 8.3
+    "windSpeed": 4,
+    "windGust": 9.4
   },
   "airQuality": {
     "usAqi": 164,
     "aqiLabel": "Tidak Sehat",
     "aqiEmoji": "🔴",
-    "pm25": 112.7,
-    "pm10": 112.9,
+    "pm25": 116.6,
+    "pm10": 116.9,
     "ozone": 14
   },
   "uv": {
@@ -40,11 +40,12 @@
   },
   "emergency": {
     "shouldSend": true,
-    "type": "AIR_QUALITY",
+    "type": "MULTI_RISK",
     "severity": "WARNING",
     "title": "🚨 Emergency Alert",
     "reasons": [
-      "AQI Mencapai 164, Masuk Kategori Tidak Sehat Atau Lebih Buruk."
+      "AQI Mencapai 164, Masuk Kategori Tidak Sehat Atau Lebih Buruk.",
+      "BMKG mengeluarkan peringatan dini cuaca yang relevan dengan Bogor: Hujan Lebat disertai Petir di Jawa Barat."
     ]
   },
   "advice": {
@@ -53,11 +54,13 @@
     "sensitiveGroup": "Anak-Anak, Lansia, Dan Orang Dengan Gangguan Pernapasan Sebaiknya Berada Di Dalam Ruangan."
   },
   "bmkgWarning": {
-    "isActive": false,
-    "title": null,
-    "description": null,
-    "publishedAt": null,
-    "matchedKeywords": []
+    "isActive": true,
+    "title": "Hujan Lebat disertai Petir di Jawa Barat",
+    "description": "Hujan lebat disertai petir akan terjadi pada 06 June 2026, 04:35 WIB di sebagian wilayah Jawa Barat, khususnya di Cibuaya, Cilamaya Wetan, Cilebar, Pedes.\n Kondisi ini berpotensi menimbulkan dampak berupa jarak pandang berkurang, angin kencang, dan banjir lokal.\n Masyarakat dihimbau untuk tetap waspada, mengurangi aktivitas di luar ruangan, serta mengambil langkah-langkah pencegahan yang diperlukan guna menjaga keselamatan.\n Kondisi diperkirakan dapat berlangsung hingga 06 June 2026, 06:30 WIB.",
+    "publishedAt": "Sat, 06 Jun 2026 04:25:00 +0700",
+    "matchedKeywords": [
+      "jawa barat"
+    ]
   },
   "sources": [
     "Open-Meteo Weather API",
