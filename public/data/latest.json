@@ -1,41 +1,41 @@
 {
   "appName": "In Atmosphere",
   "city": "Kota Bogor",
-  "generatedAt": "2026-06-10T01:38:32.539Z",
-  "reportMode": "morning",
+  "generatedAt": "2026-06-10T04:40:15.370Z",
+  "reportMode": "emergency-watch",
   "overallStatus": {
     "label": "Perlu Perhatian",
     "description": "Sistem mendeteksi kondisi yang perlu diperhatikan. Lihat bagian emergency dan saran praktis.",
     "level": "warning"
   },
   "weather": {
-    "temperature": 27.9,
-    "humidity": 66,
+    "temperature": 30.8,
+    "humidity": 53,
     "rain": 0,
-    "windSpeed": 1.2,
-    "windGust": 11.2
+    "windSpeed": 4.7,
+    "windGust": 19.1
   },
   "airQuality": {
     "usAqi": 174,
     "aqiLabel": "Tidak Sehat",
     "aqiEmoji": "🔴",
-    "pm25": 115,
-    "pm10": 118.3,
-    "ozone": 32
+    "pm25": 59.8,
+    "pm10": 63.3,
+    "ozone": 155
   },
   "uv": {
-    "current": 1.4,
+    "current": 5.25,
     "maxToday": 7.4,
-    "label": "Rendah",
-    "emoji": "🟢",
-    "advice": "Indeks Radiasi UV Berada Pada Tingkat Minimum. Risiko Kerusakan Kulit Sangat Rendah Bagi Mayoritas Orang. Aman Untuk Beraktivitas Normal Di Luar Ruangan Tanpa Perlindungan Khusus. Namun, Bagi Individu Dengan Kulit Yang Sangat Sensitif Atau Jika Harus Berada Di Bawah Terik Matahari Dalam Durasi Yang Sangat Lama, Penggunaan Kacamata Hitam, Penggunaan Tabir Surya (Sunscreen) Dengan Proteksi Minimal Terhadap UV-A dan UV-B (SPF 15+) Tetap Disarankan."
+    "label": "Sedang",
+    "emoji": "🟡",
+    "advice": "Paparan Radiasi UV Sedang. Berpotensi Menimbulkan Kerusakan Pada Sel Kulit Jika Terpapar Langsung Dalam Jangka Waktu Tertentu. Diperlukan Proteksi Dasar Saat Beraktivitas Di Luar Ruangan (Mengoleskan Tabir Surya (Sunscreen) Dengan SPF Dan Peringkat Minimal 15 - 30 PA++, Memakai Topi, Dan Menggunakan Pelindung Mata. Disarankan Juga Untuk Mencari Tempat Berteduh Saat Intensitas Matahari Mencapai Puncaknya Di Paruh Hari."
   },
   "forecast": {
     "minTemperature": 23,
     "maxTemperature": 31.8,
-    "maxPrecipitationProbability": 31,
+    "maxPrecipitationProbability": 35,
     "nextRainTime": "2026-06-10T22:00",
-    "nextRainProbability": 31,
+    "nextRainProbability": 35,
     "peakRainTime": null
   },
   "emergency": {
