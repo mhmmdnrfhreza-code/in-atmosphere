@@ -1,7 +1,7 @@
 {
   "appName": "In Atmosphere",
   "city": "Kota Bogor",
-  "generatedAt": "2026-06-12T17:24:41.979Z",
+  "generatedAt": "2026-06-12T19:32:19.398Z",
   "reportMode": "emergency-watch",
   "overallStatus": {
     "label": "Perlu Perhatian",
@@ -9,23 +9,23 @@
     "level": "warning"
   },
   "weather": {
-    "temperature": 24.8,
-    "humidity": 83,
+    "temperature": 24.5,
+    "humidity": 87,
     "rain": 0,
-    "windSpeed": 3.4,
-    "windGust": 7.9
+    "windSpeed": 0.9,
+    "windGust": 4
   },
   "airQuality": {
-    "usAqi": 177,
+    "usAqi": 176,
     "aqiLabel": "Tidak Sehat",
     "aqiEmoji": "🔴",
-    "pm25": 133.2,
-    "pm10": 134.6,
-    "ozone": 4
+    "pm25": 124.3,
+    "pm10": 125.7,
+    "ozone": 7
   },
   "uv": {
     "current": 0,
-    "maxToday": 7.3,
+    "maxToday": 7.35,
     "label": "Rendah",
     "emoji": "🟢",
     "advice": "Indeks Radiasi UV Berada Pada Tingkat Minimum. Risiko Kerusakan Kulit Sangat Rendah Bagi Mayoritas Orang. Aman Untuk Beraktivitas Normal Di Luar Ruangan Tanpa Perlindungan Khusus. Namun, Bagi Individu Dengan Kulit Yang Sangat Sensitif Atau Jika Harus Berada Di Bawah Terik Matahari Dalam Durasi Yang Sangat Lama, Penggunaan Kacamata Hitam, Penggunaan Tabir Surya (Sunscreen) Dengan Proteksi Minimal Terhadap UV-A dan UV-B (SPF 15+) Tetap Disarankan."
@@ -44,7 +44,7 @@
     "severity": "WARNING",
     "title": "🚨 Emergency Alert",
     "reasons": [
-      "AQI Mencapai 177, Masuk Kategori Tidak Sehat Atau Lebih Buruk."
+      "AQI Mencapai 176, Masuk Kategori Tidak Sehat Atau Lebih Buruk."
     ]
   },
   "advice": {
