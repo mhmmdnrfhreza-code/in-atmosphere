@@ -1,7 +1,7 @@
 {
   "appName": "In Atmosphere",
   "city": "Kota Bogor",
-  "generatedAt": "2026-06-13T20:05:43.417Z",
+  "generatedAt": "2026-06-13T21:35:09.825Z",
   "reportMode": "emergency-watch",
   "overallStatus": {
     "label": "Perlu Perhatian",
@@ -9,19 +9,19 @@
     "level": "warning"
   },
   "weather": {
-    "temperature": 23.9,
-    "humidity": 91,
+    "temperature": 23.6,
+    "humidity": 90,
     "rain": 0,
-    "windSpeed": 3.9,
-    "windGust": 7.2
+    "windSpeed": 3.3,
+    "windGust": 7.9
   },
   "airQuality": {
     "usAqi": 171,
     "aqiLabel": "Tidak Sehat",
     "aqiEmoji": "🔴",
-    "pm25": 126.2,
-    "pm10": 126.7,
-    "ozone": 6
+    "pm25": 128.5,
+    "pm10": 128.5,
+    "ozone": 5
   },
   "uv": {
     "current": 0,
@@ -31,8 +31,8 @@
     "advice": "Indeks Radiasi UV Berada Pada Tingkat Minimum. Risiko Kerusakan Kulit Sangat Rendah Bagi Mayoritas Orang. Aman Untuk Beraktivitas Normal Di Luar Ruangan Tanpa Perlindungan Khusus. Namun, Bagi Individu Dengan Kulit Yang Sangat Sensitif Atau Jika Harus Berada Di Bawah Terik Matahari Dalam Durasi Yang Sangat Lama, Penggunaan Kacamata Hitam, Penggunaan Tabir Surya (Sunscreen) Dengan Proteksi Minimal Terhadap UV-A dan UV-B (SPF 15+) Tetap Disarankan."
   },
   "forecast": {
-    "minTemperature": 23.5,
-    "maxTemperature": 32.4,
+    "minTemperature": 23.3,
+    "maxTemperature": 31.6,
     "maxPrecipitationProbability": 59,
     "nextRainTime": "2026-06-14T15:00",
     "nextRainProbability": 47,
