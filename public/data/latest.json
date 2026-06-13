@@ -1,7 +1,7 @@
 {
   "appName": "In Atmosphere",
   "city": "Kota Bogor",
-  "generatedAt": "2026-06-13T15:19:09.819Z",
+  "generatedAt": "2026-06-13T17:00:14.399Z",
   "reportMode": "emergency-watch",
   "overallStatus": {
     "label": "Perlu Perhatian",
@@ -9,34 +9,34 @@
     "level": "warning"
   },
   "weather": {
-    "temperature": 25.4,
+    "temperature": 24.8,
     "humidity": 86,
     "rain": 0,
-    "windSpeed": 2.7,
-    "windGust": 5.4
+    "windSpeed": 5.3,
+    "windGust": 10.8
   },
   "airQuality": {
-    "usAqi": 167,
+    "usAqi": 169,
     "aqiLabel": "Tidak Sehat",
     "aqiEmoji": "🔴",
-    "pm25": 117.1,
-    "pm10": 117.6,
-    "ozone": 14
+    "pm25": 122.5,
+    "pm10": 122.9,
+    "ozone": 11
   },
   "uv": {
     "current": 0,
-    "maxToday": 6.95,
+    "maxToday": 3.7,
     "label": "Rendah",
     "emoji": "🟢",
     "advice": "Indeks Radiasi UV Berada Pada Tingkat Minimum. Risiko Kerusakan Kulit Sangat Rendah Bagi Mayoritas Orang. Aman Untuk Beraktivitas Normal Di Luar Ruangan Tanpa Perlindungan Khusus. Namun, Bagi Individu Dengan Kulit Yang Sangat Sensitif Atau Jika Harus Berada Di Bawah Terik Matahari Dalam Durasi Yang Sangat Lama, Penggunaan Kacamata Hitam, Penggunaan Tabir Surya (Sunscreen) Dengan Proteksi Minimal Terhadap UV-A dan UV-B (SPF 15+) Tetap Disarankan."
   },
   "forecast": {
-    "minTemperature": 24.7,
-    "maxTemperature": 30,
-    "maxPrecipitationProbability": 67,
-    "nextRainTime": "2026-06-13T08:00",
-    "nextRainProbability": 21,
-    "peakRainTime": "2026-06-13T11:00"
+    "minTemperature": 23.5,
+    "maxTemperature": 32.4,
+    "maxPrecipitationProbability": 59,
+    "nextRainTime": "2026-06-14T14:00",
+    "nextRainProbability": 28,
+    "peakRainTime": "2026-06-15T17:00"
   },
   "emergency": {
     "shouldSend": true,
@@ -44,7 +44,7 @@
     "severity": "WARNING",
     "title": "🚨 Emergency Alert",
     "reasons": [
-      "AQI Mencapai 167, Masuk Kategori Tidak Sehat Atau Lebih Buruk."
+      "AQI Mencapai 169, Masuk Kategori Tidak Sehat Atau Lebih Buruk."
     ]
   },
   "advice": {
