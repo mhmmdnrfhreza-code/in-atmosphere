@@ -1,7 +1,7 @@
 {
   "appName": "In Atmosphere",
   "city": "Kota Bogor",
-  "generatedAt": "2026-06-12T23:01:01.617Z",
+  "generatedAt": "2026-06-13T00:24:26.372Z",
   "reportMode": "emergency-watch",
   "overallStatus": {
     "label": "Perlu Perhatian",
@@ -9,23 +9,23 @@
     "level": "warning"
   },
   "weather": {
-    "temperature": 24,
-    "humidity": 85,
+    "temperature": 24.7,
+    "humidity": 83,
     "rain": 0,
-    "windSpeed": 2,
+    "windSpeed": 1.2,
     "windGust": 6.1
   },
   "airQuality": {
     "usAqi": 167,
     "aqiLabel": "Tidak Sehat",
     "aqiEmoji": "🔴",
-    "pm25": 112.9,
-    "pm10": 113.9,
-    "ozone": 2
+    "pm25": 124.3,
+    "pm10": 125.7,
+    "ozone": 4
   },
   "uv": {
-    "current": 0,
-    "maxToday": 7.35,
+    "current": 0.15,
+    "maxToday": 7.2,
     "label": "Rendah",
     "emoji": "🟢",
     "advice": "Indeks Radiasi UV Berada Pada Tingkat Minimum. Risiko Kerusakan Kulit Sangat Rendah Bagi Mayoritas Orang. Aman Untuk Beraktivitas Normal Di Luar Ruangan Tanpa Perlindungan Khusus. Namun, Bagi Individu Dengan Kulit Yang Sangat Sensitif Atau Jika Harus Berada Di Bawah Terik Matahari Dalam Durasi Yang Sangat Lama, Penggunaan Kacamata Hitam, Penggunaan Tabir Surya (Sunscreen) Dengan Proteksi Minimal Terhadap UV-A dan UV-B (SPF 15+) Tetap Disarankan."
@@ -40,12 +40,11 @@
   },
   "emergency": {
     "shouldSend": true,
-    "type": "MULTI_RISK",
+    "type": "AIR_QUALITY",
     "severity": "WARNING",
     "title": "🚨 Emergency Alert",
     "reasons": [
-      "AQI Mencapai 167, Masuk Kategori Tidak Sehat Atau Lebih Buruk.",
-      "BMKG mengeluarkan peringatan dini cuaca yang relevan dengan Bogor: Hujan Lebat disertai Petir di Jawa Barat."
+      "AQI Mencapai 167, Masuk Kategori Tidak Sehat Atau Lebih Buruk."
     ]
   },
   "advice": {
@@ -54,13 +53,11 @@
     "sensitiveGroup": "Anak-Anak, Lansia, Dan Orang Dengan Gangguan Pernapasan Sebaiknya Berada Di Dalam Ruangan."
   },
   "bmkgWarning": {
-    "isActive": true,
-    "title": "Hujan Lebat disertai Petir di Jawa Barat",
-    "description": "Hujan lebat disertai petir akan terjadi pada 13 June 2026, 05:10 WIB di sebagian wilayah Jawa Barat, khususnya di Babakancikao, Ciampel, Jatiluhur, Klari, Sukasari, Sukatani, Telukjambe Timur, Waduk Jatiluhur.\n Kondisi ini berpotensi menimbulkan dampak berupa jarak pandang berkurang, angin kencang, dan banjir lokal.\n Masyarakat dihimbau untuk tetap waspada, mengurangi aktivitas di luar ruangan, serta mengambil langkah-langkah pencegahan yang diperlukan guna menjaga keselamatan.\n Kondisi diperkirakan dapat berlangsung hingga 13 June 2026, 07:00 WIB.",
-    "publishedAt": "Sat, 13 Jun 2026 05:00:00 +0700",
-    "matchedKeywords": [
-      "jawa barat"
-    ]
+    "isActive": false,
+    "title": null,
+    "description": null,
+    "publishedAt": null,
+    "matchedKeywords": []
   },
   "sources": [
     "Open-Meteo Weather API",
