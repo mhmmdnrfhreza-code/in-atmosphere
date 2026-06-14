@@ -1,7 +1,7 @@
 {
   "appName": "In Atmosphere",
   "city": "Kota Bogor",
-  "generatedAt": "2026-06-14T08:54:30.251Z",
+  "generatedAt": "2026-06-14T11:35:37.756Z",
   "reportMode": "emergency-watch",
   "overallStatus": {
     "label": "Perlu Perhatian",
@@ -9,22 +9,22 @@
     "level": "warning"
   },
   "weather": {
-    "temperature": 31.1,
-    "humidity": 60,
+    "temperature": 27.6,
+    "humidity": 80,
     "rain": 0,
-    "windSpeed": 12.7,
-    "windGust": 31
+    "windSpeed": 0.5,
+    "windGust": 8.3
   },
   "airQuality": {
-    "usAqi": 166,
+    "usAqi": 162,
     "aqiLabel": "Tidak Sehat",
     "aqiEmoji": "🔴",
-    "pm25": 32.6,
-    "pm10": 33.2,
-    "ozone": 124
+    "pm25": 41.3,
+    "pm10": 42,
+    "ozone": 55
   },
   "uv": {
-    "current": 1.65,
+    "current": 0,
     "maxToday": 7.35,
     "label": "Rendah",
     "emoji": "🟢",
@@ -32,19 +32,20 @@
   },
   "forecast": {
     "minTemperature": 23.5,
-    "maxTemperature": 31.9,
-    "maxPrecipitationProbability": 29,
+    "maxTemperature": 30.9,
+    "maxPrecipitationProbability": 37,
     "nextRainTime": "2026-06-14T02:00",
     "nextRainProbability": 6,
     "peakRainTime": "2026-06-15T17:00"
   },
   "emergency": {
     "shouldSend": true,
-    "type": "AIR_QUALITY",
+    "type": "MULTI_RISK",
     "severity": "WARNING",
     "title": "🚨 Emergency Alert",
     "reasons": [
-      "AQI Mencapai 166, Masuk Kategori Tidak Sehat Atau Lebih Buruk."
+      "AQI Mencapai 162, Masuk Kategori Tidak Sehat Atau Lebih Buruk.",
+      "BMKG mengeluarkan peringatan dini cuaca yang relevan dengan Bogor: Hujan Lebat disertai Petir di Jawa Barat."
     ]
   },
   "advice": {
@@ -53,11 +54,13 @@
     "sensitiveGroup": "Anak-Anak, Lansia, Dan Orang Dengan Gangguan Pernapasan Sebaiknya Berada Di Dalam Ruangan."
   },
   "bmkgWarning": {
-    "isActive": false,
-    "title": null,
-    "description": null,
-    "publishedAt": null,
-    "matchedKeywords": []
+    "isActive": true,
+    "title": "Hujan Lebat disertai Petir di Jawa Barat",
+    "description": "Hujan lebat disertai petir akan terjadi pada 14 June 2026, 17:56 WIB di sebagian wilayah Jawa Barat, khususnya di Jampang Tengah, Lengkong, Simpenan.\n Kondisi ini berpotensi menimbulkan dampak berupa jarak pandang berkurang, angin kencang, dan banjir lokal.\n Masyarakat dihimbau untuk tetap waspada, mengurangi aktivitas di luar ruangan, serta mengambil langkah-langkah pencegahan yang diperlukan guna menjaga keselamatan.\n Kondisi diperkirakan dapat berlangsung hingga 14 June 2026, 19:46 WIB.",
+    "publishedAt": "Sun, 14 Jun 2026 17:46:00 +0700",
+    "matchedKeywords": [
+      "jawa barat"
+    ]
   },
   "sources": [
     "Open-Meteo Weather API",
