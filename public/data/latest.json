@@ -1,7 +1,7 @@
 {
   "appName": "In Atmosphere",
   "city": "Kota Bogor",
-  "generatedAt": "2026-06-14T21:53:48.071Z",
+  "generatedAt": "2026-06-14T23:21:22.831Z",
   "reportMode": "emergency-watch",
   "overallStatus": {
     "label": "Perlu Perhatian",
@@ -9,19 +9,19 @@
     "level": "warning"
   },
   "weather": {
-    "temperature": 22.8,
-    "humidity": 94,
+    "temperature": 23,
+    "humidity": 91,
     "rain": 0,
-    "windSpeed": 7.6,
-    "windGust": 14.4
+    "windSpeed": 7.2,
+    "windGust": 14.8
   },
   "airQuality": {
-    "usAqi": 161,
+    "usAqi": 160,
     "aqiLabel": "Tidak Sehat",
     "aqiEmoji": "🔴",
-    "pm25": 97.3,
-    "pm10": 97.6,
-    "ozone": 2
+    "pm25": 99.9,
+    "pm10": 99.9,
+    "ozone": 1
   },
   "uv": {
     "current": 0,
@@ -33,20 +33,18 @@
   "forecast": {
     "minTemperature": 22.8,
     "maxTemperature": 32.6,
-    "maxPrecipitationProbability": 86,
+    "maxPrecipitationProbability": 77,
     "nextRainTime": "2026-06-15T15:00",
-    "nextRainProbability": 49,
+    "nextRainProbability": 53,
     "peakRainTime": "2026-06-15T18:00"
   },
   "emergency": {
     "shouldSend": true,
-    "type": "MULTI_RISK",
+    "type": "AIR_QUALITY",
     "severity": "WARNING",
     "title": "🚨 Emergency Alert",
     "reasons": [
-      "AQI Mencapai 161, Masuk Kategori Tidak Sehat Atau Lebih Buruk.",
-      "Peluang Hujan Hari Ini Mencapai 86%.",
-      "BMKG mengeluarkan peringatan dini cuaca yang relevan dengan Bogor: Hujan Lebat disertai Petir di Jawa Barat."
+      "AQI Mencapai 160, Masuk Kategori Tidak Sehat Atau Lebih Buruk."
     ]
   },
   "advice": {
@@ -55,13 +53,11 @@
     "sensitiveGroup": "Anak-Anak, Lansia, Dan Orang Dengan Gangguan Pernapasan Sebaiknya Berada Di Dalam Ruangan."
   },
   "bmkgWarning": {
-    "isActive": true,
-    "title": "Hujan Lebat disertai Petir di Jawa Barat",
-    "description": "Hujan lebat disertai petir akan terjadi pada 15 June 2026, 03:30 WIB di sebagian wilayah Jawa Barat, khususnya di Cibuaya.\n Kondisi ini berpotensi menimbulkan dampak berupa jarak pandang berkurang, angin kencang, dan banjir lokal.\n Masyarakat dihimbau untuk tetap waspada, mengurangi aktivitas di luar ruangan, serta mengambil langkah-langkah pencegahan yang diperlukan guna menjaga keselamatan.\n Kondisi diperkirakan dapat berlangsung hingga 15 June 2026, 06:00 WIB.",
-    "publishedAt": "Mon, 15 Jun 2026 03:20:00 +0700",
-    "matchedKeywords": [
-      "jawa barat"
-    ]
+    "isActive": false,
+    "title": null,
+    "description": null,
+    "publishedAt": null,
+    "matchedKeywords": []
   },
   "sources": [
     "Open-Meteo Weather API",
