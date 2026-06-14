@@ -1,7 +1,7 @@
 {
   "appName": "In Atmosphere",
   "city": "Kota Bogor",
-  "generatedAt": "2026-06-14T16:59:58.243Z",
+  "generatedAt": "2026-06-14T18:20:25.643Z",
   "reportMode": "emergency-watch",
   "overallStatus": {
     "label": "Perlu Perhatian",
@@ -9,33 +9,33 @@
     "level": "warning"
   },
   "weather": {
-    "temperature": 24.3,
-    "humidity": 91,
+    "temperature": 23.8,
+    "humidity": 92,
     "rain": 0,
-    "windSpeed": 3.7,
-    "windGust": 10.4
+    "windSpeed": 4,
+    "windGust": 9
   },
   "airQuality": {
     "usAqi": 162,
     "aqiLabel": "Tidak Sehat",
     "aqiEmoji": "🔴",
-    "pm25": 123.4,
-    "pm10": 124.3,
-    "ozone": 6
+    "pm25": 116.4,
+    "pm10": 116.9,
+    "ozone": 4
   },
   "uv": {
     "current": 0,
-    "maxToday": 7.35,
+    "maxToday": 6,
     "label": "Rendah",
     "emoji": "🟢",
     "advice": "Indeks Radiasi UV Berada Pada Tingkat Minimum. Risiko Kerusakan Kulit Sangat Rendah Bagi Mayoritas Orang. Aman Untuk Beraktivitas Normal Di Luar Ruangan Tanpa Perlindungan Khusus. Namun, Bagi Individu Dengan Kulit Yang Sangat Sensitif Atau Jika Harus Berada Di Bawah Terik Matahari Dalam Durasi Yang Sangat Lama, Penggunaan Kacamata Hitam, Penggunaan Tabir Surya (Sunscreen) Dengan Proteksi Minimal Terhadap UV-A dan UV-B (SPF 15+) Tetap Disarankan."
   },
   "forecast": {
-    "minTemperature": 23.5,
-    "maxTemperature": 32.1,
-    "maxPrecipitationProbability": 69,
-    "nextRainTime": "2026-06-14T02:00",
-    "nextRainProbability": 6,
+    "minTemperature": 22.3,
+    "maxTemperature": 32.4,
+    "maxPrecipitationProbability": 86,
+    "nextRainTime": "2026-06-15T16:00",
+    "nextRainProbability": 69,
     "peakRainTime": "2026-06-15T18:00"
   },
   "emergency": {
@@ -45,19 +45,20 @@
     "title": "🚨 Emergency Alert",
     "reasons": [
       "AQI Mencapai 162, Masuk Kategori Tidak Sehat Atau Lebih Buruk.",
+      "Peluang Hujan Hari Ini Mencapai 86%.",
       "BMKG mengeluarkan peringatan dini cuaca yang relevan dengan Bogor: Hujan Lebat disertai Petir di Jawa Barat."
     ]
   },
   "advice": {
-    "general": "Kualitas Udara Sedang Tidak Sehat. Kurangi Paparan Udara Luar Jika Memungkinkan.",
+    "general": "Kualitas Udara Sedang Tidak Sehat. Kurangi Paparan Udara Luar Jika Memungkinkan. Ada Peluang Hujan Cukup Tinggi, Siapkan Payung/Jas Hujan.",
     "outdoor": "Kurangi Aktivitas Luar Ruangan Berat Dan Pertimbangkan Memakai Masker.",
     "sensitiveGroup": "Anak-Anak, Lansia, Dan Orang Dengan Gangguan Pernapasan Sebaiknya Berada Di Dalam Ruangan."
   },
   "bmkgWarning": {
     "isActive": true,
     "title": "Hujan Lebat disertai Petir di Jawa Barat",
-    "description": "Hujan lebat disertai petir akan terjadi pada 14 June 2026, 22:00 WIB di sebagian wilayah Jawa Barat, khususnya di Cibitung, Ciracap, Surade.\n Kondisi ini berpotensi menimbulkan dampak berupa jarak pandang berkurang, angin kencang, dan banjir lokal.\n Masyarakat dihimbau untuk tetap waspada, mengurangi aktivitas di luar ruangan, serta mengambil langkah-langkah pencegahan yang diperlukan guna menjaga keselamatan.\n Kondisi diperkirakan dapat berlangsung hingga 15 June 2026, 00:00 WIB.",
-    "publishedAt": "Sun, 14 Jun 2026 21:50:00 +0700",
+    "description": "Hujan lebat disertai petir akan terjadi pada 15 June 2026, 00:20 WIB di sebagian wilayah Jawa Barat, khususnya di Cibuaya, Tirtajaya.\n Kondisi ini berpotensi menimbulkan dampak berupa jarak pandang berkurang, angin kencang, dan banjir lokal.\n Masyarakat dihimbau untuk tetap waspada, mengurangi aktivitas di luar ruangan, serta mengambil langkah-langkah pencegahan yang diperlukan guna menjaga keselamatan.\n Kondisi diperkirakan dapat berlangsung hingga 15 June 2026, 03:00 WIB.",
+    "publishedAt": "Mon, 15 Jun 2026 00:10:00 +0700",
     "matchedKeywords": [
       "jawa barat"
     ]
