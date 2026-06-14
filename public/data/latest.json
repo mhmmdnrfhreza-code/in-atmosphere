@@ -1,27 +1,27 @@
 {
   "appName": "In Atmosphere",
   "city": "Kota Bogor",
-  "generatedAt": "2026-06-14T12:17:25.778Z",
-  "reportMode": "rush-hour",
+  "generatedAt": "2026-06-14T13:16:43.429Z",
+  "reportMode": "emergency-watch",
   "overallStatus": {
     "label": "Perlu Perhatian",
     "description": "Sistem mendeteksi kondisi yang perlu diperhatikan. Lihat bagian emergency dan saran praktis.",
     "level": "warning"
   },
   "weather": {
-    "temperature": 27.1,
-    "humidity": 80,
+    "temperature": 26.4,
+    "humidity": 83,
     "rain": 0,
-    "windSpeed": 1.3,
-    "windGust": 2.9
+    "windSpeed": 2.9,
+    "windGust": 6.5
   },
   "airQuality": {
     "usAqi": 161,
     "aqiLabel": "Tidak Sehat",
     "aqiEmoji": "🔴",
-    "pm25": 65,
-    "pm10": 66.1,
-    "ozone": 37
+    "pm25": 82.2,
+    "pm10": 83.4,
+    "ozone": 25
   },
   "uv": {
     "current": 0,
@@ -56,8 +56,8 @@
   "bmkgWarning": {
     "isActive": true,
     "title": "Hujan Lebat disertai Petir di Jawa Barat",
-    "description": "Hujan lebat disertai petir akan terjadi pada 14 June 2026, 17:56 WIB di sebagian wilayah Jawa Barat, khususnya di Jampang Tengah, Lengkong, Simpenan.\n Kondisi ini berpotensi menimbulkan dampak berupa jarak pandang berkurang, angin kencang, dan banjir lokal.\n Masyarakat dihimbau untuk tetap waspada, mengurangi aktivitas di luar ruangan, serta mengambil langkah-langkah pencegahan yang diperlukan guna menjaga keselamatan.\n Kondisi diperkirakan dapat berlangsung hingga 14 June 2026, 19:46 WIB.",
-    "publishedAt": "Sun, 14 Jun 2026 17:46:00 +0700",
+    "description": "Hujan lebat disertai petir akan terjadi pada 14 June 2026, 19:33 WIB di sebagian wilayah Jawa Barat, khususnya di Cilebar, Pedes.\n Kondisi ini berpotensi menimbulkan dampak berupa jarak pandang berkurang, angin kencang, dan banjir lokal.\n Masyarakat dihimbau untuk tetap waspada, mengurangi aktivitas di luar ruangan, serta mengambil langkah-langkah pencegahan yang diperlukan guna menjaga keselamatan.\n Kondisi diperkirakan dapat berlangsung hingga 14 June 2026, 21:23 WIB.",
+    "publishedAt": "Sun, 14 Jun 2026 19:23:00 +0700",
     "matchedKeywords": [
       "jawa barat"
     ]
