@@ -1,7 +1,7 @@
 {
   "appName": "In Atmosphere",
   "city": "Kota Bogor",
-  "generatedAt": "2026-06-15T07:32:02.143Z",
+  "generatedAt": "2026-06-15T13:34:26.601Z",
   "reportMode": "emergency-watch",
   "overallStatus": {
     "label": "Perlu Perhatian",
@@ -9,33 +9,33 @@
     "level": "warning"
   },
   "weather": {
-    "temperature": 31.6,
-    "humidity": 52,
+    "temperature": 25.3,
+    "humidity": 91,
     "rain": 0,
-    "windSpeed": 5.2,
-    "windGust": 17.6
+    "windSpeed": 2.7,
+    "windGust": 5
   },
   "airQuality": {
-    "usAqi": 159,
+    "usAqi": 162,
     "aqiLabel": "Tidak Sehat",
     "aqiEmoji": "🔴",
-    "pm25": 48.1,
-    "pm10": 48.8,
-    "ozone": 201
+    "pm25": 115,
+    "pm10": 115.5,
+    "ozone": 13
   },
   "uv": {
-    "current": 3.75,
+    "current": 0,
     "maxToday": 6.4,
-    "label": "Sedang",
-    "emoji": "🟡",
-    "advice": "Paparan Radiasi UV Sedang. Berpotensi Menimbulkan Kerusakan Pada Sel Kulit Jika Terpapar Langsung Dalam Jangka Waktu Tertentu. Diperlukan Proteksi Dasar Saat Beraktivitas Di Luar Ruangan (Mengoleskan Tabir Surya (Sunscreen) Dengan SPF Dan Peringkat Minimal 15 - 30 PA++, Memakai Topi, Dan Menggunakan Pelindung Mata. Disarankan Juga Untuk Mencari Tempat Berteduh Saat Intensitas Matahari Mencapai Puncaknya Di Paruh Hari."
+    "label": "Rendah",
+    "emoji": "🟢",
+    "advice": "Indeks Radiasi UV Berada Pada Tingkat Minimum. Risiko Kerusakan Kulit Sangat Rendah Bagi Mayoritas Orang. Aman Untuk Beraktivitas Normal Di Luar Ruangan Tanpa Perlindungan Khusus. Namun, Bagi Individu Dengan Kulit Yang Sangat Sensitif Atau Jika Harus Berada Di Bawah Terik Matahari Dalam Durasi Yang Sangat Lama, Penggunaan Kacamata Hitam, Penggunaan Tabir Surya (Sunscreen) Dengan Proteksi Minimal Terhadap UV-A dan UV-B (SPF 15+) Tetap Disarankan."
   },
   "forecast": {
     "minTemperature": 22.4,
-    "maxTemperature": 31.9,
-    "maxPrecipitationProbability": 80,
-    "nextRainTime": "2026-06-15T15:00",
-    "nextRainProbability": 55,
+    "maxTemperature": 31.6,
+    "maxPrecipitationProbability": 76,
+    "nextRainTime": "2026-06-15T11:00",
+    "nextRainProbability": 5,
     "peakRainTime": "2026-06-15T18:00"
   },
   "emergency": {
@@ -44,7 +44,7 @@
     "severity": "WARNING",
     "title": "🚨 Emergency Alert",
     "reasons": [
-      "AQI Mencapai 159, Masuk Kategori Tidak Sehat Atau Lebih Buruk.",
+      "AQI Mencapai 162, Masuk Kategori Tidak Sehat Atau Lebih Buruk.",
       "BMKG mengeluarkan peringatan dini cuaca yang relevan dengan Bogor: Hujan Lebat disertai Petir di Jawa Barat."
     ]
   },
@@ -56,8 +56,8 @@
   "bmkgWarning": {
     "isActive": true,
     "title": "Hujan Lebat disertai Petir di Jawa Barat",
-    "description": "Hujan lebat disertai petir akan terjadi pada 15 June 2026, 13:00 WIB di sebagian wilayah Jawa Barat, khususnya di Caringin, Ciambar, Cicurug, Cikalongwetan, Darangdan, Kabandungan, Nagrak, Nyalindung, Pagelaran, Purabaya, Wanayasa.\n Kondisi ini berpotensi menimbulkan dampak berupa jarak pandang berkurang, angin kencang, dan banjir lokal.\n Masyarakat dihimbau untuk tetap waspada, mengurangi aktivitas di luar ruangan, serta mengambil langkah-langkah pencegahan yang diperlukan guna menjaga keselamatan.\n Kondisi diperkirakan dapat berlangsung hingga 15 June 2026, 15:30 WIB.",
-    "publishedAt": "Mon, 15 Jun 2026 12:50:00 +0700",
+    "description": "Hujan lebat disertai petir akan terjadi pada 15 June 2026, 19:30 WIB di sebagian wilayah Jawa Barat, khususnya di Babakan, Banjaran, Baros, Bojongpicung, Campaka, Campakamulya, Cangkuang, Caringin, Ciambar, Cianjur, Cibeber, Cibeureum, Cibinong, Cicantayan, Cicurug, Cikadu, Cikembar, Cikole, Cilaku, Ciledug, Cimaung, Cireunghas, Cisaat, Citamiang, Ciwidey, Gegerbitung, Gekbrong, Gunung Guruh, Gunung Puyuh, Gununghalu, Jampang Kulon, Jampang Tengah, Kadudampit, Karangtengah, Kebonpedes, Kutawaringin, Lembursitu, Lengkong, Losari, Nagrak, Nyalindung, Pabedilan, Pabuaran, Pagelaran, Pangalengan, Pasaleman, Pasirjambu, Pasirkuda, Purabaya, Rancabali, Rongga, Sindangkerta, Soreang, Sukabumi, Sukalarang, Sukaluyu, Sukanagara, Sukaraja, Takokak, Tanggeung, Waluran, Warudoyong, Warungkondang.\n Kondisi ini berpotensi menimbulkan dampak berupa jarak pandang berkurang, angin kencang, dan banjir lokal.\n Masyarakat dihimbau untuk tetap waspada, mengurangi aktivitas di luar ruangan, serta mengambil langkah-langkah pencegahan yang diperlukan guna menjaga keselamatan.\n Kondisi diperkirakan dapat berlangsung hingga 15 June 2026, 22:00 WIB.",
+    "publishedAt": "Mon, 15 Jun 2026 19:15:00 +0700",
     "matchedKeywords": [
       "jawa barat"
     ]
