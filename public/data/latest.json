@@ -1,7 +1,7 @@
 {
   "appName": "In Atmosphere",
   "city": "Kota Bogor",
-  "generatedAt": "2026-06-16T08:32:57.428Z",
+  "generatedAt": "2026-06-16T13:16:09.099Z",
   "reportMode": "emergency-watch",
   "overallStatus": {
     "label": "Perlu Perhatian",
@@ -9,22 +9,22 @@
     "level": "warning"
   },
   "weather": {
-    "temperature": 31.3,
-    "humidity": 46,
+    "temperature": 26.8,
+    "humidity": 80,
     "rain": 0,
-    "windSpeed": 6,
-    "windGust": 21.6
+    "windSpeed": 1,
+    "windGust": 4.3
   },
   "airQuality": {
-    "usAqi": 156,
+    "usAqi": 155,
     "aqiLabel": "Tidak Sehat",
     "aqiEmoji": "🔴",
-    "pm25": 41.2,
-    "pm10": 42.7,
-    "ozone": 180
+    "pm25": 75.7,
+    "pm10": 78,
+    "ozone": 15
   },
   "uv": {
-    "current": 2.05,
+    "current": 0,
     "maxToday": 6.25,
     "label": "Rendah",
     "emoji": "🟢",
@@ -32,20 +32,19 @@
   },
   "forecast": {
     "minTemperature": 22.5,
-    "maxTemperature": 31.6,
+    "maxTemperature": 32.4,
     "maxPrecipitationProbability": 53,
     "nextRainTime": "2026-06-16T00:00",
     "nextRainProbability": 53,
-    "peakRainTime": "2026-06-16T00:00"
+    "peakRainTime": "2026-06-17T19:00"
   },
   "emergency": {
     "shouldSend": true,
-    "type": "MULTI_RISK",
+    "type": "AIR_QUALITY",
     "severity": "WARNING",
     "title": "🚨 Emergency Alert",
     "reasons": [
-      "AQI Mencapai 156, Masuk Kategori Tidak Sehat Atau Lebih Buruk.",
-      "BMKG mengeluarkan peringatan dini cuaca yang relevan dengan Bogor: Hujan Lebat disertai Petir di Jawa Barat."
+      "AQI Mencapai 155, Masuk Kategori Tidak Sehat Atau Lebih Buruk."
     ]
   },
   "advice": {
@@ -54,13 +53,11 @@
     "sensitiveGroup": "Anak-Anak, Lansia, Dan Orang Dengan Gangguan Pernapasan Sebaiknya Berada Di Dalam Ruangan."
   },
   "bmkgWarning": {
-    "isActive": true,
-    "title": "Hujan Lebat disertai Petir di Jawa Barat",
-    "description": "Hujan lebat disertai petir akan terjadi pada 16 June 2026, 13:37 WIB di sebagian wilayah Jawa Barat, khususnya di Cikakak, Cisolok.\n Kondisi ini berpotensi menimbulkan dampak berupa jarak pandang berkurang, angin kencang, dan banjir lokal.\n Masyarakat dihimbau untuk tetap waspada, mengurangi aktivitas di luar ruangan, serta mengambil langkah-langkah pencegahan yang diperlukan guna menjaga keselamatan.\n Kondisi diperkirakan dapat berlangsung hingga 16 June 2026, 16:27 WIB.",
-    "publishedAt": "Tue, 16 Jun 2026 13:27:00 +0700",
-    "matchedKeywords": [
-      "jawa barat"
-    ]
+    "isActive": false,
+    "title": null,
+    "description": null,
+    "publishedAt": null,
+    "matchedKeywords": []
   },
   "sources": [
     "Open-Meteo Weather API",
