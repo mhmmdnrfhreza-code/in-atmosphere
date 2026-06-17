@@ -1,27 +1,27 @@
 {
   "appName": "In Atmosphere",
   "city": "Kota Bogor",
-  "generatedAt": "2026-06-17T14:04:40.105Z",
-  "reportMode": "rush-hour",
+  "generatedAt": "2026-06-17T15:59:44.819Z",
+  "reportMode": "emergency-watch",
   "overallStatus": {
     "label": "Perlu Perhatian",
     "description": "Sistem mendeteksi kondisi yang perlu diperhatikan. Lihat bagian emergency dan saran praktis.",
     "level": "warning"
   },
   "weather": {
-    "temperature": 25.9,
-    "humidity": 80,
+    "temperature": 25,
+    "humidity": 86,
     "rain": 0,
-    "windSpeed": 6.4,
-    "windGust": 11.2
+    "windSpeed": 3.4,
+    "windGust": 7.9
   },
   "airQuality": {
-    "usAqi": 169,
+    "usAqi": 171,
     "aqiLabel": "Tidak Sehat",
     "aqiEmoji": "🔴",
-    "pm25": 160.7,
-    "pm10": 162.1,
-    "ozone": 6
+    "pm25": 174.6,
+    "pm10": 176.5,
+    "ozone": 1
   },
   "uv": {
     "current": 0,
@@ -32,20 +32,19 @@
   },
   "forecast": {
     "minTemperature": 21.9,
-    "maxTemperature": 32,
-    "maxPrecipitationProbability": 63,
-    "nextRainTime": "2026-06-17T18:00",
-    "nextRainProbability": 54,
-    "peakRainTime": "2026-06-17T19:00"
+    "maxTemperature": 32.2,
+    "maxPrecipitationProbability": 31,
+    "nextRainTime": "2026-06-18T20:00",
+    "nextRainProbability": 16,
+    "peakRainTime": null
   },
   "emergency": {
     "shouldSend": true,
-    "type": "MULTI_RISK",
+    "type": "AIR_QUALITY",
     "severity": "WARNING",
     "title": "🚨 Emergency Alert",
     "reasons": [
-      "AQI Mencapai 169, Masuk Kategori Tidak Sehat Atau Lebih Buruk.",
-      "BMKG mengeluarkan peringatan dini cuaca yang relevan dengan Bogor: Hujan Lebat disertai Petir di Jawa Barat."
+      "AQI Mencapai 171, Masuk Kategori Tidak Sehat Atau Lebih Buruk."
     ]
   },
   "advice": {
@@ -54,13 +53,11 @@
     "sensitiveGroup": "Anak-Anak, Lansia, Dan Orang Dengan Gangguan Pernapasan Sebaiknya Berada Di Dalam Ruangan."
   },
   "bmkgWarning": {
-    "isActive": true,
-    "title": "Hujan Lebat disertai Petir di Jawa Barat",
-    "description": "Hujan lebat disertai petir akan terjadi pada 17 June 2026, 19:17 WIB di sebagian wilayah Jawa Barat, khususnya di Caringin, Ciambar, Cicurug, Kadudampit, Nagrak.\n Kondisi ini berpotensi menimbulkan dampak berupa jarak pandang berkurang, angin kencang, dan banjir lokal.\n Masyarakat dihimbau untuk tetap waspada, mengurangi aktivitas di luar ruangan, serta mengambil langkah-langkah pencegahan yang diperlukan guna menjaga keselamatan.\n Kondisi diperkirakan dapat berlangsung hingga 17 June 2026, 21:07 WIB.",
-    "publishedAt": "Wed, 17 Jun 2026 19:07:00 +0700",
-    "matchedKeywords": [
-      "jawa barat"
-    ]
+    "isActive": false,
+    "title": null,
+    "description": null,
+    "publishedAt": null,
+    "matchedKeywords": []
   },
   "sources": [
     "Open-Meteo Weather API",
