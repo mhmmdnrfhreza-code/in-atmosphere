@@ -1,7 +1,7 @@
 {
   "appName": "In Atmosphere",
   "city": "Kota Bogor",
-  "generatedAt": "2026-06-18T09:23:02.428Z",
+  "generatedAt": "2026-06-18T12:39:10.170Z",
   "reportMode": "emergency-watch",
   "overallStatus": {
     "label": "Perlu Perhatian",
@@ -9,22 +9,22 @@
     "level": "warning"
   },
   "weather": {
-    "temperature": 31.1,
-    "humidity": 45,
+    "temperature": 27.5,
+    "humidity": 59,
     "rain": 0,
-    "windSpeed": 6.5,
-    "windGust": 20.5
+    "windSpeed": 5,
+    "windGust": 11.2
   },
   "airQuality": {
-    "usAqi": 174,
+    "usAqi": 187,
     "aqiLabel": "Tidak Sehat",
     "aqiEmoji": "🔴",
-    "pm25": 47.5,
-    "pm10": 48.9,
-    "ozone": 212
+    "pm25": 82.4,
+    "pm10": 83.8,
+    "ozone": 65
   },
   "uv": {
-    "current": 0.85,
+    "current": 0,
     "maxToday": 7.05,
     "label": "Rendah",
     "emoji": "🟢",
@@ -33,9 +33,9 @@
   "forecast": {
     "minTemperature": 22,
     "maxTemperature": 32.7,
-    "maxPrecipitationProbability": 35,
-    "nextRainTime": null,
-    "nextRainProbability": null,
+    "maxPrecipitationProbability": 12,
+    "nextRainTime": "2026-06-19T20:00",
+    "nextRainProbability": 44,
     "peakRainTime": null
   },
   "emergency": {
@@ -44,7 +44,7 @@
     "severity": "WARNING",
     "title": "🚨 Emergency Alert",
     "reasons": [
-      "AQI Mencapai 174, Masuk Kategori Tidak Sehat Atau Lebih Buruk."
+      "AQI Mencapai 187, Masuk Kategori Tidak Sehat Atau Lebih Buruk."
     ]
   },
   "advice": {
