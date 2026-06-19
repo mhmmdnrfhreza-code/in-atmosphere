@@ -1,7 +1,7 @@
 {
   "appName": "In Atmosphere",
   "city": "Kota Bogor",
-  "generatedAt": "2026-06-19T21:17:45.868Z",
+  "generatedAt": "2026-06-19T22:32:31.219Z",
   "reportMode": "emergency-watch",
   "overallStatus": {
     "label": "Perlu Perhatian",
@@ -9,19 +9,19 @@
     "level": "warning"
   },
   "weather": {
-    "temperature": 22.2,
+    "temperature": 21.7,
     "humidity": 94,
     "rain": 0,
-    "windSpeed": 6.4,
-    "windGust": 13.3
+    "windSpeed": 5.9,
+    "windGust": 13
   },
   "airQuality": {
     "usAqi": 171,
     "aqiLabel": "Tidak Sehat",
     "aqiEmoji": "🔴",
-    "pm25": 143,
-    "pm10": 143.9,
-    "ozone": 9
+    "pm25": 144.4,
+    "pm10": 144.8,
+    "ozone": 3
   },
   "uv": {
     "current": 0,
@@ -33,10 +33,10 @@
   "forecast": {
     "minTemperature": 21.7,
     "maxTemperature": 32.8,
-    "maxPrecipitationProbability": 76,
-    "nextRainTime": "2026-06-20T17:00",
-    "nextRainProbability": 60,
-    "peakRainTime": "2026-06-20T19:00"
+    "maxPrecipitationProbability": 69,
+    "nextRainTime": "2026-06-20T18:00",
+    "nextRainProbability": 52,
+    "peakRainTime": "2026-06-21T18:00"
   },
   "emergency": {
     "shouldSend": true,
@@ -48,7 +48,7 @@
     ]
   },
   "advice": {
-    "general": "Kualitas Udara Sedang Tidak Sehat. Kurangi Paparan Udara Luar Jika Memungkinkan. Ada Peluang Hujan Cukup Tinggi, Siapkan Payung/Jas Hujan.",
+    "general": "Kualitas Udara Sedang Tidak Sehat. Kurangi Paparan Udara Luar Jika Memungkinkan.",
     "outdoor": "Kurangi Aktivitas Luar Ruangan Berat Dan Pertimbangkan Memakai Masker.",
     "sensitiveGroup": "Anak-Anak, Lansia, Dan Orang Dengan Gangguan Pernapasan Sebaiknya Berada Di Dalam Ruangan."
   },
