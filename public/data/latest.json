@@ -1,19 +1,19 @@
 {
   "appName": "In Atmosphere",
   "city": "Kota Bogor",
-  "generatedAt": "2026-06-20T12:11:51.383Z",
-  "reportMode": "rush-hour",
+  "generatedAt": "2026-06-20T12:55:57.472Z",
+  "reportMode": "emergency-watch",
   "overallStatus": {
     "label": "Perlu Perhatian",
     "description": "Sistem mendeteksi kondisi yang perlu diperhatikan. Lihat bagian emergency dan saran praktis.",
     "level": "warning"
   },
   "weather": {
-    "temperature": 27.8,
-    "humidity": 69,
+    "temperature": 27.1,
+    "humidity": 77,
     "rain": 0,
-    "windSpeed": 6.6,
-    "windGust": 17.3
+    "windSpeed": 5.3,
+    "windGust": 15.5
   },
   "airQuality": {
     "usAqi": 183,
@@ -32,7 +32,7 @@
   },
   "forecast": {
     "minTemperature": 21.6,
-    "maxTemperature": 33.5,
+    "maxTemperature": 33.3,
     "maxPrecipitationProbability": 55,
     "nextRainTime": "2026-06-20T17:00",
     "nextRainProbability": 53,
@@ -45,7 +45,7 @@
     "title": "🚨 Emergency Alert",
     "reasons": [
       "AQI Mencapai 183, Masuk Kategori Tidak Sehat Atau Lebih Buruk.",
-      "BMKG mengeluarkan peringatan dini cuaca yang relevan dengan Bogor: Hujan Lebat disertai Petir di Jawa Barat."
+      "BMKG mengeluarkan peringatan dini cuaca yang relevan dengan Bogor: Hujan Lebat disertai Petir di Jakarta."
     ]
   },
   "advice": {
@@ -55,11 +55,11 @@
   },
   "bmkgWarning": {
     "isActive": true,
-    "title": "Hujan Lebat disertai Petir di Jawa Barat",
-    "description": "Hujan lebat disertai petir akan terjadi pada 20 June 2026, 18:23 WIB di sebagian wilayah Jawa Barat, khususnya di Arjasari, Baleendah, Cibeber, Cidahu, Ciparay, Kabandungan, Kalapanunggal, Parakansalak.\n Kondisi ini berpotensi menimbulkan dampak berupa jarak pandang berkurang, angin kencang, dan banjir lokal.\n Masyarakat dihimbau untuk tetap waspada, mengurangi aktivitas di luar ruangan, serta mengambil langkah-langkah pencegahan yang diperlukan guna menjaga keselamatan.\n Kondisi diperkirakan dapat berlangsung hingga 20 June 2026, 20:00 WIB.",
-    "publishedAt": "Sat, 20 Jun 2026 18:13:00 +0700",
+    "title": "Hujan Lebat disertai Petir di Jakarta",
+    "description": "Hujan lebat disertai petir akan terjadi pada 20 June 2026, 19:30 WIB di sebagian wilayah Jakarta, khususnya di Babakan Madang, Bogor Barat, Bojong Gede, Ciampea, Cibinong, Cibungbulang, Ciseeng, Citeureup, Dramaga, Gunung Sindur, Kemang, Leuwiliang, Leuwisadeng, Nanggung, Pamijahan, Parung, Rumpin, Tajurhalang, Tanah Sareal, Tenjolaya.\n Kondisi ini berpotensi menimbulkan dampak berupa jarak pandang berkurang, angin kencang, dan banjir lokal.\n Masyarakat dihimbau untuk tetap waspada, mengurangi aktivitas di luar ruangan, serta mengambil langkah-langkah pencegahan yang diperlukan guna menjaga keselamatan.\n Kondisi diperkirakan dapat berlangsung hingga 20 June 2026, 21:30 WIB.",
+    "publishedAt": "Sat, 20 Jun 2026 19:20:00 +0700",
     "matchedKeywords": [
-      "jawa barat"
+      "bogor"
     ]
   },
   "sources": [
