@@ -1,7 +1,7 @@
 {
   "appName": "In Atmosphere",
   "city": "Kota Bogor",
-  "generatedAt": "2026-06-20T12:55:57.472Z",
+  "generatedAt": "2026-06-20T15:07:34.809Z",
   "reportMode": "emergency-watch",
   "overallStatus": {
     "label": "Perlu Perhatian",
@@ -9,19 +9,19 @@
     "level": "warning"
   },
   "weather": {
-    "temperature": 27.1,
-    "humidity": 77,
+    "temperature": 25.9,
+    "humidity": 83,
     "rain": 0,
-    "windSpeed": 5.3,
-    "windGust": 15.5
+    "windSpeed": 4,
+    "windGust": 9
   },
   "airQuality": {
-    "usAqi": 183,
+    "usAqi": 166,
     "aqiLabel": "Tidak Sehat",
     "aqiEmoji": "🔴",
-    "pm25": 114.1,
-    "pm10": 115.3,
-    "ozone": 51
+    "pm25": 140.2,
+    "pm10": 141.1,
+    "ozone": 21
   },
   "uv": {
     "current": 0,
@@ -33,19 +33,18 @@
   "forecast": {
     "minTemperature": 21.6,
     "maxTemperature": 33.3,
-    "maxPrecipitationProbability": 55,
-    "nextRainTime": "2026-06-20T17:00",
+    "maxPrecipitationProbability": 53,
+    "nextRainTime": "2026-06-20T16:00",
     "nextRainProbability": 53,
     "peakRainTime": "2026-06-21T17:00"
   },
   "emergency": {
     "shouldSend": true,
-    "type": "MULTI_RISK",
+    "type": "AIR_QUALITY",
     "severity": "WARNING",
     "title": "🚨 Emergency Alert",
     "reasons": [
-      "AQI Mencapai 183, Masuk Kategori Tidak Sehat Atau Lebih Buruk.",
-      "BMKG mengeluarkan peringatan dini cuaca yang relevan dengan Bogor: Hujan Lebat disertai Petir di Jakarta."
+      "AQI Mencapai 166, Masuk Kategori Tidak Sehat Atau Lebih Buruk."
     ]
   },
   "advice": {
@@ -54,13 +53,11 @@
     "sensitiveGroup": "Anak-Anak, Lansia, Dan Orang Dengan Gangguan Pernapasan Sebaiknya Berada Di Dalam Ruangan."
   },
   "bmkgWarning": {
-    "isActive": true,
-    "title": "Hujan Lebat disertai Petir di Jakarta",
-    "description": "Hujan lebat disertai petir akan terjadi pada 20 June 2026, 19:30 WIB di sebagian wilayah Jakarta, khususnya di Babakan Madang, Bogor Barat, Bojong Gede, Ciampea, Cibinong, Cibungbulang, Ciseeng, Citeureup, Dramaga, Gunung Sindur, Kemang, Leuwiliang, Leuwisadeng, Nanggung, Pamijahan, Parung, Rumpin, Tajurhalang, Tanah Sareal, Tenjolaya.\n Kondisi ini berpotensi menimbulkan dampak berupa jarak pandang berkurang, angin kencang, dan banjir lokal.\n Masyarakat dihimbau untuk tetap waspada, mengurangi aktivitas di luar ruangan, serta mengambil langkah-langkah pencegahan yang diperlukan guna menjaga keselamatan.\n Kondisi diperkirakan dapat berlangsung hingga 20 June 2026, 21:30 WIB.",
-    "publishedAt": "Sat, 20 Jun 2026 19:20:00 +0700",
-    "matchedKeywords": [
-      "bogor"
-    ]
+    "isActive": false,
+    "title": null,
+    "description": null,
+    "publishedAt": null,
+    "matchedKeywords": []
   },
   "sources": [
     "Open-Meteo Weather API",
