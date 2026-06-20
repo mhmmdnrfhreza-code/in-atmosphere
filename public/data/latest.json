@@ -1,30 +1,30 @@
 {
   "appName": "In Atmosphere",
   "city": "Kota Bogor",
-  "generatedAt": "2026-06-20T10:39:21.022Z",
-  "reportMode": "emergency-watch",
+  "generatedAt": "2026-06-20T12:11:51.383Z",
+  "reportMode": "rush-hour",
   "overallStatus": {
     "label": "Perlu Perhatian",
     "description": "Sistem mendeteksi kondisi yang perlu diperhatikan. Lihat bagian emergency dan saran praktis.",
     "level": "warning"
   },
   "weather": {
-    "temperature": 30.5,
-    "humidity": 50,
+    "temperature": 27.8,
+    "humidity": 69,
     "rain": 0,
-    "windSpeed": 3.9,
-    "windGust": 15.5
+    "windSpeed": 6.6,
+    "windGust": 17.3
   },
   "airQuality": {
-    "usAqi": 188,
+    "usAqi": 183,
     "aqiLabel": "Tidak Sehat",
     "aqiEmoji": "🔴",
-    "pm25": 53.3,
-    "pm10": 54.5,
-    "ozone": 160
+    "pm25": 114.1,
+    "pm10": 115.3,
+    "ozone": 51
   },
   "uv": {
-    "current": 0.1,
+    "current": 0,
     "maxToday": 7.35,
     "label": "Rendah",
     "emoji": "🟢",
@@ -44,7 +44,7 @@
     "severity": "WARNING",
     "title": "🚨 Emergency Alert",
     "reasons": [
-      "AQI Mencapai 188, Masuk Kategori Tidak Sehat Atau Lebih Buruk.",
+      "AQI Mencapai 183, Masuk Kategori Tidak Sehat Atau Lebih Buruk.",
       "BMKG mengeluarkan peringatan dini cuaca yang relevan dengan Bogor: Hujan Lebat disertai Petir di Jawa Barat."
     ]
   },
@@ -56,8 +56,8 @@
   "bmkgWarning": {
     "isActive": true,
     "title": "Hujan Lebat disertai Petir di Jawa Barat",
-    "description": "Hujan lebat disertai petir akan terjadi pada 20 June 2026, 16:30 WIB di sebagian wilayah Jawa Barat, khususnya di Cicurug, Cisalak, Cugenang, Gekbrong, Kalijati, Kasomalang, Maleber, Serangpanjang, Sukabumi, Sukalarang, Sukaraja, Tanjungsiang, Warungkondang.\n Kondisi ini berpotensi menimbulkan dampak berupa jarak pandang berkurang, angin kencang, dan banjir lokal.\n Masyarakat dihimbau untuk tetap waspada, mengurangi aktivitas di luar ruangan, serta mengambil langkah-langkah pencegahan yang diperlukan guna menjaga keselamatan.\n Kondisi diperkirakan dapat berlangsung hingga 20 June 2026, 18:30 WIB.",
-    "publishedAt": "Sat, 20 Jun 2026 16:20:00 +0700",
+    "description": "Hujan lebat disertai petir akan terjadi pada 20 June 2026, 18:23 WIB di sebagian wilayah Jawa Barat, khususnya di Arjasari, Baleendah, Cibeber, Cidahu, Ciparay, Kabandungan, Kalapanunggal, Parakansalak.\n Kondisi ini berpotensi menimbulkan dampak berupa jarak pandang berkurang, angin kencang, dan banjir lokal.\n Masyarakat dihimbau untuk tetap waspada, mengurangi aktivitas di luar ruangan, serta mengambil langkah-langkah pencegahan yang diperlukan guna menjaga keselamatan.\n Kondisi diperkirakan dapat berlangsung hingga 20 June 2026, 20:00 WIB.",
+    "publishedAt": "Sat, 20 Jun 2026 18:13:00 +0700",
     "matchedKeywords": [
       "jawa barat"
     ]
