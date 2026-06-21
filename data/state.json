@@ -1,22 +1,22 @@
 {
   "lastAqi": 169,
-  "lastUvIndex": 0,
+  "lastUvIndex": 2.85,
   "lastRain": 0,
-  "lastWindGust": 13.3,
-  "lastCheckedAt": "2026-06-20T23:20:45.457Z",
+  "lastWindGust": 12.2,
+  "lastCheckedAt": "2026-06-21T02:01:20.117Z",
   "lastEmergencyAlert": {
     "type": "AIR_QUALITY",
     "severity": "WARNING",
-    "sentAt": "2026-06-20T21:50:29.481Z"
+    "sentAt": "2026-06-21T02:01:20.117Z"
   },
   "currentStatusMessageId": "1506335447398482001",
-  "currentStatusUpdatedAt": "2026-06-20T23:20:45.457Z",
-  "activeEmergencyMessageId": "1518010178480640144",
-  "previousEmergencyMessageId": "1517963116774690950",
-  "activeEmergencyFingerprint": "type=AIR_QUALITY|severity=WARNING|reasons=aqi mencapai 171, masuk kategori tidak sehat atau lebih buruk.;peluang hujan hari ini mencapai 93%.|bmkg=false|aqi=UNHEALTHY|uv=LOW|weather=HIGH_RAIN_PROBABILITY",
-  "previousEmergencyFingerprint": "type=AIR_QUALITY|severity=WARNING|reasons=aqi mencapai 170, masuk kategori tidak sehat atau lebih buruk.;peluang hujan hari ini mencapai 93%.|bmkg=false|aqi=UNHEALTHY|uv=LOW|weather=HIGH_RAIN_PROBABILITY",
-  "activeEmergencySentAt": "2026-06-20T21:50:29.481Z",
-  "previousEmergencySentAt": "2026-06-20T18:43:29.055Z",
+  "currentStatusUpdatedAt": "2026-06-21T02:01:20.117Z",
+  "activeEmergencyMessageId": "1518073305062445068",
+  "previousEmergencyMessageId": "1518010178480640144",
+  "activeEmergencyFingerprint": "type=AIR_QUALITY|severity=WARNING|reasons=aqi mencapai 169, masuk kategori tidak sehat atau lebih buruk.;peluang hujan hari ini mencapai 100%.|bmkg=false|aqi=UNHEALTHY|uv=LOW|weather=HIGH_RAIN_PROBABILITY",
+  "previousEmergencyFingerprint": "type=AIR_QUALITY|severity=WARNING|reasons=aqi mencapai 171, masuk kategori tidak sehat atau lebih buruk.;peluang hujan hari ini mencapai 93%.|bmkg=false|aqi=UNHEALTHY|uv=LOW|weather=HIGH_RAIN_PROBABILITY",
+  "activeEmergencySentAt": "2026-06-21T02:01:20.117Z",
+  "previousEmergencySentAt": "2026-06-20T21:50:29.481Z",
   "recoveryMessageId": null,
   "recoverySentAt": null,
   "recoveryFingerprint": null
