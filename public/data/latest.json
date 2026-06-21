@@ -1,7 +1,7 @@
 {
   "appName": "In Atmosphere",
   "city": "Kota Bogor",
-  "generatedAt": "2026-06-21T13:16:16.613Z",
+  "generatedAt": "2026-06-21T15:29:14.557Z",
   "reportMode": "emergency-watch",
   "overallStatus": {
     "label": "Perlu Perhatian",
@@ -9,19 +9,19 @@
     "level": "warning"
   },
   "weather": {
-    "temperature": 25.8,
-    "humidity": 84,
+    "temperature": 24.8,
+    "humidity": 92,
     "rain": 0,
-    "windSpeed": 2.8,
-    "windGust": 7.6
+    "windSpeed": 2.6,
+    "windGust": 6.5
   },
   "airQuality": {
-    "usAqi": 168,
+    "usAqi": 166,
     "aqiLabel": "Tidak Sehat",
     "aqiEmoji": "🔴",
-    "pm25": 75.4,
-    "pm10": 75.9,
-    "ozone": 57
+    "pm25": 79.9,
+    "pm10": 80.1,
+    "ozone": 20
   },
   "uv": {
     "current": 0,
@@ -33,7 +33,7 @@
   "forecast": {
     "minTemperature": 22.7,
     "maxTemperature": 33.3,
-    "maxPrecipitationProbability": 100,
+    "maxPrecipitationProbability": 96,
     "nextRainTime": "2026-06-21T14:00",
     "nextRainProbability": 53,
     "peakRainTime": "2026-06-21T17:00"
@@ -44,8 +44,8 @@
     "severity": "WARNING",
     "title": "🚨 Emergency Alert",
     "reasons": [
-      "AQI Mencapai 168, Masuk Kategori Tidak Sehat Atau Lebih Buruk.",
-      "Peluang Hujan Hari Ini Mencapai 100%.",
+      "AQI Mencapai 166, Masuk Kategori Tidak Sehat Atau Lebih Buruk.",
+      "Peluang Hujan Hari Ini Mencapai 96%.",
       "BMKG mengeluarkan peringatan dini cuaca yang relevan dengan Bogor: Hujan Lebat disertai Petir di Jakarta."
     ]
   },
@@ -57,8 +57,8 @@
   "bmkgWarning": {
     "isActive": true,
     "title": "Hujan Lebat disertai Petir di Jakarta",
-    "description": "Hujan lebat disertai petir akan terjadi pada 21 June 2026, 20:00 WIB di sebagian wilayah Jakarta, khususnya di Bogor Barat, Ciampea, Cibungbulang, Cilandak, Cipondoh, Cisauk, Dramaga, Gunung Kaler, Jagakarsa, Jonggol, Kelapa Dua, Kemang, Leuwiliang, Mekar Baru, Pagedangan, Pamijahan, Pasar Minggu, Pinang, Pondok Aren, Ranca Bungur, Serpong, Serpong Utara, Sukamakmur, Tanjungsari, Tenjolaya.\n Kondisi ini berpotensi menimbulkan dampak berupa jarak pandang berkurang, angin kencang, dan banjir lokal.\n Masyarakat dihimbau untuk tetap waspada, mengurangi aktivitas di luar ruangan, serta mengambil langkah-langkah pencegahan yang diperlukan guna menjaga keselamatan.\n Kondisi diperkirakan dapat berlangsung hingga 21 June 2026, 23:11 WIB.",
-    "publishedAt": "Sun, 21 Jun 2026 19:50:00 +0700",
+    "description": "Hujan lebat disertai petir akan terjadi pada 21 June 2026, 22:00 WIB di sebagian wilayah Jakarta, khususnya di Babakan Madang, Benda, Bogor Barat, Bogor Utara, Bojong Gede, Cariu, Cengkareng, Cibarusah, Cibinong, Ciomas, Citeureup, Jonggol, Karawaci, Kemang, Mauk, Neglasari, Pakuhaji, Periuk, Sepatan Timur, Sukadiri, Sukaraja, Tajurhalang, Tanah Sareal, Teluknaga.\n Kondisi ini berpotensi menimbulkan dampak berupa jarak pandang berkurang, angin kencang, dan banjir lokal.\n Masyarakat dihimbau untuk tetap waspada, mengurangi aktivitas di luar ruangan, serta mengambil langkah-langkah pencegahan yang diperlukan guna menjaga keselamatan.\n Kondisi diperkirakan dapat berlangsung hingga 22 June 2026, 00:00 WIB.",
+    "publishedAt": "Sun, 21 Jun 2026 21:50:00 +0700",
     "matchedKeywords": [
       "bogor"
     ]
