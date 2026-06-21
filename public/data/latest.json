@@ -1,7 +1,7 @@
 {
   "appName": "In Atmosphere",
   "city": "Kota Bogor",
-  "generatedAt": "2026-06-21T07:00:20.776Z",
+  "generatedAt": "2026-06-21T10:39:00.087Z",
   "reportMode": "emergency-watch",
   "overallStatus": {
     "label": "Perlu Perhatian",
@@ -9,22 +9,22 @@
     "level": "warning"
   },
   "weather": {
-    "temperature": 30.8,
-    "humidity": 59,
-    "rain": 0,
-    "windSpeed": 4.8,
-    "windGust": 23.4
+    "temperature": 26,
+    "humidity": 80,
+    "rain": 0.1,
+    "windSpeed": 4.7,
+    "windGust": 19.8
   },
   "airQuality": {
-    "usAqi": 172,
+    "usAqi": 173,
     "aqiLabel": "Tidak Sehat",
     "aqiEmoji": "🔴",
-    "pm25": 50.5,
-    "pm10": 51.8,
-    "ozone": 200
+    "pm25": 61.5,
+    "pm10": 62.4,
+    "ozone": 115
   },
   "uv": {
-    "current": 2.05,
+    "current": 0.05,
     "maxToday": 7.35,
     "label": "Rendah",
     "emoji": "🟢",
@@ -32,11 +32,11 @@
   },
   "forecast": {
     "minTemperature": 22.7,
-    "maxTemperature": 32.6,
+    "maxTemperature": 32.8,
     "maxPrecipitationProbability": 100,
-    "nextRainTime": "2026-06-21T12:00",
-    "nextRainProbability": 34,
-    "peakRainTime": "2026-06-21T16:00"
+    "nextRainTime": "2026-06-21T14:00",
+    "nextRainProbability": 53,
+    "peakRainTime": "2026-06-21T17:00"
   },
   "emergency": {
     "shouldSend": true,
@@ -44,7 +44,7 @@
     "severity": "WARNING",
     "title": "🚨 Emergency Alert",
     "reasons": [
-      "AQI Mencapai 172, Masuk Kategori Tidak Sehat Atau Lebih Buruk.",
+      "AQI Mencapai 173, Masuk Kategori Tidak Sehat Atau Lebih Buruk.",
       "Peluang Hujan Hari Ini Mencapai 100%.",
       "BMKG mengeluarkan peringatan dini cuaca yang relevan dengan Bogor: Hujan Lebat disertai Petir di Jawa Barat."
     ]
@@ -57,8 +57,8 @@
   "bmkgWarning": {
     "isActive": true,
     "title": "Hujan Lebat disertai Petir di Jawa Barat",
-    "description": "Hujan lebat disertai petir akan terjadi pada 21 June 2026, 12:34 WIB di sebagian wilayah Jawa Barat, khususnya di Bojong, Wanayasa.\n Kondisi ini berpotensi menimbulkan dampak berupa jarak pandang berkurang, angin kencang, dan banjir lokal.\n Masyarakat dihimbau untuk tetap waspada, mengurangi aktivitas di luar ruangan, serta mengambil langkah-langkah pencegahan yang diperlukan guna menjaga keselamatan.\n Kondisi diperkirakan dapat berlangsung hingga 21 June 2026, 14:24 WIB.",
-    "publishedAt": "Sun, 21 Jun 2026 12:24:00 +0700",
+    "description": "Hujan lebat disertai petir akan terjadi pada 21 June 2026, 17:01 WIB di sebagian wilayah Jawa Barat, khususnya di Campaka, Ciater, Cibeber, Cireunghas, Gegerbitung, Jatiluhur, Pasawahan, Pondoksalam, Sagalaherang, Serangpanjang, Sukatani.\n Kondisi ini berpotensi menimbulkan dampak berupa jarak pandang berkurang, angin kencang, dan banjir lokal.\n Masyarakat dihimbau untuk tetap waspada, mengurangi aktivitas di luar ruangan, serta mengambil langkah-langkah pencegahan yang diperlukan guna menjaga keselamatan.\n Kondisi diperkirakan dapat berlangsung hingga 21 June 2026, 19:51 WIB.",
+    "publishedAt": "Sun, 21 Jun 2026 16:51:00 +0700",
     "matchedKeywords": [
       "jawa barat"
     ]
