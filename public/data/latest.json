@@ -1,7 +1,7 @@
 {
   "appName": "In Atmosphere",
   "city": "Kota Bogor",
-  "generatedAt": "2026-06-22T05:23:38.482Z",
+  "generatedAt": "2026-06-22T11:17:28.705Z",
   "reportMode": "emergency-watch",
   "overallStatus": {
     "label": "Perlu Perhatian",
@@ -9,55 +9,58 @@
     "level": "warning"
   },
   "weather": {
-    "temperature": 30.5,
-    "humidity": 60,
+    "temperature": 26.1,
+    "humidity": 81,
     "rain": 0,
-    "windSpeed": 7.1,
-    "windGust": 21.2
+    "windSpeed": 2.8,
+    "windGust": 13.7
   },
   "airQuality": {
     "usAqi": 163,
     "aqiLabel": "Tidak Sehat",
     "aqiEmoji": "🔴",
-    "pm25": 46.4,
-    "pm10": 47.1,
-    "ozone": 202
+    "pm25": 79.4,
+    "pm10": 79.9,
+    "ozone": 47
   },
   "uv": {
-    "current": 6,
-    "maxToday": 7.05,
-    "label": "Tinggi",
-    "emoji": "🟠",
-    "advice": "Tingkat Radiasi UV Tinggi. Berisiko Mempercepat Terjadinya Luka Bakar Matahari (Sunburn) Serta Kerusakan Kulit Jangka Panjang. Perlindungan Aktif Sangat Penting Diterapkan (Mengoleskan Tabir Surya (Sunscreen) Dengan Minimal SPF Dan Peringkat 30+ PA+++, Pakaian Pelindung, Dan Kacamata Anti-UV). Batasi Paparan Matahari Langsung Secara Signifikan, Terutama Antara Pukul 10.00 WIB - 16.00 WIB, Utamakan Melakukan Aktivitas Di Area Yang Teduh."
+    "current": 0,
+    "maxToday": 7.25,
+    "label": "Rendah",
+    "emoji": "🟢",
+    "advice": "Indeks Radiasi UV Berada Pada Tingkat Minimum. Risiko Kerusakan Kulit Sangat Rendah Bagi Mayoritas Orang. Aman Untuk Beraktivitas Normal Di Luar Ruangan Tanpa Perlindungan Khusus. Namun, Bagi Individu Dengan Kulit Yang Sangat Sensitif Atau Jika Harus Berada Di Bawah Terik Matahari Dalam Durasi Yang Sangat Lama, Penggunaan Kacamata Hitam, Penggunaan Tabir Surya (Sunscreen) Dengan Proteksi Minimal Terhadap UV-A dan UV-B (SPF 15+) Tetap Disarankan."
   },
   "forecast": {
     "minTemperature": 23.6,
-    "maxTemperature": 30.6,
-    "maxPrecipitationProbability": 75,
+    "maxTemperature": 32.4,
+    "maxPrecipitationProbability": 67,
     "nextRainTime": "2026-06-22T00:00",
     "nextRainProbability": 53,
     "peakRainTime": "2026-06-23T18:00"
   },
   "emergency": {
     "shouldSend": true,
-    "type": "AIR_QUALITY",
+    "type": "MULTI_RISK",
     "severity": "WARNING",
     "title": "🚨 Emergency Alert",
     "reasons": [
-      "AQI Mencapai 163, Masuk Kategori Tidak Sehat Atau Lebih Buruk."
+      "AQI Mencapai 163, Masuk Kategori Tidak Sehat Atau Lebih Buruk.",
+      "BMKG mengeluarkan peringatan dini cuaca yang relevan dengan Bogor: Hujan Lebat disertai Petir di Jawa Barat."
     ]
   },
   "advice": {
-    "general": "Kualitas Udara Sedang Tidak Sehat. Kurangi Paparan Udara Luar Jika Memungkinkan. Ada Peluang Hujan Cukup Tinggi, Siapkan Payung/Jas Hujan.",
+    "general": "Kualitas Udara Sedang Tidak Sehat. Kurangi Paparan Udara Luar Jika Memungkinkan.",
     "outdoor": "Kurangi Aktivitas Luar Ruangan Berat Dan Pertimbangkan Memakai Masker.",
     "sensitiveGroup": "Anak-Anak, Lansia, Dan Orang Dengan Gangguan Pernapasan Sebaiknya Berada Di Dalam Ruangan."
   },
   "bmkgWarning": {
-    "isActive": false,
-    "title": null,
-    "description": null,
-    "publishedAt": null,
-    "matchedKeywords": []
+    "isActive": true,
+    "title": "Hujan Lebat disertai Petir di Jawa Barat",
+    "description": "Hujan lebat disertai petir akan terjadi pada 22 June 2026, 17:35 WIB di sebagian wilayah Jawa Barat, khususnya di Baleendah, Banjaran, Cibatu, Dayeuhkolot, Katapang, Margahayu, Pacet, Pameungpeuk, Sukaresmi.\n Kondisi ini berpotensi menimbulkan dampak berupa jarak pandang berkurang, angin kencang, dan banjir lokal.\n Masyarakat dihimbau untuk tetap waspada, mengurangi aktivitas di luar ruangan, serta mengambil langkah-langkah pencegahan yang diperlukan guna menjaga keselamatan.\n Kondisi diperkirakan dapat berlangsung hingga 22 June 2026, 20:56 WIB.",
+    "publishedAt": "Mon, 22 Jun 2026 17:25:00 +0700",
+    "matchedKeywords": [
+      "jawa barat"
+    ]
   },
   "sources": [
     "Open-Meteo Weather API",
