@@ -1,7 +1,7 @@
 {
   "appName": "In Atmosphere",
   "city": "Kota Bogor",
-  "generatedAt": "2026-06-23T08:05:25.283Z",
+  "generatedAt": "2026-06-23T11:27:45.613Z",
   "reportMode": "emergency-watch",
   "overallStatus": {
     "label": "Perlu Perhatian",
@@ -9,22 +9,22 @@
     "level": "warning"
   },
   "weather": {
-    "temperature": 28.4,
-    "humidity": 68,
-    "rain": 0.1,
-    "windSpeed": 4.9,
-    "windGust": 30.6
+    "temperature": 27.5,
+    "humidity": 70,
+    "rain": 0,
+    "windSpeed": 1.2,
+    "windGust": 6.5
   },
   "airQuality": {
-    "usAqi": 170,
+    "usAqi": 172,
     "aqiLabel": "Tidak Sehat",
     "aqiEmoji": "🔴",
-    "pm25": 57.4,
-    "pm10": 58.2,
-    "ozone": 186
+    "pm25": 85,
+    "pm10": 85.4,
+    "ozone": 48
   },
   "uv": {
-    "current": 0.7,
+    "current": 0,
     "maxToday": 7.3,
     "label": "Rendah",
     "emoji": "🟢",
@@ -33,10 +33,10 @@
   "forecast": {
     "minTemperature": 21.8,
     "maxTemperature": 31.5,
-    "maxPrecipitationProbability": 96,
+    "maxPrecipitationProbability": 92,
     "nextRainTime": "2026-06-23T04:00",
     "nextRainProbability": 51,
-    "peakRainTime": "2026-06-23T16:00"
+    "peakRainTime": "2026-06-24T17:00"
   },
   "emergency": {
     "shouldSend": true,
@@ -44,8 +44,8 @@
     "severity": "WARNING",
     "title": "🚨 Emergency Alert",
     "reasons": [
-      "AQI Mencapai 170, Masuk Kategori Tidak Sehat Atau Lebih Buruk.",
-      "Peluang Hujan Hari Ini Mencapai 96%.",
+      "AQI Mencapai 172, Masuk Kategori Tidak Sehat Atau Lebih Buruk.",
+      "Peluang Hujan Hari Ini Mencapai 92%.",
       "BMKG mengeluarkan peringatan dini cuaca yang relevan dengan Bogor: Hujan Lebat disertai Petir di Jawa Barat."
     ]
   },
@@ -57,8 +57,8 @@
   "bmkgWarning": {
     "isActive": true,
     "title": "Hujan Lebat disertai Petir di Jawa Barat",
-    "description": "Hujan lebat disertai petir akan terjadi pada 23 June 2026, 15:05 WIB di sebagian wilayah Jawa Barat, khususnya di Cijambe, Cikelet, Cisompet, Dawuan, Kasomalang, Lengkong, Sagalaherang, Serangpanjang, Telukjambe Barat, Telukjambe Timur.\n Kondisi ini berpotensi menimbulkan dampak berupa jarak pandang berkurang, angin kencang, dan banjir lokal.\n Masyarakat dihimbau untuk tetap waspada, mengurangi aktivitas di luar ruangan, serta mengambil langkah-langkah pencegahan yang diperlukan guna menjaga keselamatan.\n Kondisi diperkirakan dapat berlangsung hingga 23 June 2026, 17:30 WIB.",
-    "publishedAt": "Tue, 23 Jun 2026 14:54:00 +0700",
+    "description": "Hujan lebat disertai petir akan terjadi pada 23 June 2026, 16:35 WIB di sebagian wilayah Jawa Barat, khususnya di Campaka, Ciater, Gantar, Jatiluhur, Pasawahan, Plered, Sukatani, Surian, Tanjungmedar.\n Kondisi ini berpotensi menimbulkan dampak berupa jarak pandang berkurang, angin kencang, dan banjir lokal.\n Masyarakat dihimbau untuk tetap waspada, mengurangi aktivitas di luar ruangan, serta mengambil langkah-langkah pencegahan yang diperlukan guna menjaga keselamatan.\n Kondisi diperkirakan dapat berlangsung hingga 23 June 2026, 18:30 WIB.",
+    "publishedAt": "Tue, 23 Jun 2026 16:24:00 +0700",
     "matchedKeywords": [
       "jawa barat"
     ]
