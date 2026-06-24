@@ -1,7 +1,7 @@
 {
   "appName": "In Atmosphere",
   "city": "Kota Bogor",
-  "generatedAt": "2026-06-24T15:20:11.781Z",
+  "generatedAt": "2026-06-24T17:29:02.369Z",
   "reportMode": "emergency-watch",
   "overallStatus": {
     "label": "Perlu Perhatian",
@@ -9,34 +9,34 @@
     "level": "warning"
   },
   "weather": {
-    "temperature": 25,
+    "temperature": 24.4,
     "humidity": 89,
     "rain": 0,
-    "windSpeed": 3.6,
-    "windGust": 9.7
+    "windSpeed": 3.8,
+    "windGust": 8.6
   },
   "airQuality": {
-    "usAqi": 177,
+    "usAqi": 175,
     "aqiLabel": "Tidak Sehat",
     "aqiEmoji": "🔴",
-    "pm25": 118.7,
-    "pm10": 118.7,
-    "ozone": 12
+    "pm25": 122.5,
+    "pm10": 122.9,
+    "ozone": 9
   },
   "uv": {
     "current": 0,
-    "maxToday": 6.9,
+    "maxToday": 6.15,
     "label": "Rendah",
     "emoji": "🟢",
     "advice": "Indeks Radiasi UV Berada Pada Tingkat Minimum. Risiko Kerusakan Kulit Sangat Rendah Bagi Mayoritas Orang. Aman Untuk Beraktivitas Normal Di Luar Ruangan Tanpa Perlindungan Khusus. Namun, Bagi Individu Dengan Kulit Yang Sangat Sensitif Atau Jika Harus Berada Di Bawah Terik Matahari Dalam Durasi Yang Sangat Lama, Penggunaan Kacamata Hitam, Penggunaan Tabir Surya (Sunscreen) Dengan Proteksi Minimal Terhadap UV-A dan UV-B (SPF 15+) Tetap Disarankan."
   },
   "forecast": {
-    "minTemperature": 23,
-    "maxTemperature": 32.7,
-    "maxPrecipitationProbability": 98,
-    "nextRainTime": "2026-06-24T14:00",
-    "nextRainProbability": 28,
-    "peakRainTime": "2026-06-24T17:00"
+    "minTemperature": 22.4,
+    "maxTemperature": 31.6,
+    "maxPrecipitationProbability": 55,
+    "nextRainTime": "2026-06-25T10:00",
+    "nextRainProbability": 2,
+    "peakRainTime": "2026-06-25T16:00"
   },
   "emergency": {
     "shouldSend": true,
@@ -44,21 +44,20 @@
     "severity": "WARNING",
     "title": "🚨 Emergency Alert",
     "reasons": [
-      "AQI Mencapai 177, Masuk Kategori Tidak Sehat Atau Lebih Buruk.",
-      "Peluang Hujan Hari Ini Mencapai 98%.",
+      "AQI Mencapai 175, Masuk Kategori Tidak Sehat Atau Lebih Buruk.",
       "BMKG mengeluarkan peringatan dini cuaca yang relevan dengan Bogor: Hujan Lebat disertai Petir di Jawa Barat."
     ]
   },
   "advice": {
-    "general": "Kualitas Udara Sedang Tidak Sehat. Kurangi Paparan Udara Luar Jika Memungkinkan. Ada Peluang Hujan Cukup Tinggi, Siapkan Payung/Jas Hujan.",
+    "general": "Kualitas Udara Sedang Tidak Sehat. Kurangi Paparan Udara Luar Jika Memungkinkan.",
     "outdoor": "Kurangi Aktivitas Luar Ruangan Berat Dan Pertimbangkan Memakai Masker.",
     "sensitiveGroup": "Anak-Anak, Lansia, Dan Orang Dengan Gangguan Pernapasan Sebaiknya Berada Di Dalam Ruangan."
   },
   "bmkgWarning": {
     "isActive": true,
     "title": "Hujan Lebat disertai Petir di Jawa Barat",
-    "description": "Hujan lebat disertai petir akan terjadi pada 24 June 2026, 21:50 WIB di sebagian wilayah Jawa Barat, khususnya di Astanajapura, Greged, Harjamukti, Kedawung, Kejaksan, Kesambi, Lemah Wungkuk, Lemahabang, Losari, Mundu, Pabedilan, Pangenan, Susukan Lebak, Talun.\n Kondisi ini berpotensi menimbulkan dampak berupa jarak pandang berkurang, angin kencang, dan banjir lokal.\n Masyarakat dihimbau untuk tetap waspada, mengurangi aktivitas di luar ruangan, serta mengambil langkah-langkah pencegahan yang diperlukan guna menjaga keselamatan.\n Kondisi diperkirakan dapat berlangsung hingga 24 June 2026, 23:40 WIB.",
-    "publishedAt": "Wed, 24 Jun 2026 21:45:00 +0700",
+    "description": "Hujan lebat disertai petir akan terjadi pada 24 June 2026, 22:55 WIB di sebagian wilayah Jawa Barat, khususnya di Argapura, Cigasong, Ciwaringin, Gebang, Jatiwangi, Kapetakan, Karangsembung, Kasokandel, Lemah Wungkuk, Leuwimunding, Ligung, Maja, Majalengka, Mundu, Palasah, Pangenan, Sindang, Sukahaji, Sumberjaya, Susukan.\n Kondisi ini berpotensi menimbulkan dampak berupa jarak pandang berkurang, angin kencang, dan banjir lokal.\n Masyarakat dihimbau untuk tetap waspada, mengurangi aktivitas di luar ruangan, serta mengambil langkah-langkah pencegahan yang diperlukan guna menjaga keselamatan.\n Kondisi diperkirakan dapat berlangsung hingga 25 June 2026, 01:00 WIB.",
+    "publishedAt": "Wed, 24 Jun 2026 22:50:00 +0700",
     "matchedKeywords": [
       "jawa barat"
     ]
