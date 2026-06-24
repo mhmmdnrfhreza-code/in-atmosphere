@@ -1,7 +1,7 @@
 {
   "appName": "In Atmosphere",
   "city": "Kota Bogor",
-  "generatedAt": "2026-06-24T21:11:20.675Z",
+  "generatedAt": "2026-06-24T22:49:39.315Z",
   "reportMode": "emergency-watch",
   "overallStatus": {
     "label": "Perlu Perhatian",
@@ -9,19 +9,19 @@
     "level": "warning"
   },
   "weather": {
-    "temperature": 23.3,
-    "humidity": 99,
+    "temperature": 22.8,
+    "humidity": 96,
     "rain": 0,
-    "windSpeed": 4.2,
-    "windGust": 11.2
+    "windSpeed": 4.7,
+    "windGust": 10.8
   },
   "airQuality": {
-    "usAqi": 169,
+    "usAqi": 167,
     "aqiLabel": "Tidak Sehat",
     "aqiEmoji": "🔴",
-    "pm25": 61.2,
-    "pm10": 61.2,
-    "ozone": 16
+    "pm25": 57.7,
+    "pm10": 57.9,
+    "ozone": 10
   },
   "uv": {
     "current": 0,
@@ -40,12 +40,11 @@
   },
   "emergency": {
     "shouldSend": true,
-    "type": "MULTI_RISK",
+    "type": "AIR_QUALITY",
     "severity": "WARNING",
     "title": "🚨 Emergency Alert",
     "reasons": [
-      "AQI Mencapai 169, Masuk Kategori Tidak Sehat Atau Lebih Buruk.",
-      "BMKG mengeluarkan peringatan dini cuaca yang relevan dengan Bogor: Hujan Lebat disertai Petir di Jawa Barat."
+      "AQI Mencapai 167, Masuk Kategori Tidak Sehat Atau Lebih Buruk."
     ]
   },
   "advice": {
@@ -54,13 +53,11 @@
     "sensitiveGroup": "Anak-Anak, Lansia, Dan Orang Dengan Gangguan Pernapasan Sebaiknya Berada Di Dalam Ruangan."
   },
   "bmkgWarning": {
-    "isActive": true,
-    "title": "Hujan Lebat disertai Petir di Jawa Barat",
-    "description": "Hujan lebat disertai petir akan terjadi pada 25 June 2026, 03:20 WIB di sebagian wilayah Jawa Barat, khususnya di Ciawigebang, Cigandamekar, Cilimus, Cipicung, Gunung Jati, Jalaksana, Japara, Kedawung, Kejaksan, Kesambi, Kramatmulya, Lemah Wungkuk, Lemahabang, Pekalipan, Plered, Sedong, Sindang Agung, Sumber, Suranenggala, Susukan Lebak, Talun, Tengah Tani, Weru.\n Kondisi ini berpotensi menimbulkan dampak berupa jarak pandang berkurang, angin kencang, dan banjir lokal.\n Masyarakat dihimbau untuk tetap waspada, mengurangi aktivitas di luar ruangan, serta mengambil langkah-langkah pencegahan yang diperlukan guna menjaga keselamatan.\n Kondisi diperkirakan dapat berlangsung hingga 25 June 2026, 05:00 WIB.",
-    "publishedAt": "Thu, 25 Jun 2026 03:10:00 +0700",
-    "matchedKeywords": [
-      "jawa barat"
-    ]
+    "isActive": false,
+    "title": null,
+    "description": null,
+    "publishedAt": null,
+    "matchedKeywords": []
   },
   "sources": [
     "Open-Meteo Weather API",
