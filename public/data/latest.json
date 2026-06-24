@@ -1,7 +1,7 @@
 {
   "appName": "In Atmosphere",
   "city": "Kota Bogor",
-  "generatedAt": "2026-06-24T09:48:17.868Z",
+  "generatedAt": "2026-06-24T12:25:46.656Z",
   "reportMode": "emergency-watch",
   "overallStatus": {
     "label": "Perlu Perhatian",
@@ -9,22 +9,22 @@
     "level": "warning"
   },
   "weather": {
-    "temperature": 25.4,
-    "humidity": 87,
-    "rain": 0.4,
-    "windSpeed": 9.2,
-    "windGust": 28.1
+    "temperature": 25.5,
+    "humidity": 89,
+    "rain": 0,
+    "windSpeed": 1,
+    "windGust": 9
   },
   "airQuality": {
-    "usAqi": 179,
+    "usAqi": 178,
     "aqiLabel": "Tidak Sehat",
     "aqiEmoji": "🔴",
-    "pm25": 48.9,
-    "pm10": 49.6,
-    "ozone": 205
+    "pm25": 84.8,
+    "pm10": 85,
+    "ozone": 34
   },
   "uv": {
-    "current": 0.6,
+    "current": 0,
     "maxToday": 6.9,
     "label": "Rendah",
     "emoji": "🟢",
@@ -33,20 +33,18 @@
   "forecast": {
     "minTemperature": 23,
     "maxTemperature": 32.6,
-    "maxPrecipitationProbability": 87,
+    "maxPrecipitationProbability": 78,
     "nextRainTime": "2026-06-24T15:00",
-    "nextRainProbability": 59,
+    "nextRainProbability": 51,
     "peakRainTime": "2026-06-24T17:00"
   },
   "emergency": {
     "shouldSend": true,
-    "type": "MULTI_RISK",
+    "type": "AIR_QUALITY",
     "severity": "WARNING",
     "title": "🚨 Emergency Alert",
     "reasons": [
-      "AQI Mencapai 179, Masuk Kategori Tidak Sehat Atau Lebih Buruk.",
-      "Peluang Hujan Hari Ini Mencapai 87%.",
-      "BMKG mengeluarkan peringatan dini cuaca yang relevan dengan Bogor: Hujan Lebat disertai Petir di Jawa Barat."
+      "AQI Mencapai 178, Masuk Kategori Tidak Sehat Atau Lebih Buruk."
     ]
   },
   "advice": {
@@ -55,13 +53,11 @@
     "sensitiveGroup": "Anak-Anak, Lansia, Dan Orang Dengan Gangguan Pernapasan Sebaiknya Berada Di Dalam Ruangan."
   },
   "bmkgWarning": {
-    "isActive": true,
-    "title": "Hujan Lebat disertai Petir di Jawa Barat",
-    "description": "Hujan lebat disertai petir akan terjadi pada 24 June 2026, 15:40 WIB di sebagian wilayah Jawa Barat, khususnya di Caringin, Cicantayan, Gununghalu, Kabandungan, Nagrak, Pasirjambu.\n Kondisi ini berpotensi menimbulkan dampak berupa jarak pandang berkurang, angin kencang, dan banjir lokal.\n Masyarakat dihimbau untuk tetap waspada, mengurangi aktivitas di luar ruangan, serta mengambil langkah-langkah pencegahan yang diperlukan guna menjaga keselamatan.\n Kondisi diperkirakan dapat berlangsung hingga 24 June 2026, 17:30 WIB.",
-    "publishedAt": "Wed, 24 Jun 2026 15:29:00 +0700",
-    "matchedKeywords": [
-      "jawa barat"
-    ]
+    "isActive": false,
+    "title": null,
+    "description": null,
+    "publishedAt": null,
+    "matchedKeywords": []
   },
   "sources": [
     "Open-Meteo Weather API",
