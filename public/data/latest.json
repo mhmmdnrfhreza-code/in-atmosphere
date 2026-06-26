@@ -1,42 +1,42 @@
 {
   "appName": "In Atmosphere",
   "city": "Kota Bogor",
-  "generatedAt": "2026-06-25T23:55:02.780Z",
-  "reportMode": "emergency-watch",
+  "generatedAt": "2026-06-26T01:38:33.685Z",
+  "reportMode": "morning",
   "overallStatus": {
     "label": "Perlu Perhatian",
     "description": "Sistem mendeteksi kondisi yang perlu diperhatikan. Lihat bagian emergency dan saran praktis.",
     "level": "warning"
   },
   "weather": {
-    "temperature": 23.1,
-    "humidity": 86,
+    "temperature": 27.5,
+    "humidity": 70,
     "rain": 0,
-    "windSpeed": 4.8,
-    "windGust": 10.8
+    "windSpeed": 0.6,
+    "windGust": 10.1
   },
   "airQuality": {
-    "usAqi": 173,
+    "usAqi": 177,
     "aqiLabel": "Tidak Sehat",
     "aqiEmoji": "🔴",
-    "pm25": 137.4,
-    "pm10": 137.4,
-    "ozone": 0
+    "pm25": 149.9,
+    "pm10": 149.9,
+    "ozone": 43
   },
   "uv": {
-    "current": 0,
+    "current": 1.45,
     "maxToday": 6.9,
     "label": "Rendah",
     "emoji": "🟢",
     "advice": "Indeks Radiasi UV Berada Pada Tingkat Minimum. Risiko Kerusakan Kulit Sangat Rendah Bagi Mayoritas Orang. Aman Untuk Beraktivitas Normal Di Luar Ruangan Tanpa Perlindungan Khusus. Namun, Bagi Individu Dengan Kulit Yang Sangat Sensitif Atau Jika Harus Berada Di Bawah Terik Matahari Dalam Durasi Yang Sangat Lama, Penggunaan Kacamata Hitam, Penggunaan Tabir Surya (Sunscreen) Dengan Proteksi Minimal Terhadap UV-A dan UV-B (SPF 15+) Tetap Disarankan."
   },
   "forecast": {
-    "minTemperature": 22.1,
-    "maxTemperature": 32.6,
-    "maxPrecipitationProbability": 7,
-    "nextRainTime": "2026-06-27T13:00",
-    "nextRainProbability": 6,
-    "peakRainTime": "2026-06-27T17:00"
+    "minTemperature": 22.2,
+    "maxTemperature": 32.2,
+    "maxPrecipitationProbability": 25,
+    "nextRainTime": "2026-06-27T12:00",
+    "nextRainProbability": 0,
+    "peakRainTime": "2026-06-27T18:00"
   },
   "emergency": {
     "shouldSend": true,
@@ -44,7 +44,7 @@
     "severity": "WARNING",
     "title": "🚨 Emergency Alert",
     "reasons": [
-      "AQI Mencapai 173, Masuk Kategori Tidak Sehat Atau Lebih Buruk."
+      "AQI Mencapai 177, Masuk Kategori Tidak Sehat Atau Lebih Buruk."
     ]
   },
   "advice": {
