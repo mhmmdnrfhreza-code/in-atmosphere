@@ -1,27 +1,27 @@
 {
   "appName": "In Atmosphere",
   "city": "Kota Bogor",
-  "generatedAt": "2026-06-26T11:27:08.629Z",
-  "reportMode": "emergency-watch",
+  "generatedAt": "2026-06-26T12:27:42.679Z",
+  "reportMode": "rush-hour",
   "overallStatus": {
     "label": "Perlu Perhatian",
     "description": "Sistem mendeteksi kondisi yang perlu diperhatikan. Lihat bagian emergency dan saran praktis.",
     "level": "warning"
   },
   "weather": {
-    "temperature": 29.3,
-    "humidity": 61,
+    "temperature": 28.2,
+    "humidity": 70,
     "rain": 0,
-    "windSpeed": 5.6,
-    "windGust": 14.8
+    "windSpeed": 3.8,
+    "windGust": 9.7
   },
   "airQuality": {
-    "usAqi": 184,
+    "usAqi": 178,
     "aqiLabel": "Tidak Sehat",
     "aqiEmoji": "🔴",
-    "pm25": 75,
-    "pm10": 75.7,
-    "ozone": 82
+    "pm25": 107.3,
+    "pm10": 108,
+    "ozone": 31
   },
   "uv": {
     "current": 0,
@@ -33,19 +33,18 @@
   "forecast": {
     "minTemperature": 22.2,
     "maxTemperature": 32.6,
-    "maxPrecipitationProbability": 19,
+    "maxPrecipitationProbability": 22,
     "nextRainTime": "2026-06-27T14:00",
-    "nextRainProbability": 26,
-    "peakRainTime": "2026-06-27T18:00"
+    "nextRainProbability": 32,
+    "peakRainTime": "2026-06-27T17:00"
   },
   "emergency": {
     "shouldSend": true,
-    "type": "MULTI_RISK",
+    "type": "AIR_QUALITY",
     "severity": "WARNING",
     "title": "🚨 Emergency Alert",
     "reasons": [
-      "AQI Mencapai 184, Masuk Kategori Tidak Sehat Atau Lebih Buruk.",
-      "BMKG mengeluarkan peringatan dini cuaca yang relevan dengan Bogor: Hujan Lebat disertai Petir di Jawa Barat."
+      "AQI Mencapai 178, Masuk Kategori Tidak Sehat Atau Lebih Buruk."
     ]
   },
   "advice": {
@@ -54,13 +53,11 @@
     "sensitiveGroup": "Anak-Anak, Lansia, Dan Orang Dengan Gangguan Pernapasan Sebaiknya Berada Di Dalam Ruangan."
   },
   "bmkgWarning": {
-    "isActive": true,
-    "title": "Hujan Lebat disertai Petir di Jawa Barat",
-    "description": "Hujan lebat disertai petir akan terjadi pada 26 June 2026, 16:22 WIB di sebagian wilayah Jawa Barat, khususnya di Warung Kiara.\n Kondisi ini berpotensi menimbulkan dampak berupa jarak pandang berkurang, angin kencang, dan banjir lokal.\n Masyarakat dihimbau untuk tetap waspada, mengurangi aktivitas di luar ruangan, serta mengambil langkah-langkah pencegahan yang diperlukan guna menjaga keselamatan.\n Kondisi diperkirakan dapat berlangsung hingga 26 June 2026, 18:12 WIB.",
-    "publishedAt": "Fri, 26 Jun 2026 16:12:00 +0700",
-    "matchedKeywords": [
-      "jawa barat"
-    ]
+    "isActive": false,
+    "title": null,
+    "description": null,
+    "publishedAt": null,
+    "matchedKeywords": []
   },
   "sources": [
     "Open-Meteo Weather API",
