@@ -1,7 +1,7 @@
 {
   "appName": "In Atmosphere",
   "city": "Kota Bogor",
-  "generatedAt": "2026-06-26T21:37:26.831Z",
+  "generatedAt": "2026-06-26T23:17:49.574Z",
   "reportMode": "emergency-watch",
   "overallStatus": {
     "label": "Perlu Perhatian",
@@ -9,19 +9,19 @@
     "level": "warning"
   },
   "weather": {
-    "temperature": 22.7,
-    "humidity": 97,
+    "temperature": 22.9,
+    "humidity": 94,
     "rain": 0,
-    "windSpeed": 5.5,
-    "windGust": 11.2
+    "windSpeed": 6.9,
+    "windGust": 13.7
   },
   "airQuality": {
-    "usAqi": 181,
+    "usAqi": 174,
     "aqiLabel": "Tidak Sehat",
     "aqiEmoji": "🔴",
     "pm25": 143.4,
     "pm10": 143.4,
-    "ozone": 2
+    "ozone": 0
   },
   "uv": {
     "current": 0,
@@ -33,7 +33,7 @@
   "forecast": {
     "minTemperature": 22.6,
     "maxTemperature": 31.7,
-    "maxPrecipitationProbability": 97,
+    "maxPrecipitationProbability": 89,
     "nextRainTime": "2026-06-27T11:00",
     "nextRainProbability": 0,
     "peakRainTime": "2026-06-27T17:00"
@@ -44,8 +44,8 @@
     "severity": "WARNING",
     "title": "🚨 Emergency Alert",
     "reasons": [
-      "AQI Mencapai 181, Masuk Kategori Tidak Sehat Atau Lebih Buruk.",
-      "Peluang Hujan Hari Ini Mencapai 97%.",
+      "AQI Mencapai 174, Masuk Kategori Tidak Sehat Atau Lebih Buruk.",
+      "Peluang Hujan Hari Ini Mencapai 89%.",
       "BMKG mengeluarkan peringatan dini cuaca yang relevan dengan Bogor: Hujan Lebat disertai Petir di Jawa Barat."
     ]
   },
@@ -57,8 +57,8 @@
   "bmkgWarning": {
     "isActive": true,
     "title": "Hujan Lebat disertai Petir di Jawa Barat",
-    "description": "Hujan lebat disertai petir akan terjadi pada 27 June 2026, 03:45 WIB di sebagian wilayah Jawa Barat, khususnya di Cigugur, Pancatengah.\n Kondisi ini berpotensi menimbulkan dampak berupa jarak pandang berkurang, angin kencang, dan banjir lokal.\n Masyarakat dihimbau untuk tetap waspada, mengurangi aktivitas di luar ruangan, serta mengambil langkah-langkah pencegahan yang diperlukan guna menjaga keselamatan.\n Kondisi diperkirakan dapat berlangsung hingga 27 June 2026, 06:00 WIB.",
-    "publishedAt": "Sat, 27 Jun 2026 03:30:00 +0700",
+    "description": "Hujan lebat disertai petir akan terjadi pada 27 June 2026, 06:00 WIB di sebagian wilayah Jawa Barat, khususnya di Cigugur, Cijulang, Cikatomas, Cimerak, Langkaplancar, Pancatengah, Parigi.\n Kondisi ini berpotensi menimbulkan dampak berupa jarak pandang berkurang, angin kencang, dan banjir lokal.\n Masyarakat dihimbau untuk tetap waspada, mengurangi aktivitas di luar ruangan, serta mengambil langkah-langkah pencegahan yang diperlukan guna menjaga keselamatan.\n Kondisi diperkirakan dapat berlangsung hingga 27 June 2026, 08:00 WIB.",
+    "publishedAt": "Sat, 27 Jun 2026 05:45:00 +0700",
     "matchedKeywords": [
       "jawa barat"
     ]
