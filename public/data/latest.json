@@ -1,7 +1,7 @@
 {
   "appName": "In Atmosphere",
   "city": "Kota Bogor",
-  "generatedAt": "2026-06-26T08:09:46.688Z",
+  "generatedAt": "2026-06-26T11:27:08.629Z",
   "reportMode": "emergency-watch",
   "overallStatus": {
     "label": "Perlu Perhatian",
@@ -9,22 +9,22 @@
     "level": "warning"
   },
   "weather": {
-    "temperature": 32.5,
-    "humidity": 47,
+    "temperature": 29.3,
+    "humidity": 61,
     "rain": 0,
-    "windSpeed": 7.4,
-    "windGust": 21.2
+    "windSpeed": 5.6,
+    "windGust": 14.8
   },
   "airQuality": {
-    "usAqi": 178,
+    "usAqi": 184,
     "aqiLabel": "Tidak Sehat",
     "aqiEmoji": "🔴",
-    "pm25": 50.3,
-    "pm10": 51,
-    "ozone": 220
+    "pm25": 75,
+    "pm10": 75.7,
+    "ozone": 82
   },
   "uv": {
-    "current": 2.15,
+    "current": 0,
     "maxToday": 6.8,
     "label": "Rendah",
     "emoji": "🟢",
@@ -40,11 +40,12 @@
   },
   "emergency": {
     "shouldSend": true,
-    "type": "AIR_QUALITY",
+    "type": "MULTI_RISK",
     "severity": "WARNING",
     "title": "🚨 Emergency Alert",
     "reasons": [
-      "AQI Mencapai 178, Masuk Kategori Tidak Sehat Atau Lebih Buruk."
+      "AQI Mencapai 184, Masuk Kategori Tidak Sehat Atau Lebih Buruk.",
+      "BMKG mengeluarkan peringatan dini cuaca yang relevan dengan Bogor: Hujan Lebat disertai Petir di Jawa Barat."
     ]
   },
   "advice": {
@@ -53,11 +54,13 @@
     "sensitiveGroup": "Anak-Anak, Lansia, Dan Orang Dengan Gangguan Pernapasan Sebaiknya Berada Di Dalam Ruangan."
   },
   "bmkgWarning": {
-    "isActive": false,
-    "title": null,
-    "description": null,
-    "publishedAt": null,
-    "matchedKeywords": []
+    "isActive": true,
+    "title": "Hujan Lebat disertai Petir di Jawa Barat",
+    "description": "Hujan lebat disertai petir akan terjadi pada 26 June 2026, 16:22 WIB di sebagian wilayah Jawa Barat, khususnya di Warung Kiara.\n Kondisi ini berpotensi menimbulkan dampak berupa jarak pandang berkurang, angin kencang, dan banjir lokal.\n Masyarakat dihimbau untuk tetap waspada, mengurangi aktivitas di luar ruangan, serta mengambil langkah-langkah pencegahan yang diperlukan guna menjaga keselamatan.\n Kondisi diperkirakan dapat berlangsung hingga 26 June 2026, 18:12 WIB.",
+    "publishedAt": "Fri, 26 Jun 2026 16:12:00 +0700",
+    "matchedKeywords": [
+      "jawa barat"
+    ]
   },
   "sources": [
     "Open-Meteo Weather API",
