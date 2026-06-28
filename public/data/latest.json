@@ -1,30 +1,30 @@
 {
   "appName": "In Atmosphere",
   "city": "Kota Bogor",
-  "generatedAt": "2026-06-28T10:52:32.164Z",
-  "reportMode": "emergency-watch",
+  "generatedAt": "2026-06-28T11:59:09.453Z",
+  "reportMode": "rush-hour",
   "overallStatus": {
     "label": "Perlu Perhatian",
     "description": "Sistem mendeteksi kondisi yang perlu diperhatikan. Lihat bagian emergency dan saran praktis.",
     "level": "warning"
   },
   "weather": {
-    "temperature": 27,
-    "humidity": 71,
+    "temperature": 26.7,
+    "humidity": 75,
     "rain": 0,
-    "windSpeed": 9.1,
-    "windGust": 25.6
+    "windSpeed": 4.4,
+    "windGust": 18.7
   },
   "airQuality": {
-    "usAqi": 165,
+    "usAqi": 171,
     "aqiLabel": "Tidak Sehat",
     "aqiEmoji": "🔴",
-    "pm25": 69.8,
-    "pm10": 73.3,
-    "ozone": 153
+    "pm25": 98.5,
+    "pm10": 101.7,
+    "ozone": 96
   },
   "uv": {
-    "current": 0.1,
+    "current": 0,
     "maxToday": 7.25,
     "label": "Rendah",
     "emoji": "🟢",
@@ -44,9 +44,9 @@
     "severity": "WARNING",
     "title": "🚨 Emergency Alert",
     "reasons": [
-      "AQI Mencapai 165, Masuk Kategori Tidak Sehat Atau Lebih Buruk.",
+      "AQI Mencapai 171, Masuk Kategori Tidak Sehat Atau Lebih Buruk.",
       "Peluang Hujan Hari Ini Mencapai 91%.",
-      "BMKG mengeluarkan peringatan dini cuaca yang relevan dengan Bogor: Hujan Lebat disertai Petir di Jakarta."
+      "BMKG mengeluarkan peringatan dini cuaca yang relevan dengan Bogor: Hujan Lebat disertai Petir di Jawa Barat."
     ]
   },
   "advice": {
@@ -56,11 +56,11 @@
   },
   "bmkgWarning": {
     "isActive": true,
-    "title": "Hujan Lebat disertai Petir di Jakarta",
-    "description": "Hujan lebat disertai petir akan terjadi pada 28 June 2026, 16:32 WIB di sebagian wilayah Jakarta, khususnya di Bogor Selatan, Bogor Tengah, Bogor Timur, Bojong Gede, Cigombong, Cijeruk, Ciomas, Kemang, Pamijahan, Sukaraja, Tajurhalang, Tamansari, Tanah Sareal, Tenjolaya.\n Kondisi ini berpotensi menimbulkan dampak berupa jarak pandang berkurang, angin kencang, dan banjir lokal.\n Masyarakat dihimbau untuk tetap waspada, mengurangi aktivitas di luar ruangan, serta mengambil langkah-langkah pencegahan yang diperlukan guna menjaga keselamatan.\n Kondisi diperkirakan dapat berlangsung hingga 28 June 2026, 18:30 WIB.",
-    "publishedAt": "Sun, 28 Jun 2026 16:22:00 +0700",
+    "title": "Hujan Lebat disertai Petir di Jawa Barat",
+    "description": "Hujan lebat disertai petir akan terjadi pada 28 June 2026, 18:15 WIB di sebagian wilayah Jawa Barat, khususnya di Baleendah, Banjaran, Cangkuang, Cimaung, Dayeuhkolot, Katapang, Pameungpeuk, Pangalengan, Pasirjambu, Soreang.\n Kondisi ini berpotensi menimbulkan dampak berupa jarak pandang berkurang, angin kencang, dan banjir lokal.\n Masyarakat dihimbau untuk tetap waspada, mengurangi aktivitas di luar ruangan, serta mengambil langkah-langkah pencegahan yang diperlukan guna menjaga keselamatan.\n Kondisi diperkirakan dapat berlangsung hingga 28 June 2026, 20:30 WIB.",
+    "publishedAt": "Sun, 28 Jun 2026 18:05:00 +0700",
     "matchedKeywords": [
-      "bogor"
+      "jawa barat"
     ]
   },
   "sources": [
