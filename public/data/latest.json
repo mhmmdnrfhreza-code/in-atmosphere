@@ -1,27 +1,27 @@
 {
   "appName": "In Atmosphere",
   "city": "Kota Bogor",
-  "generatedAt": "2026-06-29T12:05:36.535Z",
-  "reportMode": "emergency-watch",
+  "generatedAt": "2026-06-29T14:29:48.987Z",
+  "reportMode": "rush-hour",
   "overallStatus": {
     "label": "Perlu Perhatian",
     "description": "Sistem mendeteksi kondisi yang perlu diperhatikan. Lihat bagian emergency dan saran praktis.",
     "level": "warning"
   },
   "weather": {
-    "temperature": 27.2,
-    "humidity": 72,
+    "temperature": 25.8,
+    "humidity": 78,
     "rain": 0,
-    "windSpeed": 8.3,
-    "windGust": 17.6
+    "windSpeed": 6.3,
+    "windGust": 12.2
   },
   "airQuality": {
     "usAqi": 171,
     "aqiLabel": "Tidak Sehat",
     "aqiEmoji": "🔴",
-    "pm25": 120.1,
-    "pm10": 122.5,
-    "ozone": 28
+    "pm25": 152.7,
+    "pm10": 155.1,
+    "ozone": 3
   },
   "uv": {
     "current": 0,
@@ -32,7 +32,7 @@
   },
   "forecast": {
     "minTemperature": 22.3,
-    "maxTemperature": 32.5,
+    "maxTemperature": 32.4,
     "maxPrecipitationProbability": 61,
     "nextRainTime": "2026-06-29T12:00",
     "nextRainProbability": 2,
@@ -45,7 +45,7 @@
     "title": "🚨 Emergency Alert",
     "reasons": [
       "AQI Mencapai 171, Masuk Kategori Tidak Sehat Atau Lebih Buruk.",
-      "BMKG mengeluarkan peringatan dini cuaca yang relevan dengan Bogor: Hujan Lebat disertai Petir di Jakarta."
+      "BMKG mengeluarkan peringatan dini cuaca yang relevan dengan Bogor: Hujan Lebat disertai Petir di Jawa Barat."
     ]
   },
   "advice": {
@@ -55,11 +55,11 @@
   },
   "bmkgWarning": {
     "isActive": true,
-    "title": "Hujan Lebat disertai Petir di Jakarta",
-    "description": "Hujan lebat disertai petir akan terjadi pada 29 June 2026, 18:10 WIB di sebagian wilayah Jakarta, khususnya di Bogor Barat, Bogor Selatan, Bogor Tengah, Ciomas, Sukajaya, Tamansari, Tanah Sareal.\n Kondisi ini berpotensi menimbulkan dampak berupa jarak pandang berkurang, angin kencang, dan banjir lokal.\n Masyarakat dihimbau untuk tetap waspada, mengurangi aktivitas di luar ruangan, serta mengambil langkah-langkah pencegahan yang diperlukan guna menjaga keselamatan.\n Kondisi diperkirakan dapat berlangsung hingga 29 June 2026, 20:00 WIB.",
-    "publishedAt": "Mon, 29 Jun 2026 18:00:00 +0700",
+    "title": "Hujan Lebat disertai Petir di Jawa Barat",
+    "description": "Hujan lebat disertai petir akan terjadi pada 29 June 2026, 20:45 WIB di sebagian wilayah Jawa Barat, khususnya di Cicurug, Cidahu, Kabandungan, Parakansalak.\n Kondisi ini berpotensi menimbulkan dampak berupa jarak pandang berkurang, angin kencang, dan banjir lokal.\n Masyarakat dihimbau untuk tetap waspada, mengurangi aktivitas di luar ruangan, serta mengambil langkah-langkah pencegahan yang diperlukan guna menjaga keselamatan.\n Kondisi diperkirakan dapat berlangsung hingga 29 June 2026, 23:00 WIB.",
+    "publishedAt": "Mon, 29 Jun 2026 20:35:00 +0700",
     "matchedKeywords": [
-      "bogor"
+      "jawa barat"
     ]
   },
   "sources": [
