@@ -1,8 +1,8 @@
 {
   "appName": "In Atmosphere",
   "city": "Kota Bogor",
-  "generatedAt": "2026-06-30T12:20:01.110Z",
-  "reportMode": "emergency-watch",
+  "generatedAt": "2026-06-30T12:25:25.782Z",
+  "reportMode": "rush-hour",
   "overallStatus": {
     "label": "Perlu Perhatian",
     "description": "Sistem mendeteksi kondisi yang perlu diperhatikan. Lihat bagian emergency dan saran praktis.",
