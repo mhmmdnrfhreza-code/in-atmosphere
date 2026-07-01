@@ -1,7 +1,7 @@
 {
   "appName": "In Atmosphere",
   "city": "Kota Bogor",
-  "generatedAt": "2026-07-01T05:08:54.272Z",
+  "generatedAt": "2026-07-01T09:00:07.643Z",
   "reportMode": "emergency-watch",
   "overallStatus": {
     "label": "Perlu Perhatian",
@@ -9,33 +9,33 @@
     "level": "warning"
   },
   "weather": {
-    "temperature": 32.4,
-    "humidity": 36,
+    "temperature": 32,
+    "humidity": 38,
     "rain": 0,
-    "windSpeed": 2.5,
-    "windGust": 16.2
+    "windSpeed": 10.2,
+    "windGust": 27
   },
   "airQuality": {
-    "usAqi": 169,
+    "usAqi": 168,
     "aqiLabel": "Tidak Sehat",
     "aqiEmoji": "🔴",
-    "pm25": 42.3,
-    "pm10": 43.8,
-    "ozone": 147
+    "pm25": 39.5,
+    "pm10": 41,
+    "ozone": 153
   },
   "uv": {
-    "current": 6.95,
-    "maxToday": 7.4,
-    "label": "Tinggi",
-    "emoji": "🟠",
-    "advice": "Tingkat Radiasi UV Tinggi. Berisiko Mempercepat Terjadinya Luka Bakar Matahari (Sunburn) Serta Kerusakan Kulit Jangka Panjang. Perlindungan Aktif Sangat Penting Diterapkan (Mengoleskan Tabir Surya (Sunscreen) Dengan Minimal SPF Dan Peringkat 30+ PA+++, Pakaian Pelindung, Dan Kacamata Anti-UV). Batasi Paparan Matahari Langsung Secara Signifikan, Terutama Antara Pukul 10.00 WIB - 16.00 WIB, Utamakan Melakukan Aktivitas Di Area Yang Teduh."
+    "current": 0.8,
+    "maxToday": 7.15,
+    "label": "Rendah",
+    "emoji": "🟢",
+    "advice": "Indeks Radiasi UV Berada Pada Tingkat Minimum. Risiko Kerusakan Kulit Sangat Rendah Bagi Mayoritas Orang. Aman Untuk Beraktivitas Normal Di Luar Ruangan Tanpa Perlindungan Khusus. Namun, Bagi Individu Dengan Kulit Yang Sangat Sensitif Atau Jika Harus Berada Di Bawah Terik Matahari Dalam Durasi Yang Sangat Lama, Penggunaan Kacamata Hitam, Penggunaan Tabir Surya (Sunscreen) Dengan Proteksi Minimal Terhadap UV-A dan UV-B (SPF 15+) Tetap Disarankan."
   },
   "forecast": {
     "minTemperature": 19.8,
     "maxTemperature": 33,
     "maxPrecipitationProbability": 6,
-    "nextRainTime": "2026-07-02T21:00",
-    "nextRainProbability": 19,
+    "nextRainTime": null,
+    "nextRainProbability": null,
     "peakRainTime": null
   },
   "emergency": {
@@ -44,7 +44,7 @@
     "severity": "WARNING",
     "title": "🚨 Emergency Alert",
     "reasons": [
-      "AQI Mencapai 169, Masuk Kategori Tidak Sehat Atau Lebih Buruk."
+      "AQI Mencapai 168, Masuk Kategori Tidak Sehat Atau Lebih Buruk."
     ]
   },
   "advice": {
