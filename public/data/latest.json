@@ -1,7 +1,7 @@
 {
   "appName": "In Atmosphere",
   "city": "Kota Bogor",
-  "generatedAt": "2026-07-01T15:22:12.505Z",
+  "generatedAt": "2026-07-01T17:31:23.244Z",
   "reportMode": "emergency-watch",
   "overallStatus": {
     "label": "Perlu Perhatian",
@@ -9,34 +9,34 @@
     "level": "warning"
   },
   "weather": {
-    "temperature": 24.6,
-    "humidity": 77,
+    "temperature": 23.1,
+    "humidity": 83,
     "rain": 0,
-    "windSpeed": 6.7,
-    "windGust": 14.4
+    "windSpeed": 5.4,
+    "windGust": 12.6
   },
   "airQuality": {
-    "usAqi": 166,
+    "usAqi": 165,
     "aqiLabel": "Tidak Sehat",
     "aqiEmoji": "🔴",
-    "pm25": 110.4,
-    "pm10": 111.5,
-    "ozone": 14
+    "pm25": 124.8,
+    "pm10": 126.2,
+    "ozone": 4
   },
   "uv": {
     "current": 0,
-    "maxToday": 7.15,
+    "maxToday": 7.4,
     "label": "Rendah",
     "emoji": "🟢",
     "advice": "Indeks Radiasi UV Berada Pada Tingkat Minimum. Risiko Kerusakan Kulit Sangat Rendah Bagi Mayoritas Orang. Aman Untuk Beraktivitas Normal Di Luar Ruangan Tanpa Perlindungan Khusus. Namun, Bagi Individu Dengan Kulit Yang Sangat Sensitif Atau Jika Harus Berada Di Bawah Terik Matahari Dalam Durasi Yang Sangat Lama, Penggunaan Kacamata Hitam, Penggunaan Tabir Surya (Sunscreen) Dengan Proteksi Minimal Terhadap UV-A dan UV-B (SPF 15+) Tetap Disarankan."
   },
   "forecast": {
-    "minTemperature": 19.8,
-    "maxTemperature": 33.5,
-    "maxPrecipitationProbability": 6,
-    "nextRainTime": null,
-    "nextRainProbability": null,
-    "peakRainTime": null
+    "minTemperature": 22.6,
+    "maxTemperature": 33.8,
+    "maxPrecipitationProbability": 22,
+    "nextRainTime": "2026-07-03T18:00",
+    "nextRainProbability": 51,
+    "peakRainTime": "2026-07-03T19:00"
   },
   "emergency": {
     "shouldSend": true,
@@ -44,7 +44,7 @@
     "severity": "WARNING",
     "title": "🚨 Emergency Alert",
     "reasons": [
-      "AQI Mencapai 166, Masuk Kategori Tidak Sehat Atau Lebih Buruk."
+      "AQI Mencapai 165, Masuk Kategori Tidak Sehat Atau Lebih Buruk."
     ]
   },
   "advice": {
