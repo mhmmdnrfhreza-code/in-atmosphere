@@ -1,7 +1,7 @@
 {
   "appName": "In Atmosphere",
   "city": "Kota Bogor",
-  "generatedAt": "2026-07-02T15:54:23.604Z",
+  "generatedAt": "2026-07-02T17:59:22.742Z",
   "reportMode": "emergency-watch",
   "overallStatus": {
     "label": "Perlu Perhatian",
@@ -9,34 +9,34 @@
     "level": "warning"
   },
   "weather": {
-    "temperature": 25.7,
-    "humidity": 77,
+    "temperature": 24.1,
+    "humidity": 83,
     "rain": 0,
-    "windSpeed": 5.8,
-    "windGust": 12.2
+    "windSpeed": 6.3,
+    "windGust": 13
   },
   "airQuality": {
-    "usAqi": 161,
+    "usAqi": 162,
     "aqiLabel": "Tidak Sehat",
     "aqiEmoji": "🔴",
-    "pm25": 139.2,
-    "pm10": 140.6,
-    "ozone": 14
+    "pm25": 162.1,
+    "pm10": 163,
+    "ozone": 4
   },
   "uv": {
     "current": 0,
-    "maxToday": 7.4,
+    "maxToday": 7.25,
     "label": "Rendah",
     "emoji": "🟢",
     "advice": "Indeks Radiasi UV Berada Pada Tingkat Minimum. Risiko Kerusakan Kulit Sangat Rendah Bagi Mayoritas Orang. Aman Untuk Beraktivitas Normal Di Luar Ruangan Tanpa Perlindungan Khusus. Namun, Bagi Individu Dengan Kulit Yang Sangat Sensitif Atau Jika Harus Berada Di Bawah Terik Matahari Dalam Durasi Yang Sangat Lama, Penggunaan Kacamata Hitam, Penggunaan Tabir Surya (Sunscreen) Dengan Proteksi Minimal Terhadap UV-A dan UV-B (SPF 15+) Tetap Disarankan."
   },
   "forecast": {
-    "minTemperature": 21.4,
-    "maxTemperature": 34.1,
-    "maxPrecipitationProbability": 18,
-    "nextRainTime": "2026-07-02T21:00",
-    "nextRainProbability": 16,
-    "peakRainTime": "2026-07-03T19:00"
+    "minTemperature": 21.7,
+    "maxTemperature": 33.6,
+    "maxPrecipitationProbability": 51,
+    "nextRainTime": "2026-07-03T16:00",
+    "nextRainProbability": 33,
+    "peakRainTime": "2026-07-04T19:00"
   },
   "emergency": {
     "shouldSend": true,
@@ -44,7 +44,7 @@
     "severity": "WARNING",
     "title": "🚨 Emergency Alert",
     "reasons": [
-      "AQI Mencapai 161, Masuk Kategori Tidak Sehat Atau Lebih Buruk."
+      "AQI Mencapai 162, Masuk Kategori Tidak Sehat Atau Lebih Buruk."
     ]
   },
   "advice": {
