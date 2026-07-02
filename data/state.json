@@ -1,22 +1,22 @@
 {
   "lastAqi": 161,
-  "lastUvIndex": 5.35,
+  "lastUvIndex": 1.95,
   "lastRain": 0,
-  "lastWindGust": 15.5,
-  "lastCheckedAt": "2026-07-02T04:43:52.771Z",
+  "lastWindGust": 17.6,
+  "lastCheckedAt": "2026-07-02T08:19:24.029Z",
   "lastEmergencyAlert": {
     "type": "AIR_QUALITY",
     "severity": "WARNING",
-    "sentAt": "2026-07-02T04:43:52.771Z"
+    "sentAt": "2026-07-02T08:19:24.029Z"
   },
   "currentStatusMessageId": "1506335447398482001",
-  "currentStatusUpdatedAt": "2026-07-02T04:43:52.771Z",
-  "activeEmergencyMessageId": "1522100476965814393",
-  "previousEmergencyMessageId": "1522052860471148626",
-  "activeEmergencyFingerprint": "type=AIR_QUALITY|severity=WARNING|reasons=aqi mencapai 161, masuk kategori tidak sehat atau lebih buruk.|bmkg=false|aqi=UNHEALTHY|uv=MODERATE|weather=NORMAL",
-  "previousEmergencyFingerprint": "type=AIR_QUALITY|severity=WARNING|reasons=aqi mencapai 162, masuk kategori tidak sehat atau lebih buruk.|bmkg=false|aqi=UNHEALTHY|uv=LOW|weather=NORMAL",
-  "activeEmergencySentAt": "2026-07-02T04:43:52.771Z",
-  "previousEmergencySentAt": "2026-07-02T01:34:40.100Z",
+  "currentStatusUpdatedAt": "2026-07-02T08:19:24.029Z",
+  "activeEmergencyMessageId": "1522154716589588582",
+  "previousEmergencyMessageId": "1522100476965814393",
+  "activeEmergencyFingerprint": "type=AIR_QUALITY|severity=WARNING|reasons=aqi mencapai 161, masuk kategori tidak sehat atau lebih buruk.|bmkg=false|aqi=UNHEALTHY|uv=LOW|weather=NORMAL",
+  "previousEmergencyFingerprint": "type=AIR_QUALITY|severity=WARNING|reasons=aqi mencapai 161, masuk kategori tidak sehat atau lebih buruk.|bmkg=false|aqi=UNHEALTHY|uv=MODERATE|weather=NORMAL",
+  "activeEmergencySentAt": "2026-07-02T08:19:24.029Z",
+  "previousEmergencySentAt": "2026-07-02T04:43:52.771Z",
   "recoveryMessageId": null,
   "recoverySentAt": null,
   "recoveryFingerprint": null
