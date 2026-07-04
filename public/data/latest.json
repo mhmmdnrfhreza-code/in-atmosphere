@@ -1,7 +1,7 @@
 {
   "appName": "In Atmosphere",
   "city": "Kota Bogor",
-  "generatedAt": "2026-07-03T22:37:30.286Z",
+  "generatedAt": "2026-07-04T04:22:28.834Z",
   "reportMode": "emergency-watch",
   "overallStatus": {
     "label": "Perlu Perhatian",
@@ -9,33 +9,33 @@
     "level": "warning"
   },
   "weather": {
-    "temperature": 23.3,
-    "humidity": 88,
+    "temperature": 31.6,
+    "humidity": 50,
     "rain": 0,
-    "windSpeed": 5.2,
-    "windGust": 12.2
+    "windSpeed": 8.4,
+    "windGust": 24.1
   },
   "airQuality": {
-    "usAqi": 167,
+    "usAqi": 168,
     "aqiLabel": "Tidak Sehat",
     "aqiEmoji": "🔴",
-    "pm25": 115.5,
-    "pm10": 115.9,
-    "ozone": 7
+    "pm25": 47.4,
+    "pm10": 48.2,
+    "ozone": 181
   },
   "uv": {
-    "current": 0,
+    "current": 7.25,
     "maxToday": 7.3,
-    "label": "Rendah",
-    "emoji": "🟢",
-    "advice": "Indeks Radiasi UV Berada Pada Tingkat Minimum. Risiko Kerusakan Kulit Sangat Rendah Bagi Mayoritas Orang. Aman Untuk Beraktivitas Normal Di Luar Ruangan Tanpa Perlindungan Khusus. Namun, Bagi Individu Dengan Kulit Yang Sangat Sensitif Atau Jika Harus Berada Di Bawah Terik Matahari Dalam Durasi Yang Sangat Lama, Penggunaan Kacamata Hitam, Penggunaan Tabir Surya (Sunscreen) Dengan Proteksi Minimal Terhadap UV-A dan UV-B (SPF 15+) Tetap Disarankan."
+    "label": "Tinggi",
+    "emoji": "🟠",
+    "advice": "Tingkat Radiasi UV Tinggi. Berisiko Mempercepat Terjadinya Luka Bakar Matahari (Sunburn) Serta Kerusakan Kulit Jangka Panjang. Perlindungan Aktif Sangat Penting Diterapkan (Mengoleskan Tabir Surya (Sunscreen) Dengan Minimal SPF Dan Peringkat 30+ PA+++, Pakaian Pelindung, Dan Kacamata Anti-UV). Batasi Paparan Matahari Langsung Secara Signifikan, Terutama Antara Pukul 10.00 WIB - 16.00 WIB, Utamakan Melakukan Aktivitas Di Area Yang Teduh."
   },
   "forecast": {
-    "minTemperature": 23.3,
-    "maxTemperature": 33.1,
-    "maxPrecipitationProbability": 67,
+    "minTemperature": 22.3,
+    "maxTemperature": 33,
+    "maxPrecipitationProbability": 75,
     "nextRainTime": "2026-07-04T16:00",
-    "nextRainProbability": 25,
+    "nextRainProbability": 29,
     "peakRainTime": "2026-07-05T18:00"
   },
   "emergency": {
@@ -44,11 +44,11 @@
     "severity": "WARNING",
     "title": "🚨 Emergency Alert",
     "reasons": [
-      "AQI Mencapai 167, Masuk Kategori Tidak Sehat Atau Lebih Buruk."
+      "AQI Mencapai 168, Masuk Kategori Tidak Sehat Atau Lebih Buruk."
     ]
   },
   "advice": {
-    "general": "Kualitas Udara Sedang Tidak Sehat. Kurangi Paparan Udara Luar Jika Memungkinkan.",
+    "general": "Kualitas Udara Sedang Tidak Sehat. Kurangi Paparan Udara Luar Jika Memungkinkan. Ada Peluang Hujan Cukup Tinggi, Siapkan Payung/Jas Hujan.",
     "outdoor": "Kurangi Aktivitas Luar Ruangan Berat Dan Pertimbangkan Memakai Masker.",
     "sensitiveGroup": "Anak-Anak, Lansia, Dan Orang Dengan Gangguan Pernapasan Sebaiknya Berada Di Dalam Ruangan."
   },
