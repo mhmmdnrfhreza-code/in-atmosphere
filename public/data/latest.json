@@ -1,7 +1,7 @@
 {
   "appName": "In Atmosphere",
   "city": "Kota Bogor",
-  "generatedAt": "2026-07-04T09:39:25.341Z",
+  "generatedAt": "2026-07-04T11:41:37.594Z",
   "reportMode": "emergency-watch",
   "overallStatus": {
     "label": "Perlu Perhatian",
@@ -9,22 +9,22 @@
     "level": "warning"
   },
   "weather": {
-    "temperature": 31.6,
-    "humidity": 49,
+    "temperature": 27.9,
+    "humidity": 73,
     "rain": 0,
-    "windSpeed": 12.1,
-    "windGust": 27
+    "windSpeed": 11.6,
+    "windGust": 25.9
   },
   "airQuality": {
-    "usAqi": 168,
+    "usAqi": 178,
     "aqiLabel": "Tidak Sehat",
     "aqiEmoji": "🔴",
-    "pm25": 42.4,
-    "pm10": 43.4,
-    "ozone": 165
+    "pm25": 58,
+    "pm10": 59.4,
+    "ozone": 121
   },
   "uv": {
-    "current": 0.8,
+    "current": 0,
     "maxToday": 7,
     "label": "Rendah",
     "emoji": "🟢",
@@ -33,31 +33,34 @@
   "forecast": {
     "minTemperature": 22.3,
     "maxTemperature": 32.8,
-    "maxPrecipitationProbability": 75,
+    "maxPrecipitationProbability": 32,
     "nextRainTime": "2026-07-04T17:00",
-    "nextRainProbability": 47,
+    "nextRainProbability": 31,
     "peakRainTime": "2026-07-05T18:00"
   },
   "emergency": {
     "shouldSend": true,
-    "type": "AIR_QUALITY",
+    "type": "MULTI_RISK",
     "severity": "WARNING",
     "title": "🚨 Emergency Alert",
     "reasons": [
-      "AQI Mencapai 168, Masuk Kategori Tidak Sehat Atau Lebih Buruk."
+      "AQI Mencapai 178, Masuk Kategori Tidak Sehat Atau Lebih Buruk.",
+      "BMKG mengeluarkan peringatan dini cuaca yang relevan dengan Bogor: Hujan Lebat disertai Petir di Jawa Barat."
     ]
   },
   "advice": {
-    "general": "Kualitas Udara Sedang Tidak Sehat. Kurangi Paparan Udara Luar Jika Memungkinkan. Ada Peluang Hujan Cukup Tinggi, Siapkan Payung/Jas Hujan.",
+    "general": "Kualitas Udara Sedang Tidak Sehat. Kurangi Paparan Udara Luar Jika Memungkinkan.",
     "outdoor": "Kurangi Aktivitas Luar Ruangan Berat Dan Pertimbangkan Memakai Masker.",
     "sensitiveGroup": "Anak-Anak, Lansia, Dan Orang Dengan Gangguan Pernapasan Sebaiknya Berada Di Dalam Ruangan."
   },
   "bmkgWarning": {
-    "isActive": false,
-    "title": null,
-    "description": null,
-    "publishedAt": null,
-    "matchedKeywords": []
+    "isActive": true,
+    "title": "Hujan Lebat disertai Petir di Jawa Barat",
+    "description": "Hujan lebat disertai petir akan terjadi pada 04 July 2026, 16:50 WIB di sebagian wilayah Jawa Barat, khususnya di Andir, Astana Anyar, Babakan Ciparay, Bandung Kulon, Bandung Wetan, Bojongloa Kaler, Cicantayan, Cicendo, Cikidang, Cimahi Selatan, Cimahi Utara, Cisaat, Coblong, Gunung Guruh, Parongpong, Sukajadi, Sukasari, Sumur Bandung.\n Kondisi ini berpotensi menimbulkan dampak berupa jarak pandang berkurang, angin kencang, dan banjir lokal.\n Masyarakat dihimbau untuk tetap waspada, mengurangi aktivitas di luar ruangan, serta mengambil langkah-langkah pencegahan yang diperlukan guna menjaga keselamatan.\n Kondisi diperkirakan dapat berlangsung hingga 04 July 2026, 18:30 WIB.",
+    "publishedAt": "Sat, 04 Jul 2026 16:45:00 +0700",
+    "matchedKeywords": [
+      "jawa barat"
+    ]
   },
   "sources": [
     "Open-Meteo Weather API",
