@@ -1,42 +1,42 @@
 {
   "appName": "In Atmosphere",
   "city": "Kota Bogor",
-  "generatedAt": "2026-07-06T01:19:45.216Z",
-  "reportMode": "morning",
+  "generatedAt": "2026-07-06T04:22:43.885Z",
+  "reportMode": "emergency-watch",
   "overallStatus": {
     "label": "Perlu Perhatian",
     "description": "Sistem mendeteksi kondisi yang perlu diperhatikan. Lihat bagian emergency dan saran praktis.",
     "level": "warning"
   },
   "weather": {
-    "temperature": 27.3,
-    "humidity": 69,
+    "temperature": 31.4,
+    "humidity": 52,
     "rain": 0,
-    "windSpeed": 2.3,
-    "windGust": 13.7
+    "windSpeed": 5.4,
+    "windGust": 20.2
   },
   "airQuality": {
-    "usAqi": 152,
+    "usAqi": 151,
     "aqiLabel": "Tidak Sehat",
     "aqiEmoji": "🔴",
-    "pm25": 81.7,
-    "pm10": 83.4,
-    "ozone": 43
+    "pm25": 43.3,
+    "pm10": 44.4,
+    "ozone": 166
   },
   "uv": {
-    "current": 1.5,
+    "current": 6.6,
     "maxToday": 7.25,
-    "label": "Rendah",
-    "emoji": "🟢",
-    "advice": "Indeks Radiasi UV Berada Pada Tingkat Minimum. Risiko Kerusakan Kulit Sangat Rendah Bagi Mayoritas Orang. Aman Untuk Beraktivitas Normal Di Luar Ruangan Tanpa Perlindungan Khusus. Namun, Bagi Individu Dengan Kulit Yang Sangat Sensitif Atau Jika Harus Berada Di Bawah Terik Matahari Dalam Durasi Yang Sangat Lama, Penggunaan Kacamata Hitam, Penggunaan Tabir Surya (Sunscreen) Dengan Proteksi Minimal Terhadap UV-A dan UV-B (SPF 15+) Tetap Disarankan."
+    "label": "Tinggi",
+    "emoji": "🟠",
+    "advice": "Tingkat Radiasi UV Tinggi. Berisiko Mempercepat Terjadinya Luka Bakar Matahari (Sunburn) Serta Kerusakan Kulit Jangka Panjang. Perlindungan Aktif Sangat Penting Diterapkan (Mengoleskan Tabir Surya (Sunscreen) Dengan Minimal SPF Dan Peringkat 30+ PA+++, Pakaian Pelindung, Dan Kacamata Anti-UV). Batasi Paparan Matahari Langsung Secara Signifikan, Terutama Antara Pukul 10.00 WIB - 16.00 WIB, Utamakan Melakukan Aktivitas Di Area Yang Teduh."
   },
   "forecast": {
     "minTemperature": 23.4,
     "maxTemperature": 33.8,
-    "maxPrecipitationProbability": 83,
+    "maxPrecipitationProbability": 84,
     "nextRainTime": "2026-07-06T13:00",
-    "nextRainProbability": 33,
-    "peakRainTime": "2026-07-06T18:00"
+    "nextRainProbability": 29,
+    "peakRainTime": "2026-07-06T19:00"
   },
   "emergency": {
     "shouldSend": true,
@@ -44,7 +44,7 @@
     "severity": "WARNING",
     "title": "🚨 Emergency Alert",
     "reasons": [
-      "AQI Mencapai 152, Masuk Kategori Tidak Sehat Atau Lebih Buruk."
+      "AQI Mencapai 151, Masuk Kategori Tidak Sehat Atau Lebih Buruk."
     ]
   },
   "advice": {
