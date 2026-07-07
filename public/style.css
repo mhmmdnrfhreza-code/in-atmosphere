@@ -266,6 +266,29 @@ button {
   text-align: center;
 }
 
+.location-badge {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  min-width: 118px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 10px 12px;
+  background: var(--surface-muted);
+}
+
+.location-badge__icon {
+  color: var(--muted);
+}
+
+.location-badge__value {
+  color: var(--text-strong);
+  font-size: 0.82rem;
+  font-weight: 800;
+  font-variant-numeric: tabular-nums;
+}
+
 .mobile-nav {
   display: none;
   gap: 8px;

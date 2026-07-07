@@ -5,10 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta
     name="description"
-    content="In Atmosphere menampilkan pemantauan cuaca, kualitas udara, UV Index, peringatan BMKG, dan rekomendasi aktivitas untuk Kota Bogor."
+    content="In Atmosphere — pemantauan cuaca, kualitas udara, UV Index, peringatan BMKG, dan rekomendasi aktivitas."
   />
   <meta name="theme-color" content="#0b1120" />
-  <title>In Atmosphere | Dashboard Pemantauan Kota Bogor</title>
+  <title>In Atmosphere | Dashboard Pemantauan</title>
   <link rel="stylesheet" href="./style.css" />
   <script type="module" src="./app.js"></script>
 </head>
@@ -21,7 +21,7 @@
       <div class="sidebar__brand">
         <div class="brand-mark" aria-hidden="true">IA</div>
         <div>
-          <p class="eyebrow">Kota Bogor</p>
+          <p class="eyebrow" id="sidebar-city-label">Memuat...</p>
           <h1>In Atmosphere</h1>
         </div>
       </div>
@@ -41,10 +41,14 @@
       <header class="topbar" aria-label="Header dashboard">
         <div class="topbar__title">
           <p class="eyebrow">Environmental Monitoring</p>
-          <h2>Kondisi Atmosfer Kota Bogor</h2>
+          <h2 id="topbar-title">Kondisi Atmosfer</h2>
         </div>
 
         <div class="topbar__meta" aria-label="Ringkasan data">
+          <div class="location-badge" id="location-badge" aria-label="Lokasi pemantauan">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="16" height="16" class="location-badge__icon" aria-hidden="true"><path fill-rule="evenodd" d="M11.54 22.351l.07.04.028.016a.76.76 0 00.723 0l.028-.015.071-.041a16.975 16.975 0 001.144-.742 19.58 19.58 0 002.683-2.282c1.944-1.99 3.963-4.98 3.963-8.827a8.25 8.25 0 00-16.5 0c0 3.846 2.02 6.837 3.963 8.827a19.58 19.58 0 002.682 2.282 16.975 16.975 0 001.145.742zM12 13.5a3 3 0 100-6 3 3 0 000 6z" clip-rule="evenodd" /></svg>
+            <span class="location-badge__value" id="location-coords">-</span>
+          </div>
           <button class="theme-toggle" id="theme-toggle" type="button" aria-pressed="true">
             <span class="theme-toggle__icon" aria-hidden="true">☾</span>
             <span id="theme-toggle-label">Dark</span>
@@ -68,7 +72,6 @@
               <p class="eyebrow">Overview</p>
               <h2 id="overview-title">Status Utama</h2>
             </div>
-            <span class="section-badge" id="city-label">Kota Bogor</span>
           </div>
 
           <div class="overview-grid">
@@ -90,12 +93,6 @@
                 <strong id="primary-action">Tunggu hingga data terbaru berhasil dimuat.</strong>
               </div>
 
-              <div class="pill-row" aria-label="Ringkasan risiko">
-                <span class="risk-chip" id="aqi-risk-chip">AQI: -</span>
-                <span class="risk-chip" id="uv-risk-chip">UV: -</span>
-                <span class="risk-chip" id="rain-risk-chip">Hujan: -</span>
-                <span class="risk-chip" id="bmkg-risk-chip">BMKG: -</span>
-              </div>
             </article>
 
             <article class="panel system-summary">
@@ -358,7 +355,7 @@
                 </div>
               </div>
               <p class="panel-note">
-                Dashboard Bersifat Informatif. interpretasi kesehatan dan cuaca merujuk pada WHO, AirNow/EPA, BMKG, dan panduan UV WHO/EPA. Keputusan Darurat, Prioritaskan Informasi Resmi BMKG dan Instansi Terkait.
+                Dashboard bersifat informatif. Pemetaan lokasi hyper-local menggunakan OpenStreetMap Nominatim API. Interpretasi kesehatan dan cuaca merujuk pada WHO, AirNow/EPA, BMKG, dan panduan UV WHO/EPA. Untuk keputusan darurat, prioritaskan informasi resmi dari BMKG dan Instansi Terkait.
               </p>
             </article>
           </div>

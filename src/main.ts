@@ -1,7 +1,6 @@
 // SPDX-License-Identifier: AGPL-3.0-or-later
 
 import { analyzeEmergency } from "./application/services/EmergencyAnalyzer.js";
-import { shouldSendEmergencyNow } from "./application/services/AlertDecisionService.js";
 import { createHealthAdvice } from "./application/services/ReportAdvisor.js";
 import { createDashboardData } from "./application/services/DashboardDataMapper.js";
 import { processDiscordNotifications } from "./application/services/DiscordNotificationOrchestrator.js";
@@ -38,14 +37,12 @@ async function main() {
 
   await saveDashboardData(dashboardData);
 
-  const shouldSendEmergency = shouldSendEmergencyNow(emergencyAlert, state);
   const updatedState = await processDiscordNotifications({
     state,
     snapshot,
     emergencyAlert,
     advice,
     reportMode,
-    shouldSendEmergency,
   });
 
   await saveAppState(updatedState);

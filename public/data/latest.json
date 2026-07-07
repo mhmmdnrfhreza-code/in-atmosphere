@@ -1,30 +1,32 @@
 {
   "appName": "In Atmosphere",
-  "city": "Kota Bogor",
-  "generatedAt": "2026-07-07T05:48:15.970Z",
-  "reportMode": "emergency-watch",
+  "city": "Bogor Tengah",
+  "latitude": -6.5963564,
+  "longitude": 106.7973188,
+  "generatedAt": "2026-07-07T04:48:08.739Z",
+  "reportMode": "morning",
   "overallStatus": {
     "label": "Perlu Perhatian",
     "description": "Sistem mendeteksi kondisi yang perlu diperhatikan. Lihat bagian emergency dan saran praktis.",
     "level": "warning"
   },
   "weather": {
-    "temperature": 32.9,
+    "temperature": 32.4,
     "humidity": 42,
     "rain": 0,
-    "windSpeed": 9.2,
-    "windGust": 25.9
+    "windSpeed": 6,
+    "windGust": 21.2
   },
   "airQuality": {
     "usAqi": 171,
     "aqiLabel": "Tidak Sehat",
     "aqiEmoji": "🔴",
-    "pm25": 67.3,
-    "pm10": 68.2,
-    "ozone": 201
+    "pm25": 74.7,
+    "pm10": 76.1,
+    "ozone": 155
   },
   "uv": {
-    "current": 6.05,
+    "current": 6.15,
     "maxToday": 7.4,
     "label": "Tinggi",
     "emoji": "🟠",
@@ -63,6 +65,7 @@
     "Open-Meteo Weather API",
     "Open-Meteo Air Quality API",
     "BMKG Peringatan Dini Cuaca",
+    "OpenStreetMap (Geocoding)",
     "In Atmosphere Rule Engine"
   ]
 }

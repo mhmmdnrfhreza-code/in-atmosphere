@@ -90,7 +90,7 @@ export function analyzeEmergency(input: EmergencyAnalyzerInput): EmergencyAlert 
 
   if (snapshot.bmkgWarning.isActive) {
     reasons.push(
-      `BMKG mengeluarkan peringatan dini cuaca yang relevan dengan Bogor: ${snapshot.bmkgWarning.title}.`
+      `BMKG mengeluarkan peringatan dini cuaca yang relevan dengan ${snapshot.city}: ${snapshot.bmkgWarning.title}.`
     );
   }
 

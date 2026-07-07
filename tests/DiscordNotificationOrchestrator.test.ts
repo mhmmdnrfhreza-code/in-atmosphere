@@ -5,7 +5,6 @@ import type { EmergencyAlert } from "../src/domain/entities/EmergencyAlert.js";
 import type { HealthAdvice } from "../src/domain/entities/HealthAdvice.js";
 import { normalizeAppState } from "../src/infrastructure/storage/AppStateRepository.js";
 import {
-  DiscordWebhookMessageNotFoundError,
   type DiscordWebhookMessageClient,
 } from "../src/infrastructure/discord/DiscordWebhookClient.js";
 import { processDiscordNotifications } from "../src/application/services/DiscordNotificationOrchestrator.js";
@@ -92,7 +91,7 @@ function createClient(): DiscordWebhookMessageClient {
 }
 
 describe("processDiscordNotifications", () => {
-  it("creates Current Status on first routine run", async () => {
+  it("creates Current Status as new message on first routine run", async () => {
     const client = createClient();
     vi.mocked(client.sendPayloadAndReturnMessage).mockResolvedValueOnce({ id: "status-1" });
 
@@ -102,7 +101,6 @@ describe("processDiscordNotifications", () => {
       emergencyAlert: createAlert(),
       advice,
       reportMode: "morning",
-      shouldSendEmergency: false,
       client,
     });
 
@@ -112,29 +110,8 @@ describe("processDiscordNotifications", () => {
     expect(result.currentStatusUpdatedAt).toBe("2026-05-17T10:00:00.000Z");
   });
 
-  it("edits existing Current Status on routine run", async () => {
+  it("deletes old Current Status and sends new one to stay at latest position", async () => {
     const client = createClient();
-
-    const result = await processDiscordNotifications({
-      state: createState({ currentStatusMessageId: "status-1" }),
-      snapshot: createSnapshot(),
-      emergencyAlert: createAlert(),
-      advice,
-      reportMode: "rush-hour",
-      shouldSendEmergency: false,
-      client,
-    });
-
-    expect(client.editMessage).toHaveBeenCalledWith("status-1", expect.any(Object));
-    expect(client.sendPayloadAndReturnMessage).not.toHaveBeenCalled();
-    expect(result.currentStatusMessageId).toBe("status-1");
-  });
-
-  it("creates replacement Current Status when edit returns 404", async () => {
-    const client = createClient();
-    vi.mocked(client.editMessage).mockRejectedValueOnce(
-      new DiscordWebhookMessageNotFoundError("status missing")
-    );
     vi.mocked(client.sendPayloadAndReturnMessage).mockResolvedValueOnce({ id: "status-2" });
 
     const result = await processDiscordNotifications({
@@ -142,11 +119,13 @@ describe("processDiscordNotifications", () => {
       snapshot: createSnapshot(),
       emergencyAlert: createAlert(),
       advice,
-      reportMode: "manual",
-      shouldSendEmergency: false,
+      reportMode: "rush-hour",
       client,
     });
 
+    expect(client.deleteMessage).toHaveBeenCalledWith("status-1");
+    expect(client.sendPayloadAndReturnMessage).toHaveBeenCalledTimes(1);
+    expect(client.editMessage).not.toHaveBeenCalled();
     expect(result.currentStatusMessageId).toBe("status-2");
   });
 
@@ -177,45 +156,45 @@ describe("processDiscordNotifications", () => {
       emergencyAlert: alert,
       advice,
       reportMode: "emergency-watch",
-      shouldSendEmergency: false,
       client,
     });
 
-    expect(client.sendPayloadAndReturnMessage).not.toHaveBeenCalled();
     expect(result.activeEmergencyMessageId).toBe("emergency-1");
   });
 
-  it("skips unchanged emergency even when cooldown would allow another send", async () => {
+  it("sends emergency immediately without cooldown when fingerprint differs", async () => {
     const client = createClient();
-    const snapshot = createSnapshot({ airQuality: { ...createSnapshot().airQuality, usAqi: 156 } });
+    vi.mocked(client.sendPayloadAndReturnMessage)
+      .mockResolvedValueOnce({ id: "emergency-2" })
+      .mockResolvedValueOnce({ id: "status-new" });
+    const snapshot = createSnapshot({ airQuality: { ...createSnapshot().airQuality, usAqi: 200 } });
     const alert = createAlert({
       shouldSend: true,
       type: "AIR_QUALITY",
       severity: "WARNING",
-      reasons: ["AQI mencapai 156"],
+      reasons: ["AQI mencapai 200"],
     });
 
-    await processDiscordNotifications({
+    const result = await processDiscordNotifications({
       state: createState({
         currentStatusMessageId: "status-1",
         activeEmergencyMessageId: "emergency-1",
-        activeEmergencyFingerprint: "type=AIR_QUALITY|severity=WARNING|reasons=aqi mencapai 156|bmkg=false|aqi=UNHEALTHY|uv=MODERATE|weather=NORMAL",
-        activeEmergencySentAt: "2026-05-17T07:00:00.000Z",
+        activeEmergencyFingerprint: "old-fingerprint",
+        activeEmergencySentAt: "2026-05-17T09:55:00.000Z",
         lastEmergencyAlert: {
           type: "AIR_QUALITY",
           severity: "WARNING",
-          sentAt: "2026-05-17T07:00:00.000Z",
+          sentAt: "2026-05-17T09:55:00.000Z",
         },
       }),
       snapshot,
       emergencyAlert: alert,
       advice,
       reportMode: "emergency-watch",
-      shouldSendEmergency: true,
       client,
     });
 
-    expect(client.sendPayloadAndReturnMessage).not.toHaveBeenCalled();
+    expect(result.activeEmergencyMessageId).toBe("emergency-2");
   });
 
   it("rotates emergency context and deletes older previous emergency", async () => {
@@ -245,7 +224,6 @@ describe("processDiscordNotifications", () => {
       emergencyAlert: alert,
       advice,
       reportMode: "emergency-watch",
-      shouldSendEmergency: true,
       client,
     });
 
@@ -257,7 +235,9 @@ describe("processDiscordNotifications", () => {
 
   it("sends recovery once after tracked emergency clears", async () => {
     const client = createClient();
-    vi.mocked(client.sendPayloadAndReturnMessage).mockResolvedValueOnce({ id: "recovery-1" });
+    vi.mocked(client.sendPayloadAndReturnMessage)
+      .mockResolvedValueOnce({ id: "recovery-1" })
+      .mockResolvedValueOnce({ id: "status-new" });
 
     const result = await processDiscordNotifications({
       state: createState({
@@ -270,17 +250,16 @@ describe("processDiscordNotifications", () => {
       emergencyAlert: createAlert(),
       advice,
       reportMode: "manual",
-      shouldSendEmergency: false,
       client,
     });
 
-    expect(client.sendPayloadAndReturnMessage).toHaveBeenCalledTimes(1);
     expect(result.recoveryMessageId).toBe("recovery-1");
     expect(result.activeEmergencyMessageId).toBeNull();
   });
 
   it("does not send repeated recovery while already normal", async () => {
     const client = createClient();
+    vi.mocked(client.sendPayloadAndReturnMessage).mockResolvedValueOnce({ id: "status-new" });
 
     await processDiscordNotifications({
       state: createState({
@@ -292,16 +271,18 @@ describe("processDiscordNotifications", () => {
       emergencyAlert: createAlert(),
       advice,
       reportMode: "manual",
-      shouldSendEmergency: false,
       client,
     });
 
-    expect(client.sendPayloadAndReturnMessage).not.toHaveBeenCalled();
+    // Only current status send, no recovery send
+    expect(client.sendPayloadAndReturnMessage).toHaveBeenCalledTimes(1);
   });
 
   it("deletes stale recovery when a new emergency starts", async () => {
     const client = createClient();
-    vi.mocked(client.sendPayloadAndReturnMessage).mockResolvedValueOnce({ id: "emergency-1" });
+    vi.mocked(client.sendPayloadAndReturnMessage)
+      .mockResolvedValueOnce({ id: "emergency-1" })
+      .mockResolvedValueOnce({ id: "status-new" });
 
     const result = await processDiscordNotifications({
       state: createState({
@@ -318,7 +299,6 @@ describe("processDiscordNotifications", () => {
       }),
       advice,
       reportMode: "emergency-watch",
-      shouldSendEmergency: true,
       client,
     });
 
@@ -328,7 +308,9 @@ describe("processDiscordNotifications", () => {
 
   it("preserves recovered emergency context as previous when a new emergency starts", async () => {
     const client = createClient();
-    vi.mocked(client.sendPayloadAndReturnMessage).mockResolvedValueOnce({ id: "emergency-d" });
+    vi.mocked(client.sendPayloadAndReturnMessage)
+      .mockResolvedValueOnce({ id: "emergency-d" })
+      .mockResolvedValueOnce({ id: "status-new" });
 
     const result = await processDiscordNotifications({
       state: createState({
@@ -348,7 +330,6 @@ describe("processDiscordNotifications", () => {
       }),
       advice,
       reportMode: "emergency-watch",
-      shouldSendEmergency: true,
       client,
     });
 
@@ -361,7 +342,9 @@ describe("processDiscordNotifications", () => {
   it("ignores delete 404 while rotating emergency messages", async () => {
     const client = createClient();
     vi.mocked(client.deleteMessage).mockResolvedValueOnce(false);
-    vi.mocked(client.sendPayloadAndReturnMessage).mockResolvedValueOnce({ id: "emergency-2" });
+    vi.mocked(client.sendPayloadAndReturnMessage)
+      .mockResolvedValueOnce({ id: "emergency-2" })
+      .mockResolvedValueOnce({ id: "status-new" });
 
     const result = await processDiscordNotifications({
       state: createState({
@@ -379,7 +362,6 @@ describe("processDiscordNotifications", () => {
       }),
       advice,
       reportMode: "emergency-watch",
-      shouldSendEmergency: true,
       client,
     });
 

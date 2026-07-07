@@ -15,6 +15,7 @@ import {
   getUvLabel,
 } from "../../domain/rules/uvRules.js";
 import { AppInfo } from "../../shared/constants/appInfo.js";
+import { MonitoredLocation } from "../../infrastructure/config/location.js";
 
 function resolveOverallStatus(
   snapshot: AtmosSnapshot,
@@ -69,6 +70,8 @@ export function createDashboardData(
   return {
     appName: AppInfo.name,
     city: snapshot.city,
+    latitude: MonitoredLocation.latitude,
+    longitude: MonitoredLocation.longitude,
     generatedAt: snapshot.generatedAt,
     reportMode,
 
@@ -135,6 +138,7 @@ export function createDashboardData(
       "Open-Meteo Weather API",
       "Open-Meteo Air Quality API",
       "BMKG Peringatan Dini Cuaca",
+      "OpenStreetMap (Geocoding)",
       "In Atmosphere Rule Engine",
     ],
   };

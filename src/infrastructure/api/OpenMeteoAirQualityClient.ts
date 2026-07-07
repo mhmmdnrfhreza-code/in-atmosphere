@@ -1,5 +1,5 @@
 import axios from "axios";
-import { BogorLocation } from "../../domain/value-objects/BogorLocation.js";
+import { MonitoredLocation } from "../config/location.js";
 
 export interface OpenMeteoAirQualityResponse {
   current: {
@@ -19,9 +19,9 @@ export async function fetchOpenMeteoAirQuality(): Promise<OpenMeteoAirQualityRes
 
   const response = await axios.get<OpenMeteoAirQualityResponse>(url, {
     params: {
-      latitude: BogorLocation.latitude,
-      longitude: BogorLocation.longitude,
-      timezone: BogorLocation.timezone,
+      latitude: MonitoredLocation.latitude,
+      longitude: MonitoredLocation.longitude,
+      timezone: MonitoredLocation.timezone,
       forecast_days: 2,
       current: [
         "pm10",

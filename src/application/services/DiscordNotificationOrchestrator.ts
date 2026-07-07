@@ -27,7 +27,6 @@ interface ProcessDiscordNotificationsInput {
   emergencyAlert: EmergencyAlert;
   advice: HealthAdvice;
   reportMode: ReportMode;
-  shouldSendEmergency: boolean;
   client?: DiscordWebhookMessageClient;
   dashboardUrl?: string;
 }
@@ -60,28 +59,15 @@ async function upsertCurrentStatusMessage(
   );
 
   if (state.currentStatusMessageId) {
-    try {
-      await client.editMessage(state.currentStatusMessageId, payload);
-      console.log("Current Status edited.");
-
-      return {
-        ...state,
-        currentStatusUpdatedAt: input.snapshot.generatedAt,
-      };
-    } catch (error) {
-      if (!(error instanceof DiscordWebhookMessageNotFoundError)) {
-        throw error;
-      }
-
-      console.log("Current Status missing; created new one.");
-    }
+    await deleteTrackedMessage(
+      client,
+      state.currentStatusMessageId,
+      "Current Status lama dihapus."
+    );
   }
 
   const message = await client.sendPayloadAndReturnMessage(payload);
-
-  if (!state.currentStatusMessageId) {
-    console.log("Current Status missing; created new one.");
-  }
+  console.log("Current Status dikirim sebagai pesan baru.");
 
   return {
     ...state,
@@ -159,11 +145,6 @@ async function processActiveEmergency(
 
   if (fingerprint === state.activeEmergencyFingerprint) {
     console.log("Duplicate emergency skipped.");
-    return state;
-  }
-
-  if (!input.shouldSendEmergency) {
-    console.log("Emergency skipped by existing cooldown/anti-spam logic.");
     return state;
   }
 

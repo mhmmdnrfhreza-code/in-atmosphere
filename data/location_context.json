@@ -1,0 +1,12 @@
+{
+  "latitude": -6.5963564,
+  "longitude": 106.7973188,
+  "radiusKm": 10,
+  "city": "Bogor",
+  "province": "Jawa Barat",
+  "suburb": "Bogor Tengah",
+  "nearbySuburbs": [
+    "Bogor Tengah"
+  ],
+  "resolvedAt": "2026-07-07T03:30:15.362Z"
+}

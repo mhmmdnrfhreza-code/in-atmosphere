@@ -105,8 +105,8 @@ export function getPrimaryAction(data) {
   const uvMax = safeNumber(data?.uv?.maxToday);
   const rainProbability = safeNumber(data?.forecast?.maxPrecipitationProbability);
 
-  if (data?.emergency?.shouldSend && data?.emergency?.reasons?.length > 0) {
-    return data.emergency.reasons[0];
+  if (data?.emergency?.shouldSend) {
+    return data?.advice?.general ?? "Waspadai kondisi lingkungan dan kurangi aktivitas luar ruangan.";
   }
 
   if (data?.bmkgWarning?.isActive) {

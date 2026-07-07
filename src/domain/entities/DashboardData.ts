@@ -7,6 +7,8 @@ import type {
 export interface DashboardData {
   appName: string;
   city: string;
+  latitude: number;
+  longitude: number;
   generatedAt: string;
   reportMode: ReportMode;
 

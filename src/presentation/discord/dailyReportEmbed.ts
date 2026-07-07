@@ -149,7 +149,7 @@ export function createDailyReportEmbed(
     avatar_url: "https://cdn-icons-png.flaticon.com/512/1163/1163661.png",
     embeds: [
       {
-        title: `${AppInfo.name} | ${getModeTitle(mode)} Kota Bogor`,
+        title: `${AppInfo.name} | ${getModeTitle(mode)} ${snapshot.city}`,
         description: buildSummary(snapshot),
         color: resolveAqiColor(aqiLevel),
         fields: buildFields(snapshot, advice),

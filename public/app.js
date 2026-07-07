@@ -186,7 +186,16 @@ function renderReasonList(reasons) {
 }
 
 function renderTopbar(data, freshness) {
-  setText("city-label", data?.city ?? "Kota Bogor");
+  const city = data?.city ?? "Memuat...";
+  setText("sidebar-city-label", city);
+  setText("topbar-title", `Kondisi Atmosfer ${city}`);
+
+  const lat = data?.latitude;
+  const lon = data?.longitude;
+
+  if (typeof lat === "number" && typeof lon === "number") {
+    setText("location-coords", `${lat.toFixed(4)}, ${lon.toFixed(4)}`);
+  }
 }
 
 function renderOverview(data, freshness) {
@@ -204,15 +213,7 @@ function renderOverview(data, freshness) {
   setText("overall-level-badge", level.toUpperCase());
   setStatusClass("overall-level-badge", level);
 
-  const aqiText = `${data?.airQuality?.usAqi ?? "-"} ${data?.airQuality?.aqiLabel ?? ""}`.trim();
-  const uvText = `${formatNumber(data?.uv?.maxToday)} ${data?.uv?.label ?? ""}`.trim();
-  const rainText = `${formatNumber(data?.forecast?.maxPrecipitationProbability, 0)}%`;
-  const bmkgText = data?.bmkgWarning?.isActive ? "Aktif" : "Aman";
 
-  setRiskChip("aqi-risk-chip", "AQI", aqiText, getAqiLevel(data?.airQuality?.usAqi));
-  setRiskChip("uv-risk-chip", "UV", uvText, getUvLevel(data?.uv?.maxToday));
-  setRiskChip("rain-risk-chip", "Hujan", rainText, getRainLevel(data?.forecast?.maxPrecipitationProbability));
-  setRiskChip("bmkg-risk-chip", "BMKG", bmkgText, getBmkgLevel(data));
 
   const systemLevel = getSystemLevel(data, freshness);
   const systemStatusLabel =
@@ -315,7 +316,7 @@ function renderBmkg(data) {
     setText("bmkg-warning-title", "Tidak ada peringatan dini BMKG yang relevan.");
     setText(
       "bmkg-warning-description",
-      "Status wilayah Bogor masih dalam pemantauan normal berdasarkan filter sistem."
+      "Status wilayah masih dalam pemantauan normal berdasarkan filter sistem."
     );
   }
 
