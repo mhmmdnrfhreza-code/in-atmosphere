@@ -3,8 +3,8 @@
   "city": "Bogor Tengah",
   "latitude": -6.5963564,
   "longitude": 106.7973188,
-  "generatedAt": "2026-07-17T01:06:06.947Z",
-  "reportMode": "emergency-watch",
+  "generatedAt": "2026-07-17T01:07:36.131Z",
+  "reportMode": "morning",
   "overallStatus": {
     "label": "Perlu Perhatian",
     "description": "Sistem mendeteksi kondisi yang perlu diperhatikan. Lihat bagian emergency dan saran praktis.",
