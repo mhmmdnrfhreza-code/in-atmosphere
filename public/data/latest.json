@@ -3,7 +3,7 @@
   "city": "Bogor Tengah",
   "latitude": -6.5963564,
   "longitude": 106.7973188,
-  "generatedAt": "2026-07-17T04:19:35.419Z",
+  "generatedAt": "2026-07-17T06:59:11.804Z",
   "reportMode": "emergency-watch",
   "overallStatus": {
     "label": "Perlu Perhatian",
@@ -11,33 +11,33 @@
     "level": "warning"
   },
   "weather": {
-    "temperature": 31.9,
-    "humidity": 45,
+    "temperature": 34,
+    "humidity": 38,
     "rain": 0,
-    "windSpeed": 5,
-    "windGust": 21.2
+    "windSpeed": 7.7,
+    "windGust": 25.6
   },
   "airQuality": {
-    "usAqi": 158,
+    "usAqi": 159,
     "aqiLabel": "Tidak Sehat",
     "aqiEmoji": "🔴",
-    "pm25": 53.4,
-    "pm10": 54.5,
-    "ozone": 197
+    "pm25": 55.4,
+    "pm10": 56.5,
+    "ozone": 251
   },
   "uv": {
-    "current": 7.55,
-    "maxToday": 7.55,
+    "current": 6.15,
+    "maxToday": 7.5,
     "label": "Tinggi",
     "emoji": "🟠",
     "advice": "Tingkat Radiasi UV Tinggi. Berisiko Mempercepat Terjadinya Luka Bakar Matahari (Sunburn) Serta Kerusakan Kulit Jangka Panjang. Perlindungan Aktif Sangat Penting Diterapkan (Mengoleskan Tabir Surya (Sunscreen) Dengan Minimal SPF Dan Peringkat 30+ PA+++, Pakaian Pelindung, Dan Kacamata Anti-UV). Batasi Paparan Matahari Langsung Secara Signifikan, Terutama Antara Pukul 10.00 WIB - 16.00 WIB, Utamakan Melakukan Aktivitas Di Area Yang Teduh."
   },
   "forecast": {
     "minTemperature": 21.9,
-    "maxTemperature": 34.6,
+    "maxTemperature": 34,
     "maxPrecipitationProbability": 69,
-    "nextRainTime": "2026-07-17T17:00",
-    "nextRainProbability": 55,
+    "nextRainTime": "2026-07-17T16:00",
+    "nextRainProbability": 45,
     "peakRainTime": "2026-07-18T18:00"
   },
   "emergency": {
@@ -46,7 +46,7 @@
     "severity": "WARNING",
     "title": "🚨 Emergency Alert",
     "reasons": [
-      "AQI Mencapai 158, Masuk Kategori Tidak Sehat Atau Lebih Buruk."
+      "AQI Mencapai 159, Masuk Kategori Tidak Sehat Atau Lebih Buruk."
     ]
   },
   "advice": {
