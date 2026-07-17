@@ -3,7 +3,7 @@
   "city": "Bogor Tengah",
   "latitude": -6.5963564,
   "longitude": 106.7973188,
-  "generatedAt": "2026-07-16T23:30:30.344Z",
+  "generatedAt": "2026-07-17T01:06:06.947Z",
   "reportMode": "emergency-watch",
   "overallStatus": {
     "label": "Perlu Perhatian",
@@ -11,34 +11,34 @@
     "level": "warning"
   },
   "weather": {
-    "temperature": 22.8,
-    "humidity": 83,
+    "temperature": 27.1,
+    "humidity": 66,
     "rain": 0,
-    "windSpeed": 5.2,
-    "windGust": 11.9
+    "windSpeed": 0.7,
+    "windGust": 11.5
   },
   "airQuality": {
     "usAqi": 159,
     "aqiLabel": "Tidak Sehat",
     "aqiEmoji": "🔴",
-    "pm25": 102.4,
-    "pm10": 102.4,
-    "ozone": 0
+    "pm25": 95.5,
+    "pm10": 95.9,
+    "ozone": 50
   },
   "uv": {
-    "current": 0,
-    "maxToday": 7.5,
+    "current": 1.6,
+    "maxToday": 7.55,
     "label": "Rendah",
     "emoji": "🟢",
     "advice": "Indeks Radiasi UV Berada Pada Tingkat Minimum. Risiko Kerusakan Kulit Sangat Rendah Bagi Mayoritas Orang. Aman Untuk Beraktivitas Normal Di Luar Ruangan Tanpa Perlindungan Khusus. Namun, Bagi Individu Dengan Kulit Yang Sangat Sensitif Atau Jika Harus Berada Di Bawah Terik Matahari Dalam Durasi Yang Sangat Lama, Penggunaan Kacamata Hitam, Penggunaan Tabir Surya (Sunscreen) Dengan Proteksi Minimal Terhadap UV-A dan UV-B (SPF 15+) Tetap Disarankan."
   },
   "forecast": {
-    "minTemperature": 22.2,
-    "maxTemperature": 34.3,
-    "maxPrecipitationProbability": 53,
-    "nextRainTime": "2026-07-17T18:00",
-    "nextRainProbability": 47,
-    "peakRainTime": "2026-07-18T17:00"
+    "minTemperature": 21.9,
+    "maxTemperature": 34.6,
+    "maxPrecipitationProbability": 73,
+    "nextRainTime": "2026-07-17T16:00",
+    "nextRainProbability": 51,
+    "peakRainTime": "2026-07-18T18:00"
   },
   "emergency": {
     "shouldSend": true,
@@ -50,7 +50,7 @@
     ]
   },
   "advice": {
-    "general": "Kualitas Udara Sedang Tidak Sehat. Kurangi Paparan Udara Luar Jika Memungkinkan.",
+    "general": "Kualitas Udara Sedang Tidak Sehat. Kurangi Paparan Udara Luar Jika Memungkinkan. Ada Peluang Hujan Cukup Tinggi, Siapkan Payung/Jas Hujan.",
     "outdoor": "Kurangi Aktivitas Luar Ruangan Berat Dan Pertimbangkan Memakai Masker.",
     "sensitiveGroup": "Anak-Anak, Lansia, Dan Orang Dengan Gangguan Pernapasan Sebaiknya Berada Di Dalam Ruangan."
   },
