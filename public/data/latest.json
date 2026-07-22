@@ -3,7 +3,7 @@
   "city": "Bogor Tengah",
   "latitude": -6.5963564,
   "longitude": 106.7973188,
-  "generatedAt": "2026-07-22T04:26:26.659Z",
+  "generatedAt": "2026-07-22T07:15:52.914Z",
   "reportMode": "emergency-watch",
   "overallStatus": {
     "label": "Perlu Perhatian",
@@ -11,30 +11,30 @@
     "level": "warning"
   },
   "weather": {
-    "temperature": 32.2,
-    "humidity": 33,
+    "temperature": 32.9,
+    "humidity": 34,
     "rain": 0,
-    "windSpeed": 4.4,
-    "windGust": 19.4
+    "windSpeed": 13.5,
+    "windGust": 32.8
   },
   "airQuality": {
     "usAqi": 168,
     "aqiLabel": "Tidak Sehat",
     "aqiEmoji": "🔴",
-    "pm25": 47.5,
-    "pm10": 54.9,
-    "ozone": 103
+    "pm25": 47,
+    "pm10": 49.2,
+    "ozone": 164
   },
   "uv": {
-    "current": 7.05,
-    "maxToday": 7.6,
-    "label": "Tinggi",
-    "emoji": "🟠",
-    "advice": "Tingkat Radiasi UV Tinggi. Berisiko Mempercepat Terjadinya Luka Bakar Matahari (Sunburn) Serta Kerusakan Kulit Jangka Panjang. Perlindungan Aktif Sangat Penting Diterapkan (Mengoleskan Tabir Surya (Sunscreen) Dengan Minimal SPF Dan Peringkat 30+ PA+++, Pakaian Pelindung, Dan Kacamata Anti-UV). Batasi Paparan Matahari Langsung Secara Signifikan, Terutama Antara Pukul 10.00 WIB - 16.00 WIB, Utamakan Melakukan Aktivitas Di Area Yang Teduh."
+    "current": 3.05,
+    "maxToday": 7.65,
+    "label": "Sedang",
+    "emoji": "🟡",
+    "advice": "Paparan Radiasi UV Sedang. Berpotensi Menimbulkan Kerusakan Pada Sel Kulit Jika Terpapar Langsung Dalam Jangka Waktu Tertentu. Diperlukan Proteksi Dasar Saat Beraktivitas Di Luar Ruangan (Mengoleskan Tabir Surya (Sunscreen) Dengan SPF Dan Peringkat Minimal 15 - 30 PA++, Memakai Topi, Dan Menggunakan Pelindung Mata. Disarankan Juga Untuk Mencari Tempat Berteduh Saat Intensitas Matahari Mencapai Puncaknya Di Paruh Hari."
   },
   "forecast": {
     "minTemperature": 22.2,
-    "maxTemperature": 33.3,
+    "maxTemperature": 33.4,
     "maxPrecipitationProbability": 43,
     "nextRainTime": null,
     "nextRainProbability": null,
