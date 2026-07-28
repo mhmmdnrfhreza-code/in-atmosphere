@@ -1,16 +1,16 @@
 {
-  "lastAqi": 147,
-  "lastUvIndex": 6.15,
+  "lastAqi": 146,
+  "lastUvIndex": 6.9,
   "lastRain": 0,
-  "lastWindGust": 21.6,
-  "lastCheckedAt": "2026-07-28T03:27:33.110Z",
+  "lastWindGust": 33.5,
+  "lastCheckedAt": "2026-07-28T06:11:14.090Z",
   "lastEmergencyAlert": {
     "type": "AIR_QUALITY",
     "severity": "WARNING",
     "sentAt": "2026-07-27T20:39:17.648Z"
   },
-  "currentStatusMessageId": "1531503353282953307",
-  "currentStatusUpdatedAt": "2026-07-28T03:27:33.110Z",
+  "currentStatusMessageId": "1531544545282625631",
+  "currentStatusUpdatedAt": "2026-07-28T06:11:14.090Z",
   "activeEmergencyMessageId": null,
   "previousEmergencyMessageId": "1531400611676033186",
   "activeEmergencyFingerprint": null,
