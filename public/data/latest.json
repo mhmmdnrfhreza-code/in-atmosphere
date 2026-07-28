@@ -3,27 +3,27 @@
   "city": "Bogor Tengah",
   "latitude": -6.5963564,
   "longitude": 106.7973188,
-  "generatedAt": "2026-07-28T21:16:41.490Z",
+  "generatedAt": "2026-07-28T22:37:17.388Z",
   "reportMode": "emergency-watch",
   "overallStatus": {
-    "label": "Perlu Perhatian",
-    "description": "Sistem mendeteksi kondisi yang perlu diperhatikan. Lihat bagian emergency dan saran praktis.",
+    "label": "Waspada",
+    "description": "Kualitas udara atau kondisi lingkungan mulai kurang baik. Kurangi paparan luar ruangan jika diperlukan.",
     "level": "warning"
   },
   "weather": {
-    "temperature": 21.8,
-    "humidity": 93,
+    "temperature": 21.4,
+    "humidity": 92,
     "rain": 0,
-    "windSpeed": 5.2,
-    "windGust": 11.9
+    "windSpeed": 4.9,
+    "windGust": 11.2
   },
   "airQuality": {
-    "usAqi": 155,
-    "aqiLabel": "Tidak Sehat",
-    "aqiEmoji": "🔴",
-    "pm25": 98.5,
-    "pm10": 99,
-    "ozone": 4
+    "usAqi": 144,
+    "aqiLabel": "Tidak Sehat Untuk Kelompok Sensitif",
+    "aqiEmoji": "🟠",
+    "pm25": 85.7,
+    "pm10": 86.4,
+    "ozone": 0
   },
   "uv": {
     "current": 0,
@@ -41,18 +41,16 @@
     "peakRainTime": "2026-07-30T19:00"
   },
   "emergency": {
-    "shouldSend": true,
-    "type": "AIR_QUALITY",
-    "severity": "WARNING",
-    "title": "🚨 Emergency Alert",
-    "reasons": [
-      "AQI Mencapai 155, Masuk Kategori Tidak Sehat Atau Lebih Buruk."
-    ]
+    "shouldSend": false,
+    "type": null,
+    "severity": null,
+    "title": "Tidak Ada Emergency Alert",
+    "reasons": []
   },
   "advice": {
-    "general": "Kualitas Udara Sedang Tidak Sehat. Kurangi Paparan Udara Luar Jika Memungkinkan. Ada Peluang Hujan Cukup Tinggi, Siapkan Payung/Jas Hujan.",
-    "outdoor": "Kurangi Aktivitas Luar Ruangan Berat Dan Pertimbangkan Memakai Masker.",
-    "sensitiveGroup": "Anak-Anak, Lansia, Dan Orang Dengan Gangguan Pernapasan Sebaiknya Berada Di Dalam Ruangan."
+    "general": "Kualitas Udara Mulai Kurang Baik Untuk Kelompok Sensitif. Ada Peluang Hujan Cukup Tinggi, Siapkan Payung/Jas Hujan.",
+    "outdoor": "Aktivitas Luar Ruangan Masih Bisa Dilakukan, Tetapi Jangan Terlalu Lama.",
+    "sensitiveGroup": "Kelompok Sensitif Sebaiknya Mengurangi Aktivitas Luar Ruangan Berat."
   },
   "bmkgWarning": {
     "isActive": false,
