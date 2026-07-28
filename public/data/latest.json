@@ -3,54 +3,56 @@
   "city": "Bogor Tengah",
   "latitude": -6.5963564,
   "longitude": 106.7973188,
-  "generatedAt": "2026-07-28T15:52:26.940Z",
+  "generatedAt": "2026-07-28T17:42:44.681Z",
   "reportMode": "emergency-watch",
   "overallStatus": {
-    "label": "Waspada",
-    "description": "Kualitas udara atau kondisi lingkungan mulai kurang baik. Kurangi paparan luar ruangan jika diperlukan.",
+    "label": "Perlu Perhatian",
+    "description": "Sistem mendeteksi kondisi yang perlu diperhatikan. Lihat bagian emergency dan saran praktis.",
     "level": "warning"
   },
   "weather": {
-    "temperature": 25.7,
-    "humidity": 74,
+    "temperature": 24.4,
+    "humidity": 78,
     "rain": 0,
-    "windSpeed": 2.4,
-    "windGust": 6.8
+    "windSpeed": 6.5,
+    "windGust": 12.6
   },
   "airQuality": {
-    "usAqi": 147,
-    "aqiLabel": "Tidak Sehat Untuk Kelompok Sensitif",
-    "aqiEmoji": "🟠",
-    "pm25": 66.4,
-    "pm10": 67.3,
-    "ozone": 25
+    "usAqi": 151,
+    "aqiLabel": "Tidak Sehat",
+    "aqiEmoji": "🔴",
+    "pm25": 101.5,
+    "pm10": 102.4,
+    "ozone": 15
   },
   "uv": {
     "current": 0,
-    "maxToday": 7.75,
+    "maxToday": 7.8,
     "label": "Rendah",
     "emoji": "🟢",
     "advice": "Indeks Radiasi UV Berada Pada Tingkat Minimum. Risiko Kerusakan Kulit Sangat Rendah Bagi Mayoritas Orang. Aman Untuk Beraktivitas Normal Di Luar Ruangan Tanpa Perlindungan Khusus. Namun, Bagi Individu Dengan Kulit Yang Sangat Sensitif Atau Jika Harus Berada Di Bawah Terik Matahari Dalam Durasi Yang Sangat Lama, Penggunaan Kacamata Hitam, Penggunaan Tabir Surya (Sunscreen) Dengan Proteksi Minimal Terhadap UV-A dan UV-B (SPF 15+) Tetap Disarankan."
   },
   "forecast": {
-    "minTemperature": 21.7,
-    "maxTemperature": 33.7,
-    "maxPrecipitationProbability": 27,
+    "minTemperature": 22.2,
+    "maxTemperature": 34.3,
+    "maxPrecipitationProbability": 82,
     "nextRainTime": "2026-07-29T16:00",
     "nextRainProbability": 63,
-    "peakRainTime": "2026-07-29T18:00"
+    "peakRainTime": "2026-07-30T19:00"
   },
   "emergency": {
-    "shouldSend": false,
-    "type": null,
-    "severity": null,
-    "title": "Tidak Ada Emergency Alert",
-    "reasons": []
+    "shouldSend": true,
+    "type": "AIR_QUALITY",
+    "severity": "WARNING",
+    "title": "🚨 Emergency Alert",
+    "reasons": [
+      "AQI Mencapai 151, Masuk Kategori Tidak Sehat Atau Lebih Buruk."
+    ]
   },
   "advice": {
-    "general": "Kualitas Udara Mulai Kurang Baik Untuk Kelompok Sensitif.",
-    "outdoor": "Aktivitas Luar Ruangan Masih Bisa Dilakukan, Tetapi Jangan Terlalu Lama.",
-    "sensitiveGroup": "Kelompok Sensitif Sebaiknya Mengurangi Aktivitas Luar Ruangan Berat."
+    "general": "Kualitas Udara Sedang Tidak Sehat. Kurangi Paparan Udara Luar Jika Memungkinkan. Ada Peluang Hujan Cukup Tinggi, Siapkan Payung/Jas Hujan.",
+    "outdoor": "Kurangi Aktivitas Luar Ruangan Berat Dan Pertimbangkan Memakai Masker.",
+    "sensitiveGroup": "Anak-Anak, Lansia, Dan Orang Dengan Gangguan Pernapasan Sebaiknya Berada Di Dalam Ruangan."
   },
   "bmkgWarning": {
     "isActive": false,
