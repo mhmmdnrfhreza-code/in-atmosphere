@@ -3,7 +3,7 @@
   "city": "Bogor Tengah",
   "latitude": -6.5963564,
   "longitude": 106.7973188,
-  "generatedAt": "2026-07-28T13:16:37.385Z",
+  "generatedAt": "2026-07-28T15:52:26.940Z",
   "reportMode": "emergency-watch",
   "overallStatus": {
     "label": "Waspada",
@@ -11,19 +11,19 @@
     "level": "warning"
   },
   "weather": {
-    "temperature": 27.5,
-    "humidity": 66,
+    "temperature": 25.7,
+    "humidity": 74,
     "rain": 0,
-    "windSpeed": 9.8,
-    "windGust": 23
+    "windSpeed": 2.4,
+    "windGust": 6.8
   },
   "airQuality": {
-    "usAqi": 144,
+    "usAqi": 147,
     "aqiLabel": "Tidak Sehat Untuk Kelompok Sensitif",
     "aqiEmoji": "🟠",
-    "pm25": 51.9,
-    "pm10": 53,
-    "ozone": 51
+    "pm25": 66.4,
+    "pm10": 67.3,
+    "ozone": 25
   },
   "uv": {
     "current": 0,
@@ -35,9 +35,9 @@
   "forecast": {
     "minTemperature": 21.7,
     "maxTemperature": 33.7,
-    "maxPrecipitationProbability": 73,
-    "nextRainTime": "2026-07-28T19:00",
-    "nextRainProbability": 59,
+    "maxPrecipitationProbability": 27,
+    "nextRainTime": "2026-07-29T16:00",
+    "nextRainProbability": 63,
     "peakRainTime": "2026-07-29T18:00"
   },
   "emergency": {
@@ -48,7 +48,7 @@
     "reasons": []
   },
   "advice": {
-    "general": "Kualitas Udara Mulai Kurang Baik Untuk Kelompok Sensitif. Ada Peluang Hujan Cukup Tinggi, Siapkan Payung/Jas Hujan.",
+    "general": "Kualitas Udara Mulai Kurang Baik Untuk Kelompok Sensitif.",
     "outdoor": "Aktivitas Luar Ruangan Masih Bisa Dilakukan, Tetapi Jangan Terlalu Lama.",
     "sensitiveGroup": "Kelompok Sensitif Sebaiknya Mengurangi Aktivitas Luar Ruangan Berat."
   },
