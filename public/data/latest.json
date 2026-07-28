@@ -3,26 +3,26 @@
   "city": "Bogor Tengah",
   "latitude": -6.5963564,
   "longitude": 106.7973188,
-  "generatedAt": "2026-07-28T22:37:17.388Z",
+  "generatedAt": "2026-07-28T23:36:26.350Z",
   "reportMode": "emergency-watch",
   "overallStatus": {
-    "label": "Waspada",
-    "description": "Kualitas udara atau kondisi lingkungan mulai kurang baik. Kurangi paparan luar ruangan jika diperlukan.",
+    "label": "Perlu Perhatian",
+    "description": "Sistem mendeteksi kondisi yang perlu diperhatikan. Lihat bagian emergency dan saran praktis.",
     "level": "warning"
   },
   "weather": {
-    "temperature": 21.4,
-    "humidity": 92,
+    "temperature": 22.1,
+    "humidity": 87,
     "rain": 0,
-    "windSpeed": 4.9,
-    "windGust": 11.2
+    "windSpeed": 5.5,
+    "windGust": 11.9
   },
   "airQuality": {
-    "usAqi": 144,
+    "usAqi": 145,
     "aqiLabel": "Tidak Sehat Untuk Kelompok Sensitif",
     "aqiEmoji": "🟠",
-    "pm25": 85.7,
-    "pm10": 86.4,
+    "pm25": 92.2,
+    "pm10": 93.1,
     "ozone": 0
   },
   "uv": {
@@ -35,17 +35,19 @@
   "forecast": {
     "minTemperature": 21.4,
     "maxTemperature": 33.3,
-    "maxPrecipitationProbability": 82,
+    "maxPrecipitationProbability": 92,
     "nextRainTime": "2026-07-29T14:00",
-    "nextRainProbability": 18,
-    "peakRainTime": "2026-07-30T19:00"
+    "nextRainProbability": 31,
+    "peakRainTime": "2026-07-30T18:00"
   },
   "emergency": {
-    "shouldSend": false,
+    "shouldSend": true,
     "type": null,
-    "severity": null,
-    "title": "Tidak Ada Emergency Alert",
-    "reasons": []
+    "severity": "WATCH",
+    "title": "🚨 Emergency Alert",
+    "reasons": [
+      "Peluang Hujan Hari Ini Mencapai 92%."
+    ]
   },
   "advice": {
     "general": "Kualitas Udara Mulai Kurang Baik Untuk Kelompok Sensitif. Ada Peluang Hujan Cukup Tinggi, Siapkan Payung/Jas Hujan.",
