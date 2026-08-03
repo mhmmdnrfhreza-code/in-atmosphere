@@ -3,7 +3,7 @@
   "city": "Bogor Tengah",
   "latitude": -6.5963564,
   "longitude": 106.7973188,
-  "generatedAt": "2026-08-02T23:32:29.359Z",
+  "generatedAt": "2026-08-03T01:10:05.610Z",
   "reportMode": "emergency-watch",
   "overallStatus": {
     "label": "Perlu Perhatian",
@@ -11,33 +11,33 @@
     "level": "warning"
   },
   "weather": {
-    "temperature": 23.7,
-    "humidity": 89,
+    "temperature": 26.9,
+    "humidity": 71,
     "rain": 0,
-    "windSpeed": 4.6,
-    "windGust": 9.7
+    "windSpeed": 2,
+    "windGust": 11.5
   },
   "airQuality": {
-    "usAqi": 156,
+    "usAqi": 155,
     "aqiLabel": "Tidak Sehat",
     "aqiEmoji": "🔴",
-    "pm25": 99.7,
-    "pm10": 101.5,
-    "ozone": 13
+    "pm25": 83.1,
+    "pm10": 86.6,
+    "ozone": 44
   },
   "uv": {
-    "current": 0,
+    "current": 1.55,
     "maxToday": 7.9,
     "label": "Rendah",
     "emoji": "🟢",
     "advice": "Indeks Radiasi UV Berada Pada Tingkat Minimum. Risiko Kerusakan Kulit Sangat Rendah Bagi Mayoritas Orang. Aman Untuk Beraktivitas Normal Di Luar Ruangan Tanpa Perlindungan Khusus. Namun, Bagi Individu Dengan Kulit Yang Sangat Sensitif Atau Jika Harus Berada Di Bawah Terik Matahari Dalam Durasi Yang Sangat Lama, Penggunaan Kacamata Hitam, Penggunaan Tabir Surya (Sunscreen) Dengan Proteksi Minimal Terhadap UV-A dan UV-B (SPF 15+) Tetap Disarankan."
   },
   "forecast": {
-    "minTemperature": 23.2,
+    "minTemperature": 23.4,
     "maxTemperature": 33.1,
-    "maxPrecipitationProbability": 88,
+    "maxPrecipitationProbability": 87,
     "nextRainTime": "2026-08-03T15:00",
-    "nextRainProbability": 52,
+    "nextRainProbability": 53,
     "peakRainTime": "2026-08-03T18:00"
   },
   "emergency": {
@@ -46,8 +46,8 @@
     "severity": "WARNING",
     "title": "🚨 Emergency Alert",
     "reasons": [
-      "AQI Mencapai 156, Masuk Kategori Tidak Sehat Atau Lebih Buruk.",
-      "Peluang Hujan Hari Ini Mencapai 88%."
+      "AQI Mencapai 155, Masuk Kategori Tidak Sehat Atau Lebih Buruk.",
+      "Peluang Hujan Hari Ini Mencapai 87%."
     ]
   },
   "advice": {
