@@ -3,7 +3,7 @@
   "city": "Bogor Tengah",
   "latitude": -6.5963564,
   "longitude": 106.7973188,
-  "generatedAt": "2026-08-04T16:28:22.297Z",
+  "generatedAt": "2026-08-04T18:13:48.236Z",
   "reportMode": "emergency-watch",
   "overallStatus": {
     "label": "Perlu Perhatian",
@@ -11,33 +11,33 @@
     "level": "warning"
   },
   "weather": {
-    "temperature": 25.2,
-    "humidity": 82,
+    "temperature": 23.3,
+    "humidity": 85,
     "rain": 0,
-    "windSpeed": 3.3,
-    "windGust": 6.5
+    "windSpeed": 6.6,
+    "windGust": 12.2
   },
   "airQuality": {
-    "usAqi": 172,
+    "usAqi": 175,
     "aqiLabel": "Tidak Sehat",
     "aqiEmoji": "🔴",
-    "pm25": 163,
-    "pm10": 164.4,
-    "ozone": 6
+    "pm25": 156.9,
+    "pm10": 158.3,
+    "ozone": 0
   },
   "uv": {
     "current": 0,
-    "maxToday": 7.95,
+    "maxToday": 7.7,
     "label": "Rendah",
     "emoji": "🟢",
     "advice": "Indeks Radiasi UV Berada Pada Tingkat Minimum. Risiko Kerusakan Kulit Sangat Rendah Bagi Mayoritas Orang. Aman Untuk Beraktivitas Normal Di Luar Ruangan Tanpa Perlindungan Khusus. Namun, Bagi Individu Dengan Kulit Yang Sangat Sensitif Atau Jika Harus Berada Di Bawah Terik Matahari Dalam Durasi Yang Sangat Lama, Penggunaan Kacamata Hitam, Penggunaan Tabir Surya (Sunscreen) Dengan Proteksi Minimal Terhadap UV-A dan UV-B (SPF 15+) Tetap Disarankan."
   },
   "forecast": {
-    "minTemperature": 22.3,
-    "maxTemperature": 34.3,
-    "maxPrecipitationProbability": 43,
-    "nextRainTime": "2026-08-04T15:00",
-    "nextRainProbability": 31,
+    "minTemperature": 21.1,
+    "maxTemperature": 33.1,
+    "maxPrecipitationProbability": 47,
+    "nextRainTime": "2026-08-05T18:00",
+    "nextRainProbability": 46,
     "peakRainTime": null
   },
   "emergency": {
@@ -46,7 +46,7 @@
     "severity": "WARNING",
     "title": "🚨 Emergency Alert",
     "reasons": [
-      "AQI Mencapai 172, Masuk Kategori Tidak Sehat Atau Lebih Buruk."
+      "AQI Mencapai 175, Masuk Kategori Tidak Sehat Atau Lebih Buruk."
     ]
   },
   "advice": {
