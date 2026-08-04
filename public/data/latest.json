@@ -3,7 +3,7 @@
   "city": "Bogor Tengah",
   "latitude": -6.5963564,
   "longitude": 106.7973188,
-  "generatedAt": "2026-08-04T09:23:07.298Z",
+  "generatedAt": "2026-08-04T11:44:10.951Z",
   "reportMode": "emergency-watch",
   "overallStatus": {
     "label": "Perlu Perhatian",
@@ -11,22 +11,22 @@
     "level": "warning"
   },
   "weather": {
-    "temperature": 30.3,
-    "humidity": 57,
-    "rain": 0.1,
-    "windSpeed": 13.6,
-    "windGust": 30.6
+    "temperature": 27.1,
+    "humidity": 72,
+    "rain": 0,
+    "windSpeed": 8.1,
+    "windGust": 24.1
   },
   "airQuality": {
-    "usAqi": 169,
+    "usAqi": 170,
     "aqiLabel": "Tidak Sehat",
     "aqiEmoji": "🔴",
-    "pm25": 62.6,
-    "pm10": 64.3,
-    "ozone": 178
+    "pm25": 83.8,
+    "pm10": 85.2,
+    "ozone": 86
   },
   "uv": {
-    "current": 0.55,
+    "current": 0,
     "maxToday": 7.95,
     "label": "Rendah",
     "emoji": "🟢",
@@ -35,10 +35,10 @@
   "forecast": {
     "minTemperature": 22.3,
     "maxTemperature": 33.3,
-    "maxPrecipitationProbability": 84,
+    "maxPrecipitationProbability": 59,
     "nextRainTime": "2026-08-04T15:00",
-    "nextRainProbability": 51,
-    "peakRainTime": "2026-08-04T18:00"
+    "nextRainProbability": 41,
+    "peakRainTime": "2026-08-04T17:00"
   },
   "emergency": {
     "shouldSend": true,
@@ -46,11 +46,11 @@
     "severity": "WARNING",
     "title": "🚨 Emergency Alert",
     "reasons": [
-      "AQI Mencapai 169, Masuk Kategori Tidak Sehat Atau Lebih Buruk."
+      "AQI Mencapai 170, Masuk Kategori Tidak Sehat Atau Lebih Buruk."
     ]
   },
   "advice": {
-    "general": "Kualitas Udara Sedang Tidak Sehat. Kurangi Paparan Udara Luar Jika Memungkinkan. Ada Peluang Hujan Cukup Tinggi, Siapkan Payung/Jas Hujan.",
+    "general": "Kualitas Udara Sedang Tidak Sehat. Kurangi Paparan Udara Luar Jika Memungkinkan.",
     "outdoor": "Kurangi Aktivitas Luar Ruangan Berat Dan Pertimbangkan Memakai Masker.",
     "sensitiveGroup": "Anak-Anak, Lansia, Dan Orang Dengan Gangguan Pernapasan Sebaiknya Berada Di Dalam Ruangan."
   },
