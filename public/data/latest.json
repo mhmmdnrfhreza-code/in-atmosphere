@@ -3,7 +3,7 @@
   "city": "Bogor Tengah",
   "latitude": -6.5963564,
   "longitude": 106.7973188,
-  "generatedAt": "2026-08-05T20:36:45.602Z",
+  "generatedAt": "2026-08-05T21:51:42.287Z",
   "reportMode": "emergency-watch",
   "overallStatus": {
     "label": "Perlu Perhatian",
@@ -11,19 +11,19 @@
     "level": "warning"
   },
   "weather": {
-    "temperature": 23.1,
-    "humidity": 85,
+    "temperature": 23,
+    "humidity": 83,
     "rain": 0,
-    "windSpeed": 6.2,
-    "windGust": 11.2
+    "windSpeed": 5.8,
+    "windGust": 11.5
   },
   "airQuality": {
     "usAqi": 169,
     "aqiLabel": "Tidak Sehat",
     "aqiEmoji": "🔴",
-    "pm25": 110.1,
-    "pm10": 110.8,
-    "ozone": 4
+    "pm25": 116.4,
+    "pm10": 117.1,
+    "ozone": 6
   },
   "uv": {
     "current": 0,
