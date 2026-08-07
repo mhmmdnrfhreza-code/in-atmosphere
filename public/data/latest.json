@@ -3,7 +3,7 @@
   "city": "Bogor Tengah",
   "latitude": -6.5963564,
   "longitude": 106.7973188,
-  "generatedAt": "2026-08-07T07:36:48.616Z",
+  "generatedAt": "2026-08-07T08:37:23.562Z",
   "reportMode": "emergency-watch",
   "overallStatus": {
     "label": "Perlu Perhatian",
@@ -11,26 +11,26 @@
     "level": "warning"
   },
   "weather": {
-    "temperature": 32.8,
-    "humidity": 44,
+    "temperature": 33,
+    "humidity": 43,
     "rain": 0,
-    "windSpeed": 3.9,
-    "windGust": 20.2
+    "windSpeed": 2,
+    "windGust": 16.9
   },
   "airQuality": {
     "usAqi": 166,
     "aqiLabel": "Tidak Sehat",
     "aqiEmoji": "🔴",
-    "pm25": 56.5,
-    "pm10": 57.4,
-    "ozone": 247
+    "pm25": 57.7,
+    "pm10": 58.7,
+    "ozone": 245
   },
   "uv": {
-    "current": 3.8,
+    "current": 2.15,
     "maxToday": 8,
-    "label": "Sedang",
-    "emoji": "🟡",
-    "advice": "Paparan Radiasi UV Sedang. Berpotensi Menimbulkan Kerusakan Pada Sel Kulit Jika Terpapar Langsung Dalam Jangka Waktu Tertentu. Diperlukan Proteksi Dasar Saat Beraktivitas Di Luar Ruangan (Mengoleskan Tabir Surya (Sunscreen) Dengan SPF Dan Peringkat Minimal 15 - 30 PA++, Memakai Topi, Dan Menggunakan Pelindung Mata. Disarankan Juga Untuk Mencari Tempat Berteduh Saat Intensitas Matahari Mencapai Puncaknya Di Paruh Hari."
+    "label": "Rendah",
+    "emoji": "🟢",
+    "advice": "Indeks Radiasi UV Berada Pada Tingkat Minimum. Risiko Kerusakan Kulit Sangat Rendah Bagi Mayoritas Orang. Aman Untuk Beraktivitas Normal Di Luar Ruangan Tanpa Perlindungan Khusus. Namun, Bagi Individu Dengan Kulit Yang Sangat Sensitif Atau Jika Harus Berada Di Bawah Terik Matahari Dalam Durasi Yang Sangat Lama, Penggunaan Kacamata Hitam, Penggunaan Tabir Surya (Sunscreen) Dengan Proteksi Minimal Terhadap UV-A dan UV-B (SPF 15+) Tetap Disarankan."
   },
   "forecast": {
     "minTemperature": 24.1,
