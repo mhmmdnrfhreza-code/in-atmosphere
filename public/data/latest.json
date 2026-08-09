@@ -3,41 +3,41 @@
   "city": "Bogor Tengah",
   "latitude": -6.5963564,
   "longitude": 106.7973188,
-  "generatedAt": "2026-08-08T23:58:51.751Z",
-  "reportMode": "morning",
+  "generatedAt": "2026-08-09T02:22:47.295Z",
+  "reportMode": "emergency-watch",
   "overallStatus": {
     "label": "Perlu Perhatian",
     "description": "Sistem mendeteksi kondisi yang perlu diperhatikan. Lihat bagian emergency dan saran praktis.",
     "level": "warning"
   },
   "weather": {
-    "temperature": 22,
-    "humidity": 85,
+    "temperature": 27.8,
+    "humidity": 59,
     "rain": 0,
-    "windSpeed": 8.9,
-    "windGust": 18
+    "windSpeed": 1.1,
+    "windGust": 13
   },
   "airQuality": {
-    "usAqi": 180,
+    "usAqi": 177,
     "aqiLabel": "Tidak Sehat",
     "aqiEmoji": "🔴",
-    "pm25": 107.6,
-    "pm10": 108.3,
-    "ozone": 0
+    "pm25": 79.9,
+    "pm10": 82.2,
+    "ozone": 89
   },
   "uv": {
-    "current": 0,
+    "current": 3.6,
     "maxToday": 8.1,
-    "label": "Rendah",
-    "emoji": "🟢",
-    "advice": "Indeks Radiasi UV Berada Pada Tingkat Minimum. Risiko Kerusakan Kulit Sangat Rendah Bagi Mayoritas Orang. Aman Untuk Beraktivitas Normal Di Luar Ruangan Tanpa Perlindungan Khusus. Namun, Bagi Individu Dengan Kulit Yang Sangat Sensitif Atau Jika Harus Berada Di Bawah Terik Matahari Dalam Durasi Yang Sangat Lama, Penggunaan Kacamata Hitam, Penggunaan Tabir Surya (Sunscreen) Dengan Proteksi Minimal Terhadap UV-A dan UV-B (SPF 15+) Tetap Disarankan."
+    "label": "Sedang",
+    "emoji": "🟡",
+    "advice": "Paparan Radiasi UV Sedang. Berpotensi Menimbulkan Kerusakan Pada Sel Kulit Jika Terpapar Langsung Dalam Jangka Waktu Tertentu. Diperlukan Proteksi Dasar Saat Beraktivitas Di Luar Ruangan (Mengoleskan Tabir Surya (Sunscreen) Dengan SPF Dan Peringkat Minimal 15 - 30 PA++, Memakai Topi, Dan Menggunakan Pelindung Mata. Disarankan Juga Untuk Mencari Tempat Berteduh Saat Intensitas Matahari Mencapai Puncaknya Di Paruh Hari."
   },
   "forecast": {
-    "minTemperature": 21.4,
-    "maxTemperature": 33.4,
-    "maxPrecipitationProbability": 7,
-    "nextRainTime": "2026-08-10T18:00",
-    "nextRainProbability": 13,
+    "minTemperature": 20.7,
+    "maxTemperature": 33.1,
+    "maxPrecipitationProbability": 25,
+    "nextRainTime": null,
+    "nextRainProbability": null,
     "peakRainTime": null
   },
   "emergency": {
@@ -46,7 +46,7 @@
     "severity": "WARNING",
     "title": "🚨 Emergency Alert",
     "reasons": [
-      "AQI Mencapai 180, Masuk Kategori Tidak Sehat Atau Lebih Buruk."
+      "AQI Mencapai 177, Masuk Kategori Tidak Sehat Atau Lebih Buruk."
     ]
   },
   "advice": {
