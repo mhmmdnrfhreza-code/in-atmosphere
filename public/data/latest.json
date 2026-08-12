@@ -3,7 +3,7 @@
   "city": "Bogor Tengah",
   "latitude": -6.5963564,
   "longitude": 106.7973188,
-  "generatedAt": "2026-08-12T06:01:43.514Z",
+  "generatedAt": "2026-08-12T07:45:09.047Z",
   "reportMode": "emergency-watch",
   "overallStatus": {
     "label": "Perlu Perhatian",
@@ -12,29 +12,29 @@
   },
   "weather": {
     "temperature": 33.4,
-    "humidity": 37,
+    "humidity": 35,
     "rain": 0,
-    "windSpeed": 5.9,
-    "windGust": 22.3
+    "windSpeed": 6.9,
+    "windGust": 23
   },
   "airQuality": {
-    "usAqi": 166,
+    "usAqi": 165,
     "aqiLabel": "Tidak Sehat",
     "aqiEmoji": "🔴",
-    "pm25": 53.8,
-    "pm10": 56.3,
-    "ozone": 244
+    "pm25": 50.6,
+    "pm10": 53,
+    "ozone": 243
   },
   "uv": {
-    "current": 6.9,
+    "current": 4.7,
     "maxToday": 8.2,
-    "label": "Tinggi",
-    "emoji": "🟠",
-    "advice": "Tingkat Radiasi UV Tinggi. Berisiko Mempercepat Terjadinya Luka Bakar Matahari (Sunburn) Serta Kerusakan Kulit Jangka Panjang. Perlindungan Aktif Sangat Penting Diterapkan (Mengoleskan Tabir Surya (Sunscreen) Dengan Minimal SPF Dan Peringkat 30+ PA+++, Pakaian Pelindung, Dan Kacamata Anti-UV). Batasi Paparan Matahari Langsung Secara Signifikan, Terutama Antara Pukul 10.00 WIB - 16.00 WIB, Utamakan Melakukan Aktivitas Di Area Yang Teduh."
+    "label": "Sedang",
+    "emoji": "🟡",
+    "advice": "Paparan Radiasi UV Sedang. Berpotensi Menimbulkan Kerusakan Pada Sel Kulit Jika Terpapar Langsung Dalam Jangka Waktu Tertentu. Diperlukan Proteksi Dasar Saat Beraktivitas Di Luar Ruangan (Mengoleskan Tabir Surya (Sunscreen) Dengan SPF Dan Peringkat Minimal 15 - 30 PA++, Memakai Topi, Dan Menggunakan Pelindung Mata. Disarankan Juga Untuk Mencari Tempat Berteduh Saat Intensitas Matahari Mencapai Puncaknya Di Paruh Hari."
   },
   "forecast": {
     "minTemperature": 22.6,
-    "maxTemperature": 34.3,
+    "maxTemperature": 33.5,
     "maxPrecipitationProbability": 75,
     "nextRainTime": "2026-08-12T00:00",
     "nextRainProbability": 65,
@@ -46,7 +46,7 @@
     "severity": "WARNING",
     "title": "🚨 Emergency Alert",
     "reasons": [
-      "AQI Mencapai 166, Masuk Kategori Tidak Sehat Atau Lebih Buruk."
+      "AQI Mencapai 165, Masuk Kategori Tidak Sehat Atau Lebih Buruk."
     ]
   },
   "advice": {
