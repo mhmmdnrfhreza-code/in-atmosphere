@@ -3,7 +3,7 @@
   "city": "Bogor Tengah",
   "latitude": -6.5963564,
   "longitude": 106.7973188,
-  "generatedAt": "2026-08-16T05:02:53.892Z",
+  "generatedAt": "2026-08-16T05:36:57.536Z",
   "reportMode": "emergency-watch",
   "overallStatus": {
     "label": "Perlu Perhatian",
@@ -11,11 +11,11 @@
     "level": "warning"
   },
   "weather": {
-    "temperature": 32.5,
-    "humidity": 47,
+    "temperature": 33.1,
+    "humidity": 45,
     "rain": 0,
-    "windSpeed": 4.3,
-    "windGust": 18.7
+    "windSpeed": 4.8,
+    "windGust": 19.8
   },
   "airQuality": {
     "usAqi": 193,
@@ -27,7 +27,7 @@
   },
   "uv": {
     "current": 7.85,
-    "maxToday": 8.3,
+    "maxToday": 8.35,
     "label": "Tinggi",
     "emoji": "🟠",
     "advice": "Tingkat Radiasi UV Tinggi. Berisiko Mempercepat Terjadinya Luka Bakar Matahari (Sunburn) Serta Kerusakan Kulit Jangka Panjang. Perlindungan Aktif Sangat Penting Diterapkan (Mengoleskan Tabir Surya (Sunscreen) Dengan Minimal SPF Dan Peringkat 30+ PA+++, Pakaian Pelindung, Dan Kacamata Anti-UV). Batasi Paparan Matahari Langsung Secara Signifikan, Terutama Antara Pukul 10.00 WIB - 16.00 WIB, Utamakan Melakukan Aktivitas Di Area Yang Teduh."
