@@ -3,7 +3,7 @@
   "city": "Bogor Tengah",
   "latitude": -6.5963564,
   "longitude": 106.7973188,
-  "generatedAt": "2026-08-16T21:29:00.591Z",
+  "generatedAt": "2026-08-16T21:49:27.707Z",
   "reportMode": "emergency-watch",
   "overallStatus": {
     "label": "Perlu Perhatian",
@@ -11,10 +11,10 @@
     "level": "warning"
   },
   "weather": {
-    "temperature": 23.2,
-    "humidity": 85,
+    "temperature": 23.1,
+    "humidity": 87,
     "rain": 0,
-    "windSpeed": 7.4,
+    "windSpeed": 7,
     "windGust": 13.7
   },
   "airQuality": {
