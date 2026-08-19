@@ -1,22 +1,22 @@
 {
-  "lastAqi": 178,
+  "lastAqi": 183,
   "lastUvIndex": 0,
   "lastRain": 0,
   "lastWindGust": 14.8,
-  "lastCheckedAt": "2026-08-19T21:55:28.936Z",
+  "lastCheckedAt": "2026-08-19T22:34:24.045Z",
   "lastEmergencyAlert": {
     "type": "AIR_QUALITY",
     "severity": "WARNING",
-    "sentAt": "2026-08-19T19:33:08.715Z"
+    "sentAt": "2026-08-19T22:34:24.045Z"
   },
-  "currentStatusMessageId": "1539754708678217819",
-  "currentStatusUpdatedAt": "2026-08-19T21:55:28.936Z",
-  "activeEmergencyMessageId": "1539718886566666301",
-  "previousEmergencyMessageId": "1539707600571076700",
-  "activeEmergencyFingerprint": "type=AIR_QUALITY|severity=WARNING|reasons=aqi mencapai 178, masuk kategori tidak sehat atau lebih buruk.;peluang hujan hari ini mencapai 95%.|bmkg=false|aqi=UNHEALTHY|uv=LOW|weather=HIGH_RAIN_PROBABILITY",
-  "previousEmergencyFingerprint": "type=AIR_QUALITY|severity=WARNING|reasons=aqi mencapai 177, masuk kategori tidak sehat atau lebih buruk.;peluang hujan hari ini mencapai 95%.|bmkg=false|aqi=UNHEALTHY|uv=LOW|weather=HIGH_RAIN_PROBABILITY",
-  "activeEmergencySentAt": "2026-08-19T19:33:08.715Z",
-  "previousEmergencySentAt": "2026-08-19T18:48:18.001Z",
+  "currentStatusMessageId": "1539764501774340148",
+  "currentStatusUpdatedAt": "2026-08-19T22:34:24.045Z",
+  "activeEmergencyMessageId": "1539764499924516996",
+  "previousEmergencyMessageId": "1539718886566666301",
+  "activeEmergencyFingerprint": "type=AIR_QUALITY|severity=WARNING|reasons=aqi mencapai 183, masuk kategori tidak sehat atau lebih buruk.;peluang hujan hari ini mencapai 95%.|bmkg=false|aqi=UNHEALTHY|uv=LOW|weather=HIGH_RAIN_PROBABILITY",
+  "previousEmergencyFingerprint": "type=AIR_QUALITY|severity=WARNING|reasons=aqi mencapai 178, masuk kategori tidak sehat atau lebih buruk.;peluang hujan hari ini mencapai 95%.|bmkg=false|aqi=UNHEALTHY|uv=LOW|weather=HIGH_RAIN_PROBABILITY",
+  "activeEmergencySentAt": "2026-08-19T22:34:24.045Z",
+  "previousEmergencySentAt": "2026-08-19T19:33:08.715Z",
   "recoveryMessageId": null,
   "recoverySentAt": null,
   "recoveryFingerprint": null
