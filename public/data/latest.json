@@ -3,7 +3,7 @@
   "city": "Bogor Tengah",
   "latitude": -6.5963564,
   "longitude": 106.7973188,
-  "generatedAt": "2026-08-19T08:49:11.327Z",
+  "generatedAt": "2026-08-19T09:42:45.066Z",
   "reportMode": "emergency-watch",
   "overallStatus": {
     "label": "Perlu Perhatian",
@@ -11,22 +11,22 @@
     "level": "warning"
   },
   "weather": {
-    "temperature": 26.1,
-    "humidity": 85,
-    "rain": 0.6,
-    "windSpeed": 3.3,
-    "windGust": 18.7
+    "temperature": 25.7,
+    "humidity": 86,
+    "rain": 0.2,
+    "windSpeed": 7.1,
+    "windGust": 19.8
   },
   "airQuality": {
     "usAqi": 163,
     "aqiLabel": "Tidak Sehat",
     "aqiEmoji": "🔴",
-    "pm25": 47.7,
-    "pm10": 49,
-    "ozone": 191
+    "pm25": 49.7,
+    "pm10": 51,
+    "ozone": 166
   },
   "uv": {
-    "current": 1.45,
+    "current": 0.4,
     "maxToday": 6.85,
     "label": "Rendah",
     "emoji": "🟢",
@@ -42,12 +42,13 @@
   },
   "emergency": {
     "shouldSend": true,
-    "type": "AIR_QUALITY",
+    "type": "MULTI_RISK",
     "severity": "WARNING",
     "title": "🚨 Emergency Alert",
     "reasons": [
       "AQI Mencapai 163, Masuk Kategori Tidak Sehat Atau Lebih Buruk.",
-      "Peluang Hujan Hari Ini Mencapai 100%."
+      "Peluang Hujan Hari Ini Mencapai 100%.",
+      "BMKG mengeluarkan peringatan dini cuaca yang relevan dengan Bogor Tengah: Hujan Lebat disertai Petir di Jakarta."
     ]
   },
   "advice": {
@@ -56,11 +57,13 @@
     "sensitiveGroup": "Anak-Anak, Lansia, Dan Orang Dengan Gangguan Pernapasan Sebaiknya Berada Di Dalam Ruangan."
   },
   "bmkgWarning": {
-    "isActive": false,
-    "title": null,
-    "description": null,
-    "publishedAt": null,
-    "matchedKeywords": []
+    "isActive": true,
+    "title": "Hujan Lebat disertai Petir di Jakarta",
+    "description": "Hujan lebat disertai petir akan terjadi pada 19 August 2026, 16:10 WIB di sebagian wilayah Jakarta, khususnya di Bogor Barat, Bogor Selatan, Bogor Tengah, Bogor Timur, Bogor Utara, Caringin, Ciawi, Cijeruk, Ciomas, Leuwiliang, Megamendung, Nanggung, Pamijahan, Pamulang, Serpong, Sukaraja, Tamansari, Tenjolaya.\n Kondisi ini berpotensi menimbulkan dampak berupa jarak pandang berkurang, angin kencang, dan banjir lokal.\n Masyarakat dihimbau untuk tetap waspada, mengurangi aktivitas di luar ruangan, serta mengambil langkah-langkah pencegahan yang diperlukan guna menjaga keselamatan.\n Kondisi diperkirakan dapat berlangsung hingga 19 August 2026, 18:30 WIB.",
+    "publishedAt": "Wed, 19 Aug 2026 16:00:00 +0700",
+    "matchedKeywords": [
+      "Bogor Tengah"
+    ]
   },
   "sources": [
     "Open-Meteo Weather API",
