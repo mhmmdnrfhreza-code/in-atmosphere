@@ -3,30 +3,30 @@
   "city": "Bogor Tengah",
   "latitude": -6.5963564,
   "longitude": 106.7973188,
-  "generatedAt": "2026-08-19T10:48:16.715Z",
-  "reportMode": "rush-hour",
+  "generatedAt": "2026-08-19T11:33:51.711Z",
+  "reportMode": "emergency-watch",
   "overallStatus": {
     "label": "Perlu Perhatian",
     "description": "Sistem mendeteksi kondisi yang perlu diperhatikan. Lihat bagian emergency dan saran praktis.",
     "level": "warning"
   },
   "weather": {
-    "temperature": 24.9,
-    "humidity": 91,
+    "temperature": 24.6,
+    "humidity": 93,
     "rain": 0.1,
-    "windSpeed": 4.4,
-    "windGust": 17.3
+    "windSpeed": 1.7,
+    "windGust": 12.2
   },
   "airQuality": {
-    "usAqi": 163,
+    "usAqi": 164,
     "aqiLabel": "Tidak Sehat",
     "aqiEmoji": "🔴",
-    "pm25": 70.8,
-    "pm10": 71.9,
-    "ozone": 92
+    "pm25": 84.3,
+    "pm10": 85.2,
+    "ozone": 48
   },
   "uv": {
-    "current": 0.15,
+    "current": 0,
     "maxToday": 6.85,
     "label": "Rendah",
     "emoji": "🟢",
@@ -46,7 +46,7 @@
     "severity": "WARNING",
     "title": "🚨 Emergency Alert",
     "reasons": [
-      "AQI Mencapai 163, Masuk Kategori Tidak Sehat Atau Lebih Buruk.",
+      "AQI Mencapai 164, Masuk Kategori Tidak Sehat Atau Lebih Buruk.",
       "Peluang Hujan Hari Ini Mencapai 100%.",
       "BMKG mengeluarkan peringatan dini cuaca yang relevan dengan Bogor Tengah: Hujan Lebat disertai Petir di Jakarta."
     ]
