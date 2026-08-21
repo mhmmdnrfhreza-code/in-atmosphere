@@ -3,7 +3,7 @@
   "city": "Bogor Tengah",
   "latitude": -6.5963564,
   "longitude": 106.7973188,
-  "generatedAt": "2026-08-21T11:57:00.579Z",
+  "generatedAt": "2026-08-21T13:03:59.883Z",
   "reportMode": "emergency-watch",
   "overallStatus": {
     "label": "Perlu Perhatian",
@@ -11,19 +11,19 @@
     "level": "warning"
   },
   "weather": {
-    "temperature": 27.9,
-    "humidity": 65,
+    "temperature": 27.7,
+    "humidity": 61,
     "rain": 0,
-    "windSpeed": 6.2,
-    "windGust": 25.9
+    "windSpeed": 7,
+    "windGust": 15.5
   },
   "airQuality": {
-    "usAqi": 185,
+    "usAqi": 182,
     "aqiLabel": "Tidak Sehat",
     "aqiEmoji": "🔴",
-    "pm25": 54.2,
-    "pm10": 58.1,
-    "ozone": 88
+    "pm25": 74,
+    "pm10": 78.7,
+    "ozone": 35
   },
   "uv": {
     "current": 0,
@@ -34,10 +34,10 @@
   },
   "forecast": {
     "minTemperature": 22.8,
-    "maxTemperature": 33.9,
+    "maxTemperature": 34.1,
     "maxPrecipitationProbability": 53,
-    "nextRainTime": "2026-08-21T14:00",
-    "nextRainProbability": 11,
+    "nextRainTime": "2026-08-21T18:00",
+    "nextRainProbability": 49,
     "peakRainTime": "2026-08-21T19:00"
   },
   "emergency": {
@@ -46,7 +46,7 @@
     "severity": "WARNING",
     "title": "🚨 Emergency Alert",
     "reasons": [
-      "AQI Mencapai 185, Masuk Kategori Tidak Sehat Atau Lebih Buruk."
+      "AQI Mencapai 182, Masuk Kategori Tidak Sehat Atau Lebih Buruk."
     ]
   },
   "advice": {
