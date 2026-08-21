@@ -3,7 +3,7 @@
   "city": "Bogor Tengah",
   "latitude": -6.5963564,
   "longitude": 106.7973188,
-  "generatedAt": "2026-08-21T16:45:13.558Z",
+  "generatedAt": "2026-08-21T17:37:51.732Z",
   "reportMode": "emergency-watch",
   "overallStatus": {
     "label": "Perlu Perhatian",
@@ -11,34 +11,34 @@
     "level": "warning"
   },
   "weather": {
-    "temperature": 24.7,
-    "humidity": 80,
+    "temperature": 24.2,
+    "humidity": 84,
     "rain": 0,
-    "windSpeed": 3.5,
-    "windGust": 8.3
+    "windSpeed": 3.4,
+    "windGust": 8.6
   },
   "airQuality": {
-    "usAqi": 179,
+    "usAqi": 178,
     "aqiLabel": "Tidak Sehat",
     "aqiEmoji": "🔴",
-    "pm25": 100.4,
-    "pm10": 105,
-    "ozone": 11
+    "pm25": 105.9,
+    "pm10": 109.9,
+    "ozone": 7
   },
   "uv": {
     "current": 0,
-    "maxToday": 8.05,
+    "maxToday": 8.45,
     "label": "Rendah",
     "emoji": "🟢",
     "advice": "Indeks Radiasi UV Berada Pada Tingkat Minimum. Risiko Kerusakan Kulit Sangat Rendah Bagi Mayoritas Orang. Aman Untuk Beraktivitas Normal Di Luar Ruangan Tanpa Perlindungan Khusus. Namun, Bagi Individu Dengan Kulit Yang Sangat Sensitif Atau Jika Harus Berada Di Bawah Terik Matahari Dalam Durasi Yang Sangat Lama, Penggunaan Kacamata Hitam, Penggunaan Tabir Surya (Sunscreen) Dengan Proteksi Minimal Terhadap UV-A dan UV-B (SPF 15+) Tetap Disarankan."
   },
   "forecast": {
-    "minTemperature": 22.8,
-    "maxTemperature": 34.1,
-    "maxPrecipitationProbability": 41,
-    "nextRainTime": "2026-08-21T18:00",
-    "nextRainProbability": 41,
-    "peakRainTime": null
+    "minTemperature": 22.5,
+    "maxTemperature": 34.6,
+    "maxPrecipitationProbability": 30,
+    "nextRainTime": "2026-08-22T19:00",
+    "nextRainProbability": 29,
+    "peakRainTime": "2026-08-23T22:00"
   },
   "emergency": {
     "shouldSend": true,
@@ -46,7 +46,7 @@
     "severity": "WARNING",
     "title": "🚨 Emergency Alert",
     "reasons": [
-      "AQI Mencapai 179, Masuk Kategori Tidak Sehat Atau Lebih Buruk."
+      "AQI Mencapai 178, Masuk Kategori Tidak Sehat Atau Lebih Buruk."
     ]
   },
   "advice": {
