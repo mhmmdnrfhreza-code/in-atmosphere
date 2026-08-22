@@ -3,7 +3,7 @@
   "city": "Bogor Tengah",
   "latitude": -6.5963564,
   "longitude": 106.7973188,
-  "generatedAt": "2026-08-22T05:57:59.512Z",
+  "generatedAt": "2026-08-22T06:53:51.990Z",
   "reportMode": "emergency-watch",
   "overallStatus": {
     "label": "Perlu Perhatian",
@@ -11,30 +11,30 @@
     "level": "warning"
   },
   "weather": {
-    "temperature": 34,
-    "humidity": 38,
+    "temperature": 33.7,
+    "humidity": 40,
     "rain": 0,
-    "windSpeed": 5.6,
-    "windGust": 22.7
+    "windSpeed": 4.3,
+    "windGust": 21.2
   },
   "airQuality": {
     "usAqi": 159,
     "aqiLabel": "Tidak Sehat",
     "aqiEmoji": "🔴",
-    "pm25": 50.1,
-    "pm10": 52,
-    "ozone": 222
+    "pm25": 50.5,
+    "pm10": 52.3,
+    "ozone": 243
   },
   "uv": {
-    "current": 8.15,
+    "current": 7.2,
     "maxToday": 8.45,
-    "label": "Sangat Tinggi",
-    "emoji": "🔴",
-    "advice": "Radiasi UV Kritis. Dapat Merusak Jaringan Kulit Dan Mata Dalam Waktu Singkat Tanpa Perlindungan Ekstra. Meminimalkan Aktivitas Luar Ruangan Selama Jam-Jam Puncak Radiasi. Jika Harus Keluar Rumah, Wajib Menggunakan Perlindungan Maksimal (Pakaian Tertutup, Topi Bertepi Lebar, Kacamata Hitam Yang Memblokir Sinar UV, Serta Mengoleskan Kembali Tabir Surya (Sunscreen) Dengan SPF Dan Peringkat 30+ - 50+ PA++++ Secara Berkala Setiap Dua Jam)."
+    "label": "Tinggi",
+    "emoji": "🟠",
+    "advice": "Tingkat Radiasi UV Tinggi. Berisiko Mempercepat Terjadinya Luka Bakar Matahari (Sunburn) Serta Kerusakan Kulit Jangka Panjang. Perlindungan Aktif Sangat Penting Diterapkan (Mengoleskan Tabir Surya (Sunscreen) Dengan Minimal SPF Dan Peringkat 30+ PA+++, Pakaian Pelindung, Dan Kacamata Anti-UV). Batasi Paparan Matahari Langsung Secara Signifikan, Terutama Antara Pukul 10.00 WIB - 16.00 WIB, Utamakan Melakukan Aktivitas Di Area Yang Teduh."
   },
   "forecast": {
     "minTemperature": 22.8,
-    "maxTemperature": 34.9,
+    "maxTemperature": 34.1,
     "maxPrecipitationProbability": 54,
     "nextRainTime": "2026-08-22T20:00",
     "nextRainProbability": 50,
@@ -51,7 +51,7 @@
   },
   "advice": {
     "general": "Kualitas Udara Sedang Tidak Sehat. Kurangi Paparan Udara Luar Jika Memungkinkan.",
-    "outdoor": "Kurangi Aktivitas Luar Ruangan Berat Dan Pertimbangkan Memakai Masker. UV Sedang Tinggi, Gunakan Sunscreen, Topi, dan Hindari Paparan Matahari Langsung Terlalu Lama.",
+    "outdoor": "Kurangi Aktivitas Luar Ruangan Berat Dan Pertimbangkan Memakai Masker.",
     "sensitiveGroup": "Anak-Anak, Lansia, Dan Orang Dengan Gangguan Pernapasan Sebaiknya Berada Di Dalam Ruangan."
   },
   "bmkgWarning": {
