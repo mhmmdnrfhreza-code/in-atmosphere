@@ -3,7 +3,7 @@
   "city": "Bogor Tengah",
   "latitude": -6.5963564,
   "longitude": 106.7973188,
-  "generatedAt": "2026-08-24T16:49:45.096Z",
+  "generatedAt": "2026-08-24T17:38:40.613Z",
   "reportMode": "emergency-watch",
   "overallStatus": {
     "label": "Perlu Perhatian",
@@ -11,19 +11,19 @@
     "level": "warning"
   },
   "weather": {
-    "temperature": 25.5,
-    "humidity": 72,
+    "temperature": 25.2,
+    "humidity": 74,
     "rain": 0,
-    "windSpeed": 6,
+    "windSpeed": 6.5,
     "windGust": 11.9
   },
   "airQuality": {
     "usAqi": 176,
     "aqiLabel": "Tidak Sehat",
     "aqiEmoji": "🔴",
-    "pm25": 117.1,
-    "pm10": 122,
-    "ozone": 26
+    "pm25": 126.7,
+    "pm10": 132.2,
+    "ozone": 22
   },
   "uv": {
     "current": 0,
@@ -34,11 +34,11 @@
   },
   "forecast": {
     "minTemperature": 23,
-    "maxTemperature": 34.6,
-    "maxPrecipitationProbability": 32,
-    "nextRainTime": "2026-08-24T17:00",
-    "nextRainProbability": 30,
-    "peakRainTime": "2026-08-25T16:00"
+    "maxTemperature": 35.6,
+    "maxPrecipitationProbability": 76,
+    "nextRainTime": "2026-08-25T15:00",
+    "nextRainProbability": 56,
+    "peakRainTime": "2026-08-26T19:00"
   },
   "emergency": {
     "shouldSend": true,
@@ -50,7 +50,7 @@
     ]
   },
   "advice": {
-    "general": "Kualitas Udara Sedang Tidak Sehat. Kurangi Paparan Udara Luar Jika Memungkinkan.",
+    "general": "Kualitas Udara Sedang Tidak Sehat. Kurangi Paparan Udara Luar Jika Memungkinkan. Ada Peluang Hujan Cukup Tinggi, Siapkan Payung/Jas Hujan.",
     "outdoor": "Kurangi Aktivitas Luar Ruangan Berat Dan Pertimbangkan Memakai Masker.",
     "sensitiveGroup": "Anak-Anak, Lansia, Dan Orang Dengan Gangguan Pernapasan Sebaiknya Berada Di Dalam Ruangan."
   },
