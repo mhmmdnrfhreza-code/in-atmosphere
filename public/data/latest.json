@@ -3,7 +3,7 @@
   "city": "Bogor Tengah",
   "latitude": -6.5963564,
   "longitude": 106.7973188,
-  "generatedAt": "2026-08-25T16:48:51.647Z",
+  "generatedAt": "2026-08-25T17:39:11.120Z",
   "reportMode": "emergency-watch",
   "overallStatus": {
     "label": "Perlu Perhatian",
@@ -11,34 +11,34 @@
     "level": "warning"
   },
   "weather": {
-    "temperature": 25.8,
-    "humidity": 79,
+    "temperature": 25.5,
+    "humidity": 81,
     "rain": 0,
-    "windSpeed": 2.6,
-    "windGust": 8.3
+    "windSpeed": 0.4,
+    "windGust": 5.4
   },
   "airQuality": {
-    "usAqi": 166,
+    "usAqi": 165,
     "aqiLabel": "Tidak Sehat",
     "aqiEmoji": "🔴",
-    "pm25": 75.9,
-    "pm10": 81,
-    "ozone": 35
+    "pm25": 86.4,
+    "pm10": 91.7,
+    "ozone": 29
   },
   "uv": {
     "current": 0,
-    "maxToday": 8.55,
+    "maxToday": 8.65,
     "label": "Rendah",
     "emoji": "🟢",
     "advice": "Indeks Radiasi UV Berada Pada Tingkat Minimum. Risiko Kerusakan Kulit Sangat Rendah Bagi Mayoritas Orang. Aman Untuk Beraktivitas Normal Di Luar Ruangan Tanpa Perlindungan Khusus. Namun, Bagi Individu Dengan Kulit Yang Sangat Sensitif Atau Jika Harus Berada Di Bawah Terik Matahari Dalam Durasi Yang Sangat Lama, Penggunaan Kacamata Hitam, Penggunaan Tabir Surya (Sunscreen) Dengan Proteksi Minimal Terhadap UV-A dan UV-B (SPF 15+) Tetap Disarankan."
   },
   "forecast": {
     "minTemperature": 23.4,
-    "maxTemperature": 35.7,
-    "maxPrecipitationProbability": 90,
-    "nextRainTime": "2026-08-25T15:00",
-    "nextRainProbability": 69,
-    "peakRainTime": "2026-08-25T16:00"
+    "maxTemperature": 34.4,
+    "maxPrecipitationProbability": 84,
+    "nextRainTime": "2026-08-26T16:00",
+    "nextRainProbability": 63,
+    "peakRainTime": "2026-08-26T19:00"
   },
   "emergency": {
     "shouldSend": true,
@@ -46,8 +46,7 @@
     "severity": "WARNING",
     "title": "🚨 Emergency Alert",
     "reasons": [
-      "AQI Mencapai 166, Masuk Kategori Tidak Sehat Atau Lebih Buruk.",
-      "Peluang Hujan Hari Ini Mencapai 90%."
+      "AQI Mencapai 165, Masuk Kategori Tidak Sehat Atau Lebih Buruk."
     ]
   },
   "advice": {
