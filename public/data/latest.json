@@ -3,7 +3,7 @@
   "city": "Bogor Tengah",
   "latitude": -6.5963564,
   "longitude": 106.7973188,
-  "generatedAt": "2026-08-30T16:35:37.336Z",
+  "generatedAt": "2026-08-30T19:25:14.750Z",
   "reportMode": "emergency-watch",
   "overallStatus": {
     "label": "Perlu Perhatian",
@@ -11,34 +11,34 @@
     "level": "warning"
   },
   "weather": {
-    "temperature": 25.9,
-    "humidity": 76,
+    "temperature": 24.9,
+    "humidity": 81,
     "rain": 0,
-    "windSpeed": 3.2,
-    "windGust": 7.6
+    "windSpeed": 4.9,
+    "windGust": 9.7
   },
   "airQuality": {
-    "usAqi": 168,
+    "usAqi": 166,
     "aqiLabel": "Tidak Sehat",
     "aqiEmoji": "🔴",
-    "pm25": 105.9,
-    "pm10": 107.8,
-    "ozone": 12
+    "pm25": 128.5,
+    "pm10": 130.9,
+    "ozone": 5
   },
   "uv": {
     "current": 0,
-    "maxToday": 8.75,
+    "maxToday": 8.7,
     "label": "Rendah",
     "emoji": "🟢",
     "advice": "Indeks Radiasi UV Berada Pada Tingkat Minimum. Risiko Kerusakan Kulit Sangat Rendah Bagi Mayoritas Orang. Aman Untuk Beraktivitas Normal Di Luar Ruangan Tanpa Perlindungan Khusus. Namun, Bagi Individu Dengan Kulit Yang Sangat Sensitif Atau Jika Harus Berada Di Bawah Terik Matahari Dalam Durasi Yang Sangat Lama, Penggunaan Kacamata Hitam, Penggunaan Tabir Surya (Sunscreen) Dengan Proteksi Minimal Terhadap UV-A dan UV-B (SPF 15+) Tetap Disarankan."
   },
   "forecast": {
-    "minTemperature": 21.7,
-    "maxTemperature": 34,
-    "maxPrecipitationProbability": 53,
-    "nextRainTime": "2026-08-30T20:00",
-    "nextRainProbability": 38,
-    "peakRainTime": "2026-08-31T17:00"
+    "minTemperature": 22.8,
+    "maxTemperature": 35.7,
+    "maxPrecipitationProbability": 74,
+    "nextRainTime": "2026-08-31T16:00",
+    "nextRainProbability": 67,
+    "peakRainTime": "2026-09-01T20:00"
   },
   "emergency": {
     "shouldSend": true,
@@ -46,11 +46,11 @@
     "severity": "WARNING",
     "title": "🚨 Emergency Alert",
     "reasons": [
-      "AQI Mencapai 168, Masuk Kategori Tidak Sehat Atau Lebih Buruk."
+      "AQI Mencapai 166, Masuk Kategori Tidak Sehat Atau Lebih Buruk."
     ]
   },
   "advice": {
-    "general": "Kualitas Udara Sedang Tidak Sehat. Kurangi Paparan Udara Luar Jika Memungkinkan.",
+    "general": "Kualitas Udara Sedang Tidak Sehat. Kurangi Paparan Udara Luar Jika Memungkinkan. Ada Peluang Hujan Cukup Tinggi, Siapkan Payung/Jas Hujan.",
     "outdoor": "Kurangi Aktivitas Luar Ruangan Berat Dan Pertimbangkan Memakai Masker.",
     "sensitiveGroup": "Anak-Anak, Lansia, Dan Orang Dengan Gangguan Pernapasan Sebaiknya Berada Di Dalam Ruangan."
   },
