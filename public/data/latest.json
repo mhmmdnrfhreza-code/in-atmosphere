@@ -3,27 +3,27 @@
   "city": "Bogor Tengah",
   "latitude": -6.5963564,
   "longitude": 106.7973188,
-  "generatedAt": "2026-08-30T14:53:05.741Z",
-  "reportMode": "rush-hour",
+  "generatedAt": "2026-08-30T16:35:37.336Z",
+  "reportMode": "emergency-watch",
   "overallStatus": {
     "label": "Perlu Perhatian",
     "description": "Sistem mendeteksi kondisi yang perlu diperhatikan. Lihat bagian emergency dan saran praktis.",
     "level": "warning"
   },
   "weather": {
-    "temperature": 26.6,
-    "humidity": 73,
+    "temperature": 25.9,
+    "humidity": 76,
     "rain": 0,
-    "windSpeed": 0.6,
+    "windSpeed": 3.2,
     "windGust": 7.6
   },
   "airQuality": {
-    "usAqi": 169,
+    "usAqi": 168,
     "aqiLabel": "Tidak Sehat",
     "aqiEmoji": "🔴",
-    "pm25": 76.1,
-    "pm10": 77.5,
-    "ozone": 32
+    "pm25": 105.9,
+    "pm10": 107.8,
+    "ozone": 12
   },
   "uv": {
     "current": 0,
@@ -35,10 +35,10 @@
   "forecast": {
     "minTemperature": 21.7,
     "maxTemperature": 34,
-    "maxPrecipitationProbability": 80,
+    "maxPrecipitationProbability": 53,
     "nextRainTime": "2026-08-30T20:00",
-    "nextRainProbability": 52,
-    "peakRainTime": "2026-08-30T22:00"
+    "nextRainProbability": 38,
+    "peakRainTime": "2026-08-31T17:00"
   },
   "emergency": {
     "shouldSend": true,
@@ -46,11 +46,11 @@
     "severity": "WARNING",
     "title": "🚨 Emergency Alert",
     "reasons": [
-      "AQI Mencapai 169, Masuk Kategori Tidak Sehat Atau Lebih Buruk."
+      "AQI Mencapai 168, Masuk Kategori Tidak Sehat Atau Lebih Buruk."
     ]
   },
   "advice": {
-    "general": "Kualitas Udara Sedang Tidak Sehat. Kurangi Paparan Udara Luar Jika Memungkinkan. Ada Peluang Hujan Cukup Tinggi, Siapkan Payung/Jas Hujan.",
+    "general": "Kualitas Udara Sedang Tidak Sehat. Kurangi Paparan Udara Luar Jika Memungkinkan.",
     "outdoor": "Kurangi Aktivitas Luar Ruangan Berat Dan Pertimbangkan Memakai Masker.",
     "sensitiveGroup": "Anak-Anak, Lansia, Dan Orang Dengan Gangguan Pernapasan Sebaiknya Berada Di Dalam Ruangan."
   },
