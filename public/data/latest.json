@@ -3,27 +3,27 @@
   "city": "Bogor Tengah",
   "latitude": -6.5963564,
   "longitude": 106.7973188,
-  "generatedAt": "2026-08-30T11:48:36.458Z",
-  "reportMode": "emergency-watch",
+  "generatedAt": "2026-08-30T14:53:05.741Z",
+  "reportMode": "rush-hour",
   "overallStatus": {
     "label": "Perlu Perhatian",
     "description": "Sistem mendeteksi kondisi yang perlu diperhatikan. Lihat bagian emergency dan saran praktis.",
     "level": "warning"
   },
   "weather": {
-    "temperature": 28.9,
-    "humidity": 60,
+    "temperature": 26.6,
+    "humidity": 73,
     "rain": 0,
-    "windSpeed": 5.9,
-    "windGust": 22.7
+    "windSpeed": 0.6,
+    "windGust": 7.6
   },
   "airQuality": {
-    "usAqi": 177,
+    "usAqi": 169,
     "aqiLabel": "Tidak Sehat",
     "aqiEmoji": "🔴",
-    "pm25": 43.8,
-    "pm10": 45.2,
-    "ozone": 109
+    "pm25": 76.1,
+    "pm10": 77.5,
+    "ozone": 32
   },
   "uv": {
     "current": 0,
@@ -34,11 +34,11 @@
   },
   "forecast": {
     "minTemperature": 21.7,
-    "maxTemperature": 34.5,
-    "maxPrecipitationProbability": 39,
-    "nextRainTime": "2026-08-30T21:00",
-    "nextRainProbability": 35,
-    "peakRainTime": "2026-08-31T19:00"
+    "maxTemperature": 34,
+    "maxPrecipitationProbability": 80,
+    "nextRainTime": "2026-08-30T20:00",
+    "nextRainProbability": 52,
+    "peakRainTime": "2026-08-30T22:00"
   },
   "emergency": {
     "shouldSend": true,
@@ -46,11 +46,11 @@
     "severity": "WARNING",
     "title": "🚨 Emergency Alert",
     "reasons": [
-      "AQI Mencapai 177, Masuk Kategori Tidak Sehat Atau Lebih Buruk."
+      "AQI Mencapai 169, Masuk Kategori Tidak Sehat Atau Lebih Buruk."
     ]
   },
   "advice": {
-    "general": "Kualitas Udara Sedang Tidak Sehat. Kurangi Paparan Udara Luar Jika Memungkinkan.",
+    "general": "Kualitas Udara Sedang Tidak Sehat. Kurangi Paparan Udara Luar Jika Memungkinkan. Ada Peluang Hujan Cukup Tinggi, Siapkan Payung/Jas Hujan.",
     "outdoor": "Kurangi Aktivitas Luar Ruangan Berat Dan Pertimbangkan Memakai Masker.",
     "sensitiveGroup": "Anak-Anak, Lansia, Dan Orang Dengan Gangguan Pernapasan Sebaiknya Berada Di Dalam Ruangan."
   },
