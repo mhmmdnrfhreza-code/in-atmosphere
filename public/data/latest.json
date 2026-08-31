@@ -3,54 +3,56 @@
   "city": "Bogor Tengah",
   "latitude": -6.5963564,
   "longitude": 106.7973188,
-  "generatedAt": "2026-08-31T06:01:24.237Z",
+  "generatedAt": "2026-08-31T13:32:19.105Z",
   "reportMode": "emergency-watch",
   "overallStatus": {
-    "label": "Waspada",
-    "description": "Kualitas udara atau kondisi lingkungan mulai kurang baik. Kurangi paparan luar ruangan jika diperlukan.",
+    "label": "Perlu Perhatian",
+    "description": "Sistem mendeteksi kondisi yang perlu diperhatikan. Lihat bagian emergency dan saran praktis.",
     "level": "warning"
   },
   "weather": {
-    "temperature": 34.6,
-    "humidity": 38,
+    "temperature": 27.5,
+    "humidity": 75,
     "rain": 0,
-    "windSpeed": 5,
-    "windGust": 23
+    "windSpeed": 2.4,
+    "windGust": 8.3
   },
   "airQuality": {
-    "usAqi": 150,
-    "aqiLabel": "Tidak Sehat Untuk Kelompok Sensitif",
-    "aqiEmoji": "🟠",
-    "pm25": 43.7,
-    "pm10": 44.7,
-    "ozone": 224
+    "usAqi": 172,
+    "aqiLabel": "Tidak Sehat",
+    "aqiEmoji": "🔴",
+    "pm25": 93.6,
+    "pm10": 95.5,
+    "ozone": 40
   },
   "uv": {
-    "current": 7.5,
+    "current": 0,
     "maxToday": 8.75,
-    "label": "Tinggi",
-    "emoji": "🟠",
-    "advice": "Tingkat Radiasi UV Tinggi. Berisiko Mempercepat Terjadinya Luka Bakar Matahari (Sunburn) Serta Kerusakan Kulit Jangka Panjang. Perlindungan Aktif Sangat Penting Diterapkan (Mengoleskan Tabir Surya (Sunscreen) Dengan Minimal SPF Dan Peringkat 30+ PA+++, Pakaian Pelindung, Dan Kacamata Anti-UV). Batasi Paparan Matahari Langsung Secara Signifikan, Terutama Antara Pukul 10.00 WIB - 16.00 WIB, Utamakan Melakukan Aktivitas Di Area Yang Teduh."
+    "label": "Rendah",
+    "emoji": "🟢",
+    "advice": "Indeks Radiasi UV Berada Pada Tingkat Minimum. Risiko Kerusakan Kulit Sangat Rendah Bagi Mayoritas Orang. Aman Untuk Beraktivitas Normal Di Luar Ruangan Tanpa Perlindungan Khusus. Namun, Bagi Individu Dengan Kulit Yang Sangat Sensitif Atau Jika Harus Berada Di Bawah Terik Matahari Dalam Durasi Yang Sangat Lama, Penggunaan Kacamata Hitam, Penggunaan Tabir Surya (Sunscreen) Dengan Proteksi Minimal Terhadap UV-A dan UV-B (SPF 15+) Tetap Disarankan."
   },
   "forecast": {
     "minTemperature": 23.9,
-    "maxTemperature": 35.2,
-    "maxPrecipitationProbability": 78,
+    "maxTemperature": 35.1,
+    "maxPrecipitationProbability": 82,
     "nextRainTime": "2026-08-31T17:00",
-    "nextRainProbability": 54,
-    "peakRainTime": "2026-09-01T19:00"
+    "nextRainProbability": 55,
+    "peakRainTime": "2026-08-31T19:00"
   },
   "emergency": {
-    "shouldSend": false,
-    "type": null,
-    "severity": null,
-    "title": "Tidak Ada Emergency Alert",
-    "reasons": []
+    "shouldSend": true,
+    "type": "AIR_QUALITY",
+    "severity": "WARNING",
+    "title": "🚨 Emergency Alert",
+    "reasons": [
+      "AQI Mencapai 172, Masuk Kategori Tidak Sehat Atau Lebih Buruk."
+    ]
   },
   "advice": {
-    "general": "Kualitas Udara Mulai Kurang Baik Untuk Kelompok Sensitif. Ada Peluang Hujan Cukup Tinggi, Siapkan Payung/Jas Hujan.",
-    "outdoor": "Aktivitas Luar Ruangan Masih Bisa Dilakukan, Tetapi Jangan Terlalu Lama.",
-    "sensitiveGroup": "Kelompok Sensitif Sebaiknya Mengurangi Aktivitas Luar Ruangan Berat."
+    "general": "Kualitas Udara Sedang Tidak Sehat. Kurangi Paparan Udara Luar Jika Memungkinkan. Ada Peluang Hujan Cukup Tinggi, Siapkan Payung/Jas Hujan.",
+    "outdoor": "Kurangi Aktivitas Luar Ruangan Berat Dan Pertimbangkan Memakai Masker.",
+    "sensitiveGroup": "Anak-Anak, Lansia, Dan Orang Dengan Gangguan Pernapasan Sebaiknya Berada Di Dalam Ruangan."
   },
   "bmkgWarning": {
     "isActive": false,
