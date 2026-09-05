@@ -3,39 +3,39 @@
   "city": "Bogor Tengah",
   "latitude": -6.5963564,
   "longitude": 106.7973188,
-  "generatedAt": "2026-09-05T01:21:54.565Z",
-  "reportMode": "morning",
+  "generatedAt": "2026-09-05T06:16:14.872Z",
+  "reportMode": "emergency-watch",
   "overallStatus": {
     "label": "Perlu Perhatian",
     "description": "Sistem mendeteksi kondisi yang perlu diperhatikan. Lihat bagian emergency dan saran praktis.",
     "level": "warning"
   },
   "weather": {
-    "temperature": 28,
-    "humidity": 57,
+    "temperature": 36.1,
+    "humidity": 27,
     "rain": 0,
-    "windSpeed": 3.4,
-    "windGust": 18.4
+    "windSpeed": 4.6,
+    "windGust": 23.8
   },
   "airQuality": {
     "usAqi": 188,
     "aqiLabel": "Tidak Sehat",
     "aqiEmoji": "🔴",
-    "pm25": 88.5,
-    "pm10": 93.6,
-    "ozone": 47
+    "pm25": 55.5,
+    "pm10": 56.6,
+    "ozone": 284
   },
   "uv": {
-    "current": 2.4,
+    "current": 7.85,
     "maxToday": 8.95,
-    "label": "Rendah",
-    "emoji": "🟢",
-    "advice": "Indeks Radiasi UV Berada Pada Tingkat Minimum. Risiko Kerusakan Kulit Sangat Rendah Bagi Mayoritas Orang. Aman Untuk Beraktivitas Normal Di Luar Ruangan Tanpa Perlindungan Khusus. Namun, Bagi Individu Dengan Kulit Yang Sangat Sensitif Atau Jika Harus Berada Di Bawah Terik Matahari Dalam Durasi Yang Sangat Lama, Penggunaan Kacamata Hitam, Penggunaan Tabir Surya (Sunscreen) Dengan Proteksi Minimal Terhadap UV-A dan UV-B (SPF 15+) Tetap Disarankan."
+    "label": "Tinggi",
+    "emoji": "🟠",
+    "advice": "Tingkat Radiasi UV Tinggi. Berisiko Mempercepat Terjadinya Luka Bakar Matahari (Sunburn) Serta Kerusakan Kulit Jangka Panjang. Perlindungan Aktif Sangat Penting Diterapkan (Mengoleskan Tabir Surya (Sunscreen) Dengan Minimal SPF Dan Peringkat 30+ PA+++, Pakaian Pelindung, Dan Kacamata Anti-UV). Batasi Paparan Matahari Langsung Secara Signifikan, Terutama Antara Pukul 10.00 WIB - 16.00 WIB, Utamakan Melakukan Aktivitas Di Area Yang Teduh."
   },
   "forecast": {
     "minTemperature": 22.9,
     "maxTemperature": 36.3,
-    "maxPrecipitationProbability": 6,
+    "maxPrecipitationProbability": 0,
     "nextRainTime": null,
     "nextRainProbability": null,
     "peakRainTime": null
