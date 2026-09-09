@@ -3,27 +3,27 @@
   "city": "Bogor Tengah",
   "latitude": -6.5963564,
   "longitude": 106.7973188,
-  "generatedAt": "2026-09-09T11:48:53.435Z",
-  "reportMode": "emergency-watch",
+  "generatedAt": "2026-09-09T14:39:02.444Z",
+  "reportMode": "rush-hour",
   "overallStatus": {
     "label": "Perlu Perhatian",
     "description": "Sistem mendeteksi kondisi yang perlu diperhatikan. Lihat bagian emergency dan saran praktis.",
     "level": "danger"
   },
   "weather": {
-    "temperature": 26.1,
-    "humidity": 85,
-    "rain": 0.4,
-    "windSpeed": 1.1,
-    "windGust": 19.4
+    "temperature": 25.1,
+    "humidity": 82,
+    "rain": 0,
+    "windSpeed": 7.1,
+    "windGust": 14.8
   },
   "airQuality": {
-    "usAqi": 222,
+    "usAqi": 208,
     "aqiLabel": "Sangat Tidak Sehat",
     "aqiEmoji": "🟣",
-    "pm25": 71,
-    "pm10": 72.9,
-    "ozone": 169
+    "pm25": 88.9,
+    "pm10": 91.7,
+    "ozone": 43
   },
   "uv": {
     "current": 0,
@@ -35,9 +35,9 @@
   "forecast": {
     "minTemperature": 23.9,
     "maxTemperature": 34.6,
-    "maxPrecipitationProbability": 64,
+    "maxPrecipitationProbability": 98,
     "nextRainTime": "2026-09-09T14:00",
-    "nextRainProbability": 27,
+    "nextRainProbability": 47,
     "peakRainTime": "2026-09-10T17:00"
   },
   "emergency": {
@@ -46,11 +46,12 @@
     "severity": "DANGER",
     "title": "🚨 Emergency Alert",
     "reasons": [
-      "AQI Mencapai 222, Masuk Kategori Tidak Sehat Atau Lebih Buruk."
+      "AQI Mencapai 208, Masuk Kategori Tidak Sehat Atau Lebih Buruk.",
+      "Peluang Hujan Hari Ini Mencapai 98%."
     ]
   },
   "advice": {
-    "general": "Kualitas Udara Sedang Tidak Sehat. Kurangi Paparan Udara Luar Jika Memungkinkan.",
+    "general": "Kualitas Udara Sedang Tidak Sehat. Kurangi Paparan Udara Luar Jika Memungkinkan. Ada Peluang Hujan Cukup Tinggi, Siapkan Payung/Jas Hujan.",
     "outdoor": "Kurangi Aktivitas Luar Ruangan Berat Dan Pertimbangkan Memakai Masker.",
     "sensitiveGroup": "Anak-Anak, Lansia, Dan Orang Dengan Gangguan Pernapasan Sebaiknya Berada Di Dalam Ruangan."
   },
