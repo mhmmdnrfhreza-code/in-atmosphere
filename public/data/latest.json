@@ -3,7 +3,7 @@
   "city": "Bogor Tengah",
   "latitude": -6.5963564,
   "longitude": 106.7973188,
-  "generatedAt": "2026-09-08T22:56:25.677Z",
+  "generatedAt": "2026-09-09T01:12:03.741Z",
   "reportMode": "emergency-watch",
   "overallStatus": {
     "label": "Perlu Perhatian",
@@ -11,34 +11,34 @@
     "level": "warning"
   },
   "weather": {
-    "temperature": 23.7,
-    "humidity": 78,
+    "temperature": 27.7,
+    "humidity": 61,
     "rain": 0,
-    "windSpeed": 9.4,
+    "windSpeed": 4.5,
     "windGust": 18.4
   },
   "airQuality": {
-    "usAqi": 188,
+    "usAqi": 189,
     "aqiLabel": "Tidak Sehat",
     "aqiEmoji": "🔴",
-    "pm25": 150.9,
-    "pm10": 154.6,
-    "ozone": 0
+    "pm25": 100.6,
+    "pm10": 104.8,
+    "ozone": 38
   },
   "uv": {
-    "current": 0,
+    "current": 1.5,
     "maxToday": 9,
     "label": "Rendah",
     "emoji": "🟢",
     "advice": "Indeks Radiasi UV Berada Pada Tingkat Minimum. Risiko Kerusakan Kulit Sangat Rendah Bagi Mayoritas Orang. Aman Untuk Beraktivitas Normal Di Luar Ruangan Tanpa Perlindungan Khusus. Namun, Bagi Individu Dengan Kulit Yang Sangat Sensitif Atau Jika Harus Berada Di Bawah Terik Matahari Dalam Durasi Yang Sangat Lama, Penggunaan Kacamata Hitam, Penggunaan Tabir Surya (Sunscreen) Dengan Proteksi Minimal Terhadap UV-A dan UV-B (SPF 15+) Tetap Disarankan."
   },
   "forecast": {
-    "minTemperature": 23.8,
-    "maxTemperature": 34.1,
-    "maxPrecipitationProbability": 87,
-    "nextRainTime": "2026-09-09T13:00",
-    "nextRainProbability": 37,
-    "peakRainTime": "2026-09-10T18:00"
+    "minTemperature": 23.9,
+    "maxTemperature": 34.8,
+    "maxPrecipitationProbability": 84,
+    "nextRainTime": "2026-09-09T15:00",
+    "nextRainProbability": 65,
+    "peakRainTime": "2026-09-10T17:00"
   },
   "emergency": {
     "shouldSend": true,
@@ -46,8 +46,7 @@
     "severity": "WARNING",
     "title": "🚨 Emergency Alert",
     "reasons": [
-      "AQI Mencapai 188, Masuk Kategori Tidak Sehat Atau Lebih Buruk.",
-      "Peluang Hujan Hari Ini Mencapai 87%."
+      "AQI Mencapai 189, Masuk Kategori Tidak Sehat Atau Lebih Buruk."
     ]
   },
   "advice": {
