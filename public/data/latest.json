@@ -3,7 +3,7 @@
   "city": "Bogor Tengah",
   "latitude": -6.5963564,
   "longitude": 106.7973188,
-  "generatedAt": "2026-09-09T16:31:19.274Z",
+  "generatedAt": "2026-09-09T19:26:16.288Z",
   "reportMode": "emergency-watch",
   "overallStatus": {
     "label": "Perlu Perhatian",
@@ -11,33 +11,33 @@
     "level": "warning"
   },
   "weather": {
-    "temperature": 25,
-    "humidity": 81,
+    "temperature": 23.9,
+    "humidity": 82,
     "rain": 0,
-    "windSpeed": 6.5,
-    "windGust": 13
+    "windSpeed": 8.1,
+    "windGust": 14.8
   },
   "airQuality": {
-    "usAqi": 183,
+    "usAqi": 181,
     "aqiLabel": "Tidak Sehat",
     "aqiEmoji": "🔴",
-    "pm25": 115.5,
-    "pm10": 119,
-    "ozone": 10
+    "pm25": 113.2,
+    "pm10": 116.6,
+    "ozone": 0
   },
   "uv": {
     "current": 0,
-    "maxToday": 9.05,
+    "maxToday": 9,
     "label": "Rendah",
     "emoji": "🟢",
     "advice": "Indeks Radiasi UV Berada Pada Tingkat Minimum. Risiko Kerusakan Kulit Sangat Rendah Bagi Mayoritas Orang. Aman Untuk Beraktivitas Normal Di Luar Ruangan Tanpa Perlindungan Khusus. Namun, Bagi Individu Dengan Kulit Yang Sangat Sensitif Atau Jika Harus Berada Di Bawah Terik Matahari Dalam Durasi Yang Sangat Lama, Penggunaan Kacamata Hitam, Penggunaan Tabir Surya (Sunscreen) Dengan Proteksi Minimal Terhadap UV-A dan UV-B (SPF 15+) Tetap Disarankan."
   },
   "forecast": {
-    "minTemperature": 23.9,
-    "maxTemperature": 34.6,
-    "maxPrecipitationProbability": 95,
-    "nextRainTime": "2026-09-09T14:00",
-    "nextRainProbability": 46,
+    "minTemperature": 23.2,
+    "maxTemperature": 33.1,
+    "maxPrecipitationProbability": 100,
+    "nextRainTime": "2026-09-10T00:00",
+    "nextRainProbability": 52,
     "peakRainTime": "2026-09-10T18:00"
   },
   "emergency": {
@@ -46,8 +46,8 @@
     "severity": "WARNING",
     "title": "🚨 Emergency Alert",
     "reasons": [
-      "AQI Mencapai 183, Masuk Kategori Tidak Sehat Atau Lebih Buruk.",
-      "Peluang Hujan Hari Ini Mencapai 95%."
+      "AQI Mencapai 181, Masuk Kategori Tidak Sehat Atau Lebih Buruk.",
+      "Peluang Hujan Hari Ini Mencapai 100%."
     ]
   },
   "advice": {
