@@ -3,7 +3,7 @@
   "city": "Bogor Tengah",
   "latitude": -6.5963564,
   "longitude": 106.7973188,
-  "generatedAt": "2026-09-11T23:11:10.140Z",
+  "generatedAt": "2026-09-12T01:28:42.622Z",
   "reportMode": "emergency-watch",
   "overallStatus": {
     "label": "Perlu Perhatian",
@@ -11,33 +11,33 @@
     "level": "warning"
   },
   "weather": {
-    "temperature": 23.4,
-    "humidity": 91,
+    "temperature": 27.6,
+    "humidity": 70,
     "rain": 0,
-    "windSpeed": 2,
-    "windGust": 4
+    "windSpeed": 1.5,
+    "windGust": 9
   },
   "airQuality": {
-    "usAqi": 172,
+    "usAqi": 170,
     "aqiLabel": "Tidak Sehat",
     "aqiEmoji": "🔴",
-    "pm25": 150.9,
-    "pm10": 153.7,
-    "ozone": 8
+    "pm25": 82.2,
+    "pm10": 84.3,
+    "ozone": 59
   },
   "uv": {
-    "current": 0.05,
-    "maxToday": 8.85,
+    "current": 1.95,
+    "maxToday": 8.9,
     "label": "Rendah",
     "emoji": "🟢",
     "advice": "Indeks Radiasi UV Berada Pada Tingkat Minimum. Risiko Kerusakan Kulit Sangat Rendah Bagi Mayoritas Orang. Aman Untuk Beraktivitas Normal Di Luar Ruangan Tanpa Perlindungan Khusus. Namun, Bagi Individu Dengan Kulit Yang Sangat Sensitif Atau Jika Harus Berada Di Bawah Terik Matahari Dalam Durasi Yang Sangat Lama, Penggunaan Kacamata Hitam, Penggunaan Tabir Surya (Sunscreen) Dengan Proteksi Minimal Terhadap UV-A dan UV-B (SPF 15+) Tetap Disarankan."
   },
   "forecast": {
-    "minTemperature": 23.4,
-    "maxTemperature": 34.5,
-    "maxPrecipitationProbability": 31,
-    "nextRainTime": null,
-    "nextRainProbability": null,
+    "minTemperature": 23.2,
+    "maxTemperature": 34.3,
+    "maxPrecipitationProbability": 45,
+    "nextRainTime": "2026-09-12T15:00",
+    "nextRainProbability": 35,
     "peakRainTime": null
   },
   "emergency": {
@@ -46,7 +46,7 @@
     "severity": "WARNING",
     "title": "🚨 Emergency Alert",
     "reasons": [
-      "AQI Mencapai 172, Masuk Kategori Tidak Sehat Atau Lebih Buruk."
+      "AQI Mencapai 170, Masuk Kategori Tidak Sehat Atau Lebih Buruk."
     ]
   },
   "advice": {
