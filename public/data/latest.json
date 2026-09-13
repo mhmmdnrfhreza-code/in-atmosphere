@@ -3,7 +3,7 @@
   "city": "Bogor Tengah",
   "latitude": -6.5963564,
   "longitude": 106.7973188,
-  "generatedAt": "2026-09-12T23:18:57.198Z",
+  "generatedAt": "2026-09-13T01:22:05.349Z",
   "reportMode": "emergency-watch",
   "overallStatus": {
     "label": "Perlu Perhatian",
@@ -11,34 +11,34 @@
     "level": "warning"
   },
   "weather": {
-    "temperature": 24.3,
-    "humidity": 83,
+    "temperature": 27.5,
+    "humidity": 66,
     "rain": 0,
-    "windSpeed": 5.2,
-    "windGust": 9.7
+    "windSpeed": 1.1,
+    "windGust": 9
   },
   "airQuality": {
-    "usAqi": 170,
+    "usAqi": 171,
     "aqiLabel": "Tidak Sehat",
     "aqiEmoji": "🔴",
-    "pm25": 154.6,
-    "pm10": 159.3,
-    "ozone": 2
+    "pm25": 82.7,
+    "pm10": 85,
+    "ozone": 48
   },
   "uv": {
-    "current": 0.05,
-    "maxToday": 8.95,
+    "current": 1.85,
+    "maxToday": 9,
     "label": "Rendah",
     "emoji": "🟢",
     "advice": "Indeks Radiasi UV Berada Pada Tingkat Minimum. Risiko Kerusakan Kulit Sangat Rendah Bagi Mayoritas Orang. Aman Untuk Beraktivitas Normal Di Luar Ruangan Tanpa Perlindungan Khusus. Namun, Bagi Individu Dengan Kulit Yang Sangat Sensitif Atau Jika Harus Berada Di Bawah Terik Matahari Dalam Durasi Yang Sangat Lama, Penggunaan Kacamata Hitam, Penggunaan Tabir Surya (Sunscreen) Dengan Proteksi Minimal Terhadap UV-A dan UV-B (SPF 15+) Tetap Disarankan."
   },
   "forecast": {
-    "minTemperature": 24,
-    "maxTemperature": 36,
-    "maxPrecipitationProbability": 0,
-    "nextRainTime": "2026-09-14T14:00",
-    "nextRainProbability": 8,
-    "peakRainTime": "2026-09-14T19:00"
+    "minTemperature": 23.6,
+    "maxTemperature": 35.7,
+    "maxPrecipitationProbability": 2,
+    "nextRainTime": "2026-09-14T17:00",
+    "nextRainProbability": 35,
+    "peakRainTime": null
   },
   "emergency": {
     "shouldSend": true,
@@ -46,7 +46,7 @@
     "severity": "WARNING",
     "title": "🚨 Emergency Alert",
     "reasons": [
-      "AQI Mencapai 170, Masuk Kategori Tidak Sehat Atau Lebih Buruk."
+      "AQI Mencapai 171, Masuk Kategori Tidak Sehat Atau Lebih Buruk."
     ]
   },
   "advice": {
