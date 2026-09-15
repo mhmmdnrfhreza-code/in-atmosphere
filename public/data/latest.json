@@ -3,7 +3,7 @@
   "city": "Bogor Tengah",
   "latitude": -6.5963564,
   "longitude": 106.7973188,
-  "generatedAt": "2026-09-15T20:24:46.082Z",
+  "generatedAt": "2026-09-15T23:08:27.357Z",
   "reportMode": "emergency-watch",
   "overallStatus": {
     "label": "Perlu Perhatian",
@@ -11,22 +11,22 @@
     "level": "warning"
   },
   "weather": {
-    "temperature": 23,
-    "humidity": 84,
+    "temperature": 22.8,
+    "humidity": 82,
     "rain": 0,
-    "windSpeed": 7.1,
-    "windGust": 13.3
+    "windSpeed": 8,
+    "windGust": 14.4
   },
   "airQuality": {
     "usAqi": 169,
     "aqiLabel": "Tidak Sehat",
     "aqiEmoji": "🔴",
-    "pm25": 123.4,
-    "pm10": 127.1,
+    "pm25": 150.9,
+    "pm10": 153.7,
     "ozone": 0
   },
   "uv": {
-    "current": 0,
+    "current": 0.05,
     "maxToday": 9.1,
     "label": "Rendah",
     "emoji": "🟢",
@@ -35,10 +35,10 @@
   "forecast": {
     "minTemperature": 22.8,
     "maxTemperature": 36.4,
-    "maxPrecipitationProbability": 67,
+    "maxPrecipitationProbability": 86,
     "nextRainTime": "2026-09-16T17:00",
-    "nextRainProbability": 41,
-    "peakRainTime": "2026-09-16T20:00"
+    "nextRainProbability": 60,
+    "peakRainTime": "2026-09-16T21:00"
   },
   "emergency": {
     "shouldSend": true,
@@ -46,11 +46,12 @@
     "severity": "WARNING",
     "title": "🚨 Emergency Alert",
     "reasons": [
-      "AQI Mencapai 169, Masuk Kategori Tidak Sehat Atau Lebih Buruk."
+      "AQI Mencapai 169, Masuk Kategori Tidak Sehat Atau Lebih Buruk.",
+      "Peluang Hujan Hari Ini Mencapai 86%."
     ]
   },
   "advice": {
-    "general": "Kualitas Udara Sedang Tidak Sehat. Kurangi Paparan Udara Luar Jika Memungkinkan.",
+    "general": "Kualitas Udara Sedang Tidak Sehat. Kurangi Paparan Udara Luar Jika Memungkinkan. Ada Peluang Hujan Cukup Tinggi, Siapkan Payung/Jas Hujan.",
     "outdoor": "Kurangi Aktivitas Luar Ruangan Berat Dan Pertimbangkan Memakai Masker.",
     "sensitiveGroup": "Anak-Anak, Lansia, Dan Orang Dengan Gangguan Pernapasan Sebaiknya Berada Di Dalam Ruangan."
   },
