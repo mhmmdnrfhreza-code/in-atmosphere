@@ -3,7 +3,7 @@
   "city": "Bogor Tengah",
   "latitude": -6.5963564,
   "longitude": 106.7973188,
-  "generatedAt": "2026-09-14T22:42:37.868Z",
+  "generatedAt": "2026-09-15T01:22:16.383Z",
   "reportMode": "emergency-watch",
   "overallStatus": {
     "label": "Perlu Perhatian",
@@ -11,34 +11,34 @@
     "level": "warning"
   },
   "weather": {
-    "temperature": 22.9,
-    "humidity": 79,
+    "temperature": 27.9,
+    "humidity": 52,
     "rain": 0,
-    "windSpeed": 8.5,
-    "windGust": 14.8
+    "windSpeed": 1.4,
+    "windGust": 13
   },
   "airQuality": {
-    "usAqi": 170,
+    "usAqi": 174,
     "aqiLabel": "Tidak Sehat",
     "aqiEmoji": "🔴",
-    "pm25": 173.7,
-    "pm10": 178.3,
-    "ozone": 0
+    "pm25": 83.1,
+    "pm10": 89.2,
+    "ozone": 46
   },
   "uv": {
-    "current": 0,
-    "maxToday": 9.1,
+    "current": 2.35,
+    "maxToday": 9.05,
     "label": "Rendah",
     "emoji": "🟢",
     "advice": "Indeks Radiasi UV Berada Pada Tingkat Minimum. Risiko Kerusakan Kulit Sangat Rendah Bagi Mayoritas Orang. Aman Untuk Beraktivitas Normal Di Luar Ruangan Tanpa Perlindungan Khusus. Namun, Bagi Individu Dengan Kulit Yang Sangat Sensitif Atau Jika Harus Berada Di Bawah Terik Matahari Dalam Durasi Yang Sangat Lama, Penggunaan Kacamata Hitam, Penggunaan Tabir Surya (Sunscreen) Dengan Proteksi Minimal Terhadap UV-A dan UV-B (SPF 15+) Tetap Disarankan."
   },
   "forecast": {
-    "minTemperature": 22.9,
-    "maxTemperature": 35.7,
-    "maxPrecipitationProbability": 4,
+    "minTemperature": 21.6,
+    "maxTemperature": 35.2,
+    "maxPrecipitationProbability": 8,
     "nextRainTime": "2026-09-16T17:00",
-    "nextRainProbability": 25,
-    "peakRainTime": null
+    "nextRainProbability": 38,
+    "peakRainTime": "2026-09-16T20:00"
   },
   "emergency": {
     "shouldSend": true,
@@ -46,7 +46,7 @@
     "severity": "WARNING",
     "title": "🚨 Emergency Alert",
     "reasons": [
-      "AQI Mencapai 170, Masuk Kategori Tidak Sehat Atau Lebih Buruk."
+      "AQI Mencapai 174, Masuk Kategori Tidak Sehat Atau Lebih Buruk."
     ]
   },
   "advice": {
