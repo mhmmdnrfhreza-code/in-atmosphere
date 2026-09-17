@@ -3,27 +3,27 @@
   "city": "Bogor Tengah",
   "latitude": -6.5963564,
   "longitude": 106.7973188,
-  "generatedAt": "2026-09-17T12:45:22.778Z",
-  "reportMode": "emergency-watch",
+  "generatedAt": "2026-09-17T15:04:26.021Z",
+  "reportMode": "rush-hour",
   "overallStatus": {
     "label": "Perlu Perhatian",
     "description": "Sistem mendeteksi kondisi yang perlu diperhatikan. Lihat bagian emergency dan saran praktis.",
-    "level": "danger"
+    "level": "warning"
   },
   "weather": {
-    "temperature": 27.8,
-    "humidity": 66,
+    "temperature": 26.4,
+    "humidity": 72,
     "rain": 0,
-    "windSpeed": 4.4,
-    "windGust": 12.6
+    "windSpeed": 3.8,
+    "windGust": 8.3
   },
   "airQuality": {
-    "usAqi": 227,
-    "aqiLabel": "Sangat Tidak Sehat",
-    "aqiEmoji": "🟣",
-    "pm25": 64.3,
-    "pm10": 67.3,
-    "ozone": 89
+    "usAqi": 175,
+    "aqiLabel": "Tidak Sehat",
+    "aqiEmoji": "🔴",
+    "pm25": 77.3,
+    "pm10": 82,
+    "ozone": 31
   },
   "uv": {
     "current": 0,
@@ -35,22 +35,22 @@
   "forecast": {
     "minTemperature": 22.6,
     "maxTemperature": 35.4,
-    "maxPrecipitationProbability": 63,
-    "nextRainTime": "2026-09-17T17:00",
-    "nextRainProbability": 50,
-    "peakRainTime": "2026-09-18T17:00"
+    "maxPrecipitationProbability": 76,
+    "nextRainTime": "2026-09-17T15:00",
+    "nextRainProbability": 51,
+    "peakRainTime": "2026-09-18T16:00"
   },
   "emergency": {
     "shouldSend": true,
     "type": "AIR_QUALITY",
-    "severity": "DANGER",
+    "severity": "WARNING",
     "title": "🚨 Emergency Alert",
     "reasons": [
-      "AQI Mencapai 227, Masuk Kategori Tidak Sehat Atau Lebih Buruk."
+      "AQI Mencapai 175, Masuk Kategori Tidak Sehat Atau Lebih Buruk."
     ]
   },
   "advice": {
-    "general": "Kualitas Udara Sedang Tidak Sehat. Kurangi Paparan Udara Luar Jika Memungkinkan.",
+    "general": "Kualitas Udara Sedang Tidak Sehat. Kurangi Paparan Udara Luar Jika Memungkinkan. Ada Peluang Hujan Cukup Tinggi, Siapkan Payung/Jas Hujan.",
     "outdoor": "Kurangi Aktivitas Luar Ruangan Berat Dan Pertimbangkan Memakai Masker.",
     "sensitiveGroup": "Anak-Anak, Lansia, Dan Orang Dengan Gangguan Pernapasan Sebaiknya Berada Di Dalam Ruangan."
   },
