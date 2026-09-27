@@ -3,30 +3,30 @@
   "city": "Bogor Tengah",
   "latitude": -6.5963564,
   "longitude": 106.7973188,
-  "generatedAt": "2026-09-27T07:02:45.203Z",
+  "generatedAt": "2026-09-27T12:56:01.291Z",
   "reportMode": "emergency-watch",
   "overallStatus": {
     "label": "Perlu Perhatian",
     "description": "Sistem mendeteksi kondisi yang perlu diperhatikan. Lihat bagian emergency dan saran praktis.",
-    "level": "warning"
+    "level": "danger"
   },
   "weather": {
-    "temperature": 29.6,
-    "humidity": 61,
+    "temperature": 25.8,
+    "humidity": 89,
     "rain": 0,
-    "windSpeed": 9.9,
-    "windGust": 39.2
+    "windSpeed": 3.6,
+    "windGust": 6.8
   },
   "airQuality": {
-    "usAqi": 184,
-    "aqiLabel": "Tidak Sehat",
-    "aqiEmoji": "🔴",
-    "pm25": 58.7,
-    "pm10": 60.1,
-    "ozone": 235
+    "usAqi": 205,
+    "aqiLabel": "Sangat Tidak Sehat",
+    "aqiEmoji": "🟣",
+    "pm25": 97.1,
+    "pm10": 97.8,
+    "ozone": 66
   },
   "uv": {
-    "current": 2.5,
+    "current": 0,
     "maxToday": 9.3,
     "label": "Rendah",
     "emoji": "🟢",
@@ -35,19 +35,19 @@
   "forecast": {
     "minTemperature": 23.1,
     "maxTemperature": 32.2,
-    "maxPrecipitationProbability": 100,
+    "maxPrecipitationProbability": 98,
     "nextRainTime": "2026-09-27T13:00",
-    "nextRainProbability": 29,
+    "nextRainProbability": 49,
     "peakRainTime": "2026-09-27T16:00"
   },
   "emergency": {
     "shouldSend": true,
     "type": "AIR_QUALITY",
-    "severity": "WARNING",
+    "severity": "DANGER",
     "title": "🚨 Emergency Alert",
     "reasons": [
-      "AQI Mencapai 184, Masuk Kategori Tidak Sehat Atau Lebih Buruk.",
-      "Peluang Hujan Hari Ini Mencapai 100%."
+      "AQI Mencapai 205, Masuk Kategori Tidak Sehat Atau Lebih Buruk.",
+      "Peluang Hujan Hari Ini Mencapai 98%."
     ]
   },
   "advice": {
