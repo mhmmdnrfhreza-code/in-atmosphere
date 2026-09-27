@@ -3,41 +3,41 @@
   "city": "Bogor Tengah",
   "latitude": -6.5963564,
   "longitude": 106.7973188,
-  "generatedAt": "2026-09-27T01:44:53.631Z",
-  "reportMode": "morning",
+  "generatedAt": "2026-09-27T07:02:45.203Z",
+  "reportMode": "emergency-watch",
   "overallStatus": {
     "label": "Perlu Perhatian",
     "description": "Sistem mendeteksi kondisi yang perlu diperhatikan. Lihat bagian emergency dan saran praktis.",
     "level": "warning"
   },
   "weather": {
-    "temperature": 29.1,
-    "humidity": 62,
+    "temperature": 29.6,
+    "humidity": 61,
     "rain": 0,
-    "windSpeed": 1.8,
-    "windGust": 11.5
+    "windSpeed": 9.9,
+    "windGust": 39.2
   },
   "airQuality": {
-    "usAqi": 189,
+    "usAqi": 184,
     "aqiLabel": "Tidak Sehat",
     "aqiEmoji": "🔴",
-    "pm25": 90.3,
-    "pm10": 91.5,
-    "ozone": 70
+    "pm25": 58.7,
+    "pm10": 60.1,
+    "ozone": 235
   },
   "uv": {
-    "current": 2.25,
-    "maxToday": 8.55,
+    "current": 2.5,
+    "maxToday": 9.3,
     "label": "Rendah",
     "emoji": "🟢",
     "advice": "Indeks Radiasi UV Berada Pada Tingkat Minimum. Risiko Kerusakan Kulit Sangat Rendah Bagi Mayoritas Orang. Aman Untuk Beraktivitas Normal Di Luar Ruangan Tanpa Perlindungan Khusus. Namun, Bagi Individu Dengan Kulit Yang Sangat Sensitif Atau Jika Harus Berada Di Bawah Terik Matahari Dalam Durasi Yang Sangat Lama, Penggunaan Kacamata Hitam, Penggunaan Tabir Surya (Sunscreen) Dengan Proteksi Minimal Terhadap UV-A dan UV-B (SPF 15+) Tetap Disarankan."
   },
   "forecast": {
     "minTemperature": 23.1,
-    "maxTemperature": 33.2,
+    "maxTemperature": 32.2,
     "maxPrecipitationProbability": 100,
     "nextRainTime": "2026-09-27T13:00",
-    "nextRainProbability": 20,
+    "nextRainProbability": 29,
     "peakRainTime": "2026-09-27T16:00"
   },
   "emergency": {
@@ -46,7 +46,7 @@
     "severity": "WARNING",
     "title": "🚨 Emergency Alert",
     "reasons": [
-      "AQI Mencapai 189, Masuk Kategori Tidak Sehat Atau Lebih Buruk.",
+      "AQI Mencapai 184, Masuk Kategori Tidak Sehat Atau Lebih Buruk.",
       "Peluang Hujan Hari Ini Mencapai 100%."
     ]
   },
