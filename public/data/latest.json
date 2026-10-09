@@ -3,31 +3,31 @@
   "city": "Bogor Tengah",
   "latitude": -6.5963564,
   "longitude": 106.7973188,
-  "generatedAt": "2026-10-09T03:03:35.529Z",
-  "reportMode": "morning",
+  "generatedAt": "2026-10-09T06:37:03.855Z",
+  "reportMode": "emergency-watch",
   "overallStatus": {
     "label": "Perlu Perhatian",
     "description": "Sistem mendeteksi kondisi yang perlu diperhatikan. Lihat bagian emergency dan saran praktis.",
     "level": "danger"
   },
   "weather": {
-    "temperature": 30.5,
-    "humidity": 59,
-    "rain": 0,
-    "windSpeed": 4.5,
-    "windGust": 16.2
+    "temperature": 33,
+    "humidity": 48,
+    "rain": 0.1,
+    "windSpeed": 4.1,
+    "windGust": 18
   },
   "airQuality": {
-    "usAqi": 205,
+    "usAqi": 209,
     "aqiLabel": "Sangat Tidak Sehat",
     "aqiEmoji": "🟣",
-    "pm25": 97.3,
-    "pm10": 99.4,
-    "ozone": 180
+    "pm25": 77.1,
+    "pm10": 78.9,
+    "ozone": 328
   },
   "uv": {
-    "current": 5.7,
-    "maxToday": 8,
+    "current": 4.9,
+    "maxToday": 8.85,
     "label": "Sedang",
     "emoji": "🟡",
     "advice": "Paparan Radiasi UV Sedang. Berpotensi Menimbulkan Kerusakan Pada Sel Kulit Jika Terpapar Langsung Dalam Jangka Waktu Tertentu. Diperlukan Proteksi Dasar Saat Beraktivitas Di Luar Ruangan (Mengoleskan Tabir Surya (Sunscreen) Dengan SPF Dan Peringkat Minimal 15 - 30 PA++, Memakai Topi, Dan Menggunakan Pelindung Mata. Disarankan Juga Untuk Mencari Tempat Berteduh Saat Intensitas Matahari Mencapai Puncaknya Di Paruh Hari."
@@ -46,7 +46,7 @@
     "severity": "DANGER",
     "title": "🚨 Emergency Alert",
     "reasons": [
-      "AQI Mencapai 205, Masuk Kategori Tidak Sehat Atau Lebih Buruk.",
+      "AQI Mencapai 209, Masuk Kategori Tidak Sehat Atau Lebih Buruk.",
       "Peluang Hujan Hari Ini Mencapai 90%."
     ]
   },
