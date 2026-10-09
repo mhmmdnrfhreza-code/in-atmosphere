@@ -3,7 +3,7 @@
   "city": "Bogor Tengah",
   "latitude": -6.5963564,
   "longitude": 106.7973188,
-  "generatedAt": "2026-10-08T19:49:54.075Z",
+  "generatedAt": "2026-10-09T00:15:18.179Z",
   "reportMode": "emergency-watch",
   "overallStatus": {
     "label": "Perlu Perhatian",
@@ -11,23 +11,23 @@
     "level": "warning"
   },
   "weather": {
-    "temperature": 24.1,
-    "humidity": 87,
+    "temperature": 26.4,
+    "humidity": 77,
     "rain": 0,
-    "windSpeed": 7.2,
-    "windGust": 14.4
+    "windSpeed": 0.8,
+    "windGust": 9.4
   },
   "airQuality": {
-    "usAqi": 188,
+    "usAqi": 199,
     "aqiLabel": "Tidak Sehat",
     "aqiEmoji": "🔴",
-    "pm25": 150.9,
-    "pm10": 151.3,
-    "ozone": 0
+    "pm25": 169,
+    "pm10": 170.4,
+    "ozone": 23
   },
   "uv": {
-    "current": 0,
-    "maxToday": 8.85,
+    "current": 0.7,
+    "maxToday": 8,
     "label": "Rendah",
     "emoji": "🟢",
     "advice": "Indeks Radiasi UV Berada Pada Tingkat Minimum. Risiko Kerusakan Kulit Sangat Rendah Bagi Mayoritas Orang. Aman Untuk Beraktivitas Normal Di Luar Ruangan Tanpa Perlindungan Khusus. Namun, Bagi Individu Dengan Kulit Yang Sangat Sensitif Atau Jika Harus Berada Di Bawah Terik Matahari Dalam Durasi Yang Sangat Lama, Penggunaan Kacamata Hitam, Penggunaan Tabir Surya (Sunscreen) Dengan Proteksi Minimal Terhadap UV-A dan UV-B (SPF 15+) Tetap Disarankan."
@@ -35,10 +35,10 @@
   "forecast": {
     "minTemperature": 23.3,
     "maxTemperature": 32.8,
-    "maxPrecipitationProbability": 84,
+    "maxPrecipitationProbability": 92,
     "nextRainTime": "2026-10-09T09:00",
-    "nextRainProbability": 44,
-    "peakRainTime": "2026-10-10T17:00"
+    "nextRainProbability": 19,
+    "peakRainTime": "2026-10-09T19:00"
   },
   "emergency": {
     "shouldSend": true,
@@ -46,7 +46,8 @@
     "severity": "WARNING",
     "title": "🚨 Emergency Alert",
     "reasons": [
-      "AQI Mencapai 188, Masuk Kategori Tidak Sehat Atau Lebih Buruk."
+      "AQI Mencapai 199, Masuk Kategori Tidak Sehat Atau Lebih Buruk.",
+      "Peluang Hujan Hari Ini Mencapai 92%."
     ]
   },
   "advice": {
