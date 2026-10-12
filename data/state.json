@@ -1,22 +1,22 @@
 {
-  "lastAqi": 212,
+  "lastAqi": 218,
   "lastUvIndex": 0,
   "lastRain": 0,
   "lastWindGust": 10.8,
-  "lastCheckedAt": "2026-10-12T19:50:38.674Z",
+  "lastCheckedAt": "2026-10-12T22:34:07.008Z",
   "lastEmergencyAlert": {
     "type": "AIR_QUALITY",
     "severity": "DANGER",
-    "sentAt": "2026-10-12T19:50:38.674Z"
+    "sentAt": "2026-10-12T22:34:07.008Z"
   },
-  "currentStatusMessageId": "1559292237697781763",
-  "currentStatusUpdatedAt": "2026-10-12T19:50:38.674Z",
-  "activeEmergencyMessageId": "1559292235663802429",
-  "previousEmergencyMessageId": "1559222075233669255",
-  "activeEmergencyFingerprint": "type=AIR_QUALITY|severity=DANGER|reasons=aqi mencapai 212, masuk kategori tidak sehat atau lebih buruk.;peluang hujan hari ini mencapai 100%.|bmkg=false|aqi=VERY_UNHEALTHY|uv=LOW|weather=HIGH_RAIN_PROBABILITY",
-  "previousEmergencyFingerprint": "type=AIR_QUALITY|severity=WARNING|reasons=aqi mencapai 187, masuk kategori tidak sehat atau lebih buruk.;peluang hujan hari ini mencapai 100%.|bmkg=false|aqi=UNHEALTHY|uv=LOW|weather=HIGH_RAIN_PROBABILITY",
-  "activeEmergencySentAt": "2026-10-12T19:50:38.674Z",
-  "previousEmergencySentAt": "2026-10-12T15:11:51.334Z",
+  "currentStatusMessageId": "1559333376568205383",
+  "currentStatusUpdatedAt": "2026-10-12T22:34:07.008Z",
+  "activeEmergencyMessageId": "1559333373967597693",
+  "previousEmergencyMessageId": "1559292235663802429",
+  "activeEmergencyFingerprint": "type=AIR_QUALITY|severity=DANGER|reasons=aqi mencapai 218, masuk kategori tidak sehat atau lebih buruk.;peluang hujan hari ini mencapai 100%.|bmkg=false|aqi=VERY_UNHEALTHY|uv=LOW|weather=HIGH_RAIN_PROBABILITY",
+  "previousEmergencyFingerprint": "type=AIR_QUALITY|severity=DANGER|reasons=aqi mencapai 212, masuk kategori tidak sehat atau lebih buruk.;peluang hujan hari ini mencapai 100%.|bmkg=false|aqi=VERY_UNHEALTHY|uv=LOW|weather=HIGH_RAIN_PROBABILITY",
+  "activeEmergencySentAt": "2026-10-12T22:34:07.008Z",
+  "previousEmergencySentAt": "2026-10-12T19:50:38.674Z",
   "recoveryMessageId": null,
   "recoverySentAt": null,
   "recoveryFingerprint": null
