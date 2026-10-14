@@ -3,50 +3,50 @@
   "city": "Bogor Tengah",
   "latitude": -6.5963564,
   "longitude": 106.7973188,
-  "generatedAt": "2026-10-14T02:08:13.297Z",
-  "reportMode": "morning",
+  "generatedAt": "2026-10-14T07:28:17.653Z",
+  "reportMode": "emergency-watch",
   "overallStatus": {
     "label": "Perlu Perhatian",
     "description": "Sistem mendeteksi kondisi yang perlu diperhatikan. Lihat bagian emergency dan saran praktis.",
-    "level": "warning"
+    "level": "danger"
   },
   "weather": {
-    "temperature": 31,
-    "humidity": 59,
+    "temperature": 35.8,
+    "humidity": 32,
     "rain": 0,
-    "windSpeed": 4.7,
-    "windGust": 16.6
+    "windSpeed": 9.6,
+    "windGust": 24.1
   },
   "airQuality": {
-    "usAqi": 197,
-    "aqiLabel": "Tidak Sehat",
-    "aqiEmoji": "🔴",
-    "pm25": 110.8,
-    "pm10": 112.7,
-    "ozone": 147
+    "usAqi": 201,
+    "aqiLabel": "Sangat Tidak Sehat",
+    "aqiEmoji": "🟣",
+    "pm25": 55.6,
+    "pm10": 56.7,
+    "ozone": 290
   },
   "uv": {
-    "current": 5.1,
+    "current": 5.2,
     "maxToday": 9.45,
     "label": "Sedang",
     "emoji": "🟡",
     "advice": "Paparan Radiasi UV Sedang. Berpotensi Menimbulkan Kerusakan Pada Sel Kulit Jika Terpapar Langsung Dalam Jangka Waktu Tertentu. Diperlukan Proteksi Dasar Saat Beraktivitas Di Luar Ruangan (Mengoleskan Tabir Surya (Sunscreen) Dengan SPF Dan Peringkat Minimal 15 - 30 PA++, Memakai Topi, Dan Menggunakan Pelindung Mata. Disarankan Juga Untuk Mencari Tempat Berteduh Saat Intensitas Matahari Mencapai Puncaknya Di Paruh Hari."
   },
   "forecast": {
-    "minTemperature": 23,
-    "maxTemperature": 36.8,
-    "maxPrecipitationProbability": 31,
-    "nextRainTime": "2026-10-14T17:00",
-    "nextRainProbability": 20,
+    "minTemperature": 22.8,
+    "maxTemperature": 36.1,
+    "maxPrecipitationProbability": 29,
+    "nextRainTime": "2026-10-14T18:00",
+    "nextRainProbability": 22,
     "peakRainTime": null
   },
   "emergency": {
     "shouldSend": true,
     "type": "AIR_QUALITY",
-    "severity": "WARNING",
+    "severity": "DANGER",
     "title": "🚨 Emergency Alert",
     "reasons": [
-      "AQI Mencapai 197, Masuk Kategori Tidak Sehat Atau Lebih Buruk."
+      "AQI Mencapai 201, Masuk Kategori Tidak Sehat Atau Lebih Buruk."
     ]
   },
   "advice": {
