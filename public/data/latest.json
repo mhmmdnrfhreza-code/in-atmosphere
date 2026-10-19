@@ -3,42 +3,42 @@
   "city": "Bogor Tengah",
   "latitude": -6.5963564,
   "longitude": 106.7973188,
-  "generatedAt": "2026-10-19T16:59:51.382Z",
-  "reportMode": "rush-hour",
+  "generatedAt": "2026-10-19T19:14:40.824Z",
+  "reportMode": "emergency-watch",
   "overallStatus": {
     "label": "Perlu Perhatian",
     "description": "Sistem mendeteksi kondisi yang perlu diperhatikan. Lihat bagian emergency dan saran praktis.",
     "level": "warning"
   },
   "weather": {
-    "temperature": 23.8,
-    "humidity": 89,
+    "temperature": 22.4,
+    "humidity": 92,
     "rain": 0,
-    "windSpeed": 9,
-    "windGust": 16.6
+    "windSpeed": 5.6,
+    "windGust": 13.7
   },
   "airQuality": {
-    "usAqi": 185,
+    "usAqi": 189,
     "aqiLabel": "Tidak Sehat",
     "aqiEmoji": "🔴",
-    "pm25": 165.8,
-    "pm10": 170.4,
-    "ozone": 19
+    "pm25": 197.4,
+    "pm10": 201.2,
+    "ozone": 1
   },
   "uv": {
     "current": 0,
-    "maxToday": 8.75,
+    "maxToday": 9.5,
     "label": "Rendah",
     "emoji": "🟢",
     "advice": "Indeks Radiasi UV Berada Pada Tingkat Minimum. Risiko Kerusakan Kulit Sangat Rendah Bagi Mayoritas Orang. Aman Untuk Beraktivitas Normal Di Luar Ruangan Tanpa Perlindungan Khusus. Namun, Bagi Individu Dengan Kulit Yang Sangat Sensitif Atau Jika Harus Berada Di Bawah Terik Matahari Dalam Durasi Yang Sangat Lama, Penggunaan Kacamata Hitam, Penggunaan Tabir Surya (Sunscreen) Dengan Proteksi Minimal Terhadap UV-A dan UV-B (SPF 15+) Tetap Disarankan."
   },
   "forecast": {
-    "minTemperature": 23.4,
-    "maxTemperature": 36.1,
-    "maxPrecipitationProbability": 80,
-    "nextRainTime": "2026-10-19T18:00",
-    "nextRainProbability": 66,
-    "peakRainTime": "2026-10-19T19:00"
+    "minTemperature": 22.4,
+    "maxTemperature": 37,
+    "maxPrecipitationProbability": 31,
+    "nextRainTime": "2026-10-20T19:00",
+    "nextRainProbability": 31,
+    "peakRainTime": "2026-10-21T19:00"
   },
   "emergency": {
     "shouldSend": true,
@@ -46,11 +46,11 @@
     "severity": "WARNING",
     "title": "🚨 Emergency Alert",
     "reasons": [
-      "AQI Mencapai 185, Masuk Kategori Tidak Sehat Atau Lebih Buruk."
+      "AQI Mencapai 189, Masuk Kategori Tidak Sehat Atau Lebih Buruk."
     ]
   },
   "advice": {
-    "general": "Kualitas Udara Sedang Tidak Sehat. Kurangi Paparan Udara Luar Jika Memungkinkan. Ada Peluang Hujan Cukup Tinggi, Siapkan Payung/Jas Hujan.",
+    "general": "Kualitas Udara Sedang Tidak Sehat. Kurangi Paparan Udara Luar Jika Memungkinkan.",
     "outdoor": "Kurangi Aktivitas Luar Ruangan Berat Dan Pertimbangkan Memakai Masker.",
     "sensitiveGroup": "Anak-Anak, Lansia, Dan Orang Dengan Gangguan Pernapasan Sebaiknya Berada Di Dalam Ruangan."
   },
