@@ -3,7 +3,7 @@
   "city": "Bogor Tengah",
   "latitude": -6.5963564,
   "longitude": 106.7973188,
-  "generatedAt": "2026-10-20T21:31:51.031Z",
+  "generatedAt": "2026-10-21T00:05:03.275Z",
   "reportMode": "emergency-watch",
   "overallStatus": {
     "label": "Perlu Perhatian",
@@ -11,22 +11,22 @@
     "level": "warning"
   },
   "weather": {
-    "temperature": 23.5,
-    "humidity": 85,
+    "temperature": 27.3,
+    "humidity": 70,
     "rain": 0,
-    "windSpeed": 7.8,
-    "windGust": 14.4
+    "windSpeed": 5.5,
+    "windGust": 15.8
   },
   "airQuality": {
-    "usAqi": 195,
+    "usAqi": 194,
     "aqiLabel": "Tidak Sehat",
     "aqiEmoji": "🔴",
-    "pm25": 187.2,
-    "pm10": 188.6,
-    "ozone": 0
+    "pm25": 141.1,
+    "pm10": 143,
+    "ozone": 17
   },
   "uv": {
-    "current": 0,
+    "current": 0.85,
     "maxToday": 9.5,
     "label": "Rendah",
     "emoji": "🟢",
@@ -35,10 +35,10 @@
   "forecast": {
     "minTemperature": 23.5,
     "maxTemperature": 36.8,
-    "maxPrecipitationProbability": 55,
+    "maxPrecipitationProbability": 74,
     "nextRainTime": "2026-10-21T12:00",
-    "nextRainProbability": 1,
-    "peakRainTime": "2026-10-22T17:00"
+    "nextRainProbability": 15,
+    "peakRainTime": "2026-10-22T16:00"
   },
   "emergency": {
     "shouldSend": true,
@@ -46,11 +46,11 @@
     "severity": "WARNING",
     "title": "🚨 Emergency Alert",
     "reasons": [
-      "AQI Mencapai 195, Masuk Kategori Tidak Sehat Atau Lebih Buruk."
+      "AQI Mencapai 194, Masuk Kategori Tidak Sehat Atau Lebih Buruk."
     ]
   },
   "advice": {
-    "general": "Kualitas Udara Sedang Tidak Sehat. Kurangi Paparan Udara Luar Jika Memungkinkan.",
+    "general": "Kualitas Udara Sedang Tidak Sehat. Kurangi Paparan Udara Luar Jika Memungkinkan. Ada Peluang Hujan Cukup Tinggi, Siapkan Payung/Jas Hujan.",
     "outdoor": "Kurangi Aktivitas Luar Ruangan Berat Dan Pertimbangkan Memakai Masker.",
     "sensitiveGroup": "Anak-Anak, Lansia, Dan Orang Dengan Gangguan Pernapasan Sebaiknya Berada Di Dalam Ruangan."
   },
