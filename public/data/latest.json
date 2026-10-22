@@ -3,41 +3,41 @@
   "city": "Bogor Tengah",
   "latitude": -6.5963564,
   "longitude": 106.7973188,
-  "generatedAt": "2026-10-22T01:47:57.079Z",
-  "reportMode": "morning",
+  "generatedAt": "2026-10-22T06:32:06.548Z",
+  "reportMode": "emergency-watch",
   "overallStatus": {
     "label": "Perlu Perhatian",
     "description": "Sistem mendeteksi kondisi yang perlu diperhatikan. Lihat bagian emergency dan saran praktis.",
     "level": "warning"
   },
   "weather": {
-    "temperature": 30.4,
-    "humidity": 58,
-    "rain": 0,
-    "windSpeed": 1.4,
-    "windGust": 13.3
+    "temperature": 35.9,
+    "humidity": 35,
+    "rain": 0.1,
+    "windSpeed": 6.6,
+    "windGust": 22
   },
   "airQuality": {
     "usAqi": 189,
     "aqiLabel": "Tidak Sehat",
     "aqiEmoji": "🔴",
-    "pm25": 85.9,
-    "pm10": 87.1,
-    "ozone": 49
+    "pm25": 50.5,
+    "pm10": 51.6,
+    "ozone": 273
   },
   "uv": {
-    "current": 2.3,
-    "maxToday": 9.25,
-    "label": "Rendah",
-    "emoji": "🟢",
-    "advice": "Indeks Radiasi UV Berada Pada Tingkat Minimum. Risiko Kerusakan Kulit Sangat Rendah Bagi Mayoritas Orang. Aman Untuk Beraktivitas Normal Di Luar Ruangan Tanpa Perlindungan Khusus. Namun, Bagi Individu Dengan Kulit Yang Sangat Sensitif Atau Jika Harus Berada Di Bawah Terik Matahari Dalam Durasi Yang Sangat Lama, Penggunaan Kacamata Hitam, Penggunaan Tabir Surya (Sunscreen) Dengan Proteksi Minimal Terhadap UV-A dan UV-B (SPF 15+) Tetap Disarankan."
+    "current": 5.1,
+    "maxToday": 9.4,
+    "label": "Sedang",
+    "emoji": "🟡",
+    "advice": "Paparan Radiasi UV Sedang. Berpotensi Menimbulkan Kerusakan Pada Sel Kulit Jika Terpapar Langsung Dalam Jangka Waktu Tertentu. Diperlukan Proteksi Dasar Saat Beraktivitas Di Luar Ruangan (Mengoleskan Tabir Surya (Sunscreen) Dengan SPF Dan Peringkat Minimal 15 - 30 PA++, Memakai Topi, Dan Menggunakan Pelindung Mata. Disarankan Juga Untuk Mencari Tempat Berteduh Saat Intensitas Matahari Mencapai Puncaknya Di Paruh Hari."
   },
   "forecast": {
     "minTemperature": 24,
-    "maxTemperature": 36.1,
+    "maxTemperature": 36,
     "maxPrecipitationProbability": 100,
     "nextRainTime": "2026-10-22T12:00",
-    "nextRainProbability": 11,
+    "nextRainProbability": 17,
     "peakRainTime": "2026-10-22T17:00"
   },
   "emergency": {
