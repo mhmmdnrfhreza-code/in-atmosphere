@@ -3,42 +3,42 @@
   "city": "Bogor Tengah",
   "latitude": -6.5963564,
   "longitude": 106.7973188,
-  "generatedAt": "2026-10-24T01:55:48.560Z",
-  "reportMode": "morning",
+  "generatedAt": "2026-10-24T04:57:47.725Z",
+  "reportMode": "emergency-watch",
   "overallStatus": {
     "label": "Perlu Perhatian",
     "description": "Sistem mendeteksi kondisi yang perlu diperhatikan. Lihat bagian emergency dan saran praktis.",
     "level": "warning"
   },
   "weather": {
-    "temperature": 30.7,
-    "humidity": 54,
+    "temperature": 35.1,
+    "humidity": 37,
     "rain": 0,
-    "windSpeed": 12.4,
-    "windGust": 31
+    "windSpeed": 7.3,
+    "windGust": 25.9
   },
   "airQuality": {
     "usAqi": 182,
     "aqiLabel": "Tidak Sehat",
     "aqiEmoji": "🔴",
-    "pm25": 88.2,
-    "pm10": 90.8,
-    "ozone": 60
+    "pm25": 57,
+    "pm10": 58.6,
+    "ozone": 212
   },
   "uv": {
-    "current": 2.55,
+    "current": 6.4,
     "maxToday": 8.7,
-    "label": "Rendah",
-    "emoji": "🟢",
-    "advice": "Indeks Radiasi UV Berada Pada Tingkat Minimum. Risiko Kerusakan Kulit Sangat Rendah Bagi Mayoritas Orang. Aman Untuk Beraktivitas Normal Di Luar Ruangan Tanpa Perlindungan Khusus. Namun, Bagi Individu Dengan Kulit Yang Sangat Sensitif Atau Jika Harus Berada Di Bawah Terik Matahari Dalam Durasi Yang Sangat Lama, Penggunaan Kacamata Hitam, Penggunaan Tabir Surya (Sunscreen) Dengan Proteksi Minimal Terhadap UV-A dan UV-B (SPF 15+) Tetap Disarankan."
+    "label": "Tinggi",
+    "emoji": "🟠",
+    "advice": "Tingkat Radiasi UV Tinggi. Berisiko Mempercepat Terjadinya Luka Bakar Matahari (Sunburn) Serta Kerusakan Kulit Jangka Panjang. Perlindungan Aktif Sangat Penting Diterapkan (Mengoleskan Tabir Surya (Sunscreen) Dengan Minimal SPF Dan Peringkat 30+ PA+++, Pakaian Pelindung, Dan Kacamata Anti-UV). Batasi Paparan Matahari Langsung Secara Signifikan, Terutama Antara Pukul 10.00 WIB - 16.00 WIB, Utamakan Melakukan Aktivitas Di Area Yang Teduh."
   },
   "forecast": {
     "minTemperature": 24.5,
     "maxTemperature": 36.2,
-    "maxPrecipitationProbability": 79,
+    "maxPrecipitationProbability": 82,
     "nextRainTime": "2026-10-24T14:00",
-    "nextRainProbability": 56,
-    "peakRainTime": "2026-10-25T17:00"
+    "nextRainProbability": 37,
+    "peakRainTime": "2026-10-25T16:00"
   },
   "emergency": {
     "shouldSend": true,
