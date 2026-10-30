@@ -3,31 +3,31 @@
   "city": "Bogor Tengah",
   "latitude": -6.5963564,
   "longitude": 106.7973188,
-  "generatedAt": "2026-10-30T02:53:36.894Z",
-  "reportMode": "morning",
+  "generatedAt": "2026-10-30T06:20:41.822Z",
+  "reportMode": "emergency-watch",
   "overallStatus": {
     "label": "Perlu Perhatian",
     "description": "Sistem mendeteksi kondisi yang perlu diperhatikan. Lihat bagian emergency dan saran praktis.",
     "level": "warning"
   },
   "weather": {
-    "temperature": 30.5,
-    "humidity": 63,
-    "rain": 0,
-    "windSpeed": 3.6,
-    "windGust": 16.6
+    "temperature": 28.8,
+    "humidity": 74,
+    "rain": 0.2,
+    "windSpeed": 15,
+    "windGust": 30.2
   },
   "airQuality": {
-    "usAqi": 192,
+    "usAqi": 195,
     "aqiLabel": "Tidak Sehat",
     "aqiEmoji": "🔴",
-    "pm25": 91.7,
-    "pm10": 92.2,
-    "ozone": 133
+    "pm25": 76.4,
+    "pm10": 76.8,
+    "ozone": 336
   },
   "uv": {
-    "current": 4.5,
-    "maxToday": 9.3,
+    "current": 5.4,
+    "maxToday": 9.25,
     "label": "Sedang",
     "emoji": "🟡",
     "advice": "Paparan Radiasi UV Sedang. Berpotensi Menimbulkan Kerusakan Pada Sel Kulit Jika Terpapar Langsung Dalam Jangka Waktu Tertentu. Diperlukan Proteksi Dasar Saat Beraktivitas Di Luar Ruangan (Mengoleskan Tabir Surya (Sunscreen) Dengan SPF Dan Peringkat Minimal 15 - 30 PA++, Memakai Topi, Dan Menggunakan Pelindung Mata. Disarankan Juga Untuk Mencari Tempat Berteduh Saat Intensitas Matahari Mencapai Puncaknya Di Paruh Hari."
@@ -37,7 +37,7 @@
     "maxTemperature": 30.9,
     "maxPrecipitationProbability": 100,
     "nextRainTime": "2026-10-30T13:00",
-    "nextRainProbability": 51,
+    "nextRainProbability": 47,
     "peakRainTime": "2026-10-30T16:00"
   },
   "emergency": {
@@ -46,7 +46,7 @@
     "severity": "WARNING",
     "title": "🚨 Emergency Alert",
     "reasons": [
-      "AQI Mencapai 192, Masuk Kategori Tidak Sehat Atau Lebih Buruk.",
+      "AQI Mencapai 195, Masuk Kategori Tidak Sehat Atau Lebih Buruk.",
       "Peluang Hujan Hari Ini Mencapai 100%."
     ]
   },
