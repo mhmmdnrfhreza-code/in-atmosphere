@@ -3,38 +3,38 @@
   "city": "Bogor Tengah",
   "latitude": -6.5963564,
   "longitude": 106.7973188,
-  "generatedAt": "2026-11-04T18:01:53.566Z",
-  "reportMode": "rush-hour",
+  "generatedAt": "2026-11-04T21:48:34.355Z",
+  "reportMode": "emergency-watch",
   "overallStatus": {
     "label": "Perlu Perhatian",
     "description": "Sistem mendeteksi kondisi yang perlu diperhatikan. Lihat bagian emergency dan saran praktis.",
     "level": "warning"
   },
   "weather": {
-    "temperature": 23.7,
-    "humidity": 92,
+    "temperature": 24.2,
+    "humidity": 88,
     "rain": 0,
-    "windSpeed": 9,
-    "windGust": 16.2
+    "windSpeed": 8.3,
+    "windGust": 16.6
   },
   "airQuality": {
-    "usAqi": 173,
+    "usAqi": 167,
     "aqiLabel": "Tidak Sehat",
     "aqiEmoji": "🔴",
-    "pm25": 133.2,
-    "pm10": 135,
-    "ozone": 3
+    "pm25": 92.4,
+    "pm10": 94.1,
+    "ozone": 1
   },
   "uv": {
     "current": 0,
-    "maxToday": 9.3,
+    "maxToday": 9.45,
     "label": "Rendah",
     "emoji": "🟢",
     "advice": "Indeks Radiasi UV Berada Pada Tingkat Minimum. Risiko Kerusakan Kulit Sangat Rendah Bagi Mayoritas Orang. Aman Untuk Beraktivitas Normal Di Luar Ruangan Tanpa Perlindungan Khusus. Namun, Bagi Individu Dengan Kulit Yang Sangat Sensitif Atau Jika Harus Berada Di Bawah Terik Matahari Dalam Durasi Yang Sangat Lama, Penggunaan Kacamata Hitam, Penggunaan Tabir Surya (Sunscreen) Dengan Proteksi Minimal Terhadap UV-A dan UV-B (SPF 15+) Tetap Disarankan."
   },
   "forecast": {
-    "minTemperature": 23.5,
-    "maxTemperature": 33.7,
+    "minTemperature": 23.8,
+    "maxTemperature": 33.1,
     "maxPrecipitationProbability": 86,
     "nextRainTime": "2026-11-05T12:00",
     "nextRainProbability": 0,
@@ -46,7 +46,7 @@
     "severity": "WARNING",
     "title": "🚨 Emergency Alert",
     "reasons": [
-      "AQI Mencapai 173, Masuk Kategori Tidak Sehat Atau Lebih Buruk.",
+      "AQI Mencapai 167, Masuk Kategori Tidak Sehat Atau Lebih Buruk.",
       "Peluang Hujan Hari Ini Mencapai 86%."
     ]
   },
