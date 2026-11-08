@@ -3,27 +3,27 @@
   "city": "Bogor Tengah",
   "latitude": -6.5963564,
   "longitude": 106.7973188,
-  "generatedAt": "2026-11-08T13:50:02.429Z",
-  "reportMode": "emergency-watch",
+  "generatedAt": "2026-11-08T16:42:39.887Z",
+  "reportMode": "rush-hour",
   "overallStatus": {
     "label": "Perlu Perhatian",
     "description": "Sistem mendeteksi kondisi yang perlu diperhatikan. Lihat bagian emergency dan saran praktis.",
     "level": "warning"
   },
   "weather": {
-    "temperature": 26.9,
-    "humidity": 78,
+    "temperature": 25.5,
+    "humidity": 87,
     "rain": 0,
-    "windSpeed": 5.1,
-    "windGust": 16.9
+    "windSpeed": 4.3,
+    "windGust": 9
   },
   "airQuality": {
-    "usAqi": 185,
+    "usAqi": 179,
     "aqiLabel": "Tidak Sehat",
     "aqiEmoji": "🔴",
-    "pm25": 100.8,
-    "pm10": 102.2,
-    "ozone": 34
+    "pm25": 141.1,
+    "pm10": 143,
+    "ozone": 12
   },
   "uv": {
     "current": 0,
@@ -35,10 +35,10 @@
   "forecast": {
     "minTemperature": 23.5,
     "maxTemperature": 35.9,
-    "maxPrecipitationProbability": 78,
+    "maxPrecipitationProbability": 35,
     "nextRainTime": "2026-11-08T04:00",
     "nextRainProbability": 6,
-    "peakRainTime": "2026-11-09T16:00"
+    "peakRainTime": "2026-11-09T17:00"
   },
   "emergency": {
     "shouldSend": true,
@@ -46,11 +46,11 @@
     "severity": "WARNING",
     "title": "🚨 Emergency Alert",
     "reasons": [
-      "AQI Mencapai 185, Masuk Kategori Tidak Sehat Atau Lebih Buruk."
+      "AQI Mencapai 179, Masuk Kategori Tidak Sehat Atau Lebih Buruk."
     ]
   },
   "advice": {
-    "general": "Kualitas Udara Sedang Tidak Sehat. Kurangi Paparan Udara Luar Jika Memungkinkan. Ada Peluang Hujan Cukup Tinggi, Siapkan Payung/Jas Hujan.",
+    "general": "Kualitas Udara Sedang Tidak Sehat. Kurangi Paparan Udara Luar Jika Memungkinkan.",
     "outdoor": "Kurangi Aktivitas Luar Ruangan Berat Dan Pertimbangkan Memakai Masker.",
     "sensitiveGroup": "Anak-Anak, Lansia, Dan Orang Dengan Gangguan Pernapasan Sebaiknya Berada Di Dalam Ruangan."
   },
