@@ -3,38 +3,38 @@
   "city": "Bogor Tengah",
   "latitude": -6.5963564,
   "longitude": 106.7973188,
-  "generatedAt": "2026-11-09T02:56:46.816Z",
-  "reportMode": "morning",
+  "generatedAt": "2026-11-09T10:14:50.602Z",
+  "reportMode": "emergency-watch",
   "overallStatus": {
     "label": "Perlu Perhatian",
     "description": "Sistem mendeteksi kondisi yang perlu diperhatikan. Lihat bagian emergency dan saran praktis.",
-    "level": "warning"
+    "level": "danger"
   },
   "weather": {
-    "temperature": 31.3,
-    "humidity": 56,
-    "rain": 0,
-    "windSpeed": 2.9,
-    "windGust": 15.1
+    "temperature": 30,
+    "humidity": 62,
+    "rain": 0.1,
+    "windSpeed": 4.6,
+    "windGust": 23.4
   },
   "airQuality": {
-    "usAqi": 178,
-    "aqiLabel": "Tidak Sehat",
-    "aqiEmoji": "🔴",
-    "pm25": 74,
-    "pm10": 75.2,
-    "ozone": 106
+    "usAqi": 203,
+    "aqiLabel": "Sangat Tidak Sehat",
+    "aqiEmoji": "🟣",
+    "pm25": 57.7,
+    "pm10": 58.2,
+    "ozone": 156
   },
   "uv": {
-    "current": 4.75,
-    "maxToday": 6.8,
-    "label": "Sedang",
-    "emoji": "🟡",
-    "advice": "Paparan Radiasi UV Sedang. Berpotensi Menimbulkan Kerusakan Pada Sel Kulit Jika Terpapar Langsung Dalam Jangka Waktu Tertentu. Diperlukan Proteksi Dasar Saat Beraktivitas Di Luar Ruangan (Mengoleskan Tabir Surya (Sunscreen) Dengan SPF Dan Peringkat Minimal 15 - 30 PA++, Memakai Topi, Dan Menggunakan Pelindung Mata. Disarankan Juga Untuk Mencari Tempat Berteduh Saat Intensitas Matahari Mencapai Puncaknya Di Paruh Hari."
+    "current": 0.05,
+    "maxToday": 7.95,
+    "label": "Rendah",
+    "emoji": "🟢",
+    "advice": "Indeks Radiasi UV Berada Pada Tingkat Minimum. Risiko Kerusakan Kulit Sangat Rendah Bagi Mayoritas Orang. Aman Untuk Beraktivitas Normal Di Luar Ruangan Tanpa Perlindungan Khusus. Namun, Bagi Individu Dengan Kulit Yang Sangat Sensitif Atau Jika Harus Berada Di Bawah Terik Matahari Dalam Durasi Yang Sangat Lama, Penggunaan Kacamata Hitam, Penggunaan Tabir Surya (Sunscreen) Dengan Proteksi Minimal Terhadap UV-A dan UV-B (SPF 15+) Tetap Disarankan."
   },
   "forecast": {
     "minTemperature": 24.2,
-    "maxTemperature": 34.5,
+    "maxTemperature": 34.8,
     "maxPrecipitationProbability": 98,
     "nextRainTime": "2026-11-09T03:00",
     "nextRainProbability": 43,
@@ -43,10 +43,10 @@
   "emergency": {
     "shouldSend": true,
     "type": "AIR_QUALITY",
-    "severity": "WARNING",
+    "severity": "DANGER",
     "title": "🚨 Emergency Alert",
     "reasons": [
-      "AQI Mencapai 178, Masuk Kategori Tidak Sehat Atau Lebih Buruk.",
+      "AQI Mencapai 203, Masuk Kategori Tidak Sehat Atau Lebih Buruk.",
       "Peluang Hujan Hari Ini Mencapai 98%."
     ]
   },
