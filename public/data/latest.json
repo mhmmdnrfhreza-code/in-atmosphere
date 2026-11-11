@@ -3,27 +3,27 @@
   "city": "Bogor Tengah",
   "latitude": -6.5963564,
   "longitude": 106.7973188,
-  "generatedAt": "2026-11-11T17:55:23.448Z",
-  "reportMode": "rush-hour",
+  "generatedAt": "2026-11-11T21:51:09.643Z",
+  "reportMode": "emergency-watch",
   "overallStatus": {
     "label": "Perlu Perhatian",
     "description": "Sistem mendeteksi kondisi yang perlu diperhatikan. Lihat bagian emergency dan saran praktis.",
     "level": "warning"
   },
   "weather": {
-    "temperature": 25,
-    "humidity": 88,
+    "temperature": 24.3,
+    "humidity": 87,
     "rain": 0,
-    "windSpeed": 5.3,
-    "windGust": 12.6
+    "windSpeed": 6.7,
+    "windGust": 12.2
   },
   "airQuality": {
-    "usAqi": 173,
+    "usAqi": 174,
     "aqiLabel": "Tidak Sehat",
     "aqiEmoji": "🔴",
-    "pm25": 154.6,
-    "pm10": 155.1,
-    "ozone": 3
+    "pm25": 119.7,
+    "pm10": 122,
+    "ozone": 1
   },
   "uv": {
     "current": 0,
@@ -33,11 +33,11 @@
     "advice": "Indeks Radiasi UV Berada Pada Tingkat Minimum. Risiko Kerusakan Kulit Sangat Rendah Bagi Mayoritas Orang. Aman Untuk Beraktivitas Normal Di Luar Ruangan Tanpa Perlindungan Khusus. Namun, Bagi Individu Dengan Kulit Yang Sangat Sensitif Atau Jika Harus Berada Di Bawah Terik Matahari Dalam Durasi Yang Sangat Lama, Penggunaan Kacamata Hitam, Penggunaan Tabir Surya (Sunscreen) Dengan Proteksi Minimal Terhadap UV-A dan UV-B (SPF 15+) Tetap Disarankan."
   },
   "forecast": {
-    "minTemperature": 23.6,
+    "minTemperature": 24.1,
     "maxTemperature": 35.3,
     "maxPrecipitationProbability": 100,
-    "nextRainTime": "2026-11-12T14:00",
-    "nextRainProbability": 55,
+    "nextRainTime": "2026-11-12T03:00",
+    "nextRainProbability": 13,
     "peakRainTime": "2026-11-12T17:00"
   },
   "emergency": {
@@ -46,7 +46,7 @@
     "severity": "WARNING",
     "title": "🚨 Emergency Alert",
     "reasons": [
-      "AQI Mencapai 173, Masuk Kategori Tidak Sehat Atau Lebih Buruk.",
+      "AQI Mencapai 174, Masuk Kategori Tidak Sehat Atau Lebih Buruk.",
       "Peluang Hujan Hari Ini Mencapai 100%."
     ]
   },
