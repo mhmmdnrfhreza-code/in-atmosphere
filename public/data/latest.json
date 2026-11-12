@@ -3,42 +3,42 @@
   "city": "Bogor Tengah",
   "latitude": -6.5963564,
   "longitude": 106.7973188,
-  "generatedAt": "2026-11-12T10:53:47.419Z",
-  "reportMode": "emergency-watch",
+  "generatedAt": "2026-11-12T18:22:10.863Z",
+  "reportMode": "rush-hour",
   "overallStatus": {
     "label": "Perlu Perhatian",
     "description": "Sistem mendeteksi kondisi yang perlu diperhatikan. Lihat bagian emergency dan saran praktis.",
     "level": "warning"
   },
   "weather": {
-    "temperature": 26.3,
-    "humidity": 85,
-    "rain": 0.2,
-    "windSpeed": 8.6,
-    "windGust": 19.1
+    "temperature": 24.8,
+    "humidity": 96,
+    "rain": 0,
+    "windSpeed": 5.8,
+    "windGust": 10.8
   },
   "airQuality": {
-    "usAqi": 177,
+    "usAqi": 172,
     "aqiLabel": "Tidak Sehat",
     "aqiEmoji": "🔴",
-    "pm25": 39,
-    "pm10": 39.5,
-    "ozone": 94
+    "pm25": 144.4,
+    "pm10": 145.3,
+    "ozone": 0
   },
   "uv": {
-    "current": 0.1,
-    "maxToday": 8.6,
+    "current": 0,
+    "maxToday": 7.8,
     "label": "Rendah",
     "emoji": "🟢",
     "advice": "Indeks Radiasi UV Berada Pada Tingkat Minimum. Risiko Kerusakan Kulit Sangat Rendah Bagi Mayoritas Orang. Aman Untuk Beraktivitas Normal Di Luar Ruangan Tanpa Perlindungan Khusus. Namun, Bagi Individu Dengan Kulit Yang Sangat Sensitif Atau Jika Harus Berada Di Bawah Terik Matahari Dalam Durasi Yang Sangat Lama, Penggunaan Kacamata Hitam, Penggunaan Tabir Surya (Sunscreen) Dengan Proteksi Minimal Terhadap UV-A dan UV-B (SPF 15+) Tetap Disarankan."
   },
   "forecast": {
-    "minTemperature": 23.7,
-    "maxTemperature": 34.5,
-    "maxPrecipitationProbability": 100,
-    "nextRainTime": "2026-11-12T11:00",
-    "nextRainProbability": 6,
-    "peakRainTime": "2026-11-12T17:00"
+    "minTemperature": 23.8,
+    "maxTemperature": 31.9,
+    "maxPrecipitationProbability": 93,
+    "nextRainTime": "2026-11-13T14:00",
+    "nextRainProbability": 56,
+    "peakRainTime": "2026-11-14T16:00"
   },
   "emergency": {
     "shouldSend": true,
@@ -46,8 +46,8 @@
     "severity": "WARNING",
     "title": "🚨 Emergency Alert",
     "reasons": [
-      "AQI Mencapai 177, Masuk Kategori Tidak Sehat Atau Lebih Buruk.",
-      "Peluang Hujan Hari Ini Mencapai 100%."
+      "AQI Mencapai 172, Masuk Kategori Tidak Sehat Atau Lebih Buruk.",
+      "Peluang Hujan Hari Ini Mencapai 93%."
     ]
   },
   "advice": {
