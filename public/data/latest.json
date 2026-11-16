@@ -3,31 +3,31 @@
   "city": "Bogor Tengah",
   "latitude": -6.5963564,
   "longitude": 106.7973188,
-  "generatedAt": "2026-11-16T03:03:02.182Z",
-  "reportMode": "morning",
+  "generatedAt": "2026-11-16T07:11:02.540Z",
+  "reportMode": "emergency-watch",
   "overallStatus": {
     "label": "Perlu Perhatian",
     "description": "Sistem mendeteksi kondisi yang perlu diperhatikan. Lihat bagian emergency dan saran praktis.",
     "level": "warning"
   },
   "weather": {
-    "temperature": 32.2,
-    "humidity": 54,
+    "temperature": 29,
+    "humidity": 69,
     "rain": 0,
-    "windSpeed": 6.3,
-    "windGust": 22.7
+    "windSpeed": 7.1,
+    "windGust": 31.7
   },
   "airQuality": {
-    "usAqi": 169,
+    "usAqi": 171,
     "aqiLabel": "Tidak Sehat",
     "aqiEmoji": "🔴",
-    "pm25": 55.1,
-    "pm10": 55.8,
-    "ozone": 163
+    "pm25": 52.2,
+    "pm10": 52.7,
+    "ozone": 212
   },
   "uv": {
-    "current": 5.9,
-    "maxToday": 8.25,
+    "current": 3.8,
+    "maxToday": 8.5,
     "label": "Sedang",
     "emoji": "🟡",
     "advice": "Paparan Radiasi UV Sedang. Berpotensi Menimbulkan Kerusakan Pada Sel Kulit Jika Terpapar Langsung Dalam Jangka Waktu Tertentu. Diperlukan Proteksi Dasar Saat Beraktivitas Di Luar Ruangan (Mengoleskan Tabir Surya (Sunscreen) Dengan SPF Dan Peringkat Minimal 15 - 30 PA++, Memakai Topi, Dan Menggunakan Pelindung Mata. Disarankan Juga Untuk Mencari Tempat Berteduh Saat Intensitas Matahari Mencapai Puncaknya Di Paruh Hari."
@@ -35,7 +35,7 @@
   "forecast": {
     "minTemperature": 24.7,
     "maxTemperature": 33.8,
-    "maxPrecipitationProbability": 96,
+    "maxPrecipitationProbability": 100,
     "nextRainTime": "2026-11-16T00:00",
     "nextRainProbability": 16,
     "peakRainTime": "2026-11-16T16:00"
@@ -46,8 +46,8 @@
     "severity": "WARNING",
     "title": "🚨 Emergency Alert",
     "reasons": [
-      "AQI Mencapai 169, Masuk Kategori Tidak Sehat Atau Lebih Buruk.",
-      "Peluang Hujan Hari Ini Mencapai 96%."
+      "AQI Mencapai 171, Masuk Kategori Tidak Sehat Atau Lebih Buruk.",
+      "Peluang Hujan Hari Ini Mencapai 100%."
     ]
   },
   "advice": {
