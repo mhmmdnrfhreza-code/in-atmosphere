@@ -3,27 +3,27 @@
   "city": "Bogor Tengah",
   "latitude": -6.5963564,
   "longitude": 106.7973188,
-  "generatedAt": "2026-11-20T18:38:12.058Z",
-  "reportMode": "rush-hour",
+  "generatedAt": "2026-11-20T22:36:50.796Z",
+  "reportMode": "emergency-watch",
   "overallStatus": {
     "label": "Perlu Perhatian",
     "description": "Sistem mendeteksi kondisi yang perlu diperhatikan. Lihat bagian emergency dan saran praktis.",
     "level": "warning"
   },
   "weather": {
-    "temperature": 25,
-    "humidity": 94,
+    "temperature": 23.9,
+    "humidity": 96,
     "rain": 0,
-    "windSpeed": 1.2,
-    "windGust": 5.4
+    "windSpeed": 6.2,
+    "windGust": 11.5
   },
   "airQuality": {
-    "usAqi": 167,
+    "usAqi": 164,
     "aqiLabel": "Tidak Sehat",
     "aqiEmoji": "🔴",
-    "pm25": 126.7,
-    "pm10": 126.7,
-    "ozone": 3
+    "pm25": 75.4,
+    "pm10": 75.4,
+    "ozone": 6
   },
   "uv": {
     "current": 0,
@@ -33,11 +33,11 @@
     "advice": "Indeks Radiasi UV Berada Pada Tingkat Minimum. Risiko Kerusakan Kulit Sangat Rendah Bagi Mayoritas Orang. Aman Untuk Beraktivitas Normal Di Luar Ruangan Tanpa Perlindungan Khusus. Namun, Bagi Individu Dengan Kulit Yang Sangat Sensitif Atau Jika Harus Berada Di Bawah Terik Matahari Dalam Durasi Yang Sangat Lama, Penggunaan Kacamata Hitam, Penggunaan Tabir Surya (Sunscreen) Dengan Proteksi Minimal Terhadap UV-A dan UV-B (SPF 15+) Tetap Disarankan."
   },
   "forecast": {
-    "minTemperature": 24.3,
-    "maxTemperature": 30.2,
+    "minTemperature": 23.9,
+    "maxTemperature": 30.9,
     "maxPrecipitationProbability": 90,
-    "nextRainTime": "2026-11-21T05:00",
-    "nextRainProbability": 40,
+    "nextRainTime": "2026-11-21T00:00",
+    "nextRainProbability": 35,
     "peakRainTime": "2026-11-22T16:00"
   },
   "emergency": {
@@ -46,7 +46,7 @@
     "severity": "WARNING",
     "title": "🚨 Emergency Alert",
     "reasons": [
-      "AQI Mencapai 167, Masuk Kategori Tidak Sehat Atau Lebih Buruk.",
+      "AQI Mencapai 164, Masuk Kategori Tidak Sehat Atau Lebih Buruk.",
       "Peluang Hujan Hari Ini Mencapai 90%."
     ]
   },
