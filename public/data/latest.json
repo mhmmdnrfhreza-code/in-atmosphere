@@ -3,30 +3,30 @@
   "city": "Bogor Tengah",
   "latitude": -6.5963564,
   "longitude": 106.7973188,
-  "generatedAt": "2026-11-26T02:46:49.653Z",
-  "reportMode": "emergency-watch",
+  "generatedAt": "2026-11-26T05:24:45.456Z",
+  "reportMode": "morning",
   "overallStatus": {
     "label": "Perlu Perhatian",
     "description": "Sistem mendeteksi kondisi yang perlu diperhatikan. Lihat bagian emergency dan saran praktis.",
     "level": "warning"
   },
   "weather": {
-    "temperature": 30.3,
-    "humidity": 64,
+    "temperature": 32,
+    "humidity": 63,
     "rain": 0,
-    "windSpeed": 5.1,
-    "windGust": 16.6
+    "windSpeed": 6.3,
+    "windGust": 19.1
   },
   "airQuality": {
-    "usAqi": 173,
+    "usAqi": 175,
     "aqiLabel": "Tidak Sehat",
     "aqiEmoji": "🔴",
-    "pm25": 66.6,
-    "pm10": 67.3,
-    "ozone": 93
+    "pm25": 60.8,
+    "pm10": 61.2,
+    "ozone": 182
   },
   "uv": {
-    "current": 3.25,
+    "current": 5.35,
     "maxToday": 8.55,
     "label": "Sedang",
     "emoji": "🟡",
@@ -35,19 +35,20 @@
   "forecast": {
     "minTemperature": 24.1,
     "maxTemperature": 32.4,
-    "maxPrecipitationProbability": 96,
+    "maxPrecipitationProbability": 100,
     "nextRainTime": "2026-11-26T10:00",
-    "nextRainProbability": 18,
-    "peakRainTime": "2026-11-27T16:00"
+    "nextRainProbability": 10,
+    "peakRainTime": "2026-11-26T16:00"
   },
   "emergency": {
     "shouldSend": true,
-    "type": "AIR_QUALITY",
+    "type": "MULTI_RISK",
     "severity": "WARNING",
     "title": "🚨 Emergency Alert",
     "reasons": [
-      "AQI Mencapai 173, Masuk Kategori Tidak Sehat Atau Lebih Buruk.",
-      "Peluang Hujan Hari Ini Mencapai 96%."
+      "AQI Mencapai 175, Masuk Kategori Tidak Sehat Atau Lebih Buruk.",
+      "Peluang Hujan Hari Ini Mencapai 100%.",
+      "BMKG mengeluarkan peringatan dini cuaca yang relevan dengan Bogor Tengah: Hujan Lebat disertai Petir di Jakarta."
     ]
   },
   "advice": {
@@ -56,11 +57,13 @@
     "sensitiveGroup": "Anak-Anak, Lansia, Dan Orang Dengan Gangguan Pernapasan Sebaiknya Berada Di Dalam Ruangan."
   },
   "bmkgWarning": {
-    "isActive": false,
-    "title": null,
-    "description": null,
-    "publishedAt": null,
-    "matchedKeywords": []
+    "isActive": true,
+    "title": "Hujan Lebat disertai Petir di Jakarta",
+    "description": "Hujan lebat disertai petir akan terjadi pada 26 November 2026, 12:20 WIB di sebagian wilayah Jakarta, khususnya di BOGOR BARAT, BOGOR SELATAN, BOGOR TENGAH, BOGOR TIMUR, BOGOR UTARA, BOJONG GEDE, CIBINONG, CILANDAK, CIMANGGIS, CIOMAS, CIPAYUNG, CIRACAS, CISARUA, CITEUREUP, GUNUNG KALER, GUNUNG PUTRI, JATI SEMPURNA, KEBAYORAN BARU, KEBAYORAN LAMA, KEMANG, KEMIRI, KRAMATJATI, KRONJO, MAMPANG PRAPATAN, MEGAMENDUNG, MEKAR BARU, PANCORAN, PASAR MINGGU, PASAR REBO, PESANGGRAHAN, PONDOK AREN, RANCA BUNGUR, SUKARAJA, TAJURHALANG, TAMANSARI, TANAH SAREAL, TAPOS.\n Kondisi ini berpotensi menimbulkan dampak berupa jarak pandang berkurang, angin kencang, dan banjir lokal.\n Masyarakat dihimbau untuk tetap waspada, mengurangi aktivitas di luar ruangan, serta mengambil langkah-langkah pencegahan yang diperlukan guna menjaga keselamatan.\n Kondisi diperkirakan dapat berlangsung hingga 26 November 2026, 14:50 WIB.",
+    "publishedAt": "Thu, 26 Nov 2026 12:10:00 +0700",
+    "matchedKeywords": [
+      "Bogor Tengah"
+    ]
   },
   "sources": [
     "Open-Meteo Weather API",
